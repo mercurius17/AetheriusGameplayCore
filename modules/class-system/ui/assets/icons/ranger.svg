@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>ranger</title>
+<path d="M18 19 L106 107 M14 13 L34 22 L25 25 L23 34 Z M23 24 L103 104 M85 97 L95 98 L97 86 M92 104 L103 115 L115 104 L104 94" stroke="#e3e5e5" stroke-width="1.7"/>
+<path d="M108 19 L20 108 M115 12 L106 32 L103 24 L94 21 Z M103 24 L23 104 M30 89 L31 98 L40 99 M24 94 L13 105 L24 116 L36 105" stroke="#e3e5e5" stroke-width="1.25"/>
+<path d="M45 32 C63 23 86 32 94 48 M96 68 C89 91 67 99 50 95 M32 77 C25 68 28 52 32 45 M61 47 L69 62 L64 77 L58 64 Z" stroke="#b9bfc2" stroke-width="1.25"/>
+</svg>
