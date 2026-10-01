@@ -1,0 +1,7 @@
+.reference/
+.deps/
+build/
+build-*/
+node_modules/
+dist/
+*.exe
