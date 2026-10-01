@@ -1,0 +1,32 @@
+#aetherius-maintenance-panel {
+  position: fixed;
+  top: 10vh;
+  right: 4vw;
+  width: min(720px, 88vw);
+  max-height: 78vh;
+  overflow: auto;
+  display: none;
+  z-index: 500;
+  color: #f3efe5;
+  background: rgba(14, 15, 21, .96);
+  border: 1px solid rgba(197, 166, 105, .8);
+  border-radius: 12px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, .55);
+  font: 14px/1.4 "Segoe UI", sans-serif;
+}
+#aetherius-maintenance-panel.is-open { display: block; }
+#aetherius-maintenance-panel .maintenance-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 18px 12px; border-bottom: 1px solid rgba(255,255,255,.12); }
+#aetherius-maintenance-panel h2 { margin: 0; letter-spacing: .08em; font-size: 17px; }
+#aetherius-maintenance-panel button { cursor: pointer; color: #f3efe5; background: #242735; border: 1px solid rgba(255,255,255,.2); border-radius: 6px; padding: 6px 10px; }
+#aetherius-maintenance-panel button:hover { border-color: #d6b86a; }
+#aetherius-maintenance-panel .maintenance-body { padding: 14px 18px 18px; }
+#aetherius-maintenance-panel table { width: 100%; border-collapse: collapse; margin: 8px 0 18px; }
+#aetherius-maintenance-panel th, #aetherius-maintenance-panel td { padding: 8px; text-align: left; border-bottom: 1px solid rgba(255,255,255,.09); }
+#aetherius-maintenance-panel th { color: #d6b86a; font-size: 12px; text-transform: uppercase; }
+#aetherius-maintenance-panel .status-covered { color: #7bd88f; }
+#aetherius-maintenance-panel .status-empty { color: #ef8b8b; }
+#aetherius-maintenance-panel .status-kept { color: #d6b86a; }
+#aetherius-maintenance-panel .equipment-grid, #aetherius-maintenance-panel .kit-grid { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+#aetherius-maintenance-panel .equipment-card, #aetherius-maintenance-panel .kit-card { padding: 10px; background: rgba(255,255,255,.05); border-radius: 8px; }
+#aetherius-maintenance-panel .muted { color: #aaa; font-size: 12px; }
+#aetherius-maintenance-panel .maintenance-error { color: #ef8b8b; margin-bottom: 8px; }
