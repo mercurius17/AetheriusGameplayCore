@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "balanceVersion": "user-approved-2026-09-12-r3",
+  "ranges": [
+    { "levelFrom": 1, "levelTo": 20, "status": "ASSIGNED", "formula": { "kind": "AFFINE", "base": 1, "levelOffset": 1, "slope": 0.2 }, "provenance": "PDF p.14" },
+    { "levelFrom": 21, "levelTo": 40, "status": "ASSIGNED", "formula": { "kind": "AFFINE", "base": 4.8, "levelOffset": 20, "slope": 0.05 }, "provenance": "PDF p.14; explicit 21..40 branch" },
+    { "levelFrom": 41, "levelTo": 100, "status": "ASSIGNED", "formula": { "kind": "AFFINE", "base": 5.8, "levelOffset": 40, "slope": 0.02 }, "provenance": "User-approved 2026-09-10; second softcap after level 40 at +2% per enemy level" }
+  ]
+}

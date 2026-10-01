@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "balanceVersion": "user-approved-2026-09-12-r3",
+  "normal": {
+    "minSize": 1,
+    "maxSize": 8,
+    "multipliers": { "1": 1, "2": 0.9, "3": 0.85, "4": 0.8, "5": 0.75, "6": 0.7, "7": 0.65, "8": 0.6 }
+  },
+  "raid": {
+    "minSize": 8,
+    "maxSize": 20,
+    "multipliers": { "8": 0.6, "9": 0.583, "10": 0.567, "11": 0.55, "12": 0.533, "13": 0.517, "14": 0.5, "15": 0.483, "16": 0.467, "17": 0.45, "18": 0.433, "19": 0.417, "20": 0.4 }
+  },
+  "eligibility": {
+    "status": "ASSIGNED",
+    "sameCellRequired": true,
+    "maxDistance": 5000,
+    "onlineRequired": true,
+    "participationRequired": false,
+    "provenance": "sistema-classes/server/partySystem.ts; eligibility and no-damage-participation policy approved by user 2026-09-10"
+  }
+}

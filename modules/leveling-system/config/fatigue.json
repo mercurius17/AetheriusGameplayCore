@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "balanceVersion": "user-approved-2026-09-12-r3",
+  "activeFromLevel": 15,
+  "inactiveThroughLevel": 14,
+  "dailyCapFraction": 0.2,
+  "capMode": "FLOOR_OF_XP_REQUIRED_FOR_CURRENT_LEVEL",
+  "reset": { "localHour": 6, "timeZone": "America/Sao_Paulo" },
+  "provenance": "PDF pp.19-20; legacy semantics audited, timezone made IANA-explicit"
+}

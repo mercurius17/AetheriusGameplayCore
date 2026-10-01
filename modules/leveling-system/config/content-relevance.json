@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "balanceVersion": "user-approved-2026-09-12-r3",
+  "status": "ASSIGNED",
+  "policy": {
+    "kind": "LINEAR_REDUCTION_ABOVE_MAX",
+    "belowRangeMultiplier": 1,
+    "withinRangeMultiplier": 1,
+    "reductionPerLevelAboveMax": 0.05,
+    "maximumReduction": 0.9
+  },
+  "inputs": ["PlayerClassLevel", "recommendedClassMin", "recommendedClassMax"],
+  "provenance": "PDF pp.16-17 and p.26; numeric policy approved by user 2026-09-10",
+  "bossFixedXpEffect": "BYPASSES"
+}

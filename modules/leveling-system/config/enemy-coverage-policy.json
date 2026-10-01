@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "balanceVersion": "user-approved-2026-09-12-r3",
+  "identity": {
+    "scheme": "PLUGIN_LOCAL_FORM_ID",
+    "pluginNameCaseInsensitive": true,
+    "localFormIdHexWidth": 6,
+    "persistRuntimeFormIds": false
+  },
+  "discovery": {
+    "authority": "MO2_WINNING_OVERRIDE_SNAPSHOT",
+    "includeModAddedEnemies": true,
+    "requireCompleteCoverage": true,
+    "refreshOnLoadOrderChange": true
+  },
+  "classification": {
+    "mode": "EXACT_CONFIGURED_XP_CATEGORY",
+    "allowConfiguredModCategories": true,
+    "allowNameFallback": false,
+    "unassignedBehavior": "NO_XP_AND_REPORT"
+  },
+  "provenance": "Universal vanilla/mod enemy coverage and load-order-independent identity approved by user 2026-09-11; MO2 is discovery authority"
+}
