@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aetherius.local/schemas/maintenance-config.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "maintenance"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "maintenance": {
+      "type": "object",
+      "required": ["enabled", "debuffs", "cycles", "limits", "materials", "kits"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "debuffs": {
+          "type": "object",
+          "required": ["weapons", "armor"],
+          "properties": {
+            "weapons": { "$ref": "#/$defs/debuff" },
+            "armor": { "$ref": "#/$defs/debuff" }
+          }
+        },
+        "cycles": {
+          "type": "object",
+          "required": ["maxDurationMs", "inactivityToCloseMs"],
+          "properties": {
+            "maxDurationMs": { "type": "integer", "minimum": 1 },
+            "inactivityToCloseMs": { "type": "integer", "minimum": 1 }
+          }
+        },
+        "limits": {
+          "type": "object",
+          "required": ["maxChargesPerBalance"],
+          "properties": {
+            "maxChargesPerBalance": { "type": "integer", "minimum": 0 }
+          }
+        },
+        "materials": { "type": "object", "minProperties": 1 },
+        "kits": {
+          "type": "object",
+          "required": ["weapons", "armor"],
+          "properties": {
+            "weapons": { "type": "object", "minProperties": 1 },
+            "armor": { "type": "object", "minProperties": 1 }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "debuff": {
+      "type": "object",
+      "required": ["enabled", "efficiencyPenalty"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "efficiencyPenalty": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    }
+  }
+}
