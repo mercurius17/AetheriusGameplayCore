@@ -1,0 +1,35 @@
+{
+  "name": "sistema-classes",
+  "version": "2.0.0",
+  "description": "Sistema de Classes para SkyMP integrado ao Meridian e Aetherius UI Core",
+  "main": "dist/server/index.js",
+  "scripts": {
+    "sync-data": "node scripts/sync-data.js",
+    "prebuild": "npm run sync-data",
+    "build": "tsc",
+    "pretest": "npm run sync-data",
+    "test": "jest --runInBand",
+    "start": "node dist/server/index.js",
+    "package:meridian": "npm run build && node scripts/package-meridian.cjs",
+    "draw-icons": "node scripts/draw-class-icons.cjs"
+  },
+  "keywords": [
+    "skymp",
+    "skyrim",
+    "skyrim-platform",
+    "meridian-ui",
+    "classes",
+    "leveling",
+    "party",
+    "raid"
+  ],
+  "author": "Aetherius SkyMP",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}
