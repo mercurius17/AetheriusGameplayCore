@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aetherius.local/schemas/party-xp.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "balanceVersion", "normal", "raid", "eligibility"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "balanceVersion": { "type": "string", "minLength": 1 },
+    "normal": { "$ref": "#/$defs/table" },
+    "raid": { "$ref": "#/$defs/table" },
+    "eligibility": { "type": "object", "required": ["status", "sameCellRequired", "maxDistance", "onlineRequired", "participationRequired", "provenance"], "additionalProperties": false, "properties": { "status": { "const": "ASSIGNED" }, "sameCellRequired": { "const": true }, "maxDistance": { "const": 5000 }, "onlineRequired": { "const": true }, "participationRequired": { "const": false }, "provenance": { "type": "string", "minLength": 1 } } }
+  },
+  "$defs": { "table": { "type": "object", "required": ["minSize", "maxSize", "multipliers"], "additionalProperties": false, "properties": { "minSize": { "type": "integer", "minimum": 1 }, "maxSize": { "type": "integer", "maximum": 20 }, "multipliers": { "type": "object", "additionalProperties": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 } } } } }
+}

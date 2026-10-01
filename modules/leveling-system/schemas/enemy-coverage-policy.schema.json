@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aetherius.local/schemas/enemy-coverage-policy.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "balanceVersion", "identity", "discovery", "classification", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "balanceVersion": { "type": "string", "minLength": 1 },
+    "identity": {
+      "type": "object",
+      "required": ["scheme", "pluginNameCaseInsensitive", "localFormIdHexWidth", "persistRuntimeFormIds"],
+      "additionalProperties": false,
+      "properties": {
+        "scheme": { "const": "PLUGIN_LOCAL_FORM_ID" },
+        "pluginNameCaseInsensitive": { "const": true },
+        "localFormIdHexWidth": { "const": 6 },
+        "persistRuntimeFormIds": { "const": false }
+      }
+    },
+    "discovery": {
+      "type": "object",
+      "required": ["authority", "includeModAddedEnemies", "requireCompleteCoverage", "refreshOnLoadOrderChange"],
+      "additionalProperties": false,
+      "properties": {
+        "authority": { "const": "MO2_WINNING_OVERRIDE_SNAPSHOT" },
+        "includeModAddedEnemies": { "const": true },
+        "requireCompleteCoverage": { "const": true },
+        "refreshOnLoadOrderChange": { "const": true }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "required": ["mode", "allowConfiguredModCategories", "allowNameFallback", "unassignedBehavior"],
+      "additionalProperties": false,
+      "properties": {
+        "mode": { "const": "EXACT_CONFIGURED_XP_CATEGORY" },
+        "allowConfiguredModCategories": { "const": true },
+        "allowNameFallback": { "const": false },
+        "unassignedBehavior": { "const": "NO_XP_AND_REPORT" }
+      }
+    },
+    "provenance": { "type": "string", "minLength": 1 }
+  }
+}

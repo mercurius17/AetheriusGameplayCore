@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aetherius.local/schemas/fatigue.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "balanceVersion", "activeFromLevel", "inactiveThroughLevel", "dailyCapFraction", "capMode", "reset", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "balanceVersion": { "type": "string", "minLength": 1 },
+    "activeFromLevel": { "const": 15 },
+    "inactiveThroughLevel": { "const": 14 },
+    "dailyCapFraction": { "const": 0.2 },
+    "capMode": { "const": "FLOOR_OF_XP_REQUIRED_FOR_CURRENT_LEVEL" },
+    "reset": { "type": "object", "required": ["localHour", "timeZone"], "additionalProperties": false, "properties": { "localHour": { "const": 6 }, "timeZone": { "const": "America/Sao_Paulo" } } },
+    "provenance": { "type": "string", "minLength": 1 }
+  }
+}

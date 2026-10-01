@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aetherius.local/schemas/level-progression.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "balanceVersion", "minClassLevel", "maxClassLevel", "attributePointsPerLevel", "totalPotentialAttributePoints", "levels"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "balanceVersion": { "type": "string", "minLength": 1 },
+    "minClassLevel": { "const": 1 },
+    "maxClassLevel": { "const": 40 },
+    "attributePointsPerLevel": { "const": 15 },
+    "totalPotentialAttributePoints": { "const": 585 },
+    "levels": { "type": "array", "minItems": 39, "maxItems": 39, "items": { "type": "object", "required": ["levelFrom", "levelTo", "xpRequired", "totalAccumulated"], "additionalProperties": false, "properties": { "levelFrom": { "type": "integer", "minimum": 1, "maximum": 39 }, "levelTo": { "type": "integer", "minimum": 2, "maximum": 40 }, "xpRequired": { "type": "integer", "exclusiveMinimum": 0 }, "totalAccumulated": { "type": "integer", "exclusiveMinimum": 0 }, "pace": { "type": "string" } } } }
+  }
+}

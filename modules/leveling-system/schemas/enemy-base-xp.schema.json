@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aetherius.local/schemas/enemy-base-xp.schema.json",
+  "type": "object",
+  "required": ["schemaVersion", "balanceVersion", "source", "profiles"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "balanceVersion": { "type": "string", "minLength": 1 },
+    "source": { "type": "object", "required": ["document", "sheet", "section"], "additionalProperties": true, "properties": { "document": { "type": "string" }, "sheet": { "type": "string" }, "section": { "type": "integer", "minimum": 1 } } },
+    "profiles": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/profile" } }
+  },
+  "$defs": {
+    "profile": {
+      "type": "object",
+      "required": ["balanceId", "sourceLabel", "awardMode", "eventXpCategories", "mappingStatus", "enabled", "provenance"],
+      "additionalProperties": false,
+      "properties": {
+        "balanceId": { "type": "string", "minLength": 1 },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "awardMode": { "enum": ["SCALED", "FIXED"] },
+        "baseXp": { "type": "number", "exclusiveMinimum": 0 },
+        "fixedXp": { "type": "number", "exclusiveMinimum": 0 },
+        "eventXpCategories": { "type": "array", "items": { "type": "string", "minLength": 1, "maxLength": 96, "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$" }, "uniqueItems": true },
+        "mappingStatus": { "enum": ["ASSIGNED", "UNRESOLVED", "DISABLED", "INVALID"] },
+        "enabled": { "type": "boolean" },
+        "difficultyCategory": { "enum": ["EASY", "MEDIUM", "HARD", "VERY_HARD"] },
+        "classificationEquivalents": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true },
+        "provenance": { "type": "string", "minLength": 1 }
+      },
+      "allOf": [
+        { "if": { "properties": { "awardMode": { "const": "SCALED" } } }, "then": { "required": ["baseXp"], "not": { "required": ["fixedXp"] } } },
+        { "if": { "properties": { "awardMode": { "const": "FIXED" } } }, "then": { "required": ["fixedXp"], "not": { "required": ["baseXp"] } } },
+        { "if": { "properties": { "mappingStatus": { "const": "ASSIGNED" } } }, "then": { "properties": { "enabled": { "const": true }, "eventXpCategories": { "minItems": 1 } } } },
+        { "if": { "properties": { "mappingStatus": { "const": "UNRESOLVED" } } }, "then": { "properties": { "enabled": { "const": false } } } }
+      ]
+    }
+  }
+}
