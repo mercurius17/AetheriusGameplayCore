@@ -1,0 +1,13 @@
+{
+  "name": "aetherius-damage-system",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test tests/profile-adapter.test.cjs",
+    "catalog": "node tools/compile-audited-catalog.cjs",
+    "prepare-integration": "node tools/prepare-integration.cjs"
+  },
+  "devDependencies": {"typescript": "5.3.3"}
+}

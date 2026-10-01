@@ -1,0 +1,344 @@
+diff --git a/server/server/cpp/addon/ScampServer.cpp b/server/server/cpp/addon/ScampServer.cpp
+index a2318fd..00836ab 100644
+--- a/server/server/cpp/addon/ScampServer.cpp
++++ b/server/server/cpp/addon/ScampServer.cpp
+@@ -17,6 +17,7 @@
+ #include "formulas/SweetPieDamageFormula.h"
+ #include "formulas/SweetPieSpellDamageFormula.h"
+ #include "formulas/TES5DamageFormula.h"
++#include "aetherius_combat/AetheriusDamageFormula.h"
+ #include "gamemode_events/DeathEvent.h"
+ #include "libespm/IterateFields.h"
+ #include "papyrus-vm/Utils.h"
+@@ -93,6 +94,8 @@ Napi::Object ScampServer::Init(Napi::Env env, Napi::Object exports)
+       InstanceMethod("getActorPos", &ScampServer::GetActorPos),
+       InstanceMethod("getActorCellOrWorld", &ScampServer::GetActorCellOrWorld),
+       InstanceMethod("getActorName", &ScampServer::GetActorName),
++      InstanceMethod("applyActorCombatProfile", &ScampServer::ApplyActorCombatProfile),
++      InstanceMethod("getActorCombatProfile", &ScampServer::GetActorCombatProfile),
+       InstanceMethod("destroyActor", &ScampServer::DestroyActor),
+       InstanceMethod("setRaceMenuOpen", &ScampServer::SetRaceMenuOpen),
+       InstanceMethod("getActorsByProfileId",
+@@ -374,6 +377,18 @@ ScampServer::ScampServer(const Napi::CallbackInfo& info)
+       serverSettings["conditionsEvaluatorSettings"];
+ 
+     std::unique_ptr<IDamageFormula> formula;
++    const auto combatSettings = aetherius::combat::CombatSettings::FromJson(
++      serverSettings.value("aetheriusCombatSettings", nlohmann::json(nullptr)));
++    partOne->worldState.aetheriusCombatEnabled = combatSettings.enabled && combatSettings.mode == "aetherius";
++    if (partOne->worldState.aetheriusCombatEnabled) {
++      const auto& catalog = serverSettings.at("aetheriusCombatCatalog");
++      aetherius::combat::VerifyAuditedCatalog(catalog, *espm);
++      combatPerks.Load(catalog);
++      combatMetrics = std::make_shared<aetherius::combat::CombatMetrics>(*promRegistry);
++      formula = std::make_unique<aetherius::combat::AetheriusDamageFormula>(
++        combatSettings, combatPerks,
++        [metrics = combatMetrics](double damage, double seconds) { metrics->Observe(damage, seconds); });
++    } else {
+     formula = std::make_unique<TES5DamageFormula>();
+     formula = std::make_unique<DamageMultFormula>(std::move(formula),
+                                                   damageMultFormulaSettings);
+@@ -385,6 +400,7 @@ ScampServer::ScampServer(const Napi::CallbackInfo& info)
+       std::move(formula), damageMultConditionalFormulaSettings,
+       conditionsEvaluatorSettings,
+       std::make_shared<ConditionFunctionMap>(conditionFunctionMap));
++    }
+     partOne->SetDamageFormula(std::move(formula));
+ 
+     partOne->worldState.AttachScriptStorage(
+@@ -454,6 +470,41 @@ Napi::Value ScampServer::_SetSelf(const Napi::CallbackInfo& info)
+   return info.Env().Undefined();
+ }
+ 
++namespace {
++uint32_t CombatActorId(const Napi::CallbackInfo& info)
++{
++  if (info.Length() < 1 || !info[0].IsNumber()) throw std::invalid_argument("actorId must be numeric");
++  const auto id = info[0].As<Napi::Number>().DoubleValue();
++  if (!std::isfinite(id) || id < 1 || id > 4294967295.0 || std::floor(id) != id)
++    throw std::invalid_argument("invalid actorId");
++  return static_cast<uint32_t>(id);
++}
++}
++
++Napi::Value ScampServer::ApplyActorCombatProfile(const Napi::CallbackInfo& info)
++{
++  try {
++    auto id = CombatActorId(info);
++    if (!partOne->worldState.aetheriusCombatEnabled) throw std::runtime_error("Aetherius combat is disabled");
++    if (info.Length() != 2 || !info[1].IsString()) throw std::invalid_argument("profileJson must be string");
++    auto text = info[1].As<Napi::String>().Utf8Value();
++    if (text.size() > 65536) throw std::invalid_argument("combat profile exceeds 64 KiB");
++    auto profile = aetherius::combat::CombatProfile::FromJson(nlohmann::json::parse(text));
++    combatPerks.Validate(profile);
++    auto& actor = partOne->worldState.GetFormAt<MpActor>(id);
++    if (!actor.ApplyCombatProfile(std::move(profile))) throw std::invalid_argument("stale combat profile revision");
++    return info.Env().Undefined();
++  } catch (const std::exception& e) { throw Napi::Error::New(info.Env(), e.what()); }
++}
++
++Napi::Value ScampServer::GetActorCombatProfile(const Napi::CallbackInfo& info)
++{
++  try {
++    auto& actor = partOne->worldState.GetFormAt<MpActor>(CombatActorId(info));
++    return Napi::String::New(info.Env(), actor.GetCombatState().profile.ToJson().dump());
++  } catch (const std::exception& e) { throw Napi::Error::New(info.Env(), e.what()); }
++}
++
+ Napi::Value ScampServer::AttachSaveStorage(const Napi::CallbackInfo& info)
+ {
+   try {
+diff --git a/server/server/cpp/addon/ScampServer.h b/server/server/cpp/addon/ScampServer.h
+index d645dd2..b78addb 100644
+--- a/server/server/cpp/addon/ScampServer.h
++++ b/server/server/cpp/addon/ScampServer.h
+@@ -5,6 +5,8 @@
+ #include "NetworkingMock.h"
+ #include "PartOne.h"
+ #include "ScampServerListener.h"
++#include "aetherius_combat/perks/PerkRegistry.h"
++#include "aetherius_combat/debug/CombatMetrics.h"
+ 
+ #include <map>
+ #include <memory>
+@@ -43,6 +45,8 @@ public:
+   Napi::Value GetActorPos(const Napi::CallbackInfo& info);
+   Napi::Value GetActorCellOrWorld(const Napi::CallbackInfo& info);
+   Napi::Value GetActorName(const Napi::CallbackInfo& info);
++  Napi::Value ApplyActorCombatProfile(const Napi::CallbackInfo& info);
++  Napi::Value GetActorCombatProfile(const Napi::CallbackInfo& info);
+   Napi::Value DestroyActor(const Napi::CallbackInfo& info);
+   Napi::Value SetRaceMenuOpen(const Napi::CallbackInfo& info);
+   Napi::Value GetActorsByProfileId(const Napi::CallbackInfo& info);
+@@ -113,6 +117,8 @@ private:
+   GamemodeApi::State gamemodeApiState;
+   Napi::Reference<Napi::Value> parsedServerSettings;
+   std::shared_ptr<prometheus::Registry> promRegistry;
++  aetherius::combat::PerkRegistry combatPerks;
++  std::shared_ptr<aetherius::combat::CombatMetrics> combatMetrics;
+ 
+   std::map<std::string, std::shared_ptr<LocalizationProvider>>
+     localizationProviders;
+diff --git a/server/server/cpp/server_guest_lib/ActionListener.cpp b/server/server/cpp/server_guest_lib/ActionListener.cpp
+index 72632c0..3e9b89a 100644
+--- a/server/server/cpp/server_guest_lib/ActionListener.cpp
++++ b/server/server/cpp/server_guest_lib/ActionListener.cpp
+@@ -839,9 +839,10 @@ float CalculateCurrentHealthPercentage(const MpActor& actor, float damage,
+   const uint32_t raceId = actor.GetRaceId();
+   WorldState* espmProvider = actor.GetParent();
+ 
+-  const float baseHealth =
+-    GetBaseActorValues(espmProvider, baseId, raceId, actor.GetTemplateChain())
+-      .health;
++  const float baseHealth = espmProvider->aetheriusCombatEnabled &&
++      actor.GetCombatState().profile.revision
++    ? static_cast<float>(actor.GetCombatState().profile.health)
++    : GetBaseActorValues(espmProvider, baseId, raceId, actor.GetTemplateChain()).health;
+ 
+   if (outBaseHealth) {
+     *outBaseHealth = baseHealth;
+@@ -1263,6 +1264,12 @@ void ActionListener::OnWeaponHit(MpActor* aggressor,
+ 
+   auto& targetActor = *targetActorPtr;
+ 
++  if (targetActor.GetParent()->aetheriusCombatEnabled) {
++    // Recompute from native state and geometry below. A packet flag must not
++    // bypass ShouldBeBlocked merely because the target has Block active.
++    hitData.isHitBlocked = false;
++  }
++
+   const auto lastHitTimeAnyTarget = aggressor->GetLastHitTime(std::nullopt);
+   const std::chrono::duration<float> timePassedAnyTarget =
+     currentHitTime - lastHitTimeAnyTarget;
+diff --git a/server/server/cpp/server_guest_lib/MpActor.cpp b/server/server/cpp/server_guest_lib/MpActor.cpp
+index eb86a36..7c05bb0 100644
+--- a/server/server/cpp/server_guest_lib/MpActor.cpp
++++ b/server/server/cpp/server_guest_lib/MpActor.cpp
+@@ -43,6 +43,8 @@
+ 
+ struct MpActor::Impl
+ {
++  aetherius::combat::ActorCombatState combatState;
++  mutable aetherius::combat::CombatStatsCache<aetherius::combat::EquipmentCombatStats> combatEquipmentCache;
+   // TODO: consider optimizing data structure and/or general refactoring
+   std::set<std::shared_ptr<DestroyEventSink>> destroyEventSinks;
+   std::set<std::shared_ptr<DisableEventSink>> disableEventSinks;
+@@ -224,6 +226,7 @@ void MpActor::SetRaceMenuOpen(bool isOpen)
+ 
+ void MpActor::SetAppearance(const Appearance* newAppearance)
+ {
++  ++pImpl->combatState.revision.equipment;
+   EditChangeForm([&](MpChangeForm& changeForm) {
+     if (newAppearance)
+       changeForm.appearanceDump = newAppearance->ToJson();
+@@ -234,6 +237,7 @@ void MpActor::SetAppearance(const Appearance* newAppearance)
+ 
+ void MpActor::SetEquipment(const Equipment& newEquipment)
+ {
++  ++pImpl->combatState.revision.equipment;
+   EditChangeForm(
+     [&](MpChangeForm& changeForm) { changeForm.equipment = newEquipment; });
+ }
+@@ -579,13 +583,44 @@ MpChangeForm MpActor::GetChangeForm() const
+   return res;
+ }
+ 
++const aetherius::combat::ActorCombatState& MpActor::GetCombatState() const
++{
++  return pImpl->combatState;
++}
++
++aetherius::combat::CombatStatsCache<aetherius::combat::EquipmentCombatStats>&
++MpActor::GetCombatEquipmentCache() const
++{
++  return pImpl->combatEquipmentCache;
++}
++
++bool MpActor::ApplyCombatProfile(aetherius::combat::CombatProfile profile)
++{
++  // Prepare serialization before publishing: failed validation/allocation cannot
++  // leave a half-updated profile. Native API already validates catalog and ranks.
++  if (profile.revision <= pImpl->combatState.profile.revision) return false;
++  auto dump = profile.ToJson().dump();
++  EditChangeForm([&](MpChangeForm& changeForm) {
++    changeForm.combatProfileDump = std::move(dump);
++  });
++  pImpl->combatState.Apply(std::move(profile));
++  return true;
++}
++
+ void MpActor::ApplyChangeForm(const MpChangeForm& newChangeForm)
+ {
+   if (newChangeForm.recType != MpChangeForm::ACHR) {
+     throw std::runtime_error(
+       "Expected record type to be ACHR, but found REFR");
+   }
++  aetherius::combat::ActorCombatState loadedCombat;
++  if (!newChangeForm.combatProfileDump.empty()) {
++    loadedCombat.Apply(aetherius::combat::CombatProfile::FromJson(
++      nlohmann::json::parse(newChangeForm.combatProfileDump)));
++  }
+   MpObjectReference::ApplyChangeForm(newChangeForm);
++  pImpl->combatState = std::move(loadedCombat);
++  pImpl->combatEquipmentCache.Invalidate();
+   EditChangeForm(
+     [&](MpChangeForm& changeForm) {
+       changeForm = static_cast<const MpChangeForm&>(newChangeForm);
+diff --git a/server/server/cpp/server_guest_lib/MpActor.h b/server/server/cpp/server_guest_lib/MpActor.h
+index 6b8465d..ae01e03 100644
+--- a/server/server/cpp/server_guest_lib/MpActor.h
++++ b/server/server/cpp/server_guest_lib/MpActor.h
+@@ -3,6 +3,8 @@
+ #include "Appearance.h"
+ #include "Equipment.h"
+ #include "GetBaseActorValues.h"
++#include "aetherius_combat/state/ActorCombatState.h"
++#include "aetherius_combat/stats/EquipmentCombatStats.h"
+ #include "MpObjectReference.h"
+ #include "libespm/espm.h"
+ #include <map>
+@@ -50,6 +52,10 @@ public:
+   const std::vector<FormDesc>& GetTemplateChain() const;
+   bool IsCreatedAsPlayer() const;
+   const ActorValues& GetActorValues() const;
++  const aetherius::combat::ActorCombatState& GetCombatState() const;
++  aetherius::combat::CombatStatsCache<aetherius::combat::EquipmentCombatStats>&
++    GetCombatEquipmentCache() const;
++  bool ApplyCombatProfile(aetherius::combat::CombatProfile profile);
+   const ActiveMagicEffectsMap& GetActiveMagicEffects() const;
+   int32_t GetProfileId() const;
+ 
+diff --git a/server/server/cpp/server_guest_lib/MpChangeForms.cpp b/server/server/cpp/server_guest_lib/MpChangeForms.cpp
+index 3d3975c..73b9583 100644
+--- a/server/server/cpp/server_guest_lib/MpChangeForms.cpp
++++ b/server/server/cpp/server_guest_lib/MpChangeForms.cpp
+@@ -76,6 +76,9 @@ nlohmann::json MpChangeForm::ToJson(const MpChangeForm& changeForm)
+ 
+   res["spawnDelay"] = changeForm.spawnDelay;
+   res["effects"] = changeForm.activeMagicEffects.ToJson();
++  if (!changeForm.combatProfileDump.empty()) {
++    res["combatProfile"] = nlohmann::json::parse(changeForm.combatProfileDump);
++  }
+ 
+   if (!changeForm.templateChain.empty()) {
+     res["templateChain"] = ToStringArray(changeForm.templateChain);
+@@ -161,6 +164,10 @@ MpChangeForm MpChangeForm::JsonToChangeForm(simdjson::dom::element& element)
+     "staminaRespawnPercentage");
+ 
+   MpChangeForm res;
++  if (element.at_pointer("/combatProfile").error() == simdjson::error_code::SUCCESS) {
++    simdjson::dom::element combatProfile = element.at_pointer("/combatProfile");
++    res.combatProfileDump = simdjson::minify(combatProfile);
++  }
+   ReadEx(element, recType, &res.recType);
+ 
+   const char* tmp;
+diff --git a/server/server/cpp/server_guest_lib/MpChangeForms.h b/server/server/cpp/server_guest_lib/MpChangeForms.h
+index 4ee2dfc..82afba1 100644
+--- a/server/server/cpp/server_guest_lib/MpChangeForms.h
++++ b/server/server/cpp/server_guest_lib/MpChangeForms.h
+@@ -84,6 +84,8 @@ public:
+   bool isRaceMenuOpen = false;
+   bool isDead = false;
+   ActiveMagicEffectsMap activeMagicEffects;
++  // Server-only, portable profile; never exposed as a client-writable property.
++  std::string combatProfileDump;
+   bool consoleCommandsAllowed = false;
+ 
+   // 'appearanceDump' can be empty. it means nullopt.
+@@ -142,7 +144,7 @@ public:
+       equipment.ToJson(), actorValues.ToTuple(), healthRespawnPercentage,
+       magickaRespawnPercentage, staminaRespawnPercentage, spawnPoint,
+       dynamicFields, spawnDelay, learnedSpells, templateChain, lastAnimation,
+-      setNodeTextureSet, setNodeScale, displayName);
++      setNodeTextureSet, setNodeScale, displayName, combatProfileDump);
+   }
+ 
+   static nlohmann::json ToJson(const MpChangeFormREFR& changeForm);
+diff --git a/server/server/cpp/server_guest_lib/WorldState.h b/server/server/cpp/server_guest_lib/WorldState.h
+index cc390a4..5fe0aea 100644
+--- a/server/server/cpp/server_guest_lib/WorldState.h
++++ b/server/server/cpp/server_guest_lib/WorldState.h
+@@ -42,6 +42,9 @@ class GameModeEvent;
+ 
+ class WorldState
+ {
++public:
++  bool aetheriusCombatEnabled = false;
++
+   friend class MpObjectReference;
+   friend class MpActor;
+ 
+diff --git a/server/server/gamemode/phase0-basic.js b/server/server/gamemode/phase0-basic.js
+index a8018d0..f3da30d 100644
+--- a/server/server/gamemode/phase0-basic.js
++++ b/server/server/gamemode/phase0-basic.js
+@@ -29,6 +29,8 @@ console.log("[phase0] SkyMP Heavy RP gamemode loaded");
+ // Registro de módulos
+ // ─────────────────────────────────────────────────────────────────────────────
+ 
++require('./modules/aetherius-combat').register(moduleRegistry, mp);
++
+ moduleRegistry.register({
+   id: 'npc-cleaner',
+   enabledBy: 'ENABLE_NPC_CLEANER',
+@@ -329,4 +331,4 @@ setInterval(() => {
+       }
+     }
+   }
+-}, 2000);
+\ No newline at end of file
++}, 2000);
+diff --git a/server/server/ts/scampNative.ts b/server/server/ts/scampNative.ts
+index b31e162..ff413bf 100644
+--- a/server/server/ts/scampNative.ts
++++ b/server/server/ts/scampNative.ts
+@@ -34,6 +34,8 @@ export interface ScampServer {
+   getUserGuid(userId: number): string;
+   isConnected(userId: number): boolean;
+   getActorName(actorId: number): string;
++  applyActorCombatProfile(actorId: number, profileJson: string): void;
++  getActorCombatProfile(actorId: number): string;
+   getActorPos(actorId: number): number[];
+   getActorCellOrWorld(actorId: number): number;
+   setRaceMenuOpen(formId: number, open: boolean): void;

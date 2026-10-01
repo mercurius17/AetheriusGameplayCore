@@ -1,0 +1,323 @@
+diff --git a/client/clientPerkApplier.ts b/client/clientPerkApplier.ts
+index c127318..0633c93 100644
+--- a/client/clientPerkApplier.ts
++++ b/client/clientPerkApplier.ts
+@@ -187,14 +187,14 @@ export class ClientPerkApplier {
+     const player = Game.getPlayer();
+     if (!player) return updated;
+ 
+-    if (!playerState || !playerState.classId || !playerState.unlockedSkills) {
++    if (!playerState || !playerState.unlockedSkills) {
+       return updated;
+     }
+ 
+     for (const [skillName, targetVal] of Object.entries(playerState.unlockedSkills)) {
+       try {
+         const curVal = player.getActorValue(skillName);
+-        if (curVal < targetVal) {
++        if (curVal !== targetVal) {
+           player.setActorValue(skillName, targetVal);
+           updated[skillName] = targetVal;
+           printConsole(`[ClientPerkApplier] Habilidade ${skillName} atualizada de ${curVal} para ${targetVal} (Estágio da Classe)`);
+diff --git a/config/perk-mappings.json b/config/perk-mappings.json
+index 2978583..9c8b907 100644
+--- a/config/perk-mappings.json
++++ b/config/perk-mappings.json
+@@ -256,19 +256,12 @@
+   },
+   "One-Handed Mastery": {
+     "name": "One-Handed Mastery",
+-    "localId": "0x000000",
++    "localId": "0x0BABE4",
+     "candidatePlugins": [
+-      "Vokrii - Minimalistic Perks of Skyrim.esp",
+-      "Vokrii.esp",
+-      "Vokrii.esl",
+-      "Skyrim.esm",
+-      "Update.esm"
++      "Skyrim.esm"
+     ],
+     "editorIdAliases": [
+-      "VKR_One_HandedMastery",
+-      "One_HandedMastery",
+-      "Perk_One_HandedMastery",
+-      "One-Handed Mastery"
++      "VKR_One_000_OneHandedMastery_Perk_WasArmsman1"
+     ]
+   },
+   "Rune Mestre (1)": {
+@@ -613,19 +606,12 @@
+   },
+   "Heavy Armor Mastery": {
+     "name": "Heavy Armor Mastery",
+-    "localId": "0x000000",
++    "localId": "0x0BCD2A",
+     "candidatePlugins": [
+-      "Vokrii - Minimalistic Perks of Skyrim.esp",
+-      "Vokrii.esp",
+-      "Vokrii.esl",
+-      "Skyrim.esm",
+-      "Update.esm"
++      "Skyrim.esm"
+     ],
+     "editorIdAliases": [
+-      "VKR_HeavyArmorMastery",
+-      "HeavyArmorMastery",
+-      "Perk_HeavyArmorMastery",
+-      "Heavy Armor Mastery"
++      "VKR_Hea_000_HeavyArmorMastery_Perk_WasJuggernaut1"
+     ]
+   },
+   "Cushioned (2)": {
+@@ -766,19 +752,12 @@
+   },
+   "Block Mastery": {
+     "name": "Block Mastery",
+-    "localId": "0x000000",
++    "localId": "0x0BCCAE",
+     "candidatePlugins": [
+-      "Vokrii - Minimalistic Perks of Skyrim.esp",
+-      "Vokrii.esp",
+-      "Vokrii.esl",
+-      "Skyrim.esm",
+-      "Update.esm"
++      "Skyrim.esm"
+     ],
+     "editorIdAliases": [
+-      "VKR_BlockMastery",
+-      "BlockMastery",
+-      "Perk_BlockMastery",
+-      "Block Mastery"
++      "VKR_Bck_000_BlockMastery_Perk_WasShieldWall1"
+     ]
+   },
+   "Deflect Arrows": {
+@@ -919,19 +898,12 @@
+   },
+   "Light Armor Mastery": {
+     "name": "Light Armor Mastery",
+-    "localId": "0x000000",
++    "localId": "0x0BE123",
+     "candidatePlugins": [
+-      "Vokrii - Minimalistic Perks of Skyrim.esp",
+-      "Vokrii.esp",
+-      "Vokrii.esl",
+-      "Skyrim.esm",
+-      "Update.esm"
++      "Skyrim.esm"
+     ],
+     "editorIdAliases": [
+-      "VKR_LightArmorMastery",
+-      "LightArmorMastery",
+-      "Perk_LightArmorMastery",
+-      "Light Armor Mastery"
++      "VKR_Lia_000_LightArmorMastery_Perk_WasAgileDefender1"
+     ]
+   },
+   "Agility": {
+@@ -1021,19 +993,12 @@
+   },
+   "Two-Handed Mastery": {
+     "name": "Two-Handed Mastery",
+-    "localId": "0x000000",
++    "localId": "0x0BABE8",
+     "candidatePlugins": [
+-      "Vokrii - Minimalistic Perks of Skyrim.esp",
+-      "Vokrii.esp",
+-      "Vokrii.esl",
+-      "Skyrim.esm",
+-      "Update.esm"
++      "Skyrim.esm"
+     ],
+     "editorIdAliases": [
+-      "VKR_Two_HandedMastery",
+-      "Two_HandedMastery",
+-      "Perk_Two_HandedMastery",
+-      "Two-Handed Mastery"
++      "VKR_Two_000_TwoHandedMastery_Perk_WasBarbarian1"
+     ]
+   },
+   "Brutal Fighter": {
+@@ -1582,19 +1547,12 @@
+   },
+   "Archery Mastery": {
+     "name": "Archery Mastery",
+-    "localId": "0x000000",
++    "localId": "0x0BABED",
+     "candidatePlugins": [
+-      "Vokrii - Minimalistic Perks of Skyrim.esp",
+-      "Vokrii.esp",
+-      "Vokrii.esl",
+-      "Skyrim.esm",
+-      "Update.esm"
++      "Skyrim.esm"
+     ],
+     "editorIdAliases": [
+-      "VKR_ArcheryMastery",
+-      "ArcheryMastery",
+-      "Perk_ArcheryMastery",
+-      "Archery Mastery"
++      "VKR_Arc_000_ArcheryMastery_Perk_WasOverdraw1"
+     ]
+   },
+   "Far Shot (2)": {
+@@ -2753,4 +2711,4 @@
+       "Anímage (3)"
+     ]
+   }
+-}
+\ No newline at end of file
++}
+diff --git a/server/storage/playerRepository.ts b/server/storage/playerRepository.ts
+index af10ae1..b2b5bcb 100644
+--- a/server/storage/playerRepository.ts
++++ b/server/storage/playerRepository.ts
+@@ -1,6 +1,10 @@
+ import { PlayerClassState } from '../../shared/types';
+ import { getXpRequiredForNextLevel, getDailyCycleKey, calculateDailyXpCap } from '../../shared/levelingMath';
+ import { getRaceBaseAttributes } from '../../shared/raceData';
++import { getClassById } from '../../shared/classesData';
++import { resolveSkillsForClassAndLevel } from '../../shared/skillResolver';
++import { publishCombatProfile } from '../combatProfileAdapter';
++const combatCatalog = require('../../config/verified-perks.json');
+ 
+ declare const mp: any;
+ 
+@@ -24,20 +28,28 @@ export class PlayerRepository {
+     }
+ 
+     // 2. Tenta recuperar do SkyMP mp.get se disponível
++    let loadedState: PlayerClassState | undefined;
+     if (typeof mp !== 'undefined' && mp.get) {
+       try {
+         const raw = mp.get(playerId, 'playerClassData');
+         if (raw) {
+           const parsed: PlayerClassState = typeof raw === 'string' ? JSON.parse(raw) : raw;
+           this.refreshDailyCycle(parsed);
+-          this.memoryStore.set(playerId, parsed);
+-          return parsed;
++          loadedState = parsed;
+         }
+       } catch (err) {
+         console.error(`[PlayerRepository] Erro ao carregar dados do jogador ${playerId}:`, err);
+       }
+     }
+ 
++    // A combat compatibility error must propagate, never erase persisted progression
++    // by falling through to the new-character default after a successful load.
++    if (loadedState) {
++      this.publishCombat(loadedState);
++      this.memoryStore.set(playerId, loadedState);
++      return loadedState;
++    }
++
+     // 3. Cria estado inicial para novo jogador
+     const defaultState: PlayerClassState = {
+       playerId,
+@@ -89,6 +101,7 @@ export class PlayerRepository {
+   }
+ 
+   public savePlayerState(state: PlayerClassState): void {
++    this.publishCombat(state);
+     this.memoryStore.set(state.playerId, state);
+ 
+     if (typeof mp !== 'undefined' && mp.set) {
+@@ -103,4 +116,16 @@ export class PlayerRepository {
+   public clearMemory(): void {
+     this.memoryStore.clear();
+   }
++
++  private publishCombat(state: PlayerClassState): void {
++    if (typeof mp === 'undefined' || !mp.getServerSettings) return;
++    const settings = mp.getServerSettings().aetheriusCombatSettings;
++    if (!settings?.enabled || settings.mode !== 'aetherius') return;
++    if (!mp.applyActorCombatProfile || !mp.getActorCombatProfile) throw new Error('Missing native CombatProfile API');
++    const cls = state.classId ? getClassById(state.classId) : null;
++    if (state.classId && !cls) throw new Error('Unknown persisted class');
++    const skills = cls ? resolveSkillsForClassAndLevel(cls, state.level) : {};
++    const profile = publishCombatProfile(mp, state, skills, combatCatalog);
++    state.unlockedSkills = profile.skills;
++  }
+ }
+diff --git a/shared/perkResolver.ts b/shared/perkResolver.ts
+index d3e6372..c6ebfc2 100644
+--- a/shared/perkResolver.ts
++++ b/shared/perkResolver.ts
+@@ -38,7 +38,8 @@ export class PerkResolver {
+   constructor(
+     customDescriptions?: Record<string, PerkDescription>,
+     customMappings?: Record<string, PerkMapping>,
+-    runtimeLookup?: RuntimeFormLookup
++    runtimeLookup?: RuntimeFormLookup,
++    private readonly allowMockForTests: boolean = false
+   ) {
+     this.descriptions = customDescriptions || defaultPerksDesc;
+     this.mappings = customMappings || defaultPerkMappings;
+@@ -83,7 +84,7 @@ export class PerkResolver {
+ 
+     let resolvedFormId = 0;
+     let pluginFound: string | null = null;
+-    let strategyUsed: ResolutionStrategy = 'FALLBACK_MOCK';
++    let strategyUsed: ResolutionStrategy = 'UNRESOLVED';
+     let isResolved = false;
+ 
+     if (this.runtimeLookup) {
+@@ -127,7 +128,7 @@ export class PerkResolver {
+     }
+ 
+     // ESTRATÉGIA 4: Mock determinístico para desenvolvimento/testes ou fallback seguro
+-    if (!isResolved) {
++    if (!isResolved && this.allowMockForTests) {
+       // Gera FormID determinístico a partir do hash do nome para não quebrar testes ou execução offline
+       resolvedFormId = this.generateDeterministicFormId(cleanName);
+       strategyUsed = 'FALLBACK_MOCK';
+diff --git a/shared/types.ts b/shared/types.ts
+index 628e04a..ad08ed5 100644
+--- a/shared/types.ts
++++ b/shared/types.ts
+@@ -47,7 +47,7 @@ export interface PerkMapping {
+   editorIdAliases: string[];
+ }
+ 
+-export type ResolutionStrategy = 'CACHE' | 'LOCAL_ID_PLUGIN' | 'EDITOR_ID' | 'SEMANTIC_NAME' | 'CONFIG_OVERRIDE' | 'FALLBACK_MOCK';
++export type ResolutionStrategy = 'CACHE' | 'LOCAL_ID_PLUGIN' | 'EDITOR_ID' | 'SEMANTIC_NAME' | 'CONFIG_OVERRIDE' | 'FALLBACK_MOCK' | 'UNRESOLVED';
+ 
+ export interface ResolvedPerk {
+   name: string;
+@@ -61,6 +61,7 @@ export interface ResolvedPerk {
+ }
+ 
+ export interface PlayerClassState {
++  combatRevision?: number;
+   playerId: number;
+   playerName: string;
+   classId: string | null;
+diff --git a/tests/classes.test.ts b/tests/classes.test.ts
+index d40db52..aca3963 100644
+--- a/tests/classes.test.ts
++++ b/tests/classes.test.ts
+@@ -6,6 +6,10 @@ import {
+   CLASSES_REGISTRY
+ } from '../shared/classesData';
+ import { FREE_RESET_MAX_LEVEL } from '../shared/levelingMath';
++import { PerkResolver } from '../shared/perkResolver';
++
++// Offline fixture only. Production now leaves unverified perks unresolved.
++beforeEach(() => PerkResolver.getInstance().setRuntimeLookup({ getFormByName: () => 0x08000001 }));
+ 
+ describe('Sistema de Classes e Regras de Negócio', () => {
+   test('Deve registrar exatamente as 18 classes divididas nos 3 arquétipos', () => {
+diff --git a/tests/perkResolver.test.ts b/tests/perkResolver.test.ts
+index 73f072c..22b99f6 100644
+--- a/tests/perkResolver.test.ts
++++ b/tests/perkResolver.test.ts
+@@ -4,7 +4,8 @@ describe('PerkResolver - Camada de Resolução Dinâmica de FormIDs e Perks', ()
+   let resolver: PerkResolver;
+ 
+   beforeEach(() => {
+-    resolver = new PerkResolver();
++    // Deterministic mocks exist only in this isolated offline test suite.
++    resolver = new PerkResolver(undefined, undefined, undefined, true);
+     resolver.clearCache();
+   });
+ 
