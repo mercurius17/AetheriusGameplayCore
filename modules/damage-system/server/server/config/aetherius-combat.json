@@ -1,0 +1,10 @@
+{
+  "mode": "legacy",
+  "enabled": false,
+  "global": { "physicalDamageMultiplier": 1.0, "magicDamageMultiplier": 1.0 },
+  "armor": { "softCapRating": 500, "softCapReduction": 0.80, "hardCapRating": 1000, "hardCapReduction": 0.90, "hiddenArmorPerPiece": 0 },
+  "block": { "maximumReduction": 0.85, "baseReduction": 0.20, "reductionPerSkill": 0.003 },
+  "resistances": { "magicCap": 0.85, "elementalCap": 0.85 },
+  "effects": { "tickMilliseconds": 250 },
+  "trace": false
+}
