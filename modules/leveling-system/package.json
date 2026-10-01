@@ -1,0 +1,22 @@
+{
+  "name": "aetherius-leveling-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Server-side, data-driven Class Level progression boundary for Aetherius SkyMP.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mercurius17/AetheriusLevelingSystem.git"
+  },
+  "homepage": "https://github.com/mercurius17/AetheriusLevelingSystem#readme",
+  "bugs": {
+    "url": "https://github.com/mercurius17/AetheriusLevelingSystem/issues"
+  },
+  "scripts": {
+    "test": "node --test tests/**/*.test.mjs",
+    "simulate": "node tools/xp-simulator/index.mjs",
+    "readiness": "node tools/xp-simulator/index.mjs --readiness",
+    "verify": "node tools/verify.mjs",
+    "verify:enemy-system": "node tools/verify-enemy-system.mjs"
+  }
+}
