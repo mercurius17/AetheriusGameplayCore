@@ -1,0 +1,30 @@
+{
+  "verifiedAt": "2026-09-22",
+  "profile": "AETHERIUS - GRAFICO - QUALIDADE",
+  "purpose": "Fontes MISC verificadas para copiar os recursos visuais dos kits. Os originais não são alterados.",
+  "sources": {
+    "weaponKitIcon": {
+      "formId": "05CAE1:Skyrim.esm",
+      "runtimeFormIdAtVerification": "0005CAE1",
+      "recordType": "MiscItem",
+      "editorId": "BlacksmithHammer01",
+      "name": "Hammer",
+      "winnerAtVerification": "weapons armor clothing & clutter fixes.esp",
+      "modelFile": "Clutter\\Blacksmith\\BlacksmithNoviceHammer01.nif"
+    },
+    "armorKitIcon": {
+      "formId": "0E49F7:Skyrim.esm",
+      "runtimeFormIdAtVerification": "000E49F7",
+      "recordType": "MiscItem",
+      "editorId": "FFSS02SylgjaSatchel",
+      "name": "Sylgja's Satchel",
+      "winnerAtVerification": "Skyrim.esm",
+      "modelFile": "Clutter\\Containers\\Satchel.nif"
+    }
+  },
+  "important": [
+    "Os FormIDs próprios dos novos kits ainda não existem: devem ser criados pelo Housecarl.",
+    "A resolução deve usar FormID qualificado e readback, nunca o runtime FormID salvo neste snapshot.",
+    "As fontes mostram o recurso Model do MISC; o campo Icons estava ausente nos dois registros lidos."
+  ]
+}

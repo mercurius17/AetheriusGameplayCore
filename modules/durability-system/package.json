@@ -1,0 +1,12 @@
+{
+  "name": "aetherius-durability-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema autoritativo de manutenção de equipamentos para Aetherius/ SkyMP.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "validate": "node server/validate-config.js config/maintenance-config.json",
+    "benchmark": "node benchmarks/run.js"
+  }
+}
