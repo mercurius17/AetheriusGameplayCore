@@ -1,0 +1,1378 @@
+SkyPatcher layer — profile 'AETHERIUS - GRAFICO - QUALIDADE' — 8 type folder(s), 195 INI(s) (190 applied), 1364 patch line(s) (1355 in applied files), 140 set-conflict(s); ITM: 0 intra-file dead write(s), 0 cross-INI duplicate(s), 1 no-op write(s)
+
+ammo: 1 INI(s), 5 patch line(s)
+  - .Sentinel\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+
+armor: 2 INI(s), 31 patch line(s)
+  - .Sentinel\Sentinel.esp.ini  (27 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zg. Sons\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+
+constructibleObject: 36 INI(s), 48 patch line(s)
+  - a. Fur1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - b. Fur2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - c. Hide1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - d. Hide2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - e. Iron1\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - f. Iron2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - g. Iron3\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - h. Iron4\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - i. Leather1\Adamant\Adamant.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [!] NOT applied: filename-gated on plugin 'Adamant.esp', which is not in the active load order
+  - i. Leather1\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - j. Leather2\Adamant\Adamant.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [!] NOT applied: filename-gated on plugin 'Adamant.esp', which is not in the active load order
+  - j. Leather2\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - k. Steel1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - l. Steel2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - m. Steel3\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - n. Bosmer\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - o. Dwarven1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - p. Dwarven2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - q. Scaled1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - r. Scaled2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - s. Plate0\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - t. Plate1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - u. Plate2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - v. Plate3\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - x. Orc1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - y. Nord1\Adamant\Adamant.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [!] NOT applied: filename-gated on plugin 'Adamant.esp', which is not in the active load order
+  - y. Nord1\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - z. Nord2\Adamant\Adamant.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [!] NOT applied: filename-gated on plugin 'Adamant.esp', which is not in the active load order
+  - z. Nord2\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zb. Ebony1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zc. Ebony2\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zd. Ebony3\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - ze. Daedric1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zg. Sons\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zn. Common\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zp. ImpMage\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+
+container: 1 INI(s), 3 patch line(s)
+  - Alchemist Outfit Variations\Alchemist Outfit Variations.esp.ini  (3 line(s)) ← Styles of Skyrim - Alchemist Outfit Variations  [gated on Alchemist Outfit Variations.esp: active]
+
+leveledList: 71 INI(s), 1100 patch line(s)
+  - .Grimoire\Grimoire.esp.ini  (171 line(s)) ← Grimoire - An Enchanting Addon for Sentinel  [gated on Grimoire.esp: active]
+  - .Sentinel\Sentinel - City Guards.esp.ini  (3 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - City Guards.esp: active]
+  - .Sentinel\Sentinel - Master Plugin.esp.ini  (190 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Master Plugin.esp: active]
+  - a. Fur1\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - Alchemist Outfit Variations\Alchemist Outfit Variations.esp.ini  (1 line(s)) ← Styles of Skyrim - Alchemist Outfit Variations  [gated on Alchemist Outfit Variations.esp: active]
+  - b. Fur2\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - c. Hide1\Grimoire.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - c. Hide1\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - d. Hide2\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - d. Hide2\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - e. Iron1\Grimoire.esp.ini  (77 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - e. Iron1\Sentinel.esp.ini  (16 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - f. Iron2\Grimoire.esp.ini  (21 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - f. Iron2\Sentinel.esp.ini  (9 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - g. Iron3\Grimoire.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - g. Iron3\Sentinel.esp.ini  (7 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - h. Iron4\Grimoire.esp.ini  (18 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - h. Iron4\Sentinel.esp.ini  (8 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - i. Leather1\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - i. Leather1\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - j. Leather2\Grimoire.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - j. Leather2\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - k. Steel1\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - k. Steel1\Sentinel.esp.ini  (6 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - l. Steel2\Grimoire.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - l. Steel2\Sentinel.esp.ini  (7 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - m. Steel3\Grimoire.esp.ini  (9 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - m. Steel3\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - n. Bosmer\Grimoire.esp.ini  (24 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - n. Bosmer\Sentinel.esp.ini  (9 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - NW SteelPlateArmors-SentinelAddon\NWSteelArmors\NWSteelArmors-Steel.ini  (4 line(s)) ← NordwarUA Steel Plate Armors - Sentinel Addon
+  - NW SteelPlateArmors-SentinelAddon\NWSteelPlateArmors\NWSteelPlateArmors.ini  (4 line(s)) ← NordwarUA Steel Plate Armors - Sentinel Addon
+  - NW SteelPlateArmors-SentinelAddon\NWSteelWeapons\NWSteelWeapons.ini  (7 line(s)) ← NordwarUA Steel Plate Armors - Sentinel Addon
+  - o. Dwarven1\Grimoire.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - o. Dwarven1\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - p. Dwarven2\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - p. Dwarven2\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - q. Scaled1\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - q. Scaled1\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - r. Scaled2\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - r. Scaled2\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - s. Plate0\Grimoire.esp.ini  (6 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - s. Plate0\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - t. Plate1\Grimoire.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - t. Plate1\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - u. Plate2\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - u. Plate2\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - v. Plate3\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - v. Plate3\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - w. Orc0\Sentinel.esp.ini  (0 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - x. Orc1\Sentinel.esp.ini  (0 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - y. Nord1\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - y. Nord1\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - z. Nord2\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - z. Nord2\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zb. Ebony1\Grimoire.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - zb. Ebony1\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zc. Ebony2\Grimoire.esp.ini  (106 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - zc. Ebony2\Sentinel.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zd. Ebony3\Grimoire.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - zd. Ebony3\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - ze. Daedric1\Grimoire.esp.ini  (12 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Grimoire.esp: active]
+  - ze. Daedric1\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zf. Thalmor\Sentinel.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zg. Sons\Sentinel.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zh. Wolf0\Sentinel.esp.ini  (3 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zi. Wolf1\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zj. Wolf2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zk. SilverHand\Sentinel.esp.ini  (0 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zn. Common\Sentinel.esp.ini  (9 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zo. Skyforge\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+
+npc: 76 INI(s), 125 patch line(s)
+  - .NPCs Priests\Alessandra\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Andurs\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Anwen\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Aranea\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Briehl\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Danica\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Dinya\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Erandur\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Florentius\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Freir\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Hamal\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Heimskr\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Helgird\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Jenssen\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Jora\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Lortheim\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Maramal\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Nura\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Orla\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Rorlund\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Runil\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Senna\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Silana\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Styrr\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs Priests\Verulus\Sentinel - Priests and Acolytes.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - .NPCs\.MODDED\JJerem\Sentinel.esp.ini  (6 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Aela\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Amren\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Angrenor\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Avulstein\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Bagrak\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Banning\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Benor\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Bersi\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Birna\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Bolgeir\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Bolund\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Brunwulf\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Cedran\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Faleen\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Geimund\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Gorm\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Helvard\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Hjorunn\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Hofgrir\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Hroggar\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Hrongar\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Jervar\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Jon\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Jorgen\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Kharag\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Lob\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Lond\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Mulush\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Niranye\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Ranmir\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Sigurd\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Sinmir\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Skulvar\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Solaf\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Thadgeir\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Thonnir\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Ulfberth\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Ulundil\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Valindor\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - .NPCs\Yngvar\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - Alchemist Outfit Variations\Alchemist Outfit Variations.esp.ini  (24 line(s)) ← Styles of Skyrim - Alchemist Outfit Variations  [gated on Alchemist Outfit Variations.esp: active]
+  - Sentinel - City Guards.esp.ini  (10 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - City Guards.esp: active]
+  - w. Orc0\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - x. Orc1\Sentinel.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zg. Sons\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zi. Wolf1\Sentinel.esp.ini  (3 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zj. Wolf2\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zk. SilverHand\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zl. Vigilant\Vigilant\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zl. Vigilant\Weapons\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+
+outfit: 6 INI(s), 43 patch line(s)
+  - Sentinel - City Guards.esp.ini  (15 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - City Guards.esp: active]
+  - Sentinel - Priests and Acolytes.esp.ini  (2 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel - Priests and Acolytes.esp: active]
+  - v. Plate3\Sentinel.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zg. Sons\Sentinel.esp.ini  (19 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zi. Wolf1\.CatirCompat\CC_Contest.esp.ini  (1 line(s)) ← Sentinel - An Equipment Overhaul  [!] NOT applied: filename-gated on plugin 'CC_Contest.esp', which is not in the active load order
+  - zl. Vigilant\Vigilant\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+
+weapon: 2 INI(s), 9 patch line(s)
+  - .Sentinel\Sentinel.esp.ini  (4 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+  - zo. Skyforge\Sentinel.esp.ini  (5 line(s)) ← Sentinel - An Equipment Overhaul  [gated on Sentinel.esp: active]
+
+INI-vs-INI set conflicts (140) — same field, same target, different values; the LAST write wins:
+  - [constructibleObject] WorkbenchKeyword @ (all constructibleObject records):
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  workbenchKeyword=null   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  workbenchKeyword=null   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  workbenchKeyword=null   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  workbenchKeyword=null   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  workbenchKeyword=Skyrim.esm|00088105   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  workbenchKeyword=Skyrim.esm|00088105   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 00_orcarcher:
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 00_orcarcher01:
+      Sentinel.esp.ini:5  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 00_orcarcher02:
+      Sentinel.esp.ini:5  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 00_orccold:
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 00_orcdrummer:
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 00_orcguard01:
+      Sentinel.esp.ini:6  outfitDefault=ArmorOrcishHoodedOutfit
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 00_orcguard02:
+      Sentinel.esp.ini:6  outfitDefault=ArmorOrcishHoodedOutfit
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 00_orcguard03:
+      Sentinel.esp.ini:6  outfitDefault=ArmorOrcishHoodedOutfit
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 013260:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:6  outfitDefault=OFTAlchRobesGrey
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 0132AE:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:9  outfitDefault=OFTAlchTunicWhiteNoHood
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 013357:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:23  outfitDefault=OFTAlchRobesGreen
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 013360:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:26  outfitDefault=OFTAlchRobesWhiteNoHood
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 013364:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:29  outfitDefault=OFTAlchTunicIngun
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 01338B:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:44  outfitDefault=OFTAlchRobesGrey
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 0135EF:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:39  outfitDefault=OFTAlchRobesWhite
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 013614:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:52  outfitDefault=OFTAlchRobesBlue
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 013BA4:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:15  outfitDefault=OFTAlchRobesWhite
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 013BBE:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:18  outfitDefault=OFTAlchRobesGreenNoHood
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 01406B:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:47  outfitDefault=OFTAlchTunicGreen
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 014148:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:57  outfitDefault=OFTAlchRobesWhiteNoHood
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 01414C:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:60  outfitDefault=OFTAlchTunicBlue
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 029DAE:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:65  outfitDefault=OFTAlchRobesGrey
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ 03A19A:Skyrim.esm:
+      Alchemist Outfit Variations.esp.ini:34  outfitDefault=OFTAlchRobesBlue
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaadeadorc:
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_archer01:
+      Sentinel.esp.ini:3  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_archer02:
+      Sentinel.esp.ini:3  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_archerduplicate002:
+      Sentinel.esp.ini:3  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_cowfarmer:
+      Sentinel.esp.ini:3  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_mage:
+      Sentinel.esp.ini:4  outfitDefault=DremoraWarlockOutfit
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_miner:
+      Sentinel.esp.ini:3  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_minerduplicate001:
+      Sentinel.esp.ini:3  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_minerduplicate002:
+      Sentinel.esp.ini:3  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_minerduplicate003:
+      Sentinel.esp.ini:3  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_orclargasburminer01:
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_orclargashburarcher01:
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aaa_orclargashburguard01:
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcHide_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ acolytejenssen:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestKynareth_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ aelathehuntress:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Aela
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ alessandra:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkay_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ amren:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Amren
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ andurs:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkay_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ angrenor:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Angrenor
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ anwen:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestDibellaHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ athis:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_Companion_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ avulsteingraymane:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Avulstein
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ bagrak:
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcNoHelmet
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ banning:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Banning
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ benor:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Benor
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ bersi:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Bersi
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ birna:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Birna
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ bolar:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ bolgeirbearclaw:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Bolgeir
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ bolund:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Bolund
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ bor:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ briehl:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestMara_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ brotherverulus:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkayHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ brunwulf:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Brunwulf
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ burguk:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcChief_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ c04deadkodlak:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_Harbinger_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ c06deadkodlak:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_Harbinger_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ c06kodlaksghost:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_Harbinger_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ cedran:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Cedran
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ cwbattlegalmar:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SonsHousecarlNoHelmet_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ cwquartermastersons:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SonsQuartermaster_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ cwsiegesonssoldiergeneral:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SonsHousecarlNoHelmet_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ da01aranea:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestAzura_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ danicapurespring:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestKynarethHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ dinya:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestMara_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ dlc1florentiusbaenius:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkay_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ dulug:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ erandur:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestMaraHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ faleen:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Faleen
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ freir:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestDivines_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ gadbagrolargash:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ galmar:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SonsHousecarlNoHelmet_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ geimund:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Geimund
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ ghak:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ ghamorz:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ gorm:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Gorm
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ gul:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ hamal:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestDibella_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ heimskr:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestTalosHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ helgird:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkayHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ helvard:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Helvard
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ hjorunn:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Hjorunn
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ hofgrir:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Hofgrir
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ hroggar:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Hroggar
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ hrongar:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Hrongar
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ jervar:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Jervar
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ jonbattleborn:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Jon
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ jora:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestTalosHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ jorgen:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Jorgen
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ kharaggroshurkul:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Kharag
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ kodlakwhitemane:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_Harbinger_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ larak:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcChief_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ lob:
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcNoHelmet
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ londnorthstrider:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Lond
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ lortheim:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestTalosHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ mahk:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ maramal:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestMaraHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ mauhulakh:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcChief_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ mogdurz:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ mq304galmar:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SonsHousecarlNoHelmet_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ mq304kodlak:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_Harbinger_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ mulgrolargash:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ mulushgroshugurz:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Mulush
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ murbul:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ niranye:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Niranye
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ njadastonearm:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_Companion_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ nura:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestTalos_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ oglub:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ ogol:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ olur:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ orla:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestDibellaHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ ranmir:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Ranmir
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ ria:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_Companion_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ rorlund:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestDivines_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ runil:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkay_OF
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkay_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ senna:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestDibellaHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ shuftharz:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ sigurd:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Sigurd
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ silanapetreia:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestDivinesHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ sinmir:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Sinmir
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ skjor:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_CompanionSkjor_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ skulvarsablehilt:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Skulvar
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ solaf:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Solaf
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ styrr:
+      Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkayHood_OF
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ thadgeir:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Thadgeir
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ thonnir:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Thonnir
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ torvar:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_Companion_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ tyranus:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_VigilantHood_OF   ← WINS (last in apply order)
+  - [npc] DefaultOutfit @ ulfberth:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Ulfberth
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ ulundil:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Ulundil
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ umurn:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcHide_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ valindor:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Valindor
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ vilkas:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_Wolf2SetNoHelmet_OF
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ yamarz:
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_OrcChief_OF
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ yngvar:
+      Sentinel.esp.ini:1  outfitDefault=TH_NPC_Yngvar
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  - [npc] DefaultOutfit @ (all npc records):
+      Sentinel - City Guards.esp.ini:1  outfitDefault=TH_WhiterunCeremonial_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_OrcScaling_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:1  outfitDefault=TH_SilverHandAmbush_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:2  outfitDefault=TH_SilverHandMelee_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:3  outfitDefault=TH_SilverHandMissile_OF   [conditional — the line carries further filters]
+      Sentinel.esp.ini:4  outfitDefault=TH_SilverHandBoss_OF   ← WINS (last in apply order)   [conditional — the line carries further filters]
+  (report-only: which value SHOULD win is a merge decision — resolve by authoring a later-sorted INI via the skypatcher-authoring skill, then re-run this tool to confirm.)
+
+no-op writes (1) — true ITM: the SET writes the value the record already has at that point in the replay, so the op changes nothing:
+  - [npc] Sentinel - Priests and Acolytes.esp.ini:1  outfitDefault=TH_PriestArkay_OF @ 01364D:Skyrim.esm (Runil) — DefaultOutfit is already 00088C:Sentinel - Priests and Acolytes.esp
+  (report-only, and relative to THIS load order: the same line matters in an order where the record's winner differs — unlike dead writes and duplicates, a no-op is not an authoring slip in the INI itself unless you author for this order.)
+[!] no-op scan: 70 broad (type-wide) line(s) were evaluated only against the explicitly-targeted records, not every record of their type.
+[!] no-op scan: 21 explicit target(s) did not resolve (the overlay's per-record warnings name them; read one with housecarl_records formids=["<FormID>"] source={"overlay": "skypatcher", "state": "post"}).
+[!] no-op scan: 43 targeted record(s) could not be replayed (not in the order / unpatchable type / copy failure / an EditorID lookup that could not be completed).
+[!] could not read the [Archive] sResourceArchiveList from a Skyrim.ini (looked in the profile folder and the game dir) — the base-game BSAs (Skyrim - Textures*.bsa, etc.) are NOT in the asset scan, so an asset present ONLY in a vanilla archive may read as absent. If your MO2 uses profile-specific INIs, make sure the active profile has a Skyrim.ini.
+
+→ housecarl_records formids=['<FormID>'] source={"overlay": "skypatcher", "state": "post"} for one record's computed post-SkyPatcher state; filter='<folder/mod/file>' for just the type folders holding a match, each listed in full apply order with the matching files expanded to their lines.

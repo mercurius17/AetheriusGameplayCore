@@ -1,0 +1,404 @@
+[
+  {
+    "formid": "10B1D9:Skyrim.esm",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "000801:FirstPersonInteractions.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "00845D:waccf_armor and clothing extension.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "000801:waccf_armor and clothing extension.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "05BB51:Pilgrim.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C1E91:Skyrim.esm",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C1E93:Skyrim.esm",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C1E95:Skyrim.esm",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C1E97:Skyrim.esm",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C3679:Skyrim.esm",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C5C07:Skyrim.esm",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "000809:AETHERIUS - SOBREVIVENCIA.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "00080A:AETHERIUS - SOBREVIVENCIA.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "00080B:AETHERIUS - SOBREVIVENCIA.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "00080C:AETHERIUS - SOBREVIVENCIA.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "00080D:AETHERIUS - SOBREVIVENCIA.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "00080E:AETHERIUS - SOBREVIVENCIA.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "000812:AETHERIUS - SOBREVIVENCIA.esp",
+    "source": "magic-perk-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "019E53:Skyrim.esm",
+    "source": "state-equipment-enemy-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "03372B:Skyrim.esm",
+    "source": "state-equipment-enemy-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "083042:Skyrim.esm",
+    "source": "state-equipment-enemy-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "087C21:Skyrim.esm",
+    "source": "state-equipment-enemy-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0954E1:Skyrim.esm",
+    "source": "state-equipment-enemy-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C2D3B:Skyrim.esm",
+    "source": "supplemental-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C2CD7:Skyrim.esm",
+    "source": "supplemental-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0C2CDF:Skyrim.esm",
+    "source": "supplemental-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "026B61:Dragonborn.esm",
+    "source": "supplemental-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "026B63:Dragonborn.esm",
+    "source": "supplemental-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0FBFDD:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "050CE3:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "09D6F6:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "054AAC:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "07EA5D:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "076F39:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "06D1E1:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0548DB:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0548DA:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0548D9:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0548D8:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0548D7:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0548D6:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0548D5:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "04F8BF:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "03833C:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0236A3:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "01FA52:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "02B272:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0289E2:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "01C4A1:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "035D5F:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "028664:Dragonborn.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "01F7A3:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0209CA:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "03372B:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "035A23:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "036626:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "045923:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "04D8D6:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "06434A:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "083042:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "087C21:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0954E1:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "09DD77:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0ADC8C:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0D1444:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "0E4D31:Skyrim.esm",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  },
+  {
+    "formid": "14F4EE:Triumvirate - Mage Archetypes.esp",
+    "source": "quest-faction-definitions.jsonl",
+    "path": "\u2026",
+    "note": "(expansion truncated at 2000 lines \u2014 narrow with a field path or a lower depth)"
+  }
+]

@@ -1,0 +1,54 @@
+
+> aetherius-damage-system@0.1.0 test
+> npm run build && node --test tests/profile-adapter.test.cjs
+
+
+> aetherius-damage-system@0.1.0 build
+> tsc -p tsconfig.json
+
+TAP version 13
+# Subtest: exact server skills, all missing skills zero and authoritative base attributes
+ok 1 - exact server skills, all missing skills zero and authoritative base attributes
+  ---
+  duration_ms: 1.2402
+  type: 'test'
+  ...
+# Subtest: unsupported/mocked perks fail explicitly
+ok 2 - unsupported/mocked perks fail explicitly
+  ---
+  duration_ms: 0.4254
+  type: 'test'
+  ...
+# Subtest: rejects invalid revision, skill and attribute boundaries
+ok 3 - rejects invalid revision, skill and attribute boundaries
+  ---
+  duration_ms: 0.4578
+  type: 'test'
+  ...
+# Subtest: revision survives native restart/reconnect and increments only on successful publish
+ok 4 - revision survives native restart/reconnect and increments only on successful publish
+  ---
+  duration_ms: 1.3262
+  type: 'test'
+  ...
+# Subtest: class reset removes all server perks and old skills
+ok 5 - class reset removes all server perks and old skills
+  ---
+  duration_ms: 0.7278
+  type: 'test'
+  ...
+# Subtest: every audited mastery has an origin plugin key
+ok 6 - every audited mastery has an origin plugin key
+  ---
+  duration_ms: 0.335
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 114.8737

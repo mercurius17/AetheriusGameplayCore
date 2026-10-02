@@ -1,0 +1,3473 @@
+[
+  {
+    "formid": "03AF9E:Skyrim.esm",
+    "editorid": "VKR_Two_090_Sweep_Perk_WasSweep",
+    "changes": [
+      {
+        "path": "Conditions[1].Data.Parameter1.Index",
+        "before": "72299334",
+        "after": "21967686"
+      },
+      {
+        "path": "Effects[0]",
+        "before": "[PerkEntryPointSelectSpell] Spell=4F8494:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": "[PerkEntryPointModifyValue]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Function",
+        "before": "IsAttackType",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Keyword",
+        "before": "0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].EntryPoint",
+        "before": "ApplyCombatHitSpell",
+        "after": "SetSweepAttack"
+      },
+      {
+        "path": "Effects[0].Modification",
+        "before": null,
+        "after": "Set"
+      },
+      {
+        "path": "Effects[0].PerkConditionTabCount",
+        "before": "3",
+        "after": "2"
+      },
+      {
+        "path": "Effects[0].Priority",
+        "before": "210",
+        "after": "180"
+      },
+      {
+        "path": "Effects[0].Spell",
+        "before": "4F8494:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Value",
+        "before": null,
+        "after": "1"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": "[IsPowerAttackingConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.FirstUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Function",
+        "before": "IsAttackType",
+        "after": "IsPowerAttacking"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Keyword",
+        "before": "0914E7:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E7:Skyrim.esm",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[2]",
+        "before": "[PerkEntryPointModifyValue]",
+        "after": "[PerkEntryPointSelectSpell] Spell=4F8494:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": "[IsPowerAttackingConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.FirstUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Function",
+        "before": "IsAttackType",
+        "after": "IsPowerAttacking"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Keyword",
+        "before": "0914E7:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E7:Skyrim.esm",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[2].EntryPoint",
+        "before": "SetSweepAttack",
+        "after": "ApplyCombatHitSpell"
+      },
+      {
+        "path": "Effects[2].Modification",
+        "before": "Set",
+        "after": null
+      },
+      {
+        "path": "Effects[2].PerkConditionTabCount",
+        "before": "2",
+        "after": "3"
+      },
+      {
+        "path": "Effects[2].Priority",
+        "before": "180",
+        "after": "210"
+      },
+      {
+        "path": "Effects[2].Spell",
+        "before": null,
+        "after": "4F8494:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[2].Value",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Version2",
+        "before": "12",
+        "after": "0"
+      }
+    ]
+  },
+  {
+    "formid": "106256:Skyrim.esm",
+    "editorid": "VKR_One_030_DualFlurry1_Perk_WasDualFlurry1",
+    "changes": [
+      {
+        "path": "Effects[0]",
+        "before": "[PerkAbilityEffect] Ability=108A3F:Skyrim.esm",
+        "after": "[PerkEntryPointModifyValue]"
+      },
+      {
+        "path": "Effects[0].Ability",
+        "before": "108A3F:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions",
+        "before": "[list: 0 item(s)]",
+        "after": "[list: 4 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "GreaterThan"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data",
+        "before": null,
+        "after": "[GetEquippedItemTypeConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Function",
+        "before": null,
+        "after": "GetEquippedItemType"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.ItemSource",
+        "before": null,
+        "after": "Left"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "Left"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=CastSource"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[0].RunOnTabIndex",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[1]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "LessThanOrEqualTo"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "4"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data",
+        "before": null,
+        "after": "[GetEquippedItemTypeConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Function",
+        "before": null,
+        "after": "GetEquippedItemType"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.ItemSource",
+        "before": null,
+        "after": "Left"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "Left"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=CastSource"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[1].RunOnTabIndex",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "GreaterThan"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data",
+        "before": null,
+        "after": "[GetEquippedItemTypeConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Function",
+        "before": null,
+        "after": "GetEquippedItemType"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.ItemSource",
+        "before": null,
+        "after": "Right"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "Right"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=CastSource"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].RunOnTabIndex",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[3]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "LessThanOrEqualTo"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "4"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data",
+        "before": null,
+        "after": "[GetEquippedItemTypeConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Function",
+        "before": null,
+        "after": "GetEquippedItemType"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.ItemSource",
+        "before": null,
+        "after": "Right"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "Right"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=CastSource"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[3].RunOnTabIndex",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].EntryPoint",
+        "before": null,
+        "after": "ModAttackDamage"
+      },
+      {
+        "path": "Effects[0].Modification",
+        "before": null,
+        "after": "Multiply"
+      },
+      {
+        "path": "Effects[0].PerkConditionTabCount",
+        "before": null,
+        "after": "3"
+      },
+      {
+        "path": "Effects[0].Value",
+        "before": null,
+        "after": "1.1"
+      },
+      {
+        "path": "Version2",
+        "before": "6",
+        "after": "0"
+      }
+    ]
+  },
+  {
+    "formid": "106257:Skyrim.esm",
+    "editorid": "VKR_One_030_DualFlurry2_Perk_WasDualFlurry2",
+    "changes": [
+      {
+        "path": "Effects[0]",
+        "before": "[PerkAbilityEffect] Ability=108A40:Skyrim.esm",
+        "after": "[PerkEntryPointModifyValue]"
+      },
+      {
+        "path": "Effects[0].Ability",
+        "before": "108A40:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions",
+        "before": "[list: 0 item(s)]",
+        "after": "[list: 4 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "GreaterThan"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data",
+        "before": null,
+        "after": "[GetEquippedItemTypeConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Function",
+        "before": null,
+        "after": "GetEquippedItemType"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.ItemSource",
+        "before": null,
+        "after": "Left"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "Left"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=CastSource"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[0].RunOnTabIndex",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[1]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "LessThanOrEqualTo"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "4"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data",
+        "before": null,
+        "after": "[GetEquippedItemTypeConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Function",
+        "before": null,
+        "after": "GetEquippedItemType"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.ItemSource",
+        "before": null,
+        "after": "Left"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "Left"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=CastSource"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[1].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[1].RunOnTabIndex",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "GreaterThan"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data",
+        "before": null,
+        "after": "[GetEquippedItemTypeConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Function",
+        "before": null,
+        "after": "GetEquippedItemType"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.ItemSource",
+        "before": null,
+        "after": "Right"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "Right"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=CastSource"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].RunOnTabIndex",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[3]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "LessThanOrEqualTo"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "4"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data",
+        "before": null,
+        "after": "[GetEquippedItemTypeConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Function",
+        "before": null,
+        "after": "GetEquippedItemType"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.ItemSource",
+        "before": null,
+        "after": "Right"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "Right"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=CastSource"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[3].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[3].RunOnTabIndex",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].EntryPoint",
+        "before": null,
+        "after": "ModAttackDamage"
+      },
+      {
+        "path": "Effects[0].Modification",
+        "before": null,
+        "after": "Multiply"
+      },
+      {
+        "path": "Effects[0].PerkConditionTabCount",
+        "before": null,
+        "after": "3"
+      },
+      {
+        "path": "Effects[0].Value",
+        "before": null,
+        "after": "1.2"
+      },
+      {
+        "path": "Version2",
+        "before": "6",
+        "after": "0"
+      }
+    ]
+  },
+  {
+    "formid": "4F3346:Vokrii - Minimalistic Perks of Skyrim.esp",
+    "editorid": "VKR_Two_060_Warmaster_Perk",
+    "changes": [
+      {
+        "path": "Effects[0]",
+        "before": "[PerkEntryPointSelectSpell] Spell=4F8492:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": "[PerkEntryPointModifyValue]"
+      },
+      {
+        "path": "Effects[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 3 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Function",
+        "before": "IsAttackType",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Keyword",
+        "before": "0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[2]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "EqualTo"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data",
+        "before": null,
+        "after": "[HasMagicEffectConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Function",
+        "before": null,
+        "after": "HasMagicEffect"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.MagicEffect",
+        "before": null,
+        "after": "50269F:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "[FormLinkOrIndex`1] Link=50269F:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=IFormLinkOrIndexGetter`1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].RunOnTabIndex",
+        "before": null,
+        "after": "2"
+      },
+      {
+        "path": "Effects[0].EntryPoint",
+        "before": "ApplyCombatHitSpell",
+        "after": "CalculateMyCriticalHitDamage"
+      },
+      {
+        "path": "Effects[0].Modification",
+        "before": null,
+        "after": "Multiply"
+      },
+      {
+        "path": "Effects[0].Priority",
+        "before": "210",
+        "after": "98"
+      },
+      {
+        "path": "Effects[0].Spell",
+        "before": "4F8492:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Value",
+        "before": null,
+        "after": "2"
+      },
+      {
+        "path": "Effects[1].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 3 item(s)]"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": "[IsPowerAttackingConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.FirstUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Function",
+        "before": "IsAttackType",
+        "after": "IsPowerAttacking"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Keyword",
+        "before": "0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E6:Skyrim.esm",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[2]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "EqualTo"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "1"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data",
+        "before": null,
+        "after": "[HasMagicEffectConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.Function",
+        "before": null,
+        "after": "HasMagicEffect"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.MagicEffect",
+        "before": null,
+        "after": "50269F:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "[FormLinkOrIndex`1] Link=50269F:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=IFormLinkOrIndexGetter`1"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[1].Conditions[2].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[1].Conditions[2].RunOnTabIndex",
+        "before": null,
+        "after": "2"
+      },
+      {
+        "path": "Effects[1].EntryPoint",
+        "before": "ModPowerAttackDamage",
+        "after": "CalculateMyCriticalHitChance"
+      },
+      {
+        "path": "Effects[1].Modification",
+        "before": "Multiply",
+        "after": "Add"
+      },
+      {
+        "path": "Effects[1].Priority",
+        "before": "190",
+        "after": "100"
+      },
+      {
+        "path": "Effects[1].Value",
+        "before": "1",
+        "after": "100"
+      },
+      {
+        "path": "Effects[2].Conditions",
+        "before": "[list: 3 item(s)]",
+        "after": "[list: 2 item(s)]"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": "[IsPowerAttackingConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.FirstUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Function",
+        "before": "IsAttackType",
+        "after": "IsPowerAttacking"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Keyword",
+        "before": "0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E6:Skyrim.esm",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[2].Conditions[2]",
+        "before": "[PerkCondition]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions",
+        "before": "[list: 1 item(s)]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data",
+        "before": "[HasMagicEffectConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Function",
+        "before": "HasMagicEffect",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.MagicEffect",
+        "before": "50269F:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=50269F:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].RunOnTabIndex",
+        "before": "2",
+        "after": null
+      },
+      {
+        "path": "Effects[2].EntryPoint",
+        "before": "CalculateMyCriticalHitChance",
+        "after": "ModPowerAttackDamage"
+      },
+      {
+        "path": "Effects[2].Modification",
+        "before": "Add",
+        "after": "Multiply"
+      },
+      {
+        "path": "Effects[2].Priority",
+        "before": "100",
+        "after": "190"
+      },
+      {
+        "path": "Effects[2].Value",
+        "before": "100",
+        "after": "1"
+      },
+      {
+        "path": "Effects[3]",
+        "before": "[PerkEntryPointModifyValue]",
+        "after": "[PerkEntryPointSelectSpell] Spell=4F8492:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[3].Conditions",
+        "before": "[list: 3 item(s)]",
+        "after": "[list: 2 item(s)]"
+      },
+      {
+        "path": "Effects[3].Conditions[0].Conditions[0].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": "[IsPowerAttackingConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[3].Conditions[0].Conditions[0].Data.FirstUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[3].Conditions[0].Conditions[0].Data.Function",
+        "before": "IsAttackType",
+        "after": "IsPowerAttacking"
+      },
+      {
+        "path": "Effects[3].Conditions[0].Conditions[0].Data.Keyword",
+        "before": "0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E6:Skyrim.esm",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[3].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[3].Conditions[2]",
+        "before": "[PerkCondition]",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions",
+        "before": "[list: 1 item(s)]",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data",
+        "before": "[HasMagicEffectConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.Function",
+        "before": "HasMagicEffect",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.MagicEffect",
+        "before": "50269F:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=50269F:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].Conditions[0].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Conditions[2].RunOnTabIndex",
+        "before": "2",
+        "after": null
+      },
+      {
+        "path": "Effects[3].EntryPoint",
+        "before": "CalculateMyCriticalHitDamage",
+        "after": "ApplyCombatHitSpell"
+      },
+      {
+        "path": "Effects[3].Modification",
+        "before": "Multiply",
+        "after": null
+      },
+      {
+        "path": "Effects[3].Priority",
+        "before": "98",
+        "after": "210"
+      },
+      {
+        "path": "Effects[3].Spell",
+        "before": null,
+        "after": "4F8492:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[3].Value",
+        "before": "2",
+        "after": null
+      }
+    ]
+  },
+  {
+    "formid": "4F335F:Vokrii - Minimalistic Perks of Skyrim.esp",
+    "editorid": "VKR_One_060_CraterMaker_Perk",
+    "changes": [
+      {
+        "path": "Effects[0]",
+        "before": "[PerkEntryPointSelectSpell] Spell=4F8496:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": "[PerkEntryPointModifyValue]"
+      },
+      {
+        "path": "Effects[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 3 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Function",
+        "before": "IsAttackType",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Keyword",
+        "before": "0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[2]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "EqualTo"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data",
+        "before": null,
+        "after": "[HasMagicEffectConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Function",
+        "before": null,
+        "after": "HasMagicEffect"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.MagicEffect",
+        "before": null,
+        "after": "5026A2:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "[FormLinkOrIndex`1] Link=5026A2:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=IFormLinkOrIndexGetter`1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].RunOnTabIndex",
+        "before": null,
+        "after": "2"
+      },
+      {
+        "path": "Effects[0].EntryPoint",
+        "before": "ApplyCombatHitSpell",
+        "after": "CalculateMyCriticalHitDamage"
+      },
+      {
+        "path": "Effects[0].Modification",
+        "before": null,
+        "after": "Multiply"
+      },
+      {
+        "path": "Effects[0].Priority",
+        "before": "210",
+        "after": "97"
+      },
+      {
+        "path": "Effects[0].Spell",
+        "before": "4F8496:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Value",
+        "before": null,
+        "after": "2"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": "[IsPowerAttackingConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.FirstUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Function",
+        "before": "IsAttackType",
+        "after": "IsPowerAttacking"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Keyword",
+        "before": "0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E6:Skyrim.esm",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[2]",
+        "before": "[PerkEntryPointModifyValue]",
+        "after": "[PerkEntryPointSelectSpell] Spell=4F8496:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[2].Conditions",
+        "before": "[list: 3 item(s)]",
+        "after": "[list: 2 item(s)]"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": "[IsPowerAttackingConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.FirstUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Function",
+        "before": "IsAttackType",
+        "after": "IsPowerAttacking"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Keyword",
+        "before": "0914E6:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E6:Skyrim.esm",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[2].Conditions[2]",
+        "before": "[PerkCondition]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions",
+        "before": "[list: 1 item(s)]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data",
+        "before": "[HasMagicEffectConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Function",
+        "before": "HasMagicEffect",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.MagicEffect",
+        "before": "5026A2:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=5026A2:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].RunOnTabIndex",
+        "before": "2",
+        "after": null
+      },
+      {
+        "path": "Effects[2].EntryPoint",
+        "before": "CalculateMyCriticalHitDamage",
+        "after": "ApplyCombatHitSpell"
+      },
+      {
+        "path": "Effects[2].Modification",
+        "before": "Multiply",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Priority",
+        "before": "97",
+        "after": "210"
+      },
+      {
+        "path": "Effects[2].Spell",
+        "before": null,
+        "after": "4F8496:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[2].Value",
+        "before": "2",
+        "after": null
+      }
+    ]
+  },
+  {
+    "formid": "4F3360:Vokrii - Minimalistic Perks of Skyrim.esp",
+    "editorid": "VKR_One_090_DisarmingSlash_Perk",
+    "changes": [
+      {
+        "path": "Conditions[1].Data.Parameter1.Index",
+        "before": "72299359",
+        "after": "21967711"
+      },
+      {
+        "path": "Effects[0]",
+        "before": "[PerkEntryPointSelectSpell] Spell=4F8498:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": "[PerkEntryPointModifyValue]"
+      },
+      {
+        "path": "Effects[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 3 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Function",
+        "before": "IsAttackType",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Keyword",
+        "before": "0914E7:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E7:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[0].Conditions[1].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Conditions[2]",
+        "before": null,
+        "after": "[PerkCondition]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions",
+        "before": null,
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0]",
+        "before": null,
+        "after": "[ConditionFloat]"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].CompareOperator",
+        "before": null,
+        "after": "EqualTo"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].ComparisonValue",
+        "before": null,
+        "after": "1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data",
+        "before": null,
+        "after": "[HasMagicEffectConditionData] Reference=Null"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Function",
+        "before": null,
+        "after": "HasMagicEffect"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.MagicEffect",
+        "before": null,
+        "after": "5026A1:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": null,
+        "after": "[FormLinkOrIndex`1] Link=5026A1:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": null,
+        "after": "[RuntimeType] Name=IFormLinkOrIndexGetter`1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.Reference",
+        "before": null,
+        "after": "(null link)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": null,
+        "after": "Subject"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": null,
+        "after": "-1"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": null,
+        "after": "(absent)"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": null,
+        "after": "False"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Flags",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown1",
+        "before": null,
+        "after": "000000"
+      },
+      {
+        "path": "Effects[0].Conditions[2].Conditions[0].Unknown2",
+        "before": null,
+        "after": "0"
+      },
+      {
+        "path": "Effects[0].Conditions[2].RunOnTabIndex",
+        "before": null,
+        "after": "2"
+      },
+      {
+        "path": "Effects[0].EntryPoint",
+        "before": "ApplyCombatHitSpell",
+        "after": "CalculateMyCriticalHitDamage"
+      },
+      {
+        "path": "Effects[0].Modification",
+        "before": null,
+        "after": "Multiply"
+      },
+      {
+        "path": "Effects[0].Priority",
+        "before": "210",
+        "after": "98"
+      },
+      {
+        "path": "Effects[0].Spell",
+        "before": "4F8498:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[0].Value",
+        "before": null,
+        "after": "2"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.Function",
+        "before": "IsAttackType",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.Keyword",
+        "before": "0914E7:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E7:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[1].Conditions[0].Conditions[1].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2]",
+        "before": "[PerkEntryPointModifyValue]",
+        "after": "[PerkEntryPointSelectSpell] Spell=4F8498:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[2].Conditions",
+        "before": "[list: 3 item(s)]",
+        "after": "[list: 2 item(s)]"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions",
+        "before": "[list: 2 item(s)]",
+        "after": "[list: 1 item(s)]"
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data",
+        "before": "[IsAttackTypeConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.Function",
+        "before": "IsAttackType",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.Keyword",
+        "before": "0914E7:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=0914E7:Skyrim.esm",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[0].Conditions[1].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2]",
+        "before": "[PerkCondition]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions",
+        "before": "[list: 1 item(s)]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0]",
+        "before": "[ConditionFloat]",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].CompareOperator",
+        "before": "EqualTo",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].ComparisonValue",
+        "before": "1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data",
+        "before": "[HasMagicEffectConditionData] Reference=Null",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.FirstUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Function",
+        "before": "HasMagicEffect",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.MagicEffect",
+        "before": "5026A1:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter1",
+        "before": "[FormLinkOrIndex`1] Link=5026A1:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter1Type",
+        "before": "[RuntimeType] Name=IFormLinkOrIndexGetter`1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Parameter2Type",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.Reference",
+        "before": "(null link)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.RunOnType",
+        "before": "Subject",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.RunOnTypeIndex",
+        "before": "-1",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.SecondUnusedIntParameter",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.SecondUnusedStringParameter",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.StringParameter1",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.StringParameter2",
+        "before": "(absent)",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.UseAliases",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Data.UsePackageData",
+        "before": "False",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Flags",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Unknown1",
+        "before": "000000",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].Conditions[0].Unknown2",
+        "before": "0",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Conditions[2].RunOnTabIndex",
+        "before": "2",
+        "after": null
+      },
+      {
+        "path": "Effects[2].EntryPoint",
+        "before": "CalculateMyCriticalHitDamage",
+        "after": "ApplyCombatHitSpell"
+      },
+      {
+        "path": "Effects[2].Modification",
+        "before": "Multiply",
+        "after": null
+      },
+      {
+        "path": "Effects[2].Priority",
+        "before": "98",
+        "after": "210"
+      },
+      {
+        "path": "Effects[2].Spell",
+        "before": null,
+        "after": "4F8498:Vokrii - Minimalistic Perks of Skyrim.esp"
+      },
+      {
+        "path": "Effects[2].Value",
+        "before": "2",
+        "after": null
+      }
+    ]
+  }
+]

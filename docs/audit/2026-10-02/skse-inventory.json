@@ -1,0 +1,6885 @@
+{
+  "family": "inventory",
+  "not_run": [
+    "pairing",
+    "config"
+  ],
+  "filter": null,
+  "profile": "AETHERIUS - GRAFICO - QUALIDADE",
+  "installed_runtime": "1.6.1170.0",
+  "totals": {
+    "dlls": 111,
+    "subfolder_dlls": 0,
+    "configs": 993,
+    "config_folders": 29,
+    "other_files": 145,
+    "modern": 109,
+    "legacy_query": 0,
+    "non_plugin": 2,
+    "bsa_only": 0,
+    "unreadable": 0,
+    "address_library": 107,
+    "signature_scanning": 0,
+    "version_locked": 2
+  },
+  "dlls": [
+    {
+      "rel_path": "SKSE\\Plugins\\360 Ward Universal Patch SKSE.dll",
+      "file_name": "360 Ward Universal Patch SKSE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "360 Ward Universal Patch SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "360 Ward Universal Patch SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.0.0.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "WardVisualForwarder",
+        "author": "WardVisualForwarder",
+        "plugin_version": "0.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ActorLimitFix.dll",
+      "file_name": "ActorLimitFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Actor Limit Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Actor Limit Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "9.0.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "Actor Limit Fix",
+        "author": "meh321 and KernalsEgg",
+        "plugin_version": "0.0.0.9",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ActorValueGenerator.dll",
+      "file_name": "ActorValueGenerator.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Actor Value Generator",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Actor Value Generator",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.3.6.0",
+      "mod_version": "2.3.6.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "ActorValueGenerator",
+        "author": "",
+        "plugin_version": "2.3.6",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\AltTabFix.dll",
+      "file_name": "AltTabFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Alt-Tab Stuck Key Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Alt-Tab Stuck Key Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.3.1.0",
+      "mod_version": "1.3.1.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "AltTabFix",
+        "author": "BingusEx",
+        "plugin_version": "1.3.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\AnimatedInteractions.dll",
+      "file_name": "AnimatedInteractions.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Animated Interactions SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Animated Interactions SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.8.1.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "AnimatedInteractions",
+        "author": "",
+        "plugin_version": "0.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\AnimationMotionRevolution.dll",
+      "file_name": "AnimationMotionRevolution.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Animation Motion Revolution",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Animation Motion Revolution",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.5.3.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "advapi32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "AnimationMotionRevolution",
+        "author": "",
+        "plugin_version": "1.5.3",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\AnimationQueueFix.dll",
+      "file_name": "AnimationQueueFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Animation Queue Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Animation Queue Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.1.0",
+      "mod_version": "1.0.1.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "AnimationQueueFix",
+        "author": "Ersh",
+        "plugin_version": "1.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.678"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\AutoParallax.dll",
+      "file_name": "AutoParallax.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Auto Parallax",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Auto Parallax",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.7.0",
+      "mod_version": "1.0.27.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "AutoParallax",
+        "author": "",
+        "plugin_version": "1.0.7",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\BakaWorldMapSpeed.dll",
+      "file_name": "BakaWorldMapSpeed.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Flat World Map Framework (FWMF)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Flat World Map Framework (FWMF)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.1.0.0",
+      "mod_version": "1.87.0.0",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "bcrypt.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "BakaWorldMapSpeed",
+        "author": "shad0wshayd3",
+        "plugin_version": "2.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.7.99"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\BehaviorDataInjector.dll",
+      "file_name": "BehaviorDataInjector.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Behavior Data Injector Universal Support",
+      "provider_kind": "loose",
+      "provider_count": 2,
+      "providers": [
+        {
+          "name": "Behavior Data Injector Universal Support",
+          "kind": "loose"
+        },
+        {
+          "name": "Behavior Data Injector",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.1.3.0",
+      "mod_version": "0.13.0.1",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "advapi32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "BehaviorDataInjector",
+        "author": "",
+        "plugin_version": "0.1.3",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\BetterJumpingSE.dll",
+      "file_name": "BetterJumpingSE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Better Jumping SE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Better Jumping SE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.8.6.0",
+      "imports": [
+        "kernel32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "BetterJumpingSE",
+        "author": "",
+        "plugin_version": "0.0.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\BFCO.dll",
+      "file_name": "BFCO.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "BFCO - Attack Behavior Framework (SSE AE VR)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "BFCO - Attack Behavior Framework (SSE AE VR)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.1.0.0",
+      "mod_version": "d2026.9.26.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "BFCO",
+        "author": "AUTHOR_NAME",
+        "plugin_version": "0.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\BladeAndBlunt.dll",
+      "file_name": "BladeAndBlunt.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Blade and Blunt - Armor Rating Scaling Standalone",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Blade and Blunt - Armor Rating Scaling Standalone",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "3.5.0.0",
+      "mod_version": "f1.02",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "BladeAndBlunt",
+        "author": "colinswrath and Kernalsegg",
+        "plugin_version": "3.5.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\BugFixesSSE.dll",
+      "file_name": "BugFixesSSE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Bug Fixes SSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Bug Fixes SSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "10.0.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "Bug Fixes SSE",
+        "author": "meh321 and KernalsEgg",
+        "plugin_version": "0.0.0.10",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ClassicSprintingRedone.dll",
+      "file_name": "ClassicSprintingRedone.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Classic Sprinting Redone (SKSE64)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Classic Sprinting Redone (SKSE64)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.3.1.0",
+      "mod_version": "2.3.1.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "ClassicSprintingRedone",
+        "author": "Vermunds",
+        "plugin_version": "2.3.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.640",
+          "1.6.1130"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ColdBreathNG.dll",
+      "file_name": "ColdBreathNG.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Cold Breath NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Cold Breath NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "3.1.0.0",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "ColdBreathNG",
+        "author": "Unknown",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\CollisionSentinel.dll",
+      "file_name": "CollisionSentinel.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Collision Sentinel - Crash Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Collision Sentinel - Crash Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "2.2.0.0",
+      "imports": [
+        "version.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "user32.dll",
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "CollisionSentinel",
+        "author": "",
+        "plugin_version": "2.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\CommunityShaders.dll",
+      "file_name": "CommunityShaders.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Bottled Shaders",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Bottled Shaders",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.9.0.0",
+      "mod_version": "1.0.4.0",
+      "imports": [
+        "d3d12.dll",
+        "api-ms-win-core-libraryloader-l1-2-0.dll",
+        "api-ms-win-core-processthreads-l1-1-0.dll",
+        "api-ms-win-core-privateprofile-l1-1-0.dll",
+        "d3dcompiler_47.dll",
+        "api-ms-win-core-string-l1-1-0.dll",
+        "api-ms-win-core-memory-l1-1-0.dll",
+        "api-ms-win-core-profile-l1-1-0.dll",
+        "api-ms-win-core-libraryloader-l1-2-1.dll",
+        "api-ms-win-core-com-l1-1-0.dll",
+        "api-ms-win-core-heap-l2-1-0.dll",
+        "api-ms-win-core-heap-obsolete-l1-1-0.dll",
+        "api-ms-win-core-synch-l1-2-0.dll",
+        "api-ms-win-core-sysinfo-l1-1-0.dll",
+        "api-ms-win-core-file-l1-1-0.dll",
+        "api-ms-win-core-errorhandling-l1-1-0.dll",
+        "d3d11.dll",
+        "api-ms-win-core-synch-l1-1-0.dll",
+        "api-ms-win-ntuser-sysparams-l1-1-0.dll",
+        "api-ms-win-core-handle-l1-1-0.dll",
+        "api-ms-win-core-processthreads-l1-1-1.dll",
+        "api-ms-win-core-localization-obsolete-l1-2-0.dll",
+        "bcrypt.dll",
+        "api-ms-win-core-file-l2-1-0.dll",
+        "api-ms-win-core-psapi-l1-1-0.dll",
+        "api-ms-win-core-version-l1-1-1.dll",
+        "api-ms-win-core-version-l1-1-0.dll",
+        "api-ms-win-core-privateprofile-l1-1-1.dll",
+        "api-ms-win-core-debug-l1-1-0.dll",
+        "api-ms-win-core-localization-l1-2-0.dll",
+        "api-ms-win-core-sysinfo-l1-2-0.dll",
+        "api-ms-win-core-file-l1-2-0.dll",
+        "api-ms-win-core-io-l1-1-0.dll",
+        "api-ms-win-core-processenvironment-l1-1-0.dll",
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "gdi32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "vcomp140.dll",
+        "imm32.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-core-file-l1-2-2.dll",
+        "api-ms-win-core-interlocked-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "CommunityShaders",
+        "author": "",
+        "plugin_version": "1.9.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ComprehensiveAttackRatePatch.dll",
+      "file_name": "ComprehensiveAttackRatePatch.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Comprehensive Attack Rate Patch - SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Comprehensive Attack Rate Patch - SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.2.0",
+      "mod_version": "1.1.2.15",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "ComprehensiveAttackRatePatch",
+        "author": "",
+        "plugin_version": "1.1.2.15",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ConsoleUtilSSE.dll",
+      "file_name": "ConsoleUtilSSE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "ConsoleUtil Extended",
+      "provider_kind": "loose",
+      "provider_count": 2,
+      "providers": [
+        {
+          "name": "ConsoleUtil Extended",
+          "kind": "loose"
+        },
+        {
+          "name": "ConsoleUtilSSE NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.0.0",
+      "mod_version": "d2026.7.26.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "ConsoleUtilSSE",
+        "author": "Scrab",
+        "plugin_version": "1.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\CoreImpactFramework.dll",
+      "file_name": "CoreImpactFramework.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Core Impact Framework (CIF)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Core Impact Framework (CIF)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.0.0.0",
+      "mod_version": "2.0.0.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "CoreImpactFramework",
+        "author": "Seb263",
+        "plugin_version": "2.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\CraftingCategories.dll",
+      "file_name": "CraftingCategories.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Constructible Object Custom Keyword System",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Constructible Object Custom Keyword System",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.1.0",
+      "mod_version": "1.1.1.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "CraftingCategories",
+        "author": "Parapets",
+        "plugin_version": "1.1.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\CrashLogger.dll",
+      "file_name": "CrashLogger.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Crash Logger SSE AE VR - PDB support",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Crash Logger SSE AE VR - PDB support",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.24.0.0",
+      "mod_version": "1.24.0.0",
+      "imports": [
+        "dbghelp.dll",
+        "winhttp.dll",
+        "advapi32.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "oleaut32.dll",
+        "ntdll.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "iphlpapi.dll",
+        "shlwapi.dll",
+        "mpr.dll",
+        "wevtapi.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "CrashLogger",
+        "author": "",
+        "plugin_version": "1.24.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\DirectionalMovement.dll",
+      "file_name": "DirectionalMovement.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Directional Movement Keys - DMK",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Directional Movement Keys - DMK",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.1.0.0",
+      "mod_version": "1.5.0.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "comctl32.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "DirectionalMovement",
+        "author": "AUTHOR_NAME",
+        "plugin_version": "0.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\DisabledReferenceIntegrityFix.dll",
+      "file_name": "DisabledReferenceIntegrityFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Disabled Reference Integrity Fix (SKSE)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Disabled Reference Integrity Fix (SKSE)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.4.0.0",
+      "mod_version": "1.4.0.0",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "DisabledReferenceIntegrityFix",
+        "author": "Alaxouche",
+        "plugin_version": "1.4.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\DisableTurnAnimation.dll",
+      "file_name": "DisableTurnAnimation.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Disable Turn Animation NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Disable Turn Animation NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "3.1.0.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "Disable Turn Animation",
+        "author": "Smooth",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\DismemberingFramework.dll",
+      "file_name": "DismemberingFramework.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Dismembering Framework",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Dismembering Framework",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.2.2.0",
+      "mod_version": "1.2.2.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "DismemberingFramework",
+        "author": "Seb263",
+        "plugin_version": "1.2.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\DualWieldParryingNG.dll",
+      "file_name": "DualWieldParryingNG.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Dual Wield Parrying SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Dual Wield Parrying SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.1.0",
+      "mod_version": "2.0.1.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "DualWieldParryingNG",
+        "author": "",
+        "plugin_version": "1.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\DynamicArmorPhysics.dll",
+      "file_name": "DynamicArmorPhysics.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Dynamic Armor Physics",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Dynamic Armor Physics",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.0.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "user32.dll"
+      ],
+      "version": {
+        "name": "DynamicArmorPhysics",
+        "author": "Seb263",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\DynamicBloodpoolFramework.dll",
+      "file_name": "DynamicBloodpoolFramework.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Dynamic Bloodpool Framework",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Dynamic Bloodpool Framework",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.1.0",
+      "mod_version": "1.1.1.0",
+      "imports": [
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "kernel32.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "DynamicBloodpoolFramework",
+        "author": "Seb263",
+        "plugin_version": "1.1.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\DynamicWind.dll",
+      "file_name": "DynamicWind.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Dynamic Wind Framework - SKSE Plugin",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Dynamic Wind Framework - SKSE Plugin",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.1.0.0",
+      "mod_version": "1.4.0.0",
+      "imports": [
+        "kernel32.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "DynamicWind",
+        "author": "AUTHOR_NAME",
+        "plugin_version": "0.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\EngineFixes.dll",
+      "file_name": "EngineFixes.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "SSE Engine Fixes (skse64 plugin)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "SSE Engine Fixes (skse64 plugin)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "7.0.20.0",
+      "mod_version": "7.0.20.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "EngineFixes",
+        "author": "aers",
+        "plugin_version": "7.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\FaceGenFixes.dll",
+      "file_name": "FaceGenFixes.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Face Discoloration Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Face Discoloration Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.3.0",
+      "mod_version": "1.0.3.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "FaceGenFixes",
+        "author": "Parapets",
+        "plugin_version": "1.0.3",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\FirstPersonScaleFix.dll",
+      "file_name": "FirstPersonScaleFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "First Person Height Fix SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "First Person Height Fix SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "2.0.0.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "FirstPersonScaleFix",
+        "author": "colinswrath",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\FixToggleWalkRun.dll",
+      "file_name": "FixToggleWalkRun.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Fix Toggle Walk Run (SKSE plugin)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Fix Toggle Walk Run (SKSE plugin)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "3.0.0.0",
+      "mod_version": "3.0.0.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "FixToggleWalkRun",
+        "author": "",
+        "plugin_version": "3.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\FlatMapMarkersSSE.dll",
+      "file_name": "FlatMapMarkersSSE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Flat World Map Framework (FWMF)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Flat World Map Framework (FWMF)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.0.0.0",
+      "mod_version": "1.87.0.0",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "bcrypt.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "FlatMapMarkersSSE",
+        "author": "ryan-rsm-mckenzie",
+        "plugin_version": "2.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.7.99"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ForHonorPowerAttack.dll",
+      "file_name": "ForHonorPowerAttack.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "For Honor Power Attack",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "For Honor Power Attack",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "2.0.2.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "ForHonorPowerAttack",
+        "author": "Smooth",
+        "plugin_version": "2.0.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\FormListManipulator.dll",
+      "file_name": "FormListManipulator.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "FormList Manipulator - FLM",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "FormList Manipulator - FLM",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.8.1.0",
+      "mod_version": "1.8.1.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "FormListManipulator",
+        "author": "MaskedRPGFan",
+        "plugin_version": "1.8.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\GCBugFix.dll",
+      "file_name": "GCBugFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "GC Bug Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "GC Bug Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.0.0.5",
+      "mod_version": "1.0.1.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "GCBugFix",
+        "author": "Kingeric1992",
+        "plugin_version": "2.0.0.5",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\HairSuppressionFix.dll",
+      "file_name": "HairSuppressionFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Hair Suppression Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Hair Suppression Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.3.0.0",
+      "mod_version": "1.3.0.0",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "HairSuppressionFix",
+        "author": "Uvithryn",
+        "plugin_version": "1.3.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\HorizonFix.dll",
+      "file_name": "HorizonFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Horizon Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Horizon Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "0.4.1.0",
+      "imports": [
+        "kernel32.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "HorizonFix",
+        "author": "",
+        "plugin_version": "0.4.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ImmersiveEquipmentDisplays.dll",
+      "file_name": "ImmersiveEquipmentDisplays.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Immersive Equipment Displays",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Immersive Equipment Displays",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.1.7.4",
+      "mod_version": "1.7.4.0",
+      "imports": [
+        "shell32.dll",
+        "d3dcompiler_47.dll",
+        "ole32.dll",
+        "user32.dll",
+        "kernel32.dll",
+        "imm32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "ImmersiveEquipmentDisplays",
+        "author": "SlavicPotato",
+        "plugin_version": "0.1.112.4",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.318",
+          "1.6.323"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\JContainers64.dll",
+      "file_name": "JContainers64.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "JContainers SE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "JContainers SE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "4.2.13.1",
+      "mod_version": "d2026.7.26",
+      "imports": [
+        "kernel32.dll",
+        "shell32.dll",
+        "bcrypt.dll",
+        "ws2_32.dll"
+      ],
+      "version": {
+        "name": "JContainers64",
+        "author": "silvericed, ryobg & others",
+        "plugin_version": "0.0.0.4",
+        "version_independent": false,
+        "uses_address_library": false,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null,
+        "loads_on_installed_runtime": true
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\LexiconSKSE.dll",
+      "file_name": "LexiconSKSE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Lexicon SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Lexicon SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.6.3.0",
+      "mod_version": "0.6.3.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "LexiconSKSE",
+        "author": "",
+        "plugin_version": "0.6.3",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\loki_DynamicAnimationCasting.dll",
+      "file_name": "loki_DynamicAnimationCasting.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Dynamic Animation Casting - NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Dynamic Animation Casting - NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "3.2.3.0",
+      "mod_version": "3.2.4.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "advapi32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "DynamicAnimationCasting",
+        "author": "ArcEarth",
+        "plugin_version": "3.2.3",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\MaxsuAIProcessFix.dll",
+      "file_name": "MaxsuAIProcessFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "NPC AI Process Position Fix - NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "NPC AI Process Position Fix - NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.1.1.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "PluginName",
+        "author": "",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\MCMHelper.dll",
+      "file_name": "MCMHelper.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "MCM Helper",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "MCM Helper",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.5.0.0",
+      "mod_version": "1.5.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "MCMHelper",
+        "author": "Parapets",
+        "plugin_version": "1.5.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": "2.2.5"
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\MediaKeysFix.dll",
+      "file_name": "MediaKeysFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Media Keys Fix SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Media Keys Fix SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.1.0",
+      "mod_version": "1.0.1.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "MediaKeysFix",
+        "author": "Emerson Pinter",
+        "plugin_version": "1.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\MeridianUIPlugin.dll",
+      "file_name": "MeridianUIPlugin.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Meridian UI - GPU Rendered User Interface for Skyrim - DLSS 5 Support",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Meridian UI - GPU Rendered User Interface for Skyrim - DLSS 5 Support",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.5.0.0",
+      "mod_version": "1.5.0.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "ole32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "MeridianUI",
+        "author": "ColdSun",
+        "plugin_version": "0.1.2154.5",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ModernStaggerLock.dll",
+      "file_name": "ModernStaggerLock.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Moddern.Stagger.Lock.Framework",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Moddern.Stagger.Lock.Framework",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.7.0",
+      "mod_version": "d2026.7.25",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "ModernStaggerLock",
+        "author": "",
+        "plugin_version": "1.0.7",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\MoreInformativeConsole.dll",
+      "file_name": "MoreInformativeConsole.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "More Informative Console",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "More Informative Console",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.2.2.0",
+      "mod_version": "1.2.2.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "More Informative Console",
+        "author": "Linthar",
+        "plugin_version": "1.2.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\MpClientPlugin.dll",
+      "file_name": "MpClientPlugin.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Data",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Data",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "notskse",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": null,
+      "imports": [
+        "ws2_32.dll",
+        "kernel32.dll",
+        "iphlpapi.dll"
+      ],
+      "version": null,
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\MRCrashFix.dll",
+      "file_name": "MRCrashFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "monster race crash fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "monster race crash fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.4.3.0",
+      "mod_version": "1.4.3.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "MRCrashFix",
+        "author": "",
+        "plugin_version": "1.4.3",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\msdia140.dll",
+      "file_name": "msdia140.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Crash Logger SSE AE VR - PDB support",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Crash Logger SSE AE VR - PDB support",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "notskse",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "14.51.36244.0",
+      "mod_version": null,
+      "imports": [
+        "kernel32.dll",
+        "advapi32.dll",
+        "oleaut32.dll",
+        "rpcrt4.dll"
+      ],
+      "version": null,
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\NativeEditorIDFix.dll",
+      "file_name": "NativeEditorIDFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Native EditorID Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Native EditorID Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.2.2.0",
+      "mod_version": "1.2.2.0",
+      "imports": [
+        "kernel32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "version.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "Native EditorID Fix",
+        "author": "Kitsuune",
+        "plugin_version": "0.0.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\NextGenDecapitations.dll",
+      "file_name": "NextGenDecapitations.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Next-Gen Decapitations",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Next-Gen Decapitations",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.4.3.0",
+      "mod_version": "1.4.3.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "NextGenDecapitations",
+        "author": "Seb263",
+        "plugin_version": "1.4.3",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\NGIO-NG.dll",
+      "file_name": "NGIO-NG.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "No Grass In Objects",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "No Grass In Objects",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.6.8.0",
+      "mod_version": "1.6.8.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "NGIO-NG",
+        "author": "DwemerEngineer",
+        "plugin_version": "1.6.8",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\NoOppositeGenderAnims.dll",
+      "file_name": "NoOppositeGenderAnims.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "No Opposite Gender Animations NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "No Opposite Gender Animations NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.0.0",
+      "mod_version": "1.1.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "advapi32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "NoOppositeGenderAnims",
+        "author": "",
+        "plugin_version": "1.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\OpenAnimationReplacer-IEDConditionExtensions.dll",
+      "file_name": "OpenAnimationReplacer-IEDConditionExtensions.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Open Animation Replacer - IED Conditions",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Open Animation Replacer - IED Conditions",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.2.0",
+      "mod_version": "1.0.2.0",
+      "imports": [
+        "version.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "advapi32.dll",
+        "kernel32.dll"
+      ],
+      "version": {
+        "name": "OpenAnimationReplacer-IEDConditionExtensions",
+        "author": "SlavicPotato",
+        "plugin_version": "1.0.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\OpenAnimationReplacer-Math.dll",
+      "file_name": "OpenAnimationReplacer-Math.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Open Animation Replacer - Math Plugin",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Open Animation Replacer - Math Plugin",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.3.0",
+      "mod_version": "1.0.4.0",
+      "imports": [
+        "user32.dll",
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "OpenAnimationReplacer-Math",
+        "author": "Ersh",
+        "plugin_version": "1.0.3",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\OpenAnimationReplacer.dll",
+      "file_name": "OpenAnimationReplacer.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Open Animation Replacer",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Open Animation Replacer",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "3.1.6.0",
+      "mod_version": "3.1.6.0",
+      "imports": [
+        "d3dcompiler_47.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "imm32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "OpenAnimationReplacer",
+        "author": "Ersh",
+        "plugin_version": "3.1.6",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\PairedAnimationImprovements.dll",
+      "file_name": "PairedAnimationImprovements.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Paired Animation Improvements",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Paired Animation Improvements",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.2.0",
+      "mod_version": "1.0.2.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "PairedAnimationImprovements",
+        "author": "Ersh",
+        "plugin_version": "1.0.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.1130"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\PapyrusUtil.dll",
+      "file_name": "PapyrusUtil.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "PapyrusUtil SE - Modders Scripting Utility Functions",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "PapyrusUtil SE - Modders Scripting Utility Functions",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "4.6.0.0",
+      "imports": [
+        "kernel32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "PapyrusUtil",
+        "author": "Ashal",
+        "plugin_version": "0.0.0.2",
+        "version_independent": false,
+        "uses_address_library": false,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null,
+        "loads_on_installed_runtime": true
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ParticleWind.dll",
+      "file_name": "ParticleWind.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Particle Wind - SKSE Plugin",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Particle Wind - SKSE Plugin",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.3.3.2",
+      "mod_version": "3.5.0.0",
+      "imports": [
+        "kernel32.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "ParticleWind",
+        "author": "AUTHOR_NAME",
+        "plugin_version": "0.3.3.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\PayloadInterpreter.dll",
+      "file_name": "PayloadInterpreter.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Payload Interpreter",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Payload Interpreter",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.1.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "PayloadInterpreter",
+        "author": "D7ry",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.640"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\PerkEntryPointExtender.dll",
+      "file_name": "PerkEntryPointExtender.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Perk Entry Point Extender",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Perk Entry Point Extender",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.2.4.0",
+      "mod_version": "2.2.4.6",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "PerkEntryPointExtender",
+        "author": "",
+        "plugin_version": "2.2.4.6",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_BaseObjectSwapper.dll",
+      "file_name": "po3_BaseObjectSwapper.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Base Object Swapper",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Base Object Swapper",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "3.4.1.0",
+      "mod_version": "3.4.1.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "Base Object Swapper",
+        "author": "powerofthree",
+        "plugin_version": "3.4.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_DualCastingFix.dll",
+      "file_name": "po3_DualCastingFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Dual Casting Fix",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Dual Casting Fix",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.0.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "DualCastingFix",
+        "author": "powerofthree",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.640"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_EnhancedInvisibility.dll",
+      "file_name": "po3_EnhancedInvisibility.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Enhanced Invisibility",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Enhanced Invisibility",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.4.0.0",
+      "mod_version": "1.4.1.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "Enhanced Invisibility",
+        "author": "powerofthree",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_KeywordItemDistributor.dll",
+      "file_name": "po3_KeywordItemDistributor.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Keyword Item Distributor (KID)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Keyword Item Distributor (KID)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "4.0.6.0",
+      "mod_version": "4.0.6.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "Keyword Item Distributor",
+        "author": "powerofthree",
+        "plugin_version": "4.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_MoonMod.dll",
+      "file_name": "po3_MoonMod.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Moons and Stars - Sky Overhaul SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Moons and Stars - Sky Overhaul SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.0.2.0",
+      "mod_version": "2.0.2.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "Moons And Stars",
+        "author": "powerofthree",
+        "plugin_version": "2.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.640"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_PapyrusExtender.dll",
+      "file_name": "po3_PapyrusExtender.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "powerofthree's Papyrus Extender",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "powerofthree's Papyrus Extender",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "6.4.3.0",
+      "mod_version": "6.4.3.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "powerofthree's Papyrus Extender",
+        "author": "powerofthree",
+        "plugin_version": "6.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_SimpleActivateSKSE.dll",
+      "file_name": "po3_SimpleActivateSKSE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Simple Activate SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Simple Activate SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.4.2.0",
+      "mod_version": "1.4.2.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "SimpleActivateSKSE",
+        "author": "powerofthree",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1130"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_SpellPerkItemDistributor.dll",
+      "file_name": "po3_SpellPerkItemDistributor.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Spell Perk Item Distributor (SPID)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Spell Perk Item Distributor (SPID)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "7.3.2.0",
+      "mod_version": "7.3.2.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "Spell Perk Item Distributor",
+        "author": "powerofthree",
+        "plugin_version": "7.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\po3_Tweaks.dll",
+      "file_name": "po3_Tweaks.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "powerofthree's Tweaks",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "powerofthree's Tweaks",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.16.0.0",
+      "mod_version": "1.16.0.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "po3_Tweaks",
+        "author": "powerofthree",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\PortalLightsRuntimePatcher.dll",
+      "file_name": "PortalLightsRuntimePatcher.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Portal Strict Lights Patcher Framework (SKSE)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Portal Strict Lights Patcher Framework (SKSE)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.1.0",
+      "mod_version": "1.1.1.1",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "PortalLightsRuntimePatcher",
+        "author": "Alaxouche",
+        "plugin_version": "1.1.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\Precision.dll",
+      "file_name": "Precision.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Precision - Accurate Melee Collisions",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Precision - Accurate Melee Collisions",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.0.4.0",
+      "mod_version": "2.0.4.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "d3dcompiler_47.dll",
+        "winmm.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "Precision",
+        "author": "Ersh",
+        "plugin_version": "2.0.4",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.678"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\PreSSEDisplayTweaks.dll",
+      "file_name": "PreSSEDisplayTweaks.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Auto Resolution",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Auto Resolution",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.0.0",
+      "mod_version": "1.1.0.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "PreSSEDisplayTweaks",
+        "author": "AUTHOR_NAME",
+        "plugin_version": "1.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\PrismaUI.dll",
+      "file_name": "PrismaUI.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Prisma UI - Next-Gen Web UI Framework",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Prisma UI - Next-Gen Web UI Framework",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.4.1.0",
+      "imports": [
+        "comctl32.dll",
+        "imm32.dll",
+        "ole32.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "version.dll",
+        "shell32.dll",
+        "appcore.dll",
+        "ultralight.dll",
+        "ultralightcore.dll",
+        "webcore.dll"
+      ],
+      "version": {
+        "name": "PrismaUI",
+        "author": "StarkMP <discord: starkmp>",
+        "plugin_version": "1.4.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": "2.0.1.4"
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\Relight.dll",
+      "file_name": "Relight.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "ReLight",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "ReLight",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "7.1.0.0",
+      "imports": [
+        "kernel32.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "Relight",
+        "author": "AUTHOR_NAME",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\RimLightingRemoved.dll",
+      "file_name": "RimLightingRemoved.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Rim Lighting Removed",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Rim Lighting Removed",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.0.0",
+      "mod_version": "1.1.0.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "RimLightingRemoved",
+        "author": "SkyHorizon",
+        "plugin_version": "1.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SanguineSymphony.dll",
+      "file_name": "SanguineSymphony.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Sanguine Symphony",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Sanguine Symphony",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.3.0.0",
+      "mod_version": "1.3.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "user32.dll"
+      ],
+      "version": {
+        "name": "SanguineSymphony",
+        "author": "Seb263",
+        "plugin_version": "1.3.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SCAR.dll",
+      "file_name": "SCAR.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "SCAR",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "SCAR",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.0.1.0",
+      "mod_version": "d2026.7.25.0",
+      "imports": [
+        "ole32.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "SCAR",
+        "author": "",
+        "plugin_version": "2.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ScrambledBugs.dll",
+      "file_name": "ScrambledBugs.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Scrambled Bugs",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Scrambled Bugs",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.0.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "Scrambled Bugs",
+        "author": "KernalsEgg",
+        "plugin_version": "0.0.1.5",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ScriptEffectArchetypeCrashFix.dll",
+      "file_name": "ScriptEffectArchetypeCrashFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Scrambled Bugs",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Scrambled Bugs",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.0.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "Script Effect Archetype Crash Fix",
+        "author": "KernalsEgg",
+        "plugin_version": "0.0.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\ShowRaceMenu-NG.dll",
+      "file_name": "ShowRaceMenu-NG.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "ShowRaceMenu - NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "ShowRaceMenu - NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.4.0",
+      "mod_version": "1.0.4.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "ShowRaceMenu-NG",
+        "author": "Seb263",
+        "plugin_version": "1.0.4",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SimpleDiving.dll",
+      "file_name": "SimpleDiving.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Simple Diving System (SDS) - Dive Into Water Animations and Modder Resource",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Simple Diving System (SDS) - Dive Into Water Animations and Modder Resource",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.0.3.0",
+      "imports": [
+        "ole32.dll",
+        "kernel32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "version.dll",
+        "user32.dll"
+      ],
+      "version": {
+        "name": "SimpleDiving",
+        "author": "",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SimpleDualSheath.dll",
+      "file_name": "SimpleDualSheath.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Simple Dual Sheath",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Simple Dual Sheath",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.1.5.7",
+      "mod_version": "1.5.7.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "version.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "SimpleDualSheath",
+        "author": "SlavicPotato",
+        "plugin_version": "0.1.80.7",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.318",
+          "1.6.323"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SimpleEdgeRemoverNG.dll",
+      "file_name": "SimpleEdgeRemoverNG.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Simple Edge Glow Remover NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Simple Edge Glow Remover NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.0.0.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "SimpleEdgeRemoverNG",
+        "author": "",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SkeletonAutoPatch.dll",
+      "file_name": "SkeletonAutoPatch.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Auto Skeleton Patch - Universal Behaviour Runtime",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Auto Skeleton Patch - Universal Behaviour Runtime",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.0.4.0",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "SkeletonAutoPatch",
+        "author": "monitor221hz",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SKSE_ISL.dll",
+      "file_name": "SKSE_ISL.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "ISL Helper SKSE",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "ISL Helper SKSE",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.0.5.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "SKSE_ISL",
+        "author": "Community",
+        "plugin_version": "0.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SkyParkourNG.dll",
+      "file_name": "SkyParkourNG.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "3.5.4.0",
+      "mod_version": "3.5.0.0",
+      "imports": [
+        "ole32.dll",
+        "kernel32.dll",
+        "shell32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "version.dll",
+        "user32.dll"
+      ],
+      "version": {
+        "name": "SkyParkourNG",
+        "author": "Tsptds",
+        "plugin_version": "3.5.4",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SkyrimPlatform.dll",
+      "file_name": "SkyrimPlatform.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "AETHERIUS - MERIDIAN - COMPATIBILIDADE",
+      "provider_kind": "loose",
+      "provider_count": 2,
+      "providers": [
+        {
+          "name": "AETHERIUS - MERIDIAN - COMPATIBILIDADE",
+          "kind": "loose"
+        },
+        {
+          "name": "Data",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.9.0.0",
+      "mod_version": null,
+      "imports": [
+        "kernel32.dll",
+        "user32.dll"
+      ],
+      "version": {
+        "name": "SkyrimPlatform",
+        "author": "SkyMP Team and Contributors",
+        "plugin_version": "2.9.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SkyrimSoulsRE.dll",
+      "file_name": "SkyrimSoulsRE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Skyrim Souls RE - Unpaused Menus",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Skyrim Souls RE - Unpaused Menus",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "3.1.2.0",
+      "mod_version": "3.1.2.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "SkyrimSoulsRE",
+        "author": "Vermunds",
+        "plugin_version": "3.1.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.1170",
+          "1.6.1179"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SkyrimWaterInertia.dll",
+      "file_name": "SkyrimWaterInertia.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Skyrim Water Inertia",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Skyrim Water Inertia",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.4.1.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "SkyrimWaterInertia",
+        "author": "BSoD38",
+        "plugin_version": "1.4.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SmoothCam.dll",
+      "file_name": "SmoothCam.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "SmoothCam",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "SmoothCam",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.7.1.0",
+      "imports": [
+        "kernel32.dll",
+        "user32.dll",
+        "version.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "SmoothCam",
+        "author": "mwilsnd",
+        "plugin_version": "0.0.1.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [
+          "1.6.640"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SSEDisplayTweaks.dll",
+      "file_name": "SSEDisplayTweaks.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "SSE Display Tweaks",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "SSE Display Tweaks",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "0.0.5.16",
+      "mod_version": "0.5.16.0",
+      "imports": [
+        "kernel32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "version.dll",
+        "ole32.dll",
+        "api-ms-win-crt-math-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "SSEDisplayTweaks",
+        "author": "SlavicPotato",
+        "plugin_version": "0.0.81",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.318",
+          "1.6.323",
+          "1.6.1130"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\STB_ActiveEffects.dll",
+      "file_name": "STB_ActiveEffects.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "STB Active Effects",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "STB Active Effects",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.9.0.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "STB_ActiveEffects",
+        "author": "STB",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.5.1330"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\STB_SystemPage.dll",
+      "file_name": "STB_SystemPage.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "STB System Page",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "STB System Page",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.0.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "STB_SystemPage",
+        "author": "STB",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.678"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\STB_Widgets.dll",
+      "file_name": "STB_Widgets.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "STB Widgets",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "STB Widgets",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "2.7.0.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "STB_Widgets",
+        "author": "STB",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.5.1330"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\SurvivalControlPanel.dll",
+      "file_name": "SurvivalControlPanel.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Survival Control Panel",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Survival Control Panel",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.1.0",
+      "mod_version": "1.1.2.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll"
+      ],
+      "version": {
+        "name": "SurvivalControlPanel",
+        "author": "Parapets and colinswrath",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\TextureDownscaler.dll",
+      "file_name": "TextureDownscaler.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Texture Downscaler",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Texture Downscaler",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "2.3.2.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "msvcp140_atomic_wait.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "TextureDownscaler",
+        "author": "RoseEden",
+        "plugin_version": "2.3.2",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\TKDA.dll",
+      "file_name": "TKDA.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "TK Dodge Attack",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "TK Dodge Attack",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.0.1.0",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "TKDA",
+        "author": "orehomu",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\TK_Dodge_RE.dll",
+      "file_name": "TK_Dodge_RE.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "TK Dodge NG",
+      "provider_kind": "loose",
+      "provider_count": 2,
+      "providers": [
+        {
+          "name": "TK Dodge NG",
+          "kind": "loose"
+        },
+        {
+          "name": "TK Dodge RE - Script Free",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.0.0",
+      "mod_version": "1.1.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "TK_Dodge_RE",
+        "author": "",
+        "plugin_version": "1.1.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\TrueDirectionalMovement.dll",
+      "file_name": "TrueDirectionalMovement.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "True Directional Movement - Modernized Third Person Gameplay",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "True Directional Movement - Modernized Third Person Gameplay",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.2.7.0",
+      "mod_version": "2.2.7.0",
+      "imports": [
+        "dbghelp.dll",
+        "version.dll",
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "TrueDirectionalMovement",
+        "author": "Ersh",
+        "plugin_version": "2.2.7",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.1170"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\TrueHUD.dll",
+      "file_name": "TrueHUD.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "TrueHUD - HUD Additions",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "TrueHUD - HUD Additions",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.9.0",
+      "mod_version": "1.1.9.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "shell32.dll",
+        "ole32.dll",
+        "msvcp140.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "TrueHUD",
+        "author": "Ersh",
+        "plugin_version": "1.1.9",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.6.1130"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\UAPNG.dll",
+      "file_name": "UAPNG.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Ultimate Animated Potions NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Ultimate Animated Potions NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "2.8.0.0",
+      "mod_version": "2.8.0.0",
+      "imports": [
+        "kernel32.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "UAPNG",
+        "author": "AUTHOR_NAME",
+        "plugin_version": "2.8.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\VariadicCollisionDynamics.dll",
+      "file_name": "VariadicCollisionDynamics.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Variadic Collision Dynamics",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Variadic Collision Dynamics",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.0.0",
+      "mod_version": "1.3.4.0",
+      "imports": [
+        "kernel32.dll",
+        "advapi32.dll",
+        "bcrypt.dll",
+        "d3d11.dll",
+        "d3dcompiler_47.dll",
+        "dbghelp.dll",
+        "dxgi.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "VariadicCollisionDynamics",
+        "author": "AUTHOR_NAME",
+        "plugin_version": "1.0.0",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\VendorRespawnFix.dll",
+      "file_name": "VendorRespawnFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Scrambled Bugs",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Scrambled Bugs",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": null,
+      "mod_version": "1.0.0.0",
+      "imports": [
+        "version.dll",
+        "kernel32.dll",
+        "user32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll"
+      ],
+      "version": {
+        "name": "Vendor Respawn Fix",
+        "author": "KernalsEgg",
+        "plugin_version": "0.0.0.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\WaterCollisionCrashFix.dll",
+      "file_name": "WaterCollisionCrashFix.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Water Collision Crash Fix NG",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Water Collision Crash Fix NG",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.1.1.0",
+      "mod_version": "1.1.1.0",
+      "imports": [
+        "msvcp140.dll",
+        "kernel32.dll",
+        "vcruntime140.dll",
+        "vcruntime140_1.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "shell32.dll",
+        "user32.dll",
+        "version.dll"
+      ],
+      "version": {
+        "name": "WaterCollisionCrashFix",
+        "author": "monitor221hz",
+        "plugin_version": "1.1.1",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": false,
+        "declares_no_structs": true,
+        "compatible_versions": [
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0",
+          "1.0.0"
+        ],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    },
+    {
+      "rel_path": "SKSE\\Plugins\\WidescreenScaleRemoved.dll",
+      "file_name": "WidescreenScaleRemoved.dll",
+      "group": "",
+      "loader_scoped": true,
+      "winning_provider": "Widescreen Scale Removed for 1-6-1130 and higher",
+      "provider_kind": "loose",
+      "provider_count": 1,
+      "providers": [
+        {
+          "name": "Widescreen Scale Removed for 1-6-1130 and higher",
+          "kind": "loose"
+        }
+      ],
+      "note": null,
+      "kind": "modern",
+      "is_64bit": true,
+      "debug_crt_imports": [],
+      "file_version": "1.0.4.0",
+      "mod_version": "1.0.4.0",
+      "imports": [
+        "kernel32.dll",
+        "msvcp140.dll",
+        "vcruntime140_1.dll",
+        "vcruntime140.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-multibyte-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-locale-l1-1-0.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "ole32.dll",
+        "version.dll",
+        "user32.dll",
+        "shell32.dll"
+      ],
+      "version": {
+        "name": "WidescreenScaleRemoved",
+        "author": "SkyHorizon",
+        "plugin_version": "1.0.4",
+        "version_independent": true,
+        "uses_address_library": true,
+        "uses_signature_scanning": false,
+        "uses_updated_structs": true,
+        "declares_no_structs": false,
+        "compatible_versions": [],
+        "minimum_xse_version": null
+      },
+      "peek": null
+    }
+  ],
+  "configs": [],
+  "config_folders": [
+    {
+      "folder": "ReLight",
+      "files": 268,
+      "providers": [
+        "AETHERIUS - OVERWRITE",
+        "Emberveil Lighting - A Cinematic ReLight Preset"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "DynamicWind",
+      "files": 267,
+      "providers": [
+        "Dynamic Wind - Skyrim",
+        "Dynamic Wind Framework - SKSE Plugin",
+        "Dynamic Wind - Happy Little Trees Patch"
+      ],
+      "contested": 25
+    },
+    {
+      "folder": "SkyPatcher",
+      "files": 195,
+      "providers": [
+        "Sentinel - An Equipment Overhaul",
+        "Styles of Skyrim - Alchemist Outfit Variations",
+        "Grimoire - An Enchanting Addon for Sentinel",
+        "NordwarUA Steel Plate Armors - Sentinel Addon"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "(top level)",
+      "files": 79,
+      "providers": [
+        "Actor Limit Fix",
+        "Aetherius UI - Untarnished Baseline",
+        "Alt-Tab Stuck Key Fix",
+        "Animation Motion Revolution",
+        "Auto Parallax",
+        "Flat World Map Framework (FWMF)",
+        "Behavior Data Injector",
+        "Blade and Blunt - Armor Rating Scaling Standalone",
+        "Bug Fixes SSE",
+        "Cold Breath NG",
+        "Collision Sentinel - Crash Fix",
+        "AETHERIUS - SHADERCACHE",
+        "Core Impact Framework (CIF)",
+        "AETHERIUS - OVERWRITE",
+        "Disabled Reference Integrity Fix (SKSE)",
+        "Dismembering Framework",
+        "Dual Wield Parrying SKSE",
+        "Dynamic Armor Physics",
+        "Dynamic Bloodpool Framework",
+        "STB Active Effects",
+        "SSE Engine Fixes (skse64 plugin)",
+        "For Honor Power Attack",
+        "GC Bug Fix",
+        "Horizon Fix",
+        "Immersive Equipment Displays",
+        "Lexicon SKSE",
+        "Media Keys Fix SKSE",
+        "Meridian UI - GPU Rendered User Interface for Skyrim - DLSS 5 Support",
+        "Moddern.Stagger.Lock.Framework",
+        "More Informative Console",
+        "Native EditorID Fix",
+        "Next-Gen Decapitations",
+        "Particle Wind - SKSE Plugin",
+        "360 Ward",
+        "Enhanced Invisibility",
+        "Keyword Item Distributor (KID)",
+        "Rudy ENB SE for Obsidian Weathers - LUX - ELFX",
+        "Simple Activate SKSE",
+        "Portal Strict Lights Patcher Framework (SKSE)",
+        "Auto Resolution",
+        "Emberveil Lighting - A Cinematic ReLight Preset",
+        "Rim Lighting Removed",
+        "Sanguine Symphony",
+        "SCAR",
+        "Scrambled Bugs",
+        "ShowRaceMenu - NG",
+        "For Honor Reforged",
+        "Simple Dual Sheath",
+        "Simple Edge Glow Remover NG",
+        "ISL Helper SKSE",
+        "SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)",
+        "AETHERIUS - MERIDIAN - COMPATIBILIDADE",
+        "Skyrim Souls RE - Unpaused Menus",
+        "Vagabond Remastered - Modlist Resources",
+        "SSE Display Tweaks",
+        "DisplayTweaks settings for Frame Generation (CS or ENB)",
+        "STB System Page",
+        "STB Widgets",
+        "Texture Downscaler",
+        "TK Dodge NG",
+        "TK Dodge Attack",
+        "Ultimate Animated Potions NG",
+        "Widescreen Scale Removed for 1-6-1130 and higher"
+      ],
+      "contested": 6
+    },
+    {
+      "folder": "IED",
+      "files": 59,
+      "providers": [
+        "Immersive Equipment Displays",
+        "Ready to Play IED",
+        "Missile's IED Preset - Immersive Equipment Displays",
+        "AETHERIUS - OVERWRITE"
+      ],
+      "contested": 1
+    },
+    {
+      "folder": "VariadicCollisionDynamics",
+      "files": 23,
+      "providers": [
+        "Variadic Collision Dynamics - Resources",
+        "AETHERIUS - CUSTOM SETTINGS",
+        "Variadic Collision Dynamics"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "CommunityShaders",
+      "files": 19,
+      "providers": [
+        "Bottled Shaders",
+        "AETHERIUS - SHADERCACHE"
+      ],
+      "contested": 2
+    },
+    {
+      "folder": "CraftingCategories",
+      "files": 12,
+      "providers": [
+        "Constructible Object Custom Keyword System",
+        "Sentinel - An Equipment Overhaul",
+        "Sorcerer - A Staff and Scroll Overhaul"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "Tullius Ctd Logs",
+      "files": 12,
+      "providers": [
+        "AETHERIUS - OVERWRITE"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "SIF",
+      "files": 11,
+      "providers": [
+        "For Honor Reforged"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "BehaviorDataInjector",
+      "files": 9,
+      "providers": [
+        "BFCO - Attack Behavior Framework (SSE AE VR)",
+        "Directional Movement Keys - DMK",
+        "Dynamic Sprint",
+        "For Honor Reforged",
+        "Precision - Accurate Melee Collisions",
+        "SCAR",
+        "Simple Diving System (SDS) - Dive Into Water Animations and Modder Resource",
+        "Smooth Moveset - OAR",
+        "Behavior Data Injector"
+      ],
+      "contested": 1
+    },
+    {
+      "folder": "_DynamicAnimationCasting",
+      "files": 6,
+      "providers": [
+        "Dynamic Sprint",
+        "For Honor Reforged",
+        "For Honor in Skyrim",
+        "Smooth Moveset - OAR",
+        "Dynamic Animation Casting - NG"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "ActorValueData",
+      "files": 5,
+      "providers": [
+        "Actor Value Generator",
+        "Comprehensive Attack Rate Patch - SKSE"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "Animated_Interactions",
+      "files": 3,
+      "providers": [
+        "Animated Interactions SKSE"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "ModernStaggerLock",
+      "files": 3,
+      "providers": [
+        "Moddern.Stagger.Lock.Framework"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "STBActiveEffectsInfo",
+      "files": 3,
+      "providers": [
+        "STB Active Effects"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "TrueHUD",
+      "files": 3,
+      "providers": [
+        "Humanoid Dragon Priests",
+        "TrueHUD - HUD Additions",
+        "TrueHUD Curated Bosses"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "Unused",
+      "files": 3,
+      "providers": [
+        "For Honor Reforged"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "ParticleWind",
+      "files": 2,
+      "providers": [
+        "Particle Wind - SKSE Plugin",
+        "Particle Wind - Exclude magic"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "Precision",
+      "files": 2,
+      "providers": [
+        "Precision - Accurate Melee Collisions",
+        "For Honor Reforged"
+      ],
+      "contested": 1
+    },
+    {
+      "folder": "DynamicArmorVariants",
+      "files": 1,
+      "providers": [
+        "Sentinel - An Equipment Overhaul"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "fnis_aa",
+      "files": 1,
+      "providers": [
+        "Pandora - Output"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "FPInertia",
+      "files": 1,
+      "providers": [
+        "AETHERIUS - OVERWRITE"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "InventoryInjector",
+      "files": 1,
+      "providers": [
+        "Sorcerer - A Staff and Scroll Overhaul"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "MaxsuAIProcessFixFiles",
+      "files": 1,
+      "providers": [
+        "NPC AI Process Position Fix - NG"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "MCMCreator",
+      "files": 1,
+      "providers": [
+        "EVG CLAMBER - Slope Animations"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "SkeletonAutoPatch",
+      "files": 1,
+      "providers": [
+        "Auto Skeleton Patch - Universal Behaviour Runtime"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "StorageUtilData",
+      "files": 1,
+      "providers": [
+        "First Person Interactions"
+      ],
+      "contested": 0
+    },
+    {
+      "folder": "TrueDirectionalMovement",
+      "files": 1,
+      "providers": [
+        "True Directional Movement - Modernized Third Person Gameplay"
+      ],
+      "contested": 0
+    }
+  ],
+  "caveats": {
+    "read_incomplete": false,
+    "warnings": [
+      "could not read the [Archive] sResourceArchiveList from a Skyrim.ini (looked in the profile folder and the game dir) — the base-game BSAs (Skyrim - Textures*.bsa, etc.) are NOT in the asset scan, so an asset present ONLY in a vanilla archive may read as absent. If your MO2 uses profile-specific INIs, make sure the active profile has a Skyrim.ini."
+    ],
+    "archive_read_failures": []
+  },
+  "accounting": {
+    "total": 111,
+    "rendered": 111,
+    "skipped": 0,
+    "capped": 0,
+    "truncated": 0,
+    "offset": 0,
+    "remaining": 0,
+    "notes": 1
+  }
+}

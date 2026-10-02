@@ -1,0 +1,724 @@
+{
+  "AETHERIUS - INIMIGOS.esp/Npc": {
+    "formid": "02025A:Skyrim.esm",
+    "type": "Npc",
+    "editorid": "EncDragonPriestFire",
+    "reference": "AETHERIUS - INIMIGOS.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "Skyrim Revamped - Complete Enemy Overhaul.esp",
+      "Humanoid Dragon Priest.esp",
+      "AETHERIUS - INIMIGOS.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Configuration.Level.Level=50 (AETHERIUS - INIMIGOS.esp 70)",
+          "PlayerSkills.Health=1490 (AETHERIUS - INIMIGOS.esp 1690)",
+          "PlayerSkills.Magicka=545 (AETHERIUS - INIMIGOS.esp 645)",
+          "Race=0131EF:Skyrim.esm (AETHERIUS - INIMIGOS.esp 000858:Humanoid Dragon Priest.esp)",
+          "DefaultOutfit: ABSENT here (AETHERIUS - INIMIGOS.esp has 000892:Humanoid Dragon Priest.esp)",
+          "Perks: 9 vs AETHERIUS - INIMIGOS.esp 13 item(s) — only here: [0] Perk=053128:Skyrim.esm, Rank=1, Fluff=AB5716; [1] Perk=0D799A:Skyrim.esm, Rank=1, Fluff=AB5716 (+7 more element(s)); only in AETHERIUS - INIMIGOS.esp: [0] Perk=0153CF:Skyrim.esm, Rank=1, Fluff=000000; [1] Perk=05312A:Skyrim.esm, Rank=1, Fluff=000000 (+11 more element(s))"
+        ],
+        "delta_count": 6,
+        "agreed_count": 54
+      },
+      {
+        "plugin": "Skyrim Revamped - Complete Enemy Overhaul.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "PlayerSkills.Unused=16748 (AETHERIUS - INIMIGOS.esp 2)",
+          "PlayerSkills.Unused2=002EA4 (AETHERIUS - INIMIGOS.esp 7E5400)",
+          "Race=0131EF:Skyrim.esm (AETHERIUS - INIMIGOS.esp 000858:Humanoid Dragon Priest.esp)",
+          "MajorFlags=537133056 (AETHERIUS - INIMIGOS.esp 262144)",
+          "DefaultOutfit: ABSENT here (AETHERIUS - INIMIGOS.esp has 000892:Humanoid Dragon Priest.esp)",
+          "Perks: same 13 item(s), ORDER DIFFERS from AETHERIUS - INIMIGOS.esp"
+        ],
+        "delta_count": 6,
+        "agreed_count": 54
+      },
+      {
+        "plugin": "Humanoid Dragon Priest.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Configuration.Level.Level=50 (AETHERIUS - INIMIGOS.esp 70)",
+          "PlayerSkills.Health=1490 (AETHERIUS - INIMIGOS.esp 1690)",
+          "PlayerSkills.Magicka=545 (AETHERIUS - INIMIGOS.esp 645)",
+          "Perks: 9 vs AETHERIUS - INIMIGOS.esp 13 item(s) — only here: [0] Perk=053128:Skyrim.esm, Rank=1, Fluff=AB5716; [1] Perk=0581F5:Skyrim.esm, Rank=1, Fluff=AB5716 (+7 more element(s)); only in AETHERIUS - INIMIGOS.esp: [0] Perk=0153CF:Skyrim.esm, Rank=1, Fluff=000000; [1] Perk=05312A:Skyrim.esm, Rank=1, Fluff=000000 (+11 more element(s))"
+        ],
+        "delta_count": 4,
+        "agreed_count": 56
+      },
+      {
+        "plugin": "AETHERIUS - INIMIGOS.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - BALANCE.esp/Spell": {
+    "formid": "07A82B:Skyrim.esm",
+    "type": "Spell",
+    "editorid": "MAG_FireStorm",
+    "reference": "AETHERIUS - BALANCE.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "MysticismMagic.esp",
+      "MysticismTwoHanded.esp",
+      "AETHERIUS - BALANCE.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Flags=NoDualCastModification (AETHERIUS - BALANCE.esp ManualCostCalc, AreaEffectIgnoresLOS)",
+          "BaseCost=1426 (AETHERIUS - BALANCE.esp 665)",
+          "ChargeTime=0 (AETHERIUS - BALANCE.esp 6)",
+          "Effects: 4 vs AETHERIUS - BALANCE.esp 7 item(s) — only here: [0] BaseEffect=07A82A:Skyrim.esm, Data=[EffectData], Data.Magnitude=100 (+3 more field(s)); [1] BaseEffect=082A33:Skyrim.esm, Data=[EffectData], Data.Magnitude=75 (+3 more field(s)) (+2 more element(s)); only in AETHERIUS - BALANCE.esp: [0] BaseEffect=07A82A:Skyrim.esm, Data=[EffectData], Data.Magnitude=60 (+3 more field(s)); [1] BaseEffect=082A33:Skyrim.esm, Data=[EffectData], Data.Magnitude=20 (+3 more field(s)) (+5 more element(s))"
+        ],
+        "delta_count": 4,
+        "agreed_count": 7
+      },
+      {
+        "plugin": "MysticismMagic.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "EquipmentType=013F44:Skyrim.esm (AETHERIUS - BALANCE.esp 013F45:Skyrim.esm)",
+          "ChargeTime=1.5 (AETHERIUS - BALANCE.esp 6)"
+        ],
+        "delta_count": 2,
+        "agreed_count": 8
+      },
+      {
+        "plugin": "MysticismTwoHanded.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "ChargeTime=1.5 (AETHERIUS - BALANCE.esp 6)"
+        ],
+        "delta_count": 1,
+        "agreed_count": 9
+      },
+      {
+        "plugin": "AETHERIUS - BALANCE.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - BALANCE.esp/MagicEffect": {
+    "formid": "25FBFD:MysticismMagic.esp",
+    "type": "MagicEffect",
+    "editorid": "MAG_SunDamageFFSelfArea60",
+    "reference": "AETHERIUS - BALANCE.esp",
+    "touchers": [
+      "MysticismMagic.esp",
+      "MysticismTwoHanded.esp",
+      "Mysticism - Vokrii Compatibility Patch.esp",
+      "AETHERIUS - BALANCE.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "MysticismMagic.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Conditions: 4 vs AETHERIUS - BALANCE.esp 5 item(s) — only here: [1] ComparisonValue=1, Data=[HasKeywordConditionData] Reference=Null, Data.Keyword=028FDE:Dragonborn.esm (+21 more field(s)); only in AETHERIUS - BALANCE.esp: [1] ComparisonValue=1, Data=[HasKeywordConditionData] Reference=Null, Data.Keyword=028FDE:Dragonborn.esm (+21 more field(s)); [4] ComparisonValue=1, Data=[HasPerkConditionData] Reference=Null, Data.Perk=0B2851:Vokrii - Minimalistic Perks of Skyrim.esp (+21 more field(s))",
+          "Keywords: 2 vs AETHERIUS - BALANCE.esp 4 item(s) — only in AETHERIUS - BALANCE.esp: [2] 24775E:Vokrii - Minimalistic Perks of Skyrim.esp; [3] 0806E1:Skyrim.esm"
+        ],
+        "delta_count": 2,
+        "agreed_count": 8
+      },
+      {
+        "plugin": "MysticismTwoHanded.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Conditions: 4 vs AETHERIUS - BALANCE.esp 5 item(s) — only here: [1] ComparisonValue=1, Data=[HasKeywordConditionData] Reference=Null, Data.Keyword=028FDE:Dragonborn.esm (+21 more field(s)); only in AETHERIUS - BALANCE.esp: [1] ComparisonValue=1, Data=[HasKeywordConditionData] Reference=Null, Data.Keyword=028FDE:Dragonborn.esm (+21 more field(s)); [4] ComparisonValue=1, Data=[HasPerkConditionData] Reference=Null, Data.Perk=0B2851:Vokrii - Minimalistic Perks of Skyrim.esp (+21 more field(s))",
+          "Keywords: 3 vs AETHERIUS - BALANCE.esp 4 item(s) — only in AETHERIUS - BALANCE.esp: [2] 24775E:Vokrii - Minimalistic Perks of Skyrim.esp"
+        ],
+        "delta_count": 2,
+        "agreed_count": 8
+      },
+      {
+        "plugin": "Mysticism - Vokrii Compatibility Patch.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Conditions: 5 vs AETHERIUS - BALANCE.esp 5 item(s), contents differ — only here: [1] ComparisonValue=1, Data=[HasKeywordConditionData] Reference=Null, Data.Keyword=028FDE:Dragonborn.esm (+21 more field(s)); [4] ComparisonValue=1, Data=[HasPerkConditionData] Reference=Null, Data.Perk=0B2851:Vokrii - Minimalistic Perks of Skyrim.esp (+21 more field(s)); only in AETHERIUS - BALANCE.esp: [1] ComparisonValue=1, Data=[HasKeywordConditionData] Reference=Null, Data.Keyword=028FDE:Dragonborn.esm (+21 more field(s)); [4] ComparisonValue=1, Data=[HasPerkConditionData] Reference=Null, Data.Perk=0B2851:Vokrii - Minimalistic Perks of Skyrim.esp (+21 more field(s))",
+          "Keywords: 3 vs AETHERIUS - BALANCE.esp 4 item(s) — only in AETHERIUS - BALANCE.esp: [3] 0806E1:Skyrim.esm"
+        ],
+        "delta_count": 2,
+        "agreed_count": 8
+      },
+      {
+        "plugin": "AETHERIUS - BALANCE.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - BALANCE.esp/Race": {
+    "formid": "013740:Skyrim.esm",
+    "type": "Race",
+    "editorid": "ArgonianRace",
+    "reference": "AETHERIUS - BALANCE.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "Update.esm",
+      "unofficial skyrim special edition patch.esp",
+      "Apachii_DivineEleganceStore_Patch.esp",
+      "Apachii_DivineEleganceStore_Dawnguard_Patch.esp",
+      "Racial Body Morphs - Extreme.esp",
+      "Aetherius.esp",
+      "Aetherius Patch - Racial Body Morphs.esp",
+      "AETHERIUS - BALANCE.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "BodyTemplate.FirstPersonFlags=Body, Hands, Forearms, Ring, Shield, FX01 (AETHERIUS - BALANCE.esp 4113564252)",
+          "ActorEffect: 3 vs AETHERIUS - BALANCE.esp 5 item(s) — only in AETHERIUS - BALANCE.esp: [3] 000828:Aetherius.esp; [4] 000837:Aetherius.esp"
+        ],
+        "delta_count": 2,
+        "agreed_count": 11
+      },
+      {
+        "plugin": "Update.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "BodyTemplate.FirstPersonFlags=Body, Hands, Forearms, Ring, Shield, FX01 (AETHERIUS - BALANCE.esp 4113564252)",
+          "ActorEffect: 3 vs AETHERIUS - BALANCE.esp 5 item(s) — only in AETHERIUS - BALANCE.esp: [3] 000828:Aetherius.esp; [4] 000837:Aetherius.esp"
+        ],
+        "delta_count": 2,
+        "agreed_count": 11
+      },
+      {
+        "plugin": "unofficial skyrim special edition patch.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "BodyTemplate.FirstPersonFlags=Body, Hands, Forearms, Ring, Shield, FX01 (AETHERIUS - BALANCE.esp 4113564252)",
+          "ActorEffect: 3 vs AETHERIUS - BALANCE.esp 5 item(s) — only in AETHERIUS - BALANCE.esp: [3] 000828:Aetherius.esp; [4] 000837:Aetherius.esp"
+        ],
+        "delta_count": 2,
+        "agreed_count": 11
+      },
+      {
+        "plugin": "Apachii_DivineEleganceStore_Patch.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "BodyTemplate.FirstPersonFlags=3489661532 (AETHERIUS - BALANCE.esp 4113564252)",
+          "ActorEffect: 3 vs AETHERIUS - BALANCE.esp 5 item(s) — only in AETHERIUS - BALANCE.esp: [3] 000828:Aetherius.esp; [4] 000837:Aetherius.esp"
+        ],
+        "delta_count": 2,
+        "agreed_count": 11
+      },
+      {
+        "plugin": "Apachii_DivineEleganceStore_Dawnguard_Patch.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "BodyTemplate.FirstPersonFlags=3489661532 (AETHERIUS - BALANCE.esp 4113564252)",
+          "ActorEffect: 3 vs AETHERIUS - BALANCE.esp 5 item(s) — only in AETHERIUS - BALANCE.esp: [3] 000828:Aetherius.esp; [4] 000837:Aetherius.esp"
+        ],
+        "delta_count": 2,
+        "agreed_count": 11
+      },
+      {
+        "plugin": "Racial Body Morphs - Extreme.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "BodyTemplate.FirstPersonFlags=Body, Hands, Forearms, Ring, Shield, FX01 (AETHERIUS - BALANCE.esp 4113564252)",
+          "ActorEffect: 3 vs AETHERIUS - BALANCE.esp 5 item(s) — only in AETHERIUS - BALANCE.esp: [3] 000828:Aetherius.esp; [4] 000837:Aetherius.esp"
+        ],
+        "delta_count": 2,
+        "agreed_count": 11
+      },
+      {
+        "plugin": "Aetherius.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "BodyTemplate.FirstPersonFlags=Body, Hands, Forearms, Ring, Shield, FX01 (AETHERIUS - BALANCE.esp 4113564252)",
+          "ActorEffect: same 5 item(s), ORDER DIFFERS from AETHERIUS - BALANCE.esp"
+        ],
+        "delta_count": 2,
+        "agreed_count": 11
+      },
+      {
+        "plugin": "Aetherius Patch - Racial Body Morphs.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "BodyTemplate.FirstPersonFlags=3845145180 (AETHERIUS - BALANCE.esp 4113564252)"
+        ],
+        "delta_count": 1,
+        "agreed_count": 11
+      },
+      {
+        "plugin": "AETHERIUS - BALANCE.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - BALANCE.esp/EncounterZone": {
+    "formid": "016F87:Skyrim.esm",
+    "type": "EncounterZone",
+    "editorid": "BloodletThroneZone",
+    "reference": "AETHERIUS - BALANCE.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "Open World Loot.esp",
+      "AETHERIUS - BALANCE.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "MinLevel=6 (AETHERIUS - BALANCE.esp 40)",
+          "MaxLevel=0 (AETHERIUS - BALANCE.esp 80)"
+        ],
+        "delta_count": 2,
+        "agreed_count": 2
+      },
+      {
+        "plugin": "Open World Loot.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "MinLevel=25 (AETHERIUS - BALANCE.esp 40)"
+        ],
+        "delta_count": 1,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "AETHERIUS - BALANCE.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - BALANCE.esp/Ingredient": {
+    "formid": "034CDD:Skyrim.esm",
+    "type": "Ingredient",
+    "editorid": "MAG_BoneMeal",
+    "reference": "AETHERIUS - BALANCE.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "Apothecary.esp",
+      "GlassMaking&Recycling.esp",
+      "AETHERIUS - BALANCE.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Effects: 4 vs AETHERIUS - BALANCE.esp 4 item(s), contents differ — only here: [0] BaseEffect=03A2C6:Skyrim.esm, Data=[EffectData], Data.Magnitude=3 (+3 more field(s)); [1] BaseEffect=03EAEA:Skyrim.esm, Data=[EffectData], Data.Magnitude=3 (+3 more field(s)) (+2 more element(s)); only in AETHERIUS - BALANCE.esp: [0] BaseEffect=03EB25:Skyrim.esm, Data=[EffectData], Data.Magnitude=6.67 (+3 more field(s)); [1] BaseEffect=03EAEA:Skyrim.esm, Data=[EffectData], Data.Magnitude=3.33 (+3 more field(s)) (+2 more element(s))"
+        ],
+        "delta_count": 1,
+        "agreed_count": 2
+      },
+      {
+        "plugin": "Apothecary.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 2
+      },
+      {
+        "plugin": "GlassMaking&Recycling.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Flags=NoAutoCalculation (AETHERIUS - BALANCE.esp 0)",
+          "Effects: 4 vs AETHERIUS - BALANCE.esp 4 item(s), contents differ — only here: [0] BaseEffect=03A2C6:Skyrim.esm, Data=[EffectData], Data.Magnitude=3 (+3 more field(s)); [1] BaseEffect=03EAEA:Skyrim.esm, Data=[EffectData], Data.Magnitude=3 (+3 more field(s)) (+2 more element(s)); only in AETHERIUS - BALANCE.esp: [0] BaseEffect=03EB25:Skyrim.esm, Data=[EffectData], Data.Magnitude=6.67 (+3 more field(s)); [1] BaseEffect=03EAEA:Skyrim.esm, Data=[EffectData], Data.Magnitude=3.33 (+3 more field(s)) (+2 more element(s))"
+        ],
+        "delta_count": 2,
+        "agreed_count": 1
+      },
+      {
+        "plugin": "AETHERIUS - BALANCE.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - ITEM BALANCE.esp/Armor": {
+    "formid": "012E46:Skyrim.esm",
+    "type": "Armor",
+    "editorid": "ArmorIronGauntlets",
+    "reference": "AETHERIUS - ITEM BALANCE.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "weapons armor clothing & clutter fixes.esp",
+      "AETHERIUS - ITEM BALANCE.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "ArmorRating=10 (AETHERIUS - ITEM BALANCE.esp 13)",
+          "Keywords: 5 vs AETHERIUS - ITEM BALANCE.esp 6 item(s) — only in AETHERIUS - ITEM BALANCE.esp: [5] 002ED9:Update.esm"
+        ],
+        "delta_count": 2,
+        "agreed_count": 7
+      },
+      {
+        "plugin": "weapons armor clothing & clutter fixes.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "ArmorRating=11 (AETHERIUS - ITEM BALANCE.esp 13)"
+        ],
+        "delta_count": 1,
+        "agreed_count": 7
+      },
+      {
+        "plugin": "AETHERIUS - ITEM BALANCE.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - LEVELED LISTS.esp/Npc": {
+    "formid": "000007:Skyrim.esm",
+    "type": "Npc",
+    "editorid": "Player",
+    "reference": "AETHERIUS - LEVELED LISTS.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "AETHERIUS - LEVELED LISTS.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "PlayerSkills.Unused2=000100 (AETHERIUS - LEVELED LISTS.esp 001E00)",
+          "ActorEffect: 3 vs AETHERIUS - LEVELED LISTS.esp 1 item(s) — only here: [0] 012FCD:Skyrim.esm; [1] 012FCC:Skyrim.esm",
+          "Factions: same 4 item(s), ORDER DIFFERS from AETHERIUS - LEVELED LISTS.esp",
+          "Items: 16 vs AETHERIUS - LEVELED LISTS.esp 1 item(s) — only here: [0] Item=[ContainerItem] Item=00000A:Skyrim.esm, Item.Item=00000A:Skyrim.esm, Item.Count=10 (+1 more field(s)); [1] Item=[ContainerItem] Item=013790:Skyrim.esm, Item.Item=013790:Skyrim.esm, Item.Count=1 (+1 more field(s)) (+14 more element(s)); only in AETHERIUS - LEVELED LISTS.esp: [0] Item=[ContainerItem] Item=00000F:Skyrim.esm, Item.Item=00000F:Skyrim.esm, Item.Count=100 (+1 more field(s))",
+          "Perks: same 12 item(s), ORDER DIFFERS from AETHERIUS - LEVELED LISTS.esp"
+        ],
+        "delta_count": 5,
+        "agreed_count": 56
+      },
+      {
+        "plugin": "AETHERIUS - LEVELED LISTS.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - LEVELED LISTS.esp/LeveledNpc": {
+    "formid": "01A319:Skyrim.esm",
+    "type": "LeveledNpc",
+    "editorid": "OREO_LCharBanditMeleeCommonerM",
+    "reference": "AETHERIUS - LEVELED LISTS.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "Skyrim Revamped - Complete Enemy Overhaul.esp",
+      "Bandit War.esp",
+      "AETHERIUS - LEVELED LISTS.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Entries: 6 vs AETHERIUS - LEVELED LISTS.esp 32 item(s) — only in AETHERIUS - LEVELED LISTS.esp: [1] Data=[LeveledNpcEntryData] Reference=03DE88:Skyrim.esm, Data.Level=1, Data.Unknown=0 (+4 more field(s)); [2] Data=[LeveledNpcEntryData] Reference=0136A6:Bandit War.esp, Data.Level=1, Data.Unknown=0 (+4 more field(s)) (+24 more element(s))"
+        ],
+        "delta_count": 1,
+        "agreed_count": 1
+      },
+      {
+        "plugin": "Skyrim Revamped - Complete Enemy Overhaul.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Entries: 8 vs AETHERIUS - LEVELED LISTS.esp 32 item(s) — only in AETHERIUS - LEVELED LISTS.esp: [1] Data=[LeveledNpcEntryData] Reference=03DE88:Skyrim.esm, Data.Level=1, Data.Unknown=0 (+4 more field(s)); [2] Data=[LeveledNpcEntryData] Reference=0136A6:Bandit War.esp, Data.Level=1, Data.Unknown=0 (+4 more field(s)) (+22 more element(s))"
+        ],
+        "delta_count": 1,
+        "agreed_count": 1
+      },
+      {
+        "plugin": "Bandit War.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Entries: 30 vs AETHERIUS - LEVELED LISTS.esp 32 item(s) — only in AETHERIUS - LEVELED LISTS.esp: [18] Data=[LeveledNpcEntryData] Reference=00FBB3:Skyrim Revamped - Complete Enemy Overhaul.esp, Data.Level=31, Data.Unknown=0 (+4 more field(s)); [25] Data=[LeveledNpcEntryData] Reference=019DE9:Skyrim Revamped - Complete Enemy Overhaul.esp, Data.Level=40, Data.Unknown=0 (+4 more field(s))"
+        ],
+        "delta_count": 1,
+        "agreed_count": 1
+      },
+      {
+        "plugin": "AETHERIUS - LEVELED LISTS.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - LEVELED LISTS.esp/LeveledItem": {
+    "formid": "000ED3:Skyrim.esm",
+    "type": "LeveledItem",
+    "editorid": "LItemEnchWeaponDaggerBlacksmith15",
+    "reference": "AETHERIUS - LEVELED LISTS.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "Open World Loot.esp",
+      "weapons armor clothing & clutter fixes.esp",
+      "AETHERIUS - LEVELED LISTS.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Entries: 11 vs AETHERIUS - LEVELED LISTS.esp 11 item(s), contents differ — only here: [6] Data=[LeveledItemEntryData] Reference=0C9A23:Skyrim.esm, Data.Level=7, Data.Unknown=0 (+4 more field(s)); [7] Data=[LeveledItemEntryData] Reference=0C9A33:Skyrim.esm, Data.Level=13, Data.Unknown=0 (+4 more field(s)) (+3 more element(s)); only in AETHERIUS - LEVELED LISTS.esp: [6] Data=[LeveledItemEntryData] Reference=0C9A33:Skyrim.esm, Data.Level=7, Data.Unknown=0 (+4 more field(s)); [7] Data=[LeveledItemEntryData] Reference=0CAF01:Skyrim.esm, Data.Level=13, Data.Unknown=0 (+4 more field(s)) (+3 more element(s))"
+        ],
+        "delta_count": 1,
+        "agreed_count": 1
+      },
+      {
+        "plugin": "Open World Loot.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Entries: 9 vs AETHERIUS - LEVELED LISTS.esp 11 item(s) — only here: [7] Data=[LeveledItemEntryData] Reference=0CAF01:Skyrim.esm, Data.Level=20, Data.Unknown=0 (+4 more field(s)); only in AETHERIUS - LEVELED LISTS.esp: [6] Data=[LeveledItemEntryData] Reference=0C9A33:Skyrim.esm, Data.Level=7, Data.Unknown=0 (+4 more field(s)); [7] Data=[LeveledItemEntryData] Reference=0CAF01:Skyrim.esm, Data.Level=13, Data.Unknown=0 (+4 more field(s)) (+1 more element(s))"
+        ],
+        "delta_count": 1,
+        "agreed_count": 1
+      },
+      {
+        "plugin": "weapons armor clothing & clutter fixes.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Entries: 11 vs AETHERIUS - LEVELED LISTS.esp 11 item(s), contents differ — only here: [9] Data=[LeveledItemEntryData] Reference=0CB021:Skyrim.esm, Data.Level=28, Data.Unknown=0 (+4 more field(s)); [10] Data=[LeveledItemEntryData] Reference=0CB3C8:Skyrim.esm, Data.Level=37, Data.Unknown=0 (+4 more field(s)); only in AETHERIUS - LEVELED LISTS.esp: [8] Data=[LeveledItemEntryData] Reference=0C9A33:Skyrim.esm, Data.Level=15, Data.Unknown=0 (+4 more field(s)); [10] Data=[LeveledItemEntryData] Reference=0C9A23:Skyrim.esm, Data.Level=25, Data.Unknown=0 (+4 more field(s))"
+        ],
+        "delta_count": 1,
+        "agreed_count": 1
+      },
+      {
+        "plugin": "AETHERIUS - LEVELED LISTS.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - LEVELED LISTS.esp/Ammunition": {
+    "formid": "00082B:ccBGSSSE025-AdvDSGS.esm",
+    "type": "Ammunition",
+    "editorid": "ccBGSSSE025_GoldenSaintArrow",
+    "reference": "AETHERIUS - LEVELED LISTS.esp",
+    "touchers": [
+      "ccBGSSSE025-AdvDSGS.esm",
+      "AETHERIUS - LEVELED LISTS.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "ccBGSSSE025-AdvDSGS.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Keywords: 2 vs AETHERIUS - LEVELED LISTS.esp 3 item(s) — only in AETHERIUS - LEVELED LISTS.esp: [2] 01E71F:Skyrim.esm"
+        ],
+        "delta_count": 1,
+        "agreed_count": 4
+      },
+      {
+        "plugin": "AETHERIUS - LEVELED LISTS.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  },
+  "AETHERIUS - WORLD EDITS.esp/Cell": {
+    "formid": "016BD0:Skyrim.esm",
+    "type": "Cell",
+    "editorid": "RiftenThievesGuildHeadquarters",
+    "reference": "AETHERIUS - WORLD EDITS.esp",
+    "touchers": [
+      "Skyrim.esm",
+      "Update.esm",
+      "unofficial skyrim special edition patch.esp",
+      "WSEnhancer.esp",
+      "Shadows.esp",
+      "weapons armor clothing & clutter fixes.esp",
+      "JK's Thieves Guild.esp",
+      "man_DaedricShrines.esp",
+      "Pilgrim - Daedric Shrines Patch.esp",
+      "JKs Thieves Guild - USSEP patch.esp",
+      "JKs Thieves Guild - Daedric Shrines patch.esp",
+      "AETHERIUS - WORLD EDITS.esp"
+    ],
+    "nodes": [
+      {
+        "plugin": "Skyrim.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "Update.esm",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "unofficial skyrim special edition patch.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "WSEnhancer.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Flags=IsInteriorCell, HasWater, ShowSky (AETHERIUS - WORLD EDITS.esp IsInteriorCell, HasWater)"
+        ],
+        "delta_count": 1,
+        "agreed_count": 2
+      },
+      {
+        "plugin": "Shadows.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [
+          "Flags=IsInteriorCell, HasWater, ShowSky (AETHERIUS - WORLD EDITS.esp IsInteriorCell, HasWater)"
+        ],
+        "delta_count": 1,
+        "agreed_count": 2
+      },
+      {
+        "plugin": "weapons armor clothing & clutter fixes.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "JK's Thieves Guild.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "man_DaedricShrines.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "Pilgrim - Daedric Shrines Patch.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "JKs Thieves Guild - USSEP patch.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "JKs Thieves Guild - Daedric Shrines patch.esp",
+        "is_winner": false,
+        "is_reference": false,
+        "complete": true,
+        "deltas": [],
+        "delta_count": 0,
+        "agreed_count": 3
+      },
+      {
+        "plugin": "AETHERIUS - WORLD EDITS.esp",
+        "is_winner": true,
+        "is_reference": true
+      }
+    ]
+  }
+}

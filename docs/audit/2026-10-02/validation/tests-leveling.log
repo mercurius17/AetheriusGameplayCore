@@ -1,0 +1,274 @@
+TAP version 13
+# Subtest: compatibility audit negotiates the complete active Leveling catalog
+ok 1 - compatibility audit negotiates the complete active Leveling catalog
+  ---
+  duration_ms: 6.4509
+  type: 'test'
+  ...
+# Subtest: Leveling exports a runtime category contract with JSON as the sole reward authority
+ok 2 - Leveling exports a runtime category contract with JSON as the sole reward authority
+  ---
+  duration_ms: 0.9737
+  type: 'test'
+  ...
+# Subtest: bridge subscribes to the Enemy System event and awards through the Leveling pipeline
+ok 3 - bridge subscribes to the Enemy System event and awards through the Leveling pipeline
+  ---
+  duration_ms: 47.3361
+  type: 'test'
+  ...
+# Subtest: bridge fails closed when either contract rejects an event
+ok 4 - bridge fails closed when either contract rejects an event
+  ---
+  duration_ms: 1.534
+  type: 'test'
+  ...
+# Subtest: registry coverage maps explicit safety exclusions and keeps unknown enemies visible
+ok 5 - registry coverage maps explicit safety exclusions and keeps unknown enemies visible
+  ---
+  duration_ms: 3.4886
+  type: 'test'
+  ...
+# Subtest: one-step integration binds live registry coverage and restores the previous gate on disconnect
+ok 6 - one-step integration binds live registry coverage and restores the previous gate on disconnect
+  ---
+  duration_ms: 5.3748
+  type: 'test'
+  ...
+# Subtest: production balance configuration is structurally READY
+ok 7 - production balance configuration is structurally READY
+  ---
+  duration_ms: 2.4021
+  type: 'test'
+  ...
+# Subtest: entire authorized XP snapshot is represented without silent legacy values
+ok 8 - entire authorized XP snapshot is represented without silent legacy values
+  ---
+  duration_ms: 3.6163
+  type: 'test'
+  ...
+# Subtest: authorized enemy scaling uses the second +2% softcap through level 100
+ok 9 - authorized enemy scaling uses the second +2% softcap through level 100
+  ---
+  duration_ms: 0.8424
+  type: 'test'
+  ...
+# Subtest: party tables are exact and content relevance follows the approved floor
+ok 10 - party tables are exact and content relevance follows the approved floor
+  ---
+  duration_ms: 1.1236
+  type: 'test'
+  ...
+# Subtest: invalid schemaVersion is rejected
+ok 11 - invalid schemaVersion is rejected
+  ---
+  duration_ms: 2.686
+  type: 'test'
+  ...
+# Subtest: negative base and fixed XP are rejected
+ok 12 - negative base and fixed XP are rejected
+  ---
+  duration_ms: 2.9193
+  type: 'test'
+  ...
+# Subtest: duplicate category mappings and enabled unresolved profiles are rejected
+ok 13 - duplicate category mappings and enabled unresolved profiles are rejected
+  ---
+  duration_ms: 1.5871
+  type: 'test'
+  ...
+# Subtest: inconsistent progression totals and invalid party/fatigue policy are rejected
+ok 14 - inconsistent progression totals and invalid party/fatigue policy are rejected
+  ---
+  duration_ms: 1.1239
+  type: 'test'
+  ...
+# Subtest: JSON parser failure is not silently converted into an empty config
+ok 15 - JSON parser failure is not silently converted into an empty config
+  ---
+  duration_ms: 0.9655
+  type: 'test'
+  ...
+# Subtest: content relevance cannot allow a 100% reduction
+ok 16 - content relevance cannot allow a 100% reduction
+  ---
+  duration_ms: 1.3618
+  type: 'test'
+  ...
+# Subtest: plugin plus local FormID remains stable when runtime load-order slots change
+ok 17 - plugin plus local FormID remains stable when runtime load-order slots change
+  ---
+  duration_ms: 2.6957
+  type: 'test'
+  ...
+# Subtest: configured mod categories are accepted without changing application code
+ok 18 - configured mod categories are accepted without changing application code
+  ---
+  duration_ms: 4.9643
+  type: 'test'
+  ...
+# Subtest: coverage audit accounts for every discovered enemy and reports gaps
+ok 19 - coverage audit accounts for every discovered enemy and reports gaps
+  ---
+  duration_ms: 1.7538
+  type: 'test'
+  ...
+# Subtest: coverage gate opens only for a non-empty complete enemy audit
+ok 20 - coverage gate opens only for a non-empty complete enemy audit
+  ---
+  duration_ms: 0.5909
+  type: 'test'
+  ...
+# Subtest: authority coordinator disables every competing XP authority before activation
+ok 21 - authority coordinator disables every competing XP authority before activation
+  ---
+  duration_ms: 1.6556
+  type: 'test'
+  ...
+# Subtest: party eligibility preserves audited same-cell, online, <=5000 policy
+ok 22 - party eligibility preserves audited same-cell, online, <=5000 policy
+  ---
+  duration_ms: 3.1977
+  type: 'test'
+  ...
+# Subtest: final-hit player has no eligibility exception
+ok 23 - final-hit player has no eligibility exception
+  ---
+  duration_ms: 0.495
+  type: 'test'
+  ...
+# Subtest: party modifier never clamps an invalid size or invents 21+ behavior
+ok 24 - party modifier never clamps an invalid size or invents 21+ behavior
+  ---
+  duration_ms: 0.6645
+  type: 'test'
+  ...
+# Subtest: progression has 39 contiguous transitions, total 1,848,000, and 585 potential points
+ok 25 - progression has 39 contiguous transitions, total 1,848,000, and 585 potential points
+  ---
+  duration_ms: 1.6053
+  type: 'test'
+  ...
+# Subtest: level-up grants 15 points exactly once per transition
+ok 26 - level-up grants 15 points exactly once per transition
+  ---
+  duration_ms: 39.41
+  type: 'test'
+  ...
+# Subtest: fatigue starts at level 15 with floor(20% of current threshold)
+ok 27 - fatigue starts at level 15 with floor(20% of current threshold)
+  ---
+  duration_ms: 2.592
+  type: 'test'
+  ...
+# Subtest: a reward crossing 14 -> 15 applies the level 15 cap to the remainder
+ok 28 - a reward crossing 14 -> 15 applies the level 15 cap to the remainder
+  ---
+  duration_ms: 3.8223
+  type: 'test'
+  ...
+# Subtest: reset is a 06:00 America/Sao_Paulo cycle boundary
+ok 29 - reset is a 06:00 America/Sao_Paulo cycle boundary
+  ---
+  duration_ms: 2.3921
+  type: 'test'
+  ...
+# Subtest: level 40 cannot advance beyond the cap
+ok 30 - level 40 cannot advance beyond the cap
+  ---
+  duration_ms: 16.3482
+  type: 'test'
+  ...
+# Subtest: fixed Dragon Priest awards exact fixed XP and bypasses all numerical modifiers
+ok 31 - fixed Dragon Priest awards exact fixed XP and bypasses all numerical modifiers
+  ---
+  duration_ms: 61.657
+  type: 'test'
+  ...
+# Subtest: XP processing fails closed without exclusive system authority
+ok 32 - XP processing fails closed without exclusive system authority
+  ---
+  duration_ms: 1.3665
+  type: 'test'
+  ...
+# Subtest: XP processing fails closed without a complete enemy coverage audit
+ok 33 - XP processing fails closed without a complete enemy coverage audit
+  ---
+  duration_ms: 2.0158
+  type: 'test'
+  ...
+# Subtest: fixed Dragon ignores the raid reduction at size 8
+ok 34 - fixed Dragon ignores the raid reduction at size 8
+  ---
+  duration_ms: 49.4206
+  type: 'test'
+  ...
+# Subtest: regular XP applies approved content relevance
+ok 35 - regular XP applies approved content relevance
+  ---
+  duration_ms: 3.3996
+  type: 'test'
+  ...
+# Subtest: EnemyCombatLevel 41 uses the approved second softcap
+ok 36 - EnemyCombatLevel 41 uses the approved second softcap
+  ---
+  duration_ms: 3.7234
+  type: 'test'
+  ...
+# Subtest: content relevance reduces 5% per level above the range with a 90% cap
+ok 37 - content relevance reduces 5% per level above the range with a 90% cap
+  ---
+  duration_ms: 3.3156
+  type: 'test'
+  ...
+# Subtest: fixed boss bypasses fatigue and does not consume the daily allowance
+ok 38 - fixed boss bypasses fatigue and does not consume the daily allowance
+  ---
+  duration_ms: 3.3205
+  type: 'test'
+  ...
+# Subtest: UNASSIGNED progression context rejects before reward
+ok 39 - UNASSIGNED progression context rejects before reward
+  ---
+  duration_ms: 1.3531
+  type: 'test'
+  ...
+# Subtest: unknown exact contract category is not mapped to a default
+ok 40 - unknown exact contract category is not mapped to a default
+  ---
+  duration_ms: 1.1109
+  type: 'test'
+  ...
+# Subtest: killer 0 uses the authoritative party snapshot without a final-hit exception
+ok 41 - killer 0 uses the authoritative party snapshot without a final-hit exception
+  ---
+  duration_ms: 2.7144
+  type: 'test'
+  ...
+# Subtest: invalid party size and no class are explicit rejections
+ok 42 - invalid party size and no class are explicit rejections
+  ---
+  duration_ms: 1.8254
+  type: 'test'
+  ...
+# Subtest: same eventId is idempotent and cannot grant attribute points twice
+ok 43 - same eventId is idempotent and cannot grant attribute points twice
+  ---
+  duration_ms: 4.6743
+  type: 'test'
+  ...
+# Subtest: level-up awards points through the pipeline without invoking class perks
+ok 44 - level-up awards points through the pipeline without invoking class perks
+  ---
+  duration_ms: 3.63
+  type: 'test'
+  ...
+1..44
+# tests 44
+# suites 0
+# pass 44
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 641.5513

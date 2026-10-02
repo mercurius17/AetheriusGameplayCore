@@ -1,0 +1,3490 @@
+[
+  {
+    "function": "HasPerk",
+    "occurrences": 5295,
+    "examples": [
+      {
+        "formid": "10F21E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      },
+      {
+        "formid": "1090A4:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "1090A3:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsID",
+    "occurrences": 5279,
+    "examples": [
+      {
+        "formid": "10FAED:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      },
+      {
+        "formid": "10FAED:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[1].Conditions[1].Conditions[0]"
+      },
+      {
+        "formid": "10FAED:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[2].Conditions[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "HasKeyword",
+    "occurrences": 3763,
+    "examples": [
+      {
+        "formid": "10FE04:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "109D85:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "109D85:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetItemCount",
+    "occurrences": 2641,
+    "examples": [
+      {
+        "formid": "10F13F:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "01AABF:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "079AF5:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetInFaction",
+    "occurrences": 2248,
+    "examples": [
+      {
+        "formid": "10F9DB:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "10F9DB:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "10C708:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "EPTemperingItemIsEnchanted",
+    "occurrences": 1972,
+    "examples": [
+      {
+        "formid": "000F61:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "000F60:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "000F5F:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetGlobalValue",
+    "occurrences": 1646,
+    "examples": [
+      {
+        "formid": "0E7326:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "103B04:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "10387B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "HasMagicEffect",
+    "occurrences": 1482,
+    "examples": [
+      {
+        "formid": "105874:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "101931:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0F6507:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetBaseActorValue",
+    "occurrences": 1117,
+    "examples": [
+      {
+        "formid": "1090A4:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "1090A3:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "105F1A:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "LocationHasKeyword",
+    "occurrences": 818,
+    "examples": [
+      {
+        "formid": "0009EE:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "00080A:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[7].Conditions[0]"
+      },
+      {
+        "formid": "312101:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetInCurrentLocAlias",
+    "occurrences": 766,
+    "examples": [
+      {
+        "formid": "106A5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[6].Conditions[1]"
+      },
+      {
+        "formid": "106A59:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[6].Conditions[2]"
+      },
+      {
+        "formid": "1065FA:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[5].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetLevel",
+    "occurrences": 751,
+    "examples": [
+      {
+        "formid": "10A284:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "10A283:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "10A283:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "HasRefType",
+    "occurrences": 678,
+    "examples": [
+      {
+        "formid": "10BF8E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[5].Conditions[1]"
+      },
+      {
+        "formid": "10BF8E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[6].Conditions[1]"
+      },
+      {
+        "formid": "106A5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[6].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "HasMagicEffectKeyword",
+    "occurrences": 625,
+    "examples": [
+      {
+        "formid": "018C58:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "018C57:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "018C55:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetDead",
+    "occurrences": 617,
+    "examples": [
+      {
+        "formid": "0F5D24:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[3]"
+      },
+      {
+        "formid": "0D61E2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0EE5C3:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Effects[0].Conditions[1].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "IsUndead",
+    "occurrences": 498,
+    "examples": [
+      {
+        "formid": "10FDD4:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[5]"
+      },
+      {
+        "formid": "10EAD9:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "0FF9F8:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsReference",
+    "occurrences": 443,
+    "examples": [
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      },
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[0].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "HasSpell",
+    "occurrences": 428,
+    "examples": [
+      {
+        "formid": "06C3D0:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "0EE5C3:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "01CAAF:ShadowSpellPackage.esp",
+        "winner": "ShadowSpellPackage.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "WornHasKeyword",
+    "occurrences": 379,
+    "examples": [
+      {
+        "formid": "051B1A:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "108A42:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "108A42:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "IsLinkedTo",
+    "occurrences": 340,
+    "examples": [
+      {
+        "formid": "10BF8E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[5].Conditions[0]"
+      },
+      {
+        "formid": "10BF8E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[6].Conditions[0]"
+      },
+      {
+        "formid": "106A5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[9].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "SpellHasCastingPerk",
+    "occurrences": 321,
+    "examples": [
+      {
+        "formid": "1076FE:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "1076FE:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "1076FE:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetEquippedItemType",
+    "occurrences": 317,
+    "examples": [
+      {
+        "formid": "012CCC:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "03CF31:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "03CF31:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "EPMagic_SpellHasKeyword",
+    "occurrences": 306,
+    "examples": [
+      {
+        "formid": "10CB92:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0E827B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0581ED:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsInList",
+    "occurrences": 287,
+    "examples": [
+      {
+        "formid": "0009EE:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[1].Conditions[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsRace",
+    "occurrences": 282,
+    "examples": [
+      {
+        "formid": "10582E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "10582E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "10582E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsVoiceType",
+    "occurrences": 278,
+    "examples": [
+      {
+        "formid": "10F676:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[0]"
+      },
+      {
+        "formid": "10AA5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[0]"
+      },
+      {
+        "formid": "10074F:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsPowerAttacking",
+    "occurrences": 275,
+    "examples": [
+      {
+        "formid": "0008CD:SCSI-ACTbfco-Main.esp",
+        "winner": "SCSI-ACTbfco-Main.esp",
+        "path": "Effects[1].Conditions[0].Conditions[2]"
+      },
+      {
+        "formid": "0008CD:SCSI-ACTbfco-Main.esp",
+        "winner": "SCSI-ACTbfco-Main.esp",
+        "path": "Effects[2].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "038FA0:Granite Hill.esp",
+        "winner": "Granite Hill.esp",
+        "path": "Effects[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsChild",
+    "occurrences": 272,
+    "examples": [
+      {
+        "formid": "10582E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0F198B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "016696:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetDistance",
+    "occurrences": 267,
+    "examples": [
+      {
+        "formid": "205A8B:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "214DB9:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "30D2A3:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetPlayerTeammate",
+    "occurrences": 265,
+    "examples": [
+      {
+        "formid": "0E40D0:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "09E0CA:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "09E0C8:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsCommandedActor",
+    "occurrences": 239,
+    "examples": [
+      {
+        "formid": "10FDD4:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0FF9F8:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0FB406:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsHostileToActor",
+    "occurrences": 239,
+    "examples": [
+      {
+        "formid": "10FDD3:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "10FDD2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "10FDD1:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetStageDone",
+    "occurrences": 228,
+    "examples": [
+      {
+        "formid": "0F11A9:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "02B075:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "02B072:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "LocationHasRefType",
+    "occurrences": 223,
+    "examples": [
+      {
+        "formid": "105D1D:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[5].Conditions[1]"
+      },
+      {
+        "formid": "0D9393:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[2]"
+      },
+      {
+        "formid": "06FE37:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[4].Conditions[9]"
+      }
+    ]
+  },
+  {
+    "function": "IsInCombat",
+    "occurrences": 217,
+    "examples": [
+      {
+        "formid": "10FC17:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "0ED5F1:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[1].Conditions[0]"
+      },
+      {
+        "formid": "0ED2FE:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[2].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetActorValuePercent",
+    "occurrences": 210,
+    "examples": [
+      {
+        "formid": "109D0D:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0946F2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "08CC8C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[2].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetInCurrentLoc",
+    "occurrences": 208,
+    "examples": [
+      {
+        "formid": "00080A:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[2].Conditions[3]"
+      },
+      {
+        "formid": "00080A:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[4].Conditions[1]"
+      },
+      {
+        "formid": "0008CF:HearthFires.esm",
+        "winner": "HearthFires.esm",
+        "path": "Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "IsUnique",
+    "occurrences": 206,
+    "examples": [
+      {
+        "formid": "028A13:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[1]"
+      },
+      {
+        "formid": "0289E2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[0].Conditions[2]"
+      },
+      {
+        "formid": "02694B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[0].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetInCurrentLocFormList",
+    "occurrences": 205,
+    "examples": [
+      {
+        "formid": "03784E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[3]"
+      },
+      {
+        "formid": "03784E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[1].Conditions[3]"
+      },
+      {
+        "formid": "03784E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[2].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetFactionRank",
+    "occurrences": 202,
+    "examples": [
+      {
+        "formid": "0C6E33:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[1]"
+      },
+      {
+        "formid": "002F1C:Update.esm",
+        "winner": "HearthFires.esm",
+        "path": "DialogConditions[0]"
+      },
+      {
+        "formid": "006E72:Missives.esp",
+        "winner": "Missives.esp",
+        "path": "Aliases[4].Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "GetActorValue",
+    "occurrences": 201,
+    "examples": [
+      {
+        "formid": "109D0D:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "0FCF04:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "0F1993:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetCurrentTime",
+    "occurrences": 200,
+    "examples": [
+      {
+        "formid": "0E5F64:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "0E5F64:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "0008C5:ccvsvsse003-necroarts.esl",
+        "winner": "ccvsvsse003-necroarts.esl",
+        "path": "Effects[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "WornApparelHasKeywordCount",
+    "occurrences": 200,
+    "examples": [
+      {
+        "formid": "10C1CA:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "10C1CA:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "10C1CA:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Effects[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "IsAttackType",
+    "occurrences": 199,
+    "examples": [
+      {
+        "formid": "01DF8F:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "01DF8F:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "01DF8F:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetStage",
+    "occurrences": 198,
+    "examples": [
+      {
+        "formid": "10F21E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "10F21E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "0FB8D5:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsObjectType",
+    "occurrences": 195,
+    "examples": [
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[0].Conditions[1].Conditions[1]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[0].Conditions[1].Conditions[2]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[0].Conditions[1].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetRandomPercent",
+    "occurrences": 193,
+    "examples": [
+      {
+        "formid": "106255:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "105F1B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "105A01:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsPlayableRace",
+    "occurrences": 192,
+    "examples": [
+      {
+        "formid": "000D65:XPMSE.esp",
+        "winner": "XPMSE.esp",
+        "path": "Conditions[4]"
+      },
+      {
+        "formid": "144BE6:Skyrim Revamped - Complete Enemy Overhaul.esp",
+        "winner": "Skyrim Revamped - Complete Enemy Overhaul.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "035B5A:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[0].Conditions[6]"
+      }
+    ]
+  },
+  {
+    "function": "EPMagic_SpellHasSkill",
+    "occurrences": 180,
+    "examples": [
+      {
+        "formid": "0F5B56:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "03D597:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "01E7FE:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetVMQuestVariable",
+    "occurrences": 178,
+    "examples": [
+      {
+        "formid": "10FAED:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "10FAED:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "10FAED:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsInInterior",
+    "occurrences": 139,
+    "examples": [
+      {
+        "formid": "10319E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0CE215:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0A1A5C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "HasSameEditorLocAsRefAlias",
+    "occurrences": 123,
+    "examples": [
+      {
+        "formid": "106A5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[7].Conditions[3]"
+      },
+      {
+        "formid": "106A5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[8].Conditions[2]"
+      },
+      {
+        "formid": "106A59:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[7].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetShouldAttack",
+    "occurrences": 118,
+    "examples": [
+      {
+        "formid": "0E0CD2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "050CF5:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "050CF4:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetQuestCompleted",
+    "occurrences": 110,
+    "examples": [
+      {
+        "formid": "253F79:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "253F79:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "253F83:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetDisabled",
+    "occurrences": 106,
+    "examples": [
+      {
+        "formid": "06693F:Stendarr Rising.esp",
+        "winner": "Stendarr Rising.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "075C43:Stendarr Rising.esp",
+        "winner": "Stendarr Rising.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "200DD4:Stendarr Rising.esp",
+        "winner": "Stendarr Rising.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetAllowWorldInteractions",
+    "occurrences": 104,
+    "examples": [
+      {
+        "formid": "0AD7AD:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[2]"
+      },
+      {
+        "formid": "09BB1E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[1]"
+      },
+      {
+        "formid": "03C7A0:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsActor",
+    "occurrences": 102,
+    "examples": [
+      {
+        "formid": "00C60E:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[3]"
+      },
+      {
+        "formid": "007CB3:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "0D799F:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetEquipped",
+    "occurrences": 94,
+    "examples": [
+      {
+        "formid": "105A03:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0EE5C3:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "01A189:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsEditorLocAlias",
+    "occurrences": 94,
+    "examples": [
+      {
+        "formid": "105D1D:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[7].Conditions[1]"
+      },
+      {
+        "formid": "0BD753:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[7].Conditions[0]"
+      },
+      {
+        "formid": "0BD753:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[11].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "LocAliasIsLocation",
+    "occurrences": 92,
+    "examples": [
+      {
+        "formid": "106A5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[0]"
+      },
+      {
+        "formid": "106A5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[1]"
+      },
+      {
+        "formid": "106A59:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsEditorLocation",
+    "occurrences": 90,
+    "examples": [
+      {
+        "formid": "0876E6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[0].Conditions[2]"
+      },
+      {
+        "formid": "0876E6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[2]"
+      },
+      {
+        "formid": "0876E6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetInWorldspace",
+    "occurrences": 83,
+    "examples": [
+      {
+        "formid": "012D15:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "012D15:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[1].Conditions[0]"
+      },
+      {
+        "formid": "012D15:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[2].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsSwimming",
+    "occurrences": 79,
+    "examples": [
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[2].Conditions[0].Conditions[2]"
+      },
+      {
+        "formid": "00283C:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "03D382:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetRestrained",
+    "occurrences": 74,
+    "examples": [
+      {
+        "formid": "0E5F5B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "0ACBB6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[3]"
+      },
+      {
+        "formid": "09DD4E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "IsBlocking",
+    "occurrences": 67,
+    "examples": [
+      {
+        "formid": "10CAAE:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "011BB0:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "011BB0:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsPlayerInRegion",
+    "occurrences": 65,
+    "examples": [
+      {
+        "formid": "00087F:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "00087F:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "00087F:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetInCell",
+    "occurrences": 58,
+    "examples": [
+      {
+        "formid": "0FE927:LostGrimoire.esp",
+        "winner": "AETHERIUS - BALANCE.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0FBFDD:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[0].Conditions[3]"
+      },
+      {
+        "formid": "0FBFDD:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetQuestRunning",
+    "occurrences": 53,
+    "examples": [
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "008A6E:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "00283C:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "EffectWasDualCast",
+    "occurrences": 53,
+    "examples": [
+      {
+        "formid": "154603:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "154604:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "154606:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsAliasRef",
+    "occurrences": 53,
+    "examples": [
+      {
+        "formid": "10557C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Stages[0].LogEntries[1].Conditions[0]"
+      },
+      {
+        "formid": "10557C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Stages[0].LogEntries[2].Conditions[0]"
+      },
+      {
+        "formid": "105385:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Stages[0].LogEntries[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetRelationshipRank",
+    "occurrences": 51,
+    "examples": [
+      {
+        "formid": "07431B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[0]"
+      },
+      {
+        "formid": "07431B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[1]"
+      },
+      {
+        "formid": "047AE6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[4].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "EPMagic_IsAdvanceSkill",
+    "occurrences": 42,
+    "examples": [
+      {
+        "formid": "0E5F49:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0E5F49:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "0E5F49:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "IsSprinting",
+    "occurrences": 42,
+    "examples": [
+      {
+        "formid": "10CAAE:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[2].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "008A6E:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[2].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetKeywordDataForCurrentLocation",
+    "occurrences": 42,
+    "examples": [
+      {
+        "formid": "050AF1:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[1]"
+      },
+      {
+        "formid": "050AF1:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[2]"
+      },
+      {
+        "formid": "0876E6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[0].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsCurrentWeather",
+    "occurrences": 41,
+    "examples": [
+      {
+        "formid": "00081B:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[0].Conditions[3]"
+      },
+      {
+        "formid": "00081B:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[0].Conditions[4]"
+      },
+      {
+        "formid": "00081B:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[0].Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "IsCasting",
+    "occurrences": 37,
+    "examples": [
+      {
+        "formid": "24272F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[3]"
+      },
+      {
+        "formid": "027330:Dragonborn.esm",
+        "winner": "Artificer.esp",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "07A17F:Pilgrim.esp",
+        "winner": "Pilgrim.esp",
+        "path": "Effects[1].Conditions[0].Conditions[4]"
+      }
+    ]
+  },
+  {
+    "function": "GetDetected",
+    "occurrences": 33,
+    "examples": [
+      {
+        "formid": "2214DC:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "2214F6:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "221504:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "HasFamilyRelationship",
+    "occurrences": 28,
+    "examples": [
+      {
+        "formid": "02C493:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[3].Conditions[4]"
+      },
+      {
+        "formid": "0289E2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[2]"
+      },
+      {
+        "formid": "0289E2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "IsEssential",
+    "occurrences": 27,
+    "examples": [
+      {
+        "formid": "0F5D24:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "010FCB:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "010FF4:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsGhost",
+    "occurrences": 27,
+    "examples": [
+      {
+        "formid": "034839:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "031843:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Conditions[6]"
+      },
+      {
+        "formid": "03183D:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[1].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetVATSFrontAreaFree",
+    "occurrences": 27,
+    "examples": [
+      {
+        "formid": "30818C:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "30D293:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "30D293:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsSneaking",
+    "occurrences": 26,
+    "examples": [
+      {
+        "formid": "0F23C6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "0F1988:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "00E7E9:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsGuard",
+    "occurrences": 26,
+    "examples": [
+      {
+        "formid": "0D66F2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[0].Conditions[2]"
+      },
+      {
+        "formid": "03833C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[3]"
+      },
+      {
+        "formid": "03833C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[4]"
+      }
+    ]
+  },
+  {
+    "function": "IsAttacking",
+    "occurrences": 24,
+    "examples": [
+      {
+        "formid": "0008CD:SCSI-ACTbfco-Main.esp",
+        "winner": "SCSI-ACTbfco-Main.esp",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "000EDF:CeykyndArmor.esp",
+        "winner": "CeykyndArmor.esp",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "07A17F:Pilgrim.esp",
+        "winner": "Pilgrim.esp",
+        "path": "Effects[0].Conditions[0].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "IsInScene",
+    "occurrences": 21,
+    "examples": [
+      {
+        "formid": "2B944F:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[3]"
+      },
+      {
+        "formid": "050CE3:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[6]"
+      },
+      {
+        "formid": "050CE3:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[3].Conditions[6]"
+      }
+    ]
+  },
+  {
+    "function": "GetVATSBackAreaFree",
+    "occurrences": 20,
+    "examples": [
+      {
+        "formid": "30818E:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "30D2A5:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "335B4B:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsPS3",
+    "occurrences": 20,
+    "examples": [
+      {
+        "formid": "00A304:unofficial skyrim special edition patch.esp",
+        "winner": "Artificer - USSEP.esp",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "00A305:unofficial skyrim special edition patch.esp",
+        "winner": "Artificer - USSEP.esp",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "00A30D:unofficial skyrim special edition patch.esp",
+        "winner": "Artificer - USSEP.esp",
+        "path": "Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetMovementDirection",
+    "occurrences": 19,
+    "examples": [
+      {
+        "formid": "30818C:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "30818D:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "30818E:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "EPAlchemyEffectHasKeyword",
+    "occurrences": 19,
+    "examples": [
+      {
+        "formid": "0CB06C:Apothecary.esp",
+        "winner": "Apothecary.esp",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "0CB06C:Apothecary.esp",
+        "winner": "Apothecary.esp",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      },
+      {
+        "formid": "0CB06C:Apothecary.esp",
+        "winner": "Apothecary.esp",
+        "path": "Effects[0].Conditions[0].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetRelativeAngle",
+    "occurrences": 18,
+    "examples": [
+      {
+        "formid": "30D2A5:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "30D2A5:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[3]"
+      },
+      {
+        "formid": "30D2AB:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetValue",
+    "occurrences": 18,
+    "examples": [
+      {
+        "formid": "10FBF5:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[0]"
+      },
+      {
+        "formid": "10FBF5:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[1]"
+      },
+      {
+        "formid": "0A0F43:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetLockLevel",
+    "occurrences": 17,
+    "examples": [
+      {
+        "formid": "0E7326:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[1].Conditions[1]"
+      },
+      {
+        "formid": "3C7537:MysticismMagic.esp",
+        "winner": "MysticismMagic.esp",
+        "path": "Effects[0].Conditions[1].Conditions[1]"
+      },
+      {
+        "formid": "3C7538:MysticismMagic.esp",
+        "winner": "MysticismMagic.esp",
+        "path": "Effects[0].Conditions[1].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetLightLevel",
+    "occurrences": 17,
+    "examples": [
+      {
+        "formid": "395F0F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "395F0F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "395F0F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsDualCasting",
+    "occurrences": 17,
+    "examples": [
+      {
+        "formid": "02A78F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[5].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "02A78F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[6].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "02A78F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[7].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetVATSMode",
+    "occurrences": 17,
+    "examples": [
+      {
+        "formid": "330A39:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "219DC5:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[5]"
+      },
+      {
+        "formid": "219DCD:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[6]"
+      }
+    ]
+  },
+  {
+    "function": "GetGraphVariableInt",
+    "occurrences": 16,
+    "examples": [
+      {
+        "formid": "0008CD:SCSI-ACTbfco-Main.esp",
+        "winner": "SCSI-ACTbfco-Main.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0008CD:SCSI-ACTbfco-Main.esp",
+        "winner": "SCSI-ACTbfco-Main.esp",
+        "path": "Effects[3].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[0].Conditions[0].Conditions[7]"
+      }
+    ]
+  },
+  {
+    "function": "LocAliasHasKeyword",
+    "occurrences": 15,
+    "examples": [
+      {
+        "formid": "006BAC:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Aliases[10].Conditions[0]"
+      },
+      {
+        "formid": "006BAC:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Aliases[11].Conditions[0]"
+      },
+      {
+        "formid": "006BAC:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Aliases[12].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsWeaponSkillType",
+    "occurrences": 14,
+    "examples": [
+      {
+        "formid": "0FF15B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0008D2:Vision of Skyrim II.esp",
+        "winner": "Vision of Skyrim II.esp",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "0008D2:Vision of Skyrim II.esp",
+        "winner": "Vision of Skyrim II.esp",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "HasBeenEaten",
+    "occurrences": 13,
+    "examples": [
+      {
+        "formid": "0EE5C3:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      },
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[1].Conditions[1].Conditions[3]"
+      },
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[5].Conditions[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsRidingMount",
+    "occurrences": 13,
+    "examples": [
+      {
+        "formid": "10CAAF:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "10CAAF:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Effects[1].Conditions[0]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[0].Conditions[0].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetFactionRelation",
+    "occurrences": 13,
+    "examples": [
+      {
+        "formid": "047AE6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[4].Conditions[4]"
+      },
+      {
+        "formid": "047AE6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[5].Conditions[3]"
+      },
+      {
+        "formid": "047AE6:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[6].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetSleeping",
+    "occurrences": 12,
+    "examples": [
+      {
+        "formid": "02C29E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "0A0D94:Skyrim.esm",
+        "winner": "Artificer.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "0A0D96:Skyrim.esm",
+        "winner": "Artificer.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetPos",
+    "occurrences": 12,
+    "examples": [
+      {
+        "formid": "00087F:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[0].Conditions[4]"
+      },
+      {
+        "formid": "00087F:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[2].Conditions[0]"
+      },
+      {
+        "formid": "00087F:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[3].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetHeadingAngle",
+    "occurrences": 12,
+    "examples": [
+      {
+        "formid": "04CB47:ShadowSpellPackage.esp",
+        "winner": "ShadowSpellPackage.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "04CB47:ShadowSpellPackage.esp",
+        "winner": "ShadowSpellPackage.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "1C3510:Skyrim Revamped - Complete Enemy Overhaul.esp",
+        "winner": "Skyrim Revamped - Complete Enemy Overhaul.esp",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetKeywordDataForLocation",
+    "occurrences": 12,
+    "examples": [
+      {
+        "formid": "0BD758:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[0]"
+      },
+      {
+        "formid": "0BD758:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[1]"
+      },
+      {
+        "formid": "0BD757:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetLineOfSight",
+    "occurrences": 12,
+    "examples": [
+      {
+        "formid": "0ADC8C:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[3].Conditions[6]"
+      },
+      {
+        "formid": "0ADC8C:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[4].Conditions[6]"
+      },
+      {
+        "formid": "0ADC8C:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[5].Conditions[6]"
+      }
+    ]
+  },
+  {
+    "function": "GetDestroyed",
+    "occurrences": 12,
+    "examples": [
+      {
+        "formid": "3A012D:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Aliases[1].Conditions[2]"
+      },
+      {
+        "formid": "1545F7:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Aliases[1].Conditions[2]"
+      },
+      {
+        "formid": "1545F7:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Aliases[2].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetLocked",
+    "occurrences": 11,
+    "examples": [
+      {
+        "formid": "0E7326:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[1].Conditions[1].Conditions[2]"
+      },
+      {
+        "formid": "3C7537:MysticismMagic.esp",
+        "winner": "MysticismMagic.esp",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetPCMiscStat",
+    "occurrences": 11,
+    "examples": [
+      {
+        "formid": "1D54FD:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "1D54FE:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "1D54FF:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIgnoreFriendlyHits",
+    "occurrences": 11,
+    "examples": [
+      {
+        "formid": "3C0BB8:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[5]"
+      },
+      {
+        "formid": "3CADBA:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[5]"
+      },
+      {
+        "formid": "3CADBB:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "GetInSharedCrimeFaction",
+    "occurrences": 11,
+    "examples": [
+      {
+        "formid": "03833C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[4]"
+      },
+      {
+        "formid": "03833C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[5]"
+      },
+      {
+        "formid": "03833C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[3].Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "GetCombatState",
+    "occurrences": 10,
+    "examples": [
+      {
+        "formid": "005137:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "0CF78D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[1].Conditions[1]"
+      },
+      {
+        "formid": "0CF78D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[3].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsRaining",
+    "occurrences": 10,
+    "examples": [
+      {
+        "formid": "03D382:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "01BD0A:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "01BD0A:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[1].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsCurrentPackage",
+    "occurrences": 10,
+    "examples": [
+      {
+        "formid": "0FC076:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[0].Conditions[0]"
+      },
+      {
+        "formid": "0FC076:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[0]"
+      },
+      {
+        "formid": "023E5E:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetOffersServicesNow",
+    "occurrences": 10,
+    "examples": [
+      {
+        "formid": "03EFBA:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[0]"
+      },
+      {
+        "formid": "03EE7B:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[0]"
+      },
+      {
+        "formid": "03EE77:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetSitting",
+    "occurrences": 9,
+    "examples": [
+      {
+        "formid": "00283C:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      },
+      {
+        "formid": "000801:FirstPersonInteractions.esp",
+        "winner": "FirstPersonInteractions.esp",
+        "path": "Effects[1].Conditions[0].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetFlyingState",
+    "occurrences": 9,
+    "examples": [
+      {
+        "formid": "03CD63:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "0200EB:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "CDB977:MysticismMagic.esp",
+        "winner": "MysticismMagic.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetDestructionStage",
+    "occurrences": 9,
+    "examples": [
+      {
+        "formid": "3A012D:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Aliases[1].Conditions[3]"
+      },
+      {
+        "formid": "1545F7:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Aliases[1].Conditions[3]"
+      },
+      {
+        "formid": "1545F7:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Aliases[2].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "IsBleedingOut",
+    "occurrences": 8,
+    "examples": [
+      {
+        "formid": "00E7D1:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "008B30:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "008B2F:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "HasBoundWeaponEquipped",
+    "occurrences": 8,
+    "examples": [
+      {
+        "formid": "423DB2:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "423DB2:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[3]"
+      },
+      {
+        "formid": "2DF674:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "GetCurrentDeliveryType",
+    "occurrences": 8,
+    "examples": [
+      {
+        "formid": "2EE9A2:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[1].Conditions[2]"
+      },
+      {
+        "formid": "2EE9A2:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[1].Conditions[3]"
+      },
+      {
+        "formid": "2EE9A2:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[1].Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsSex",
+    "occurrences": 7,
+    "examples": [
+      {
+        "formid": "0727FB:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0727FB:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      },
+      {
+        "formid": "0727FB:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetIsFlying",
+    "occurrences": 7,
+    "examples": [
+      {
+        "formid": "008446:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "24C94F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "3B456E:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsCombatTarget",
+    "occurrences": 7,
+    "examples": [
+      {
+        "formid": "1364C6:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      },
+      {
+        "formid": "1364C6:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Effects[1].Conditions[2].Conditions[0]"
+      },
+      {
+        "formid": "01E7F0:Dragonborn.esm",
+        "winner": "Artificer.esp",
+        "path": "Effects[0].Conditions[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetAttackState",
+    "occurrences": 7,
+    "examples": [
+      {
+        "formid": "000805:Aetherius.esp",
+        "winner": "Aetherius.esp",
+        "path": "Effects[2].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "000805:Aetherius.esp",
+        "winner": "Aetherius.esp",
+        "path": "Effects[2].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "000805:Aetherius.esp",
+        "winner": "Aetherius.esp",
+        "path": "Effects[3].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsWeaponOut",
+    "occurrences": 7,
+    "examples": [
+      {
+        "formid": "5026A0:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "5026A1:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "353F22:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "HasAssociationType",
+    "occurrences": 7,
+    "examples": [
+      {
+        "formid": "0403B0:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[0]"
+      },
+      {
+        "formid": "03F4EC:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[2].Conditions[0]"
+      },
+      {
+        "formid": "0289E2:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[11].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetDeadCount",
+    "occurrences": 7,
+    "examples": [
+      {
+        "formid": "046EF1:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Stages[2].LogEntries[3].Conditions[0]"
+      },
+      {
+        "formid": "046EF1:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Stages[2].LogEntries[4].Conditions[0]"
+      },
+      {
+        "formid": "046EF1:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Stages[2].LogEntries[5].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsOnFlyingMount",
+    "occurrences": 6,
+    "examples": [
+      {
+        "formid": "03784E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "03784E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[1].Conditions[0]"
+      },
+      {
+        "formid": "03784E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[2].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "HasEquippedSpell",
+    "occurrences": 6,
+    "examples": [
+      {
+        "formid": "24272F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "24272F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[2]"
+      },
+      {
+        "formid": "000A05:Artificer.esp",
+        "winner": "Artificer.esp",
+        "path": "Effects[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "HasLoaded3D",
+    "occurrences": 6,
+    "examples": [
+      {
+        "formid": "000D65:XPMSE.esp",
+        "winner": "XPMSE.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "050CE3:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[1]"
+      },
+      {
+        "formid": "050CE3:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[3].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsUnlockedDoor",
+    "occurrences": 5,
+    "examples": [
+      {
+        "formid": "0110CF:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[1].Conditions[1]"
+      },
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[1].Conditions[1].Conditions[1]"
+      },
+      {
+        "formid": "02BA1D:Skyrim.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[3].Conditions[1].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsSnowing",
+    "occurrences": 5,
+    "examples": [
+      {
+        "formid": "00081B:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "000870:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "000883:RASS - Visual Effects.esl",
+        "winner": "RASS - Visual Effects.esl",
+        "path": "Effects[4].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetVATSLeftAreaFree",
+    "occurrences": 5,
+    "examples": [
+      {
+        "formid": "30818F:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "30D2AD:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "326823:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsInSameCurrentLocAsRefAlias",
+    "occurrences": 5,
+    "examples": [
+      {
+        "formid": "1062A7:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[3].Conditions[1]"
+      },
+      {
+        "formid": "1062A7:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[4].Conditions[1]"
+      },
+      {
+        "formid": "1062A7:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[5].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsProtected",
+    "occurrences": 5,
+    "examples": [
+      {
+        "formid": "025251:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[1].Conditions[12]"
+      },
+      {
+        "formid": "2B4341:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Aliases[0].Conditions[2]"
+      },
+      {
+        "formid": "2B4341:LostGrimoire.esp",
+        "winner": "LostGrimoire.esp",
+        "path": "Aliases[1].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "IsInDangerousWater",
+    "occurrences": 4,
+    "examples": [
+      {
+        "formid": "03784E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[1].Conditions[1]"
+      },
+      {
+        "formid": "03784E:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[2].Conditions[4]"
+      },
+      {
+        "formid": "02A6CB:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "IsWeaponMagicOut",
+    "occurrences": 4,
+    "examples": [
+      {
+        "formid": "35E384:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[1].Conditions[0]"
+      },
+      {
+        "formid": "40F8E6:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "3BE7AA:Triumvirate - Mage Archetypes.esp",
+        "winner": "AETHERIUS - BALANCE.esp",
+        "path": "Effects[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetCurrentCastingType",
+    "occurrences": 4,
+    "examples": [
+      {
+        "formid": "2EE9A2:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[1].Conditions[1]"
+      },
+      {
+        "formid": "2EE9A2:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[1].Conditions[4]"
+      },
+      {
+        "formid": "330760:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsInDialogueWithPlayer",
+    "occurrences": 4,
+    "examples": [
+      {
+        "formid": "0190C3:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "DialogConditions[1]"
+      },
+      {
+        "formid": "0190C2:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "DialogConditions[1]"
+      },
+      {
+        "formid": "033A55:ccBGSSSE001-Fish.esm",
+        "winner": "ccBGSSSE001-Fish.esm",
+        "path": "Aliases[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetPermanentActorValue",
+    "occurrences": 3,
+    "examples": [
+      {
+        "formid": "0581ED:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "0581EB:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "0581E8:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetVATSRightAreaFree",
+    "occurrences": 3,
+    "examples": [
+      {
+        "formid": "30818D:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "30D2AB:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      },
+      {
+        "formid": "335B4C:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsPleasant",
+    "occurrences": 3,
+    "examples": [
+      {
+        "formid": "0F5B5D:Skyrim.esm",
+        "winner": "Curse of the Vampire.esp",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "126B1D:Curse of the Vampire.esp",
+        "winner": "Curse of the Vampire.esp",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "33EAC6:Curse of the Vampire.esp",
+        "winner": "Curse of the Vampire.esp",
+        "path": "Effects[0].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsTrespassing",
+    "occurrences": 3,
+    "examples": [
+      {
+        "formid": "33EAD2:Curse of the Vampire.esp",
+        "winner": "Curse of the Vampire.esp",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "548D99:Curse of the Vampire.esp",
+        "winner": "Curse of the Vampire.esp",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "070217:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[0].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsCurrentFurnitureObj",
+    "occurrences": 3,
+    "examples": [
+      {
+        "formid": "017739:Dragonborn.esm",
+        "winner": "Sorcerer.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0BC219:Sorcerer.esp",
+        "winner": "Sorcerer.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0BC21B:Sorcerer.esp",
+        "winner": "Sorcerer.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "EPAlchemyGetMakingPoison",
+    "occurrences": 3,
+    "examples": [
+      {
+        "formid": "058216:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "058217:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "058215:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetMovementSpeed",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "01A934:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[3]"
+      },
+      {
+        "formid": "015FC7:Dawnguard.esm",
+        "winner": "Dawnguard.esm",
+        "path": "Effects[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetHealthPercentage",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "03CD63:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "007D99:Dawnguard.esm",
+        "winner": "Skyrim Revamped - Complete Enemy Overhaul.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsOverEncumbered",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "000917:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[0].Conditions[1]"
+      },
+      {
+        "formid": "000917:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[1].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsMoving",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "0009C5:ccQDRSSE001-SurvivalMode.esl",
+        "winner": "ccQDRSSE001-SurvivalMode.esl",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "64B884:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetPCIsSex",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "000806:Shadow Clone on Self.esp",
+        "winner": "Shadow Clone on Self.esp",
+        "path": "Effects[0].Conditions[0]"
+      },
+      {
+        "formid": "000806:Shadow Clone on Self.esp",
+        "winner": "Shadow Clone on Self.esp",
+        "path": "Effects[1].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetDisease",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "3C89D0:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Conditions[3]"
+      },
+      {
+        "formid": "0AD7AD:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "IsRunning",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "191252:Triumvirate - Mage Archetypes.esp",
+        "winner": "Triumvirate - Mage Archetypes.esp",
+        "path": "Effects[1].Conditions[1]"
+      },
+      {
+        "formid": "47EB7D:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "SpellHasKeyword",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "F08A1B:MysticismMagic.esp",
+        "winner": "MysticismMagic.esp",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      },
+      {
+        "formid": "F08A1B:MysticismMagic.esp",
+        "winner": "MysticismMagic.esp",
+        "path": "Effects[0].Conditions[0].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetVampireFeed",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "0CF02C:Skyrim.esm",
+        "winner": "Curse of the Vampire.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0CF02C:Skyrim.esm",
+        "winner": "Curse of the Vampire.esp",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "SameRaceAsPC",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "058F75:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "058F75:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsTorchOut",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "0FE304:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      },
+      {
+        "formid": "0FE304:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[1].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetCombatTargetHasKeyword",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "036E9E:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[0]"
+      },
+      {
+        "formid": "302DC1:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsScenePlaying",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "0D661C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[0].Conditions[2]"
+      },
+      {
+        "formid": "0D661C:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Aliases[1].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetTalkedToPC",
+    "occurrences": 2,
+    "examples": [
+      {
+        "formid": "020BC9:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "DialogConditions[0]"
+      },
+      {
+        "formid": "033BB7:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "DialogConditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsShieldOut",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "105A03:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsAllowedToFly",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "10D4BC:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "Effects[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsInFurnitureState",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "15DDD5:Apothecary.esp",
+        "winner": "Apothecary.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsStaggered",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "ADA501:Update.esm",
+        "winner": "Thaumaturgy.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsPlayerActionActive",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "0D79A0:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsPoison",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "105F28:Skyrim.esm",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Effects[0].Conditions[0].Conditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "IsPlayerGrabbedRef",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "25BB97:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[4]"
+      }
+    ]
+  },
+  {
+    "function": "ShouldAttackKill",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "395C6B:Vokrii - Minimalistic Perks of Skyrim.esp",
+        "winner": "Vokrii - Minimalistic Perks of Skyrim.esp",
+        "path": "Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetWantBlocking",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "900017:Update.esm",
+        "winner": "Artificer - USSEP.esp",
+        "path": "Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetClothingValue",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "0350F4:Skyrim.esm",
+        "winner": "Skyrim.esm",
+        "path": "EventConditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetCrimeGold",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "0BC09D:Skyrim.esm",
+        "winner": "Update.esm",
+        "path": "Aliases[10].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "GetMapMarkerVisible",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "03923B:Dragonborn.esm",
+        "winner": "Dragonborn.esm",
+        "path": "EventConditions[0]"
+      }
+    ]
+  },
+  {
+    "function": "GetDaysInJail",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "0167D3:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "EventConditions[3]"
+      }
+    ]
+  },
+  {
+    "function": "GetIntimidateSuccess",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "025231:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[1].Conditions[5]"
+      }
+    ]
+  },
+  {
+    "function": "GetLowestRelationshipRank",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "039792:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[2].Conditions[2]"
+      }
+    ]
+  },
+  {
+    "function": "HasSameEditorLocAsRef",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "03FA17:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[2].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "IsInMyOwnedCell",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "0C7919:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[2].Conditions[1]"
+      }
+    ]
+  },
+  {
+    "function": "GetLocAliasRefTypeAliveCount",
+    "occurrences": 1,
+    "examples": [
+      {
+        "formid": "0D5F08:Skyrim.esm",
+        "winner": "unofficial skyrim special edition patch.esp",
+        "path": "Aliases[1].Conditions[0]"
+      }
+    ]
+  }
+]
