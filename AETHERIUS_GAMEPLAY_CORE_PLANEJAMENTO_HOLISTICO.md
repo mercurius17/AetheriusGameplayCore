@@ -8,6 +8,8 @@ Convenções: `[REPO]` código lido; `[HOUSECARL]` consulta da instalação; `[R
 
 Os anexos em [docs/audit/2026-10-02](docs/audit/2026-10-02/README.md) fazem parte da especificação. Contagens completas estão nos arquivos estruturados; exemplos no texto não substituem os catálogos.
 
+**Ampliação de mecânicas:** o [manual detalhado](docs/mechanics/README.md) documenta cada uma das 1.493 PERKs extraídas, 1.540 records mágicos ligados, os 71 entry points observados e os estágios das 18 classes. Explica conditions, fórmulas, efeitos, autoridade multiplayer, persistência e testes. Dez PERKs antes truncadas foram reextraídas; os números de truncamento abaixo descrevem a coleta original. O [balanço atualizado](docs/mechanics/10_COBERTURA_DECISOES.md) registra a redução dessa lacuna e os blockers que permanecem.
+
 ## 1. Conclusão executiva
 
 O monorepo contém componentes úteis, mas não contém ainda um núcleo integrado em produção. Class e Leveling disputam progressão/propriedade; Damage oferece primitivas nativas sem encaixe demonstrado na base fornecida; Enemy oferece classificação/resolução e contratos sem host integral; Durability mantém cobertura por material e usa SQL de outro dialeto; ActorState é scaffold. UI Core já fornece protocolo, roteamento e revisão reutilizáveis.

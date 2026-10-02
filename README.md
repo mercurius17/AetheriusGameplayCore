@@ -27,6 +27,8 @@ O [planejamento holístico de 02/10/2026](AETHERIUS_GAMEPLAY_CORE_PLANEJAMENTO_H
 
 O [pacote de evidências](docs/audit/2026-10-02/README.md) contém inventários, winning records, overrides, pesquisa documental e resultados de testes. É uma entrega de planejamento: os blockers de runtime estão explícitos e nenhuma funcionalidade nova foi ativada.
 
+O [manual detalhado de mecânicas e multiplayer](docs/mechanics/README.md) complementa o plano com funcionamento de perks, conditions, fórmulas, efeitos, classes, persistência e cenários de validação. Inclui fichas das 1.493 perks instaladas, 1.540 records mágicos ligados a elas e todos os estágios das 18 classes, distinguindo dados observados, propostas e suporte ainda pendente.
+
 ## Princípio arquitetural
 
 A existência no mesmo monorepo não elimina fronteiras de responsabilidade. Os módulos devem continuar com autoridades claras e contratos explícitos. Refatorações compartilhadas, deduplicação de contratos e integração com `aetherius-server` / `aetherius-client` serão realizadas em commits posteriores, após planejamento e testes.

@@ -1,0 +1,25 @@
+{
+  "kind": "documentation-only",
+  "status": "PASS",
+  "checks": {
+    "perkRecords": 1493,
+    "uniquePerkRecords": 1493,
+    "perkAnchors": 1493,
+    "magicAnchors": 1540,
+    "entryPointSections": 71,
+    "conditionSections": 83,
+    "classSections": 18,
+    "localLinksChecked": 16413,
+    "markdownFiles": 140,
+    "reexpandedPerks": 10,
+    "perkTruncationNotes": 0,
+    "functionalFilesChangedSinceFirstPlanningCommit": 0
+  },
+  "errors": [],
+  "notExecuted": [
+    "new gameplay session",
+    "new component builds/tests",
+    "PostgreSQL integration",
+    "runtime perk certification"
+  ]
+}
