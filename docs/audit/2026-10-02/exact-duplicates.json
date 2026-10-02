@@ -1,0 +1,86 @@
+[
+  {
+    "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+    "files": [
+      "gameplay/modules/class-system/LICENSE",
+      "gameplay/modules/damage-system/LICENSE"
+    ]
+  },
+  {
+    "sha256": "9d35a4696c9a3d43282247a15d81d6e83791d702da4f337da273de77fc9e7d93",
+    "files": [
+      "gameplay/modules/class-system/config/classes-config.json",
+      "gameplay/modules/class-system/ui/data/classes-config.json"
+    ]
+  },
+  {
+    "sha256": "db9d03a096f9f804b291ac6443a181850507489abb2ea83012168f47ead44b13",
+    "files": [
+      "gameplay/modules/class-system/config/perk-mappings.json",
+      "gameplay/modules/class-system/ui/data/perk-mappings.json"
+    ]
+  },
+  {
+    "sha256": "ce820e0a6bfc43cf04bed5a5873a94faee896c7663bb14cf43f1ae7f00af2c28",
+    "files": [
+      "gameplay/modules/class-system/config/perks-descriptions.json",
+      "gameplay/modules/class-system/ui/data/perks-descriptions.json"
+    ]
+  },
+  {
+    "sha256": "718501d5673332c61600040761f01fc1a42a62e70f6b085f1a7886a9b8d8e11d",
+    "files": [
+      "gameplay/modules/class-system/config/spells-descriptions.json",
+      "gameplay/modules/class-system/ui/data/spells-descriptions.json"
+    ]
+  },
+  {
+    "sha256": "d5c3a7224c5581b715c5e05dfc8dab98b7b74afd7d68f95051187b361e7bb818",
+    "files": [
+      "gameplay/modules/class-system/config/verified-perks.json",
+      "gameplay/modules/damage-system/server/server/config/verified-perks.json"
+    ]
+  },
+  {
+    "sha256": "84dd60aa7dc250a967e524267f1a90f36f80870b7dfc1509fa9f12ee4d76c07f",
+    "files": [
+      "gameplay/modules/class-system/server/combatProfileAdapter.ts",
+      "gameplay/modules/damage-system/class-system/server/combatProfileAdapter.ts"
+    ]
+  },
+  {
+    "sha256": "837cf49564cf42d432efbd11064319b1762aa6a333abbfba1951e7e30dfe7405",
+    "files": [
+      "gameplay/modules/class-system/ui/assets/icons/arqueiro.svg",
+      "gameplay/modules/class-system/ui/assets/ui/especialistas.svg"
+    ]
+  },
+  {
+    "sha256": "a39b00313e018768375f2e4d97a4fc32af772cc6aa515c2ba1236c53042aa95c",
+    "files": [
+      "gameplay/modules/class-system/ui/assets/icons/invocador.svg",
+      "gameplay/modules/class-system/ui/assets/ui/conjuradores.svg"
+    ]
+  },
+  {
+    "sha256": "35fb7af509b97655f42ff1dc4fa26f027b19b15c42772952e6c9fa246c3b206c",
+    "files": [
+      "gameplay/modules/class-system/ui/assets/icons/mestre_espadachim.svg",
+      "gameplay/modules/class-system/ui/assets/ui/guerreiros.svg"
+    ]
+  },
+  {
+    "sha256": "e7755979889196b15dd7affdb39e7a019d49ec06fbad70ec76d609d4d280275b",
+    "files": [
+      "gameplay/modules/class-system/vendor/ui-core/sdk/server/router.ts",
+      "ui/sdk/server/router.ts"
+    ]
+  },
+  {
+    "sha256": "bfa89286a14f39a8ffef65b9b2c2c199eef3c389fa58b67dddc0774b07b69926",
+    "files": [
+      "gameplay/modules/class-system/vendor/ui-core/shared/protocol.ts",
+      "ui/shared/protocol.ts"
+    ]
+  }
+]

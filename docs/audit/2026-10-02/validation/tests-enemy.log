@@ -1,0 +1,502 @@
+TAP version 13
+# Subtest: winning override follows loaded precedence
+ok 1 - winning override follows loaded precedence
+  ---
+  duration_ms: 2.7584
+  type: 'test'
+  ...
+# Subtest: changing load-order index does not change canonical identity
+ok 2 - changing load-order index does not change canonical identity
+  ---
+  duration_ms: 1.5585
+  type: 'test'
+  ...
+# Subtest: regular ESP is represented
+ok 3 - regular ESP is represented
+  ---
+  duration_ms: 0.4897
+  type: 'test'
+  ...
+# Subtest: master ESM is represented
+ok 4 - master ESM is represented
+  ---
+  duration_ms: 0.3209
+  type: 'test'
+  ...
+# Subtest: light ESL is represented
+ok 5 - light ESL is represented
+  ---
+  duration_ms: 0.7822
+  type: 'test'
+  ...
+# Subtest: ESP flagged ESL is accepted at adapter metadata boundary
+ok 6 - ESP flagged ESL is accepted at adapter metadata boundary
+  ---
+  duration_ms: 0.6407
+  type: 'test'
+  ...
+# Subtest: simple LVLN reaches an NPC
+ok 7 - simple LVLN reaches an NPC
+  ---
+  duration_ms: 2.9427
+  type: 'test'
+  ...
+# Subtest: nested LVLN reaches terminal NPC
+ok 8 - nested LVLN reaches terminal NPC
+  ---
+  duration_ms: 0.6317
+  type: 'test'
+  ...
+# Subtest: LVLN cycle is reported
+ok 9 - LVLN cycle is reported
+  ---
+  duration_ms: 1.0411
+  type: 'test'
+  ...
+# Subtest: missing LVLN record is reported
+ok 10 - missing LVLN record is reported
+  ---
+  duration_ms: 1.1656
+  type: 'test'
+  ...
+# Subtest: UseAll/chance/threshold semantics are represented
+ok 11 - UseAll/chance/threshold semantics are represented
+  ---
+  duration_ms: 0.6069
+  type: 'test'
+  ...
+# Subtest: direct NPC record can be represented as a terminal
+ok 12 - direct NPC record can be represented as a terminal
+  ---
+  duration_ms: 0.27
+  type: 'test'
+  ...
+# Subtest: template chain data is explicit rather than guessed
+ok 13 - template chain data is explicit rather than guessed
+  ---
+  duration_ms: 0.3427
+  type: 'test'
+  ...
+# Subtest: generic NPC is eligible when all facts resolve
+ok 14 - generic NPC is eligible when all facts resolve
+  ---
+  duration_ms: 0.2343
+  type: 'test'
+  ...
+# Subtest: unique NPC is excluded
+ok 15 - unique NPC is excluded
+  ---
+  duration_ms: 0.5298
+  type: 'test'
+  ...
+# Subtest: generic boss role is distinct
+ok 16 - generic boss role is distinct
+  ---
+  duration_ms: 0.2588
+  type: 'test'
+  ...
+# Subtest: unique boss is excluded from generic pools but allowed by explicit boss policy
+ok 17 - unique boss is excluded from generic pools but allowed by explicit boss policy
+  ---
+  duration_ms: 0.2482
+  type: 'test'
+  ...
+# Subtest: Dragon Priest is fixed at combat level 100
+ok 18 - Dragon Priest is fixed at combat level 100
+  ---
+  duration_ms: 0.2724
+  type: 'test'
+  ...
+# Subtest: combat level 41..100 is not clamped
+ok 19 - combat level 41..100 is not clamped
+  ---
+  duration_ms: 0.2369
+  type: 'test'
+  ...
+# Subtest: dungeon tier overlaps are preserved
+ok 20 - dungeon tier overlaps are preserved
+  ---
+  duration_ms: 0.178
+  type: 'test'
+  ...
+# Subtest: dungeon without level remains unassigned
+ok 21 - dungeon without level remains unassigned
+  ---
+  duration_ms: 0.2672
+  type: 'test'
+  ...
+# Subtest: multi-family segments are representable
+ok 22 - multi-family segments are representable
+  ---
+  duration_ms: 0.3925
+  type: 'test'
+  ...
+# Subtest: unassigned progression context is explicit
+ok 23 - unassigned progression context is explicit
+  ---
+  duration_ms: 0.4027
+  type: 'test'
+  ...
+# Subtest: recommended class range accepts only 1..40 and ordered bounds
+ok 24 - recommended class range accepts only 1..40 and ordered bounds
+  ---
+  duration_ms: 0.2174
+  type: 'test'
+  ...
+# Subtest: enemy combat level is not converted to recommended class level
+ok 25 - enemy combat level is not converted to recommended class level
+  ---
+  duration_ms: 0.2679
+  type: 'test'
+  ...
+# Subtest: ECZN metadata cannot fill class range
+ok 26 - ECZN metadata cannot fill class range
+  ---
+  duration_ms: 0.2553
+  type: 'test'
+  ...
+# Subtest: world encounter can publish its own context
+ok 27 - world encounter can publish its own context
+  ---
+  duration_ms: 0.3051
+  type: 'test'
+  ...
+# Subtest: segment inherits parent context by default
+ok 28 - segment inherits parent context by default
+  ---
+  duration_ms: 0.2293
+  type: 'test'
+  ...
+# Subtest: same generation has same server resolution
+ok 29 - same generation has same server resolution
+  ---
+  duration_ms: 2.2282
+  type: 'test'
+  ...
+# Subtest: reroll is only available in a new generation
+ok 30 - reroll is only available in a new generation
+  ---
+  duration_ms: 0.2714
+  type: 'test'
+  ...
+# Subtest: reconnect does not replace a live NPC
+ok 31 - reconnect does not replace a live NPC
+  ---
+  duration_ms: 0.2225
+  type: 'test'
+  ...
+# Subtest: XP category is exact
+ok 32 - XP category is exact
+  ---
+  duration_ms: 0.1785
+  type: 'test'
+  ...
+# Subtest: unknown category has no fallback
+ok 33 - unknown category has no fallback
+  ---
+  duration_ms: 4.1796
+  type: 'test'
+  ...
+# Subtest: death event contains versioned progression context
+ok 34 - death event contains versioned progression context
+  ---
+  duration_ms: 0.278
+  type: 'test'
+  ...
+# Subtest: death event has no calculated reward fields
+ok 35 - death event has no calculated reward fields
+  ---
+  duration_ms: 0.3231
+  type: 'test'
+  ...
+# Subtest: invalid progression context fails closed for consumer
+ok 36 - invalid progression context fails closed for consumer
+  ---
+  duration_ms: 0.7341
+  type: 'test'
+  ...
+# Subtest: missing killer is preserved as zero
+ok 37 - missing killer is preserved as zero
+  ---
+  duration_ms: 0.9296
+  type: 'test'
+  ...
+# Subtest: death event is idempotent
+ok 38 - death event is idempotent
+  ---
+  duration_ms: 0.5484
+  type: 'test'
+  ...
+# Subtest: external container is empty without Loot System
+ok 39 - external container is empty without Loot System
+  ---
+  duration_ms: 0.4736
+  type: 'test'
+  ...
+# Subtest: quest container is preserved
+ok 40 - quest container is preserved
+  ---
+  duration_ms: 0.3214
+  type: 'test'
+  ...
+# Subtest: managed empty container does not silently restore loot
+ok 41 - managed empty container does not silently restore loot
+  ---
+  duration_ms: 0.2654
+  type: 'test'
+  ...
+# Subtest: missing Loot System does not break policy evaluation
+ok 42 - missing Loot System does not break policy evaluation
+  ---
+  duration_ms: 0.7091
+  type: 'test'
+  ...
+# Subtest: missing ClassSystem does not break the Enemy System contracts
+ok 43 - missing ClassSystem does not break the Enemy System contracts
+  ---
+  duration_ms: 0.8078
+  type: 'test'
+  ...
+# Subtest: implementation boundary is isolated to this repository
+ok 44 - implementation boundary is isolated to this repository
+  ---
+  duration_ms: 1.1111
+  type: 'test'
+  ...
+# Subtest: the global load-order catalogue manages every discovered dungeon with complete progression contracts
+ok 45 - the global load-order catalogue manages every discovered dungeon with complete progression contracts # SKIP
+  ---
+  duration_ms: 1.6129
+  type: 'test'
+  ...
+# Subtest: the original 49 Hammet dungeons remain covered inside the global catalogue
+ok 46 - the original 49 Hammet dungeons remain covered inside the global catalogue # SKIP
+  ---
+  duration_ms: 1.3848
+  type: 'test'
+  ...
+# Subtest: placed Dragon Priests and Dwemer enforce the authorized tiers
+ok 47 - placed Dragon Priests and Dwemer enforce the authorized tiers # SKIP
+  ---
+  duration_ms: 0.2294
+  type: 'test'
+  ...
+# Subtest: every unique dungeon reference is represented as a unique boss
+ok 48 - every unique dungeon reference is represented as a unique boss # SKIP
+  ---
+  duration_ms: 0.1523
+  type: 'test'
+  ...
+# Subtest: loot is restored only for a new dungeon generation or reset
+ok 49 - loot is restored only for a new dungeon generation or reset # SKIP
+  ---
+  duration_ms: 0.3072
+  type: 'test'
+  ...
+# Subtest: The Restless Dead is the exact draugr and skeleton authority plugin
+ok 50 - The Restless Dead is the exact draugr and skeleton authority plugin
+  ---
+  duration_ms: 2.877
+  type: 'test'
+  ...
+# Subtest: progression ranges are independent and assigned only inside 1..40
+ok 51 - progression ranges are independent and assigned only inside 1..40
+  ---
+  duration_ms: 19.2044
+  type: 'test'
+  ...
+# Subtest: enemy descriptor accepts exact configurable categories and rejects malformed/reward data
+ok 52 - enemy descriptor accepts exact configurable categories and rejects malformed/reward data
+  ---
+  duration_ms: 2.4833
+  type: 'test'
+  ...
+# Subtest: XP category contracts cannot map a family outside the Leveling catalog
+ok 53 - XP category contracts cannot map a family outside the Leveling catalog
+  ---
+  duration_ms: 1.0695
+  type: 'test'
+  ...
+# Subtest: houseCARL canonical FormID becomes a load-order-independent identity
+ok 54 - houseCARL canonical FormID becomes a load-order-independent identity
+  ---
+  duration_ms: 1.7851
+  type: 'test'
+  ...
+# Subtest: Hammet cells are grouped by resolved location and exterior-only groups are excluded
+ok 55 - Hammet cells are grouped by resolved location and exterior-only groups are excluded
+  ---
+  duration_ms: 2.2594
+  type: 'test'
+  ...
+# Subtest: a unique non-boss reference is quest-critical, not a generic boss
+ok 56 - a unique non-boss reference is quest-critical, not a generic boss
+  ---
+  duration_ms: 0.3972
+  type: 'test'
+  ...
+# Subtest: generic DWEMER has no invented centurion XP fallback
+ok 57 - generic DWEMER has no invented centurion XP fallback
+  ---
+  duration_ms: 0.4669
+  type: 'test'
+  ...
+# Subtest: Dragon Priest always makes a dungeon VERY_HARD
+ok 58 - Dragon Priest always makes a dungeon VERY_HARD
+  ---
+  duration_ms: 3.0184
+  type: 'test'
+  ...
+# Subtest: Dwemer is HARD and predominant vampires are VERY_HARD
+ok 59 - Dwemer is HARD and predominant vampires are VERY_HARD
+  ---
+  duration_ms: 0.6
+  type: 'test'
+  ...
+# Subtest: bandit, crypt, and animal rules use the authorized progression
+ok 60 - bandit, crypt, and animal rules use the authorized progression
+  ---
+  duration_ms: 1.3554
+  type: 'test'
+  ...
+# Subtest: ambiguous managed content receives the authorized neutral fallback
+ok 61 - ambiguous managed content receives the authorized neutral fallback
+  ---
+  duration_ms: 0.7764
+  type: 'test'
+  ...
+# Subtest: global enrichment preserves every dungeon and applies placed NPC evidence outside Hammet
+ok 62 - global enrichment preserves every dungeon and applies placed NPC evidence outside Hammet
+  ---
+  duration_ms: 9.5615
+  type: 'test'
+  ...
+# Subtest: global enrichment resolves nested leveled-list candidates for dungeon classification
+ok 63 - global enrichment resolves nested leveled-list candidates for dungeon classification
+  ---
+  duration_ms: 1.6588
+  type: 'test'
+  ...
+# Subtest: simple and nested LVLN reachability resolves terminal NPCs
+ok 64 - simple and nested LVLN reachability resolves terminal NPCs
+  ---
+  duration_ms: 3.3682
+  type: 'test'
+  ...
+# Subtest: cycles and missing records are reported, not swallowed
+ok 65 - cycles and missing records are reported, not swallowed
+  ---
+  duration_ms: 0.8759
+  type: 'test'
+  ...
+# Subtest: threshold, UseAll, count, and chance-none are represented deterministically
+ok 66 - threshold, UseAll, count, and chance-none are represented deterministically
+  ---
+  duration_ms: 5.0534
+  type: 'test'
+  ...
+# Subtest: partial chance-none is deterministic for the same seed
+ok 67 - partial chance-none is deterministic for the same seed
+  ---
+  duration_ms: 1.0348
+  type: 'test'
+  ...
+# Subtest: CalculateForEach resolves a nested list independently for every count
+ok 68 - CalculateForEach resolves a nested list independently for every count
+  ---
+  duration_ms: 1.7848
+  type: 'test'
+  ...
+# Subtest: stable identity survives regular, light, and load-order index changes
+ok 69 - stable identity survives regular, light, and load-order index changes
+  ---
+  duration_ms: 1.5905
+  type: 'test'
+  ...
+# Subtest: winning override uses highest loaded candidate only when candidates are explicit
+ok 70 - winning override uses highest loaded candidate only when candidates are explicit
+  ---
+  duration_ms: 1.1947
+  type: 'test'
+  ...
+# Subtest: readiness fails closed when a global dungeon lacks spawn references or resolved actor bases
+ok 71 - readiness fails closed when a global dungeon lacks spawn references or resolved actor bases
+  ---
+  duration_ms: 5.6338
+  type: 'test'
+  ...
+# Subtest: generic, quest, unique, boss, and Dragon Priest semantics are explicit
+ok 72 - generic, quest, unique, boss, and Dragon Priest semantics are explicit
+  ---
+  duration_ms: 4.1939
+  type: 'test'
+  ...
+# Subtest: an authority plugin scope alone never classifies every touched NPC
+ok 73 - an authority plugin scope alone never classifies every touched NPC
+  ---
+  duration_ms: 1.0179
+  type: 'test'
+  ...
+# Subtest: approved Leveling families including Ice Wraith and Thalmor are emitted
+ok 74 - approved Leveling families including Ice Wraith and Thalmor are emitted
+  ---
+  duration_ms: 1.2208
+  type: 'test'
+  ...
+# Subtest: a mod-added family is discovered through an injected Leveling category contract
+ok 75 - a mod-added family is discovered through an injected Leveling category contract
+  ---
+  duration_ms: 0.6463
+  type: 'test'
+  ...
+# Subtest: server spawn is deterministic, persistent, and rerolls only on a new generation
+ok 76 - server spawn is deterministic, persistent, and rerolls only on a new generation
+  ---
+  duration_ms: 31.6809
+  type: 'test'
+  ...
+# Subtest: spawn fails closed when a candidate has no source-derived weight
+ok 77 - spawn fails closed when a candidate has no source-derived weight
+  ---
+  duration_ms: 0.8857
+  type: 'test'
+  ...
+# Subtest: death event is idempotent, preserves killer zero, and carries context without XP
+ok 78 - death event is idempotent, preserves killer zero, and carries context without XP
+  ---
+  duration_ms: 2.3874
+  type: 'test'
+  ...
+# Subtest: different live actors sharing one NPC base produce different death event IDs
+ok 79 - different live actors sharing one NPC base produce different death event IDs
+  ---
+  duration_ms: 3.2502
+  type: 'test'
+  ...
+# Subtest: external loot is empty without Loot System and quest loot is preserved
+ok 80 - external loot is empty without Loot System and quest loot is preserved
+  ---
+  duration_ms: 1.5346
+  type: 'test'
+  ...
+# Subtest: canonical host resolution does not persist a load-order index
+ok 81 - canonical host resolution does not persist a load-order index
+  ---
+  duration_ms: 2.8518
+  type: 'test'
+  ...
+# Subtest: dungeon generation restores source loot until the future Loot System is bound
+ok 82 - dungeon generation restores source loot until the future Loot System is bound
+  ---
+  duration_ms: 0.8046
+  type: 'test'
+  ...
+1..82
+# tests 82
+# suites 0
+# pass 77
+# fail 0
+# cancelled 0
+# skipped 5
+# todo 0
+# duration_ms 623.1575

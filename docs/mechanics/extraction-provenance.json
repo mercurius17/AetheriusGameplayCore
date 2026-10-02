@@ -1,0 +1,2934 @@
+{
+  "epoch": "e2-ad3c01c2aa184e91",
+  "inputs": [
+    {
+      "file": "magic-perk-definitions.jsonl",
+      "sha256": "32062072459ae2c00450e18dc45f21b24c40664e701dda95cb9eb6f1f0ca294a",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "form": "fields",
+          "types": "PERK, MGEF, SPEL, ENCH, ALCH, INGR",
+          "fields": "Conditions, Effects, Archetype, Flags, MagicSkill, ResistValue, CastType, TargetType, SpellType, EquipmentType, BaseCost, ChargeTime, Keywords, ActorEffects, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "load-order scan order (deterministic within one epoch)",
+        "row_count": 12981,
+        "total": 12981,
+        "type_counts": {
+          "MagicEffect": 5496,
+          "Spell": 3791,
+          "ObjectEffect": 1494,
+          "Perk": 1493,
+          "Ingestible": 524,
+          "Ingredient": 183
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T14:35:29Z"
+      }
+    },
+    {
+      "file": "spell-extra.jsonl",
+      "sha256": "a648a14c7983ab0765b3fadc77e77600ac3ee34ff70aa740debe4403fb7719ee",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "form": "fields",
+          "types": "SPEL",
+          "fields": "Type, HalfCostPerk, CastDuration, Range",
+          "depth": "3"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "load-order scan order (deterministic within one epoch)",
+        "row_count": 3791,
+        "total": 3791,
+        "type_counts": {
+          "Spell": 3791
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T14:47:59Z"
+      }
+    },
+    {
+      "file": "perk-metadata.jsonl",
+      "sha256": "b0bb0ca07be3098a25307cc7da44ca05bd3140fe069ec6e699b7aeb35d69c6e4",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "form": "fields",
+          "types": "PERK",
+          "fields": "Name, NextPerk, NumRanks, Playable, Hidden, Level, Trait, IsDeleted",
+          "depth": "3"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "load-order scan order (deterministic within one epoch)",
+        "row_count": 1493,
+        "total": 1493,
+        "type_counts": {
+          "Perk": 1493
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:52:09Z"
+      }
+    },
+    {
+      "file": "perk-expansions/000.jsonl",
+      "sha256": "fdb4dd04010ba8f93ac72a756b9804fe95d52768c56eafb8253c09593e5a441c",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:19Z"
+      }
+    },
+    {
+      "file": "perk-expansions/001.jsonl",
+      "sha256": "8caeef2ff0756364f0cb83effb5392b590e95da286920d1ed9df0be059c4fc32",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:19Z"
+      }
+    },
+    {
+      "file": "perk-expansions/002.jsonl",
+      "sha256": "def12126cd1d1306112a00b8836ecf3eb08f0ef1cdfd878f0765ec81d144ea61",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:19Z"
+      }
+    },
+    {
+      "file": "perk-expansions/003.jsonl",
+      "sha256": "0f3b7e19679d114f62e9819795bcecb5da7c98677ac7546c8a64a55dc5e1d087",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:19Z"
+      }
+    },
+    {
+      "file": "perk-expansions/004.jsonl",
+      "sha256": "dedf0984f6d8b1b873a54dec56fb5cc486c77d1a5c2efc37cf4571c7a0cf0e56",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:19Z"
+      }
+    },
+    {
+      "file": "perk-expansions/005.jsonl",
+      "sha256": "43212a38e7da7a75ed54c82ff2977d6eec55ca9b1fa42385c8574720221810f2",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/006.jsonl",
+      "sha256": "1cd201fe118fe824002989414b92a657b6da4a3c300dcd8485a903c7e544ea6e",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/007.jsonl",
+      "sha256": "a972e44fd58cefdbf47c7ee6ae1085e7277b33102e43de2b32cd879d1f0b8615",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/008.jsonl",
+      "sha256": "6f1dcecc65e3b3d2231680746172ce920dcac68a947e582d2d0ddd0e22737d4c",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/009.jsonl",
+      "sha256": "465ecdbc8d951a24ea9947bb62e02a53fb178d6861d26f333041f8e54d4e8a4f",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/010.jsonl",
+      "sha256": "1fb38aad8b46e3d7b667ea359163d370a5cd3792958a291001ff262bbfa592b0",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/011.jsonl",
+      "sha256": "f6db7e32fdb35622e40f5397f8f089a1a8e67339214d72cb1dc2521a88f3557e",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/012.jsonl",
+      "sha256": "3b4994118f14b293f51fa6f63554c3a61fd6a993a8d9d5f81c88f3f099bba0bf",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15], Effects[16], Effects[17]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/013.jsonl",
+      "sha256": "5c4b48b170092e198b510172bf12d45952cc7f8538da6da86eab74e3430608d5",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[18]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/014.jsonl",
+      "sha256": "0c99f4eef25b0c0eabdca2da0f20f1a479fc66865222dbaf1ce4711b7f6dc5d5",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/015.jsonl",
+      "sha256": "8cec635edef0a66d03b6c82a4b80d85a358e0c13ef825746b77e5eb189800f46",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/016.jsonl",
+      "sha256": "874868170cc73bea5b7df7427f69d46b555d790529eb6966629ecc33dbce4269",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/017.jsonl",
+      "sha256": "f6461849f513909b9c0120c52248354209cd9b9deb83b7788853646ab2b7ddbd",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/018.jsonl",
+      "sha256": "181718bc3114de43369250f9cfcb701961c143cd6e0910720aebac86e7177e63",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/019.jsonl",
+      "sha256": "0810eddb585c4ba58bb5b38694900a583a2645a119a202f1aa2feb4708649e5d",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/020.jsonl",
+      "sha256": "a2266335f45480c4fc18716420d280b77cbf0fcf74b237f38c28d7822b386489",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15], Effects[16], Effects[17]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/021.jsonl",
+      "sha256": "88faa309adea6b1e0fc271b8bce7d3a2da0b7e096fef0a0e9f04fcbd7288c411",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[18], Effects[19], Effects[20]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/022.jsonl",
+      "sha256": "d59ec477cbbd387e23586111bc0d6b819a9bba8d285c52cf2c7d7058b8c412a6",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[21], Effects[22], Effects[23]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/023.jsonl",
+      "sha256": "67c27082a51cda3b6707ee2cd91ef2514bc8b647a9b28e2ca764611b709b2012",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[24], Effects[25], Effects[26]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/024.jsonl",
+      "sha256": "795589440490bbd0232cf02463922d386b9aac989366dda7919465c912c4552d",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[27], Effects[28], Effects[29]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/025.jsonl",
+      "sha256": "5b0859cc7492a0663ba9109877bc037e46dab138559048ccb983cbc064e04d56",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[30], Effects[31]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/026.jsonl",
+      "sha256": "5363f3c180636e27f1dbd204b48c304ddb8fe997813696ea8cfac72d2258508b",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/027.jsonl",
+      "sha256": "2f785b743ab14825e65baf47b26ee78425ef952f7bfd24d53306b5d7710fbdbf",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/028.jsonl",
+      "sha256": "54931533795f19697d1c8bf316448630de220ee78502b52e4a315c7a20451b0e",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/029.jsonl",
+      "sha256": "ff0159835b7b9f09fad260b97e4463021ba7e9edcf5372fe2572ff7165c017e5",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/030.jsonl",
+      "sha256": "f73bb76b40e8422b71c5d73c45abb4cfc9c547238121eed358d4f43645cd4bf8",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:20Z"
+      }
+    },
+    {
+      "file": "perk-expansions/031.jsonl",
+      "sha256": "420ab3efe6e0fbaede3305cc3fac4bd3845ad286e3ad879e96b185fe5b82e34e",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/032.jsonl",
+      "sha256": "d0ed049155dd24df0bb5606606ade831c67ed0c4af23b160528e9a720d643eb6",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15], Effects[16], Effects[17]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/033.jsonl",
+      "sha256": "8b496277f5d5447b410afc4003414f3727dd7db4d8fa87003a629372b2b61b6f",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[18], Effects[19], Effects[20]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/034.jsonl",
+      "sha256": "f987b04679a9a805d9af6f9e25655cfac3001df1e6174abe3faa5c36d744d38d",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[21], Effects[22], Effects[23]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/035.jsonl",
+      "sha256": "01f0772edd70667450d932732f96aa56371291193adefaa1ed37ef064056784b",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[24], Effects[25], Effects[26]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/036.jsonl",
+      "sha256": "bdd9d9afc112a26a379e156b9c235c872c99b8185be134d5802a477e564666e7",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[27], Effects[28], Effects[29]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/037.jsonl",
+      "sha256": "80e0f96db29e76e611f7398c8910be9f21f83c33b9e2c9cea0cdc596a69ff804",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[30], Effects[31], Effects[32]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/038.jsonl",
+      "sha256": "cc3f5315a9e1c6947df6521c5d41f4443cb4e7273e84919cdbf494b79f1c9ef4",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[33], Effects[34], Effects[35]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/039.jsonl",
+      "sha256": "186db38346f9f33c1c513c55e454dad028eb9f4074bbd54f8b31c6cfe63e6998",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[36], Effects[37], Effects[38]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/040.jsonl",
+      "sha256": "92b77579dea4e1a0baef50ccddb84863d39ffe49ba7f5747f4f87dea24f54e60",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[39], Effects[40]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/041.jsonl",
+      "sha256": "b5381ede9ec8585e221e884ac2d052c529c824988f1240b878d8aaae77b19b4a",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/042.jsonl",
+      "sha256": "6fd2f5c7e86367f474ec3c9ec16e612ebbd5015c681abaee1c6f37f50071d250",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/043.jsonl",
+      "sha256": "26a89bec407721acb622e601007d21fd60a875c311ad3e55c481fb0a5e9af7bd",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/044.jsonl",
+      "sha256": "fea174e0c8e5ebe32f0d0e6cabcefaf6fd0a1064e1b4d1e44c4ec9733f4d28b9",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/045.jsonl",
+      "sha256": "a92a066c04a04203e8f33b74fcfcd6e193557d7035a05a8791c0189ab12d1e4a",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/046.jsonl",
+      "sha256": "55df8195279ca96063c1f789fc1cd2a1c39ecd0fb7321c1427f8ca6750e7c3d6",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/047.jsonl",
+      "sha256": "9fbe868bf7d60821c2866f45a252fbad40d294487af8ef9019c1abf558008069",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/048.jsonl",
+      "sha256": "7dd71ed7a636941d29f253abd22ed490b76d8d14b7c83c177b21f01698e3f32d",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/049.jsonl",
+      "sha256": "8867d255bc5b9cc880e8ad85c532ac162118c000d1fabcb77e5a288b1b87b82d",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/050.jsonl",
+      "sha256": "a54a864af6627a7385ebce2ec11f7578b16c259ffb73b8b61504d89ace9059ef",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/051.jsonl",
+      "sha256": "573e418b2931e31ec3557a05569fe1bd12b36a6b4fb4c1ac159bed40b128749e",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/052.jsonl",
+      "sha256": "94e7afba2e2ebc1c156a0bd63a3b81b727f6996340407de594e7aa28e9c548f4",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/053.jsonl",
+      "sha256": "8b95d51ac8565a28e8cb1e0d679aa8f95be6186231e0b0e3042caaa29c6f7e0e",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/054.jsonl",
+      "sha256": "129f9c76077e81af4bf6f117e91f68f3d30191964a0b43ef47e43dbc437d230c",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/055.jsonl",
+      "sha256": "b6410943a8c2dd7f39c4ccc6214a809b5432e0047c6b121d8555ef05caa3e446",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/056.jsonl",
+      "sha256": "3151f3c03d72fa3843195eda53596b43c031a2db13b67f9a51608b54dfd67323",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/057.jsonl",
+      "sha256": "144ae6ce13f56b1e264e8da342bf5a0f8e5ee3ad43e35b5c6298997253e98e8b",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/058.jsonl",
+      "sha256": "1ac619400b0743fb2cb4de9070d0273d9c44b94fd083492bb85264b1cb53b9f7",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/059.jsonl",
+      "sha256": "274892a998e80ccc67263e21d138e54f4afe161a6791f41329a37d3d2cafdc19",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:21Z"
+      }
+    },
+    {
+      "file": "perk-expansions/060.jsonl",
+      "sha256": "ee1cefb2e26a66d78553d5dc9f83d15bf72eefe3fdff510b7e69e0d4927a246e",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/061.jsonl",
+      "sha256": "b052a5727534e26341bbb12ea6cadd7c8531a1d34b437463babb9388c70ff759",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/062.jsonl",
+      "sha256": "45f7fa103d440785663faf3188777f9687cee2d216c4f0155ec7f169c3a0628a",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/063.jsonl",
+      "sha256": "b4be936abfbff61944eefc5ed769dd7b066aadfb8de97a5dd4b1e49baa3843fb",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/064.jsonl",
+      "sha256": "950c6d3cdca48ea65caacd6e3dd79cbc972daccf1b9898c2c12767ba8a2ddcc9",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/065.jsonl",
+      "sha256": "44eb715e29c2fd71fa52fce087ac8f93b3a772d5d01f85c4eb578aad42806abb",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/066.jsonl",
+      "sha256": "f7acb9eb5f61af2c3167a3c443630fcbabe41811c1bdf5bb5738112d558c1a3f",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/067.jsonl",
+      "sha256": "9c0dea0084825593eca13d5284344a0aee57dbf9c5865121b414baf8d30a93c1",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/068.jsonl",
+      "sha256": "bc68626b915f98911ce7371d9b506c7d73a626ede8ac5534e5c0893ab2c5b205",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/069.jsonl",
+      "sha256": "0f8da3010be96ae8901cb8d4e8461f2248ca67b7f76579ed360ca60f6b15c536",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/070.jsonl",
+      "sha256": "8e6c7be1932aacc1cf1d94af649b70df217a361b5b0551978560a579fa4ac4de",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/071.jsonl",
+      "sha256": "7e929e169e91b7545b9605ee5ac2a7d657220fe62ba1322d9509e71ec42d71a4",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/072.jsonl",
+      "sha256": "ed851f69fb5c16bcd2aea1ebfa392d8dbf301edf245f48a31b0b330b5a825a3b",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/073.jsonl",
+      "sha256": "86c1db91b478081dbc293c8637a7127487b7e080c36f506f00dcf9f9e546c8aa",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/074.jsonl",
+      "sha256": "0cc45422ad83f0350d44fe74abf5a3b4c1bd9f2d27a4a368b801f6dff0f67059",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/075.jsonl",
+      "sha256": "e87a875c471b4117e6f558bcece6bbe7d0a2d64f89167f33ad3539a28c17ffc3",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15], Effects[16], Effects[17]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/076.jsonl",
+      "sha256": "dbba2f3e5531181c0299c6f093ff0b3c88772dcc21ec7f96b2baa96d451ea799",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Conditions, VirtualMachineAdapter",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/077.jsonl",
+      "sha256": "84ae73e3a211cc68496afd73c0e2b4db601cdb0bf35eb2214bb42babd762c4b2",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[0], Effects[1], Effects[2]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/078.jsonl",
+      "sha256": "007ff53b7a86a1dffc0b633bbd2ae86cee91e52232300b7676c991239abe5427",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[3], Effects[4], Effects[5]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/079.jsonl",
+      "sha256": "2d4630c3bdfc6a3e05293d90dc3461149cd9de6f2af51c2be8d4c478f9de2a59",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[6], Effects[7], Effects[8]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/080.jsonl",
+      "sha256": "ddc55222dfcce28dcc633094a1c6d3c44684b01a3a48a4d1a47b63aea05eb483",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[9], Effects[10], Effects[11]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/081.jsonl",
+      "sha256": "f1ebeda3f6d42ceaa434c861cbda86121fa6b1efd1d13488bc572bb885c41a97",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[12], Effects[13], Effects[14]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    },
+    {
+      "file": "perk-expansions/082.jsonl",
+      "sha256": "c0dd1f7ffafaf8c31668843f6b5efca13fb9f0d0497e9ef236afb1d17e9721b7",
+      "metadata": {
+        "housecarl_artifact": 1,
+        "tool": "housecarl_records",
+        "query": {
+          "formids": "1 inline formid(s)",
+          "form": "fields",
+          "fields": "Effects[15], Effects[16], Effects[17]",
+          "depth": "8"
+        },
+        "identity": "formid",
+        "row_schema": [
+          "formid",
+          "runtime_formid",
+          "type",
+          "editorid",
+          "winner",
+          "override_depth",
+          "source",
+          "matches?",
+          "fields"
+        ],
+        "sort": "input order",
+        "row_count": 1,
+        "total": 1,
+        "type_counts": {
+          "Perk": 1
+        },
+        "epoch": "e2-ad3c01c2aa184e91",
+        "created": "2026-10-02T15:53:22Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Versão do MSBuild 17.14.60+43b635718 para .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule D:/SkyMP-Lab/Servidor-SkyMP-Teste/tmp/AetheriusGameplayCore-planning/modules/damage-system/CMakeLists.txt
+  combat_tests.cpp
+  combat_tests.vcxproj -> <workspace>\tmp\gameplay-audit-work\damage-cpp-build\Debug\combat_tests.exe
+  Building Custom Rule D:/SkyMP-Lab/Servidor-SkyMP-Teste/tmp/AetheriusGameplayCore-planning/modules/damage-system/CMakeLists.txt
+  metrics_tests.cpp
+  metrics_tests.vcxproj -> <workspace>\tmp\gameplay-audit-work\damage-cpp-build\Debug\metrics_tests.exe
+  Building Custom Rule D:/SkyMP-Lab/Servidor-SkyMP-Teste/tmp/AetheriusGameplayCore-planning/modules/damage-system/CMakeLists.txt

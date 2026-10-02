@@ -21,6 +21,14 @@ O `ActorStateSystem` ainda não possuía repositório próprio; por isso foi cri
 
 Consulte `MIGRATION_MANIFEST.md` para os commits de origem e a prova de integridade.
 
+## Planejamento integrado
+
+O [planejamento holístico de 02/10/2026](AETHERIUS_GAMEPLAY_CORE_PLANEJAMENTO_HOLISTICO.md) audita os seis módulos, a instância MO2 `D:\modOrganizer`, os 424 plugins e as baselines Server/Client. Inclui ownership, contratos, PostgreSQL, adapters externos, testes e fases de implementação.
+
+O [pacote de evidências](docs/audit/2026-10-02/README.md) contém inventários, winning records, overrides, pesquisa documental e resultados de testes. É uma entrega de planejamento: os blockers de runtime estão explícitos e nenhuma funcionalidade nova foi ativada.
+
+O [manual detalhado de mecânicas e multiplayer](docs/mechanics/README.md) complementa o plano com funcionamento de perks, conditions, fórmulas, efeitos, classes, persistência e cenários de validação. Inclui fichas das 1.493 perks instaladas, 1.540 records mágicos ligados a elas e todos os estágios das 18 classes, distinguindo dados observados, propostas e suporte ainda pendente.
+
 ## Princípio arquitetural
 
 A existência no mesmo monorepo não elimina fronteiras de responsabilidade. Os módulos devem continuar com autoridades claras e contratos explícitos. Refatorações compartilhadas, deduplicação de contratos e integração com `aetherius-server` / `aetherius-client` serão realizadas em commits posteriores, após planejamento e testes.

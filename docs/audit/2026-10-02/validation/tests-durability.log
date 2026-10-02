@@ -1,0 +1,76 @@
+TAP version 13
+# Subtest: configuração contempla kits MISC, catálogo de materiais e ícones verificados
+ok 1 - configuração contempla kits MISC, catálogo de materiais e ícones verificados
+  ---
+  duration_ms: 14.0846
+  type: 'test'
+  ...
+# Subtest: equipar ou permanecer conectado sem combate não consome cargas
+ok 2 - equipar ou permanecer conectado sem combate não consome cargas
+  ---
+  duration_ms: 5.635
+  type: 'test'
+  ...
+# Subtest: vários ataques no ciclo consomem uma carga por combinação e dual wield separa materiais
+ok 3 - vários ataques no ciclo consomem uma carga por combinação e dual wield separa materiais
+  ---
+  duration_ms: 5.2373
+  type: 'test'
+  ...
+# Subtest: magia exclusiva não consome arma; dano físico e bloqueio consomem apenas a defesa usada
+ok 4 - magia exclusiva não consome arma; dano físico e bloqueio consomem apenas a defesa usada
+  ---
+  duration_ms: 3.1644
+  type: 'test'
+  ...
+# Subtest: última carga preserva cobertura até o encerramento do ciclo, sem saldo negativo
+ok 5 - última carga preserva cobertura até o encerramento do ciclo, sem saldo negativo
+  ---
+  duration_ms: 2.3647
+  type: 'test'
+  ...
+# Subtest: uso duplicado de kit é idempotente e não duplica cargas
+ok 6 - uso duplicado de kit é idempotente e não duplica cargas
+  ---
+  duration_ms: 2.6768
+  type: 'test'
+  ...
+# Subtest: duas solicitações diferentes concorrentes não removem mais kits do que existem
+ok 7 - duas solicitações diferentes concorrentes não removem mais kits do que existem
+  ---
+  duration_ms: 2.5682
+  type: 'test'
+  ...
+# Subtest: eventos enviados pelo cliente não são autoridade de consumo
+ok 8 - eventos enviados pelo cliente não são autoridade de consumo
+  ---
+  duration_ms: 2.1936
+  type: 'test'
+  ...
+# Subtest: saldo persiste após desconexão/reconexão sem restaurar carga nem cobertura grátis
+ok 9 - saldo persiste após desconexão/reconexão sem restaurar carga nem cobertura grátis
+  ---
+  duration_ms: 4.0106
+  type: 'test'
+  ...
+# Subtest: configuração inválida rejeita penalidade fora dos limites e cargas negativas
+ok 10 - configuração inválida rejeita penalidade fora dos limites e cargas negativas
+  ---
+  duration_ms: 3.9492
+  type: 'test'
+  ...
+# Subtest: protocolo de cliente aceita apenas intenção de uso/consulta e ignora saldo enviado
+ok 11 - protocolo de cliente aceita apenas intenção de uso/consulta e ignora saldo enviado
+  ---
+  duration_ms: 0.487
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 325.2933

@@ -1,0 +1,14 @@
+[
+  {
+    "kind": "server",
+    "sha256": "b24d928d890bfe1d063cd09aae4aa2a7d5701b977bb9e6e0e48a03aea5681564",
+    "entries": 1647,
+    "uncompressedBytes": 11272128
+  },
+  {
+    "kind": "client",
+    "sha256": "bebe2058fa407200ad7de9c32be3e4c2700ace5a2f5f924cd829ccf6a5206dda",
+    "entries": 223,
+    "uncompressedBytes": 773781
+  }
+]

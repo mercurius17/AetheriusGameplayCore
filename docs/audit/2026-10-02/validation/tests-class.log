@@ -1,0 +1,135 @@
+
+> sistema-classes@2.0.0 pretest
+> npm run sync-data
+
+
+> sistema-classes@2.0.0 sync-data
+> node scripts/sync-data.js
+
+====================================================
+🔄 Sincronizando e Validando Dados JSON do Aetherius
+====================================================
+✓ classes-config.json: JSON válido (18 registros)
+✓ perks-descriptions.json: JSON válido (162 registros)
+✓ spells-descriptions.json: JSON válido (149 registros)
+✓ perk-mappings.json: JSON válido (162 registros)
+✓ 100% das perks de classes possuem descrição em perks-descriptions.json.
+✓ 100% das perks de classes possuem mapeamento de FormID em perk-mappings.json.
+✓ 100% dos feitiços autorizados possuem descrição em spells-descriptions.json.
+✓ Arquivos JSON sincronizados com dist/config/ e ui/data/.
+✓ ui/js/embedded-data.js atualizado (164.7 KB).
+====================================================
+✨ Sincronização concluída com sucesso!
+====================================================
+
+> sistema-classes@2.0.0 test
+> jest --runInBand
+
+FAIL tests/classes.test.ts
+  ● Sistema de Classes e Regras de Negócio › Deve retornar perks resolvidas de estágios com descrições em Português do Brasil
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      72 |       expect(p.namePt).toBeDefined();
+      73 |       expect(p.descriptionPt).toBeDefined();
+    > 74 |       expect(p.isResolved).toBe(true);
+         |                            ^
+      75 |     }
+      76 |   });
+      77 |
+
+      at Object.<anonymous> (tests/classes.test.ts:74:28)
+
+  ● Sistema de Classes e Regras de Negócio › Deve garantir que 100% das perks de todas as classes possuem mapeamento e descrição em PT-BR
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 351
+    Received: 350
+
+      189 |       }
+      190 |     }
+    > 191 |     expect(totalPerksChecked).toBe(351);
+          |                               ^
+      192 |   });
+      193 |
+      194 |   test('Deve garantir integridade dos ícones SVG para as 18 classes na interface', () => {
+
+      at Object.<anonymous> (tests/classes.test.ts:191:31)
+
+FAIL tests/leveling.test.ts
+  ● Sistema de Leveling e Fórmulas Matemáticas de XP › Deve ignorar XP e classificação de chefe forjadas pelo cliente
+
+    TypeError: Cannot read properties of undefined (reading 'xpAwarded')
+
+      72 |     });
+      73 |
+    > 74 |     expect(result.awardedPlayers[0].xpAwarded).toBe(10);
+         |                                     ^
+      75 |   });
+      76 |
+      77 |   test('Deve validar a quantidade total de pontos de atributos (585 pontos)', () => {
+
+      at Object.<anonymous> (tests/leveling.test.ts:74:37)
+
+FAIL tests/server.test.ts
+  ● Validação de pacotes do servidor › rejeita abates sem identidade e não processa a mesma vítima duas vezes
+
+    TypeError: Cannot read properties of undefined (reading 'xpAwarded')
+
+      41 |     const duplicate = server.handleClientPacket(77, 'reportCombatKill', payload);
+      42 |
+    > 43 |     expect(first.data.awardedPlayers[0].xpAwarded).toBe(10);
+         |                                         ^
+      44 |     expect(duplicate.data.rejected).toBe(true);
+      45 |   });
+      46 | });
+
+      at Object.<anonymous> (tests/server.test.ts:43:41)
+
+FAIL tests/perkResolver.test.ts
+  ● PerkResolver - Camada de Resolução Dinâmica de FormIDs e Perks › Deve resolver perk com descrição completa e título em Português do Brasil
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      14 |     expect(perk.namePt).toBe('Maestria em Destruição');
+      15 |     expect(perk.descriptionPt).toContain('Feitiços de Destruição custam 0,5% a menos de Mágicka');
+    > 16 |     expect(perk.isResolved).toBe(true);
+         |                             ^
+      17 |   });
+      18 |
+      19 |   test('Deve simular resolução dinâmica com ordem de carregamento mutável (Load Order Independence)', () => {
+
+      at Object.<anonymous> (tests/perkResolver.test.ts:16:29)
+
+  ● PerkResolver - Camada de Resolução Dinâmica de FormIDs e Perks › Deve gerar relatório de inicialização sem falhas
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: 162
+    Received: 0
+
+      93 |     const report = resolver.initializeResolver();
+      94 |     expect(report.total).toBeGreaterThan(100);
+    > 95 |     expect(report.resolved).toBe(report.total);
+         |                             ^
+      96 |     expect(report.failed.length).toBe(0);
+      97 |   });
+      98 | });
+
+      at Object.<anonymous> (tests/perkResolver.test.ts:95:29)
+
+PASS tests/client.test.ts
+PASS tests/party.test.ts
+
+Test Suites: 4 failed, 2 passed, 6 total
+Tests:       6 failed, 44 passed, 50 total
+Snapshots:   0 total
+Time:        2.273 s, estimated 7 s
+Ran all test suites.

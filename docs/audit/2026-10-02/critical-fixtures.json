@@ -1,0 +1,174 @@
+{
+  "AETHERIUS - INIMIGOS.esp": [
+    {
+      "formid": "02025A:Skyrim.esm",
+      "editorid": "EncDragonPriestFire",
+      "predecessor": "Humanoid Dragon Priest.esp",
+      "winner": "AETHERIUS - INIMIGOS.esp",
+      "deltas": [
+        "Configuration.Level.Level=50 (AETHERIUS - INIMIGOS.esp 70)",
+        "PlayerSkills.Health=1490 (AETHERIUS - INIMIGOS.esp 1690)",
+        "PlayerSkills.Magicka=545 (AETHERIUS - INIMIGOS.esp 645)",
+        "Perks: 9 vs AETHERIUS - INIMIGOS.esp 13 item(s) — only here: [0] Perk=053128:Skyrim.esm, Rank=1, Fluff=AB5716; [1] Perk=0581F5:Skyrim.esm, Rank=1, Fluff=AB5716 (+7 more element(s)); only in AETHERIUS - INIMIGOS.esp: [0] Perk=0153CF:Skyrim.esm, Rank=1, Fluff=000000; [1] Perk=05312A:Skyrim.esm, Rank=1, Fluff=000000 (+11 more element(s))"
+      ]
+    },
+    {
+      "formid": "02025B:Skyrim.esm",
+      "editorid": "EncDragonPriestFrost",
+      "predecessor": "Humanoid Dragon Priest.esp",
+      "winner": "AETHERIUS - INIMIGOS.esp",
+      "deltas": [
+        "Configuration.Level.Level=50 (AETHERIUS - INIMIGOS.esp 70)",
+        "PlayerSkills.Health=1490 (AETHERIUS - INIMIGOS.esp 1690)",
+        "PlayerSkills.Magicka=545 (AETHERIUS - INIMIGOS.esp 645)",
+        "Perks: 9 vs AETHERIUS - INIMIGOS.esp 13 item(s) — only here: [0] Perk=053128:Skyrim.esm, Rank=1, Fluff=A65716; [1] Perk=0581F5:Skyrim.esm, Rank=1, Fluff=A65716 (+7 more element(s)); only in AETHERIUS - INIMIGOS.esp: [0] Perk=0153CF:Skyrim.esm, Rank=1, Fluff=000000; [1] Perk=05312A:Skyrim.esm, Rank=1, Fluff=000000 (+11 more element(s))"
+      ]
+    },
+    {
+      "formid": "02025C:Skyrim.esm",
+      "editorid": "EncDragonPriestShock",
+      "predecessor": "Humanoid Dragon Priest.esp",
+      "winner": "AETHERIUS - INIMIGOS.esp",
+      "deltas": [
+        "Configuration.Level.Level=50 (AETHERIUS - INIMIGOS.esp 70)",
+        "PlayerSkills.Health=1490 (AETHERIUS - INIMIGOS.esp 1690)",
+        "PlayerSkills.Magicka=545 (AETHERIUS - INIMIGOS.esp 645)",
+        "Perks: 9 vs AETHERIUS - INIMIGOS.esp 13 item(s) — only here: [0] Perk=053128:Skyrim.esm, Rank=1, Fluff=A25716; [1] Perk=0581F5:Skyrim.esm, Rank=1, Fluff=A25716 (+7 more element(s)); only in AETHERIUS - INIMIGOS.esp: [0] Perk=0153CF:Skyrim.esm, Rank=1, Fluff=000000; [1] Perk=05312A:Skyrim.esm, Rank=1, Fluff=000000 (+11 more element(s))"
+      ]
+    },
+    {
+      "formid": "023A93:Skyrim.esm",
+      "editorid": "EncDragonPriest",
+      "predecessor": "Humanoid Dragon Priest.esp",
+      "winner": "AETHERIUS - INIMIGOS.esp",
+      "deltas": [
+        "Configuration.Level.Level=50 (AETHERIUS - INIMIGOS.esp 70)",
+        "PlayerSkills.Health=1490 (AETHERIUS - INIMIGOS.esp 1690)",
+        "PlayerSkills.Magicka=545 (AETHERIUS - INIMIGOS.esp 645)",
+        "Perks: 12 vs AETHERIUS - INIMIGOS.esp 15 item(s) — only here: [0] Perk=053128:Skyrim.esm, Rank=1, Fluff=000000; [8] Perk=0D799A:Skyrim.esm, Rank=1, Fluff=000000; only in AETHERIUS - INIMIGOS.esp: [0] Perk=05312A:Skyrim.esm, Rank=1, Fluff=000000; [2] Perk=0581DE:Skyrim.esm, Rank=1, Fluff=000000 (+3 more element(s))"
+      ]
+    }
+  ],
+  "AETHERIUS - BALANCE.esp": [
+    {
+      "formid": "07A82B:Skyrim.esm",
+      "editorid": "MAG_FireStorm",
+      "predecessor": "MysticismTwoHanded.esp",
+      "winner": "AETHERIUS - BALANCE.esp",
+      "deltas": [
+        "ChargeTime=1.5 (AETHERIUS - BALANCE.esp 6)"
+      ]
+    },
+    {
+      "formid": "07E5D5:Skyrim.esm",
+      "editorid": "MAG_ConjureFlameMonarch",
+      "predecessor": "MysticismMagic.esp",
+      "winner": "AETHERIUS - BALANCE.esp",
+      "deltas": [
+        "EquipmentType=013F44:Skyrim.esm (AETHERIUS - BALANCE.esp 013F45:Skyrim.esm)",
+        "ChargeTime=1 (AETHERIUS - BALANCE.esp 6)"
+      ]
+    },
+    {
+      "formid": "07E5D6:Skyrim.esm",
+      "editorid": "MAG_ConjureFrostMonarch",
+      "predecessor": "MysticismMagic.esp",
+      "winner": "AETHERIUS - BALANCE.esp",
+      "deltas": [
+        "EquipmentType=013F44:Skyrim.esm (AETHERIUS - BALANCE.esp 013F45:Skyrim.esm)",
+        "ChargeTime=1 (AETHERIUS - BALANCE.esp 6)"
+      ]
+    },
+    {
+      "formid": "07E5D7:Skyrim.esm",
+      "editorid": "MAG_ConjureStormMonarch",
+      "predecessor": "MysticismMagic.esp",
+      "winner": "AETHERIUS - BALANCE.esp",
+      "deltas": [
+        "EquipmentType=013F44:Skyrim.esm (AETHERIUS - BALANCE.esp 013F45:Skyrim.esm)",
+        "ChargeTime=1 (AETHERIUS - BALANCE.esp 6)"
+      ]
+    }
+  ],
+  "AETHERIUS - ITEM BALANCE.esp": [
+    {
+      "formid": "012E46:Skyrim.esm",
+      "editorid": "ArmorIronGauntlets",
+      "predecessor": "weapons armor clothing & clutter fixes.esp",
+      "winner": "AETHERIUS - ITEM BALANCE.esp",
+      "deltas": [
+        "ArmorRating=11 (AETHERIUS - ITEM BALANCE.esp 13)"
+      ]
+    },
+    {
+      "formid": "012E49:Skyrim.esm",
+      "editorid": "ArmorIronCuirass",
+      "predecessor": "weapons armor clothing & clutter fixes.esp",
+      "winner": "AETHERIUS - ITEM BALANCE.esp",
+      "deltas": [
+        "ArmorRating=25 (AETHERIUS - ITEM BALANCE.esp 32)"
+      ]
+    },
+    {
+      "formid": "012E4B:Skyrim.esm",
+      "editorid": "ArmorIronBoots",
+      "predecessor": "weapons armor clothing & clutter fixes.esp",
+      "winner": "AETHERIUS - ITEM BALANCE.esp",
+      "deltas": [
+        "ArmorRating=11 (AETHERIUS - ITEM BALANCE.esp 13)"
+      ]
+    },
+    {
+      "formid": "012EB6:Skyrim.esm",
+      "editorid": "ArmorIronShield",
+      "predecessor": "weapons armor clothing & clutter fixes.esp",
+      "winner": "AETHERIUS - ITEM BALANCE.esp",
+      "deltas": [
+        "ArmorRating=20 (AETHERIUS - ITEM BALANCE.esp 26)"
+      ]
+    }
+  ],
+  "AETHERIUS - LEVELED LISTS.esp": [
+    {
+      "formid": "000007:Skyrim.esm",
+      "editorid": "Player",
+      "predecessor": "Skyrim.esm",
+      "winner": "AETHERIUS - LEVELED LISTS.esp",
+      "deltas": [
+        "PlayerSkills.Unused2=000100 (AETHERIUS - LEVELED LISTS.esp 001E00)",
+        "ActorEffect: 3 vs AETHERIUS - LEVELED LISTS.esp 1 item(s) — only here: [0] 012FCD:Skyrim.esm; [1] 012FCC:Skyrim.esm",
+        "Factions: same 4 item(s), ORDER DIFFERS from AETHERIUS - LEVELED LISTS.esp",
+        "Items: 16 vs AETHERIUS - LEVELED LISTS.esp 1 item(s) — only here: [0] Item=[ContainerItem] Item=00000A:Skyrim.esm, Item.Item=00000A:Skyrim.esm, Item.Count=10 (+1 more field(s)); [1] Item=[ContainerItem] Item=013790:Skyrim.esm, Item.Item=013790:Skyrim.esm, Item.Count=1 (+1 more field(s)) (+14 more element(s)); only in AETHERIUS - LEVELED LISTS.esp: [0] Item=[ContainerItem] Item=00000F:Skyrim.esm, Item.Item=00000F:Skyrim.esm, Item.Count=100 (+1 more field(s))"
+      ]
+    },
+    {
+      "formid": "013255:Skyrim.esm",
+      "editorid": "Addvar",
+      "predecessor": "unofficial skyrim special edition patch.esp",
+      "winner": "AETHERIUS - LEVELED LISTS.esp",
+      "deltas": [
+        "Items: 3 vs AETHERIUS - LEVELED LISTS.esp 3 item(s), contents differ — only here: [0] Item=[ContainerItem] Item=01397E:Skyrim.esm, Item.Item=01397E:Skyrim.esm, Item.Count=1 (+1 more field(s)); only in AETHERIUS - LEVELED LISTS.esp: [0] Item=[ContainerItem] Item=000803:Open World Loot.esp, Item.Item=000803:Open World Loot.esp, Item.Count=1 (+1 more field(s))"
+      ]
+    },
+    {
+      "formid": "01325C:Skyrim.esm",
+      "editorid": "AiaArria",
+      "predecessor": "unofficial skyrim special edition patch.esp",
+      "winner": "AETHERIUS - LEVELED LISTS.esp",
+      "deltas": [
+        "Items: 5 vs AETHERIUS - LEVELED LISTS.esp 5 item(s), contents differ — only here: [0] Item=[ContainerItem] Item=01397E:Skyrim.esm, Item.Item=01397E:Skyrim.esm, Item.Count=1 (+1 more field(s)); only in AETHERIUS - LEVELED LISTS.esp: [0] Item=[ContainerItem] Item=000803:Open World Loot.esp, Item.Item=000803:Open World Loot.esp, Item.Count=1 (+1 more field(s))"
+      ]
+    },
+    {
+      "formid": "01325F:Skyrim.esm",
+      "editorid": "Ahtar",
+      "predecessor": "Skyrim.esm",
+      "winner": "AETHERIUS - LEVELED LISTS.esp",
+      "deltas": [
+        "PlayerSkills.Unused2=000100 (AETHERIUS - LEVELED LISTS.esp 001E00)",
+        "Items: 4 vs AETHERIUS - LEVELED LISTS.esp 4 item(s), contents differ — only here: [3] Item=[ContainerItem] Item=013991:Skyrim.esm, Item.Item=013991:Skyrim.esm, Item.Count=1 (+1 more field(s)); only in AETHERIUS - LEVELED LISTS.esp: [3] Item=[ContainerItem] Item=000836:Open World Loot.esp, Item.Item=000836:Open World Loot.esp, Item.Count=1 (+1 more field(s))"
+      ]
+    }
+  ],
+  "AETHERIUS - WORLD EDITS.esp": []
+}

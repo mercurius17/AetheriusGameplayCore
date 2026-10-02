@@ -1,0 +1,3302 @@
+[
+  {
+    "name": "CreationClubContent",
+    "nexusId": "0",
+    "installedVersion": "",
+    "assetCount": 0
+  },
+  {
+    "name": "Collision Sentinel - Crash Fix",
+    "nexusId": "181445",
+    "installedVersion": "2.2.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Disabled Reference Integrity Fix (SKSE)",
+    "nexusId": "175062",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "GC Bug Fix",
+    "nexusId": "189699",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 3
+  },
+  {
+    "name": "LOD Unloading Bug Fix",
+    "nexusId": "61251",
+    "installedVersion": "0.2.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Predator Vision - Night Eye and Thermal Vision Overhaul",
+    "nexusId": "2777",
+    "installedVersion": "f2.01",
+    "assetCount": 0
+  },
+  {
+    "name": "Water Collision Crash Fix NG",
+    "nexusId": "190886",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 1
+  },
+  {
+    "name": "First Person Height Fix SKSE",
+    "nexusId": "169904",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "No Opposite Gender Animations NG",
+    "nexusId": "101357",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Actor Value Generator",
+    "nexusId": "84743",
+    "installedVersion": "2.3.6.0",
+    "assetCount": 8
+  },
+  {
+    "name": "Lexicon SKSE",
+    "nexusId": "153176",
+    "installedVersion": "0.6.3.0",
+    "assetCount": 22
+  },
+  {
+    "name": "Prisma UI - Next-Gen Web UI Framework",
+    "nexusId": "148718",
+    "installedVersion": "1.4.1.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Unofficial Skyrim Special Edition Patch - USSEP",
+    "nexusId": "266",
+    "installedVersion": "4.3.8.0a",
+    "assetCount": 0
+  },
+  {
+    "name": "SSE Engine Fixes (skse64 plugin)",
+    "nexusId": "17230",
+    "installedVersion": "7.0.20.0",
+    "assetCount": 5
+  },
+  {
+    "name": "Base Object Swapper",
+    "nexusId": "60805",
+    "installedVersion": "3.4.1.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Actor Limit Fix",
+    "nexusId": "32349",
+    "installedVersion": "9.0.0.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Address Library for SKSE Plugins",
+    "nexusId": "32444",
+    "installedVersion": "11.0.0.0",
+    "assetCount": 12
+  },
+  {
+    "name": "Scrambled Bugs",
+    "nexusId": "43532",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 10
+  },
+  {
+    "name": "Bug Fixes SSE",
+    "nexusId": "33261",
+    "installedVersion": "10.0.0.0",
+    "assetCount": 4
+  },
+  {
+    "name": "NPC AI Process Position Fix - NG",
+    "nexusId": "69326",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Better Jumping SE",
+    "nexusId": "18967",
+    "installedVersion": "1.8.6.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Classic Sprinting Redone (SKSE64)",
+    "nexusId": "20166",
+    "installedVersion": "2.3.1.0",
+    "assetCount": 2
+  },
+  {
+    "name": "powerofthree's Tweaks",
+    "nexusId": "51073",
+    "installedVersion": "1.16.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Spell Perk Item Distributor (SPID)",
+    "nexusId": "36869",
+    "installedVersion": "7.3.2.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Constructible Object Custom Keyword System",
+    "nexusId": "81409",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 10
+  },
+  {
+    "name": "MCM Helper",
+    "nexusId": "53000",
+    "installedVersion": "1.5.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "FormList Manipulator - FLM",
+    "nexusId": "74037",
+    "installedVersion": "1.8.1.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Keyword Item Distributor (KID)",
+    "nexusId": "55728",
+    "installedVersion": "4.0.6.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Offset Movement Animation - Nemesis - Modders Resource",
+    "nexusId": "110408",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Animation Queue Fix",
+    "nexusId": "82395",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Paired Animation Improvements",
+    "nexusId": "99621",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Open Animation Replacer",
+    "nexusId": "92109",
+    "installedVersion": "3.1.6.0",
+    "assetCount": 2
+  },
+  {
+    "name": "powerofthree's Papyrus Extender",
+    "nexusId": "22854",
+    "installedVersion": "6.4.3.0",
+    "assetCount": 10
+  },
+  {
+    "name": "SkyUI",
+    "nexusId": "12604",
+    "installedVersion": "5.2.0.0SE",
+    "assetCount": 0
+  },
+  {
+    "name": "Native EditorID Fix",
+    "nexusId": "85260",
+    "installedVersion": "1.2.2.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Open Animation Replacer - Math Plugin",
+    "nexusId": "92607",
+    "installedVersion": "1.0.4.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Crash Logger SSE AE VR - PDB support",
+    "nexusId": "59818",
+    "installedVersion": "1.24.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "More Informative Console",
+    "nexusId": "19250",
+    "installedVersion": "1.2.2.0",
+    "assetCount": 3
+  },
+  {
+    "name": "ConsoleUtilSSE NG",
+    "nexusId": "76649",
+    "installedVersion": "1.5.1.0",
+    "assetCount": 4
+  },
+  {
+    "name": "No Camera Collision (..no Fade out any more)",
+    "nexusId": "19310",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Face Discoloration Fix",
+    "nexusId": "42441",
+    "installedVersion": "1.0.3.0",
+    "assetCount": 2
+  },
+  {
+    "name": "UIExtensions",
+    "nexusId": "17561",
+    "installedVersion": "d2026.7.26.0",
+    "assetCount": 0
+  },
+  {
+    "name": "ConsoleUtil Extended",
+    "nexusId": "133569",
+    "installedVersion": "d2026.7.26.0",
+    "assetCount": 3
+  },
+  {
+    "name": "JContainers SE",
+    "nexusId": "0",
+    "installedVersion": "d2026.7.26",
+    "assetCount": 35
+  },
+  {
+    "name": "PapyrusUtil SE - Modders Scripting Utility Functions",
+    "nexusId": "13048",
+    "installedVersion": "4.6.0.0",
+    "assetCount": 13
+  },
+  {
+    "name": "Rim Lighting Removed",
+    "nexusId": "164488",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "monster race crash fix",
+    "nexusId": "19899",
+    "installedVersion": "1.4.3.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Enhanced Invisibility",
+    "nexusId": "61950",
+    "installedVersion": "1.4.1.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Media Keys Fix SKSE",
+    "nexusId": "92948",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Alt-Tab Stuck Key Fix",
+    "nexusId": "148466",
+    "installedVersion": "1.3.1.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Comprehensive Attack Rate Patch - SKSE",
+    "nexusId": "89042",
+    "installedVersion": "1.1.2.15",
+    "assetCount": 4
+  },
+  {
+    "name": "Fix Toggle Walk Run (SKSE plugin)",
+    "nexusId": "61671",
+    "installedVersion": "3.0.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Skyrim Souls RE - Unpaused Menus",
+    "nexusId": "27859",
+    "installedVersion": "3.1.2.0",
+    "assetCount": 17
+  },
+  {
+    "name": "Auto Parallax",
+    "nexusId": "79473",
+    "installedVersion": "1.0.27.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Particle Patch",
+    "nexusId": "65720",
+    "installedVersion": "1.4.5.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Perk Entry Point Extender",
+    "nexusId": "91192",
+    "installedVersion": "2.2.4.6",
+    "assetCount": 4
+  },
+  {
+    "name": "Dublagem Skyrim PT-BR",
+    "nexusId": "105861",
+    "installedVersion": "1.6.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "(UPDATE) Dublagem Skyrim PT-BR",
+    "nexusId": "117781",
+    "installedVersion": "1.5.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Disable Kill Cam And Kill Moves",
+    "nexusId": "111190",
+    "installedVersion": "4.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "ShowRaceMenu - NG",
+    "nexusId": "173086",
+    "installedVersion": "1.0.4.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Portal Strict Lights Patcher Framework (SKSE)",
+    "nexusId": "190892",
+    "installedVersion": "1.1.1.1",
+    "assetCount": 3
+  },
+  {
+    "name": "Lightened Skyrim - Base Object Swapper edition",
+    "nexusId": "111475",
+    "installedVersion": "1.10.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Hair Suppression Fix",
+    "nexusId": "179400",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Meridian UI - GPU Rendered User Interface for Skyrim - DLSS 5 Support",
+    "nexusId": "190723",
+    "installedVersion": "1.5.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Static Mesh Improvement Mod - SMIM",
+    "nexusId": "659",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Enhanced Rocks and Mountains - Complex Material and PBR",
+    "nexusId": "121336",
+    "installedVersion": "1.1.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Enhanced Rocks and Mountains - Fix and Addon",
+    "nexusId": "142493",
+    "installedVersion": "6.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Icy Mesh Remaster - Ice Glaciers - LOD - other fixes",
+    "nexusId": "73381",
+    "installedVersion": "3.37.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Better Dynamic Snow SE",
+    "nexusId": "122027",
+    "installedVersion": "d2026.9.29.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Skyland AIO",
+    "nexusId": "34179",
+    "installedVersion": "4.32.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanaheimr - Landscapes - AIO - Complex Material - PBR",
+    "nexusId": "145439",
+    "installedVersion": "6.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "No Floating Mountain Fogs",
+    "nexusId": "180903",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "The Restless Dead (A Draugr and Skeleton Overhaul)",
+    "nexusId": "94100",
+    "installedVersion": "1.2.6.1",
+    "assetCount": 8
+  },
+  {
+    "name": "DF - Creatures by Xtudo - Draugrs",
+    "nexusId": "126608",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Falmer Overhaul - New models and textures",
+    "nexusId": "86338",
+    "installedVersion": "f1.01",
+    "assetCount": 0
+  },
+  {
+    "name": "DF - Creatures by Xtudo - Falmer Overhaul",
+    "nexusId": "126608",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Draugrs New Model - Dragon Priest",
+    "nexusId": "123902",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Draugrs - New models and textures",
+    "nexusId": "123170",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Draugrs - SE by Xtudo - Optimized textures - 1K",
+    "nexusId": "123225",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Falmer Overhaul - SE by Xtudo - Textures 1K",
+    "nexusId": "86724",
+    "installedVersion": "1.7.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vampire Bat Texture Fix",
+    "nexusId": "27018",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JS Purses and Septims SE",
+    "nexusId": "37306",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "CleverCharff's Photorealistic Ash Pile",
+    "nexusId": "32720",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Basic LOD for Happy Little Trees Fabled Forests Aspens Ablaze Green Lush",
+    "nexusId": "95003",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "HD Terrain Noise Texture",
+    "nexusId": "47057",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Weathered Furniture - Common and Upper Class - 4K - 2K",
+    "nexusId": "85205",
+    "installedVersion": "0.1.0.0env",
+    "assetCount": 0
+  },
+  {
+    "name": "Arcs Spell Tome Redux",
+    "nexusId": "115898",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Aetherius Furniture Replacer",
+    "nexusId": "192991",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "No Grassias - A Universal Grass Fix For Grass Mods",
+    "nexusId": "35639",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "No Grass In Objects",
+    "nexusId": "42161",
+    "installedVersion": "1.6.8.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Happy Little Trees",
+    "nexusId": "50961",
+    "installedVersion": "f2.03",
+    "assetCount": 0
+  },
+  {
+    "name": "Happy Little Trees Add-On - DynDOLOD 3",
+    "nexusId": "56907",
+    "installedVersion": "2.1.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Insignificant Object Remover",
+    "nexusId": "3354",
+    "installedVersion": "1.2.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "DrJacopo's - 3D Landscapes and Grass Library",
+    "nexusId": "80687",
+    "installedVersion": "16.53.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Merethic Grasslands - Vanilla - Faultier's - Vanaheimr",
+    "nexusId": "164058",
+    "installedVersion": "2.2.0.0a",
+    "assetCount": 0
+  },
+  {
+    "name": "Northern Roads",
+    "nexusId": "77530",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanaheimr - Northern Roads - Complex Material - PBR",
+    "nexusId": "152575",
+    "installedVersion": "2.7.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "FuzzBeed's Asset Library",
+    "nexusId": "134092",
+    "installedVersion": "12.9.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Northern Scenery - Whiterun's Tundra",
+    "nexusId": "94476",
+    "installedVersion": "1.3.10.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Northern Scenery - Ysgramor's Tomb",
+    "nexusId": "97584",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Northern Scenery - IronBind Barrow",
+    "nexusId": "95788",
+    "installedVersion": "1.0.5.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Northern Scenery - Angarvunde",
+    "nexusId": "94650",
+    "installedVersion": "1.1.6.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Northern Scenery - Bleak Falls Barrow",
+    "nexusId": "94647",
+    "installedVersion": "1.0.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Northern Scenery - Ansilvund",
+    "nexusId": "94720",
+    "installedVersion": "1.1.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Across the Border - Diverse Border Gates",
+    "nexusId": "159570",
+    "installedVersion": "2.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Pilgrim Religion Overhaul - Shrines fit for the Divine",
+    "nexusId": "158863",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Statue of Sithis",
+    "nexusId": "73735",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Daedric Shrines - All in One",
+    "nexusId": "78772",
+    "installedVersion": "f1.02",
+    "assetCount": 0
+  },
+  {
+    "name": "Pilgrim and Daedric Shrines Consistency and Tweaks",
+    "nexusId": "63617",
+    "installedVersion": "2.1.0.0.Alt",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Skyrim",
+    "nexusId": "6289",
+    "installedVersion": "1.7.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Unmarked Locations Pack - All In One",
+    "nexusId": "113660",
+    "installedVersion": "1.3.0.0a",
+    "assetCount": 0
+  },
+  {
+    "name": "Nordic Ruins of Skyrim SSE",
+    "nexusId": "20382",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Interesting Locations",
+    "nexusId": "153298",
+    "installedVersion": "3.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Interesting Locations - Patch Collection",
+    "nexusId": "154026",
+    "installedVersion": "3.1.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Enhanced Interiors Lite",
+    "nexusId": "53087",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "HAG - Occult Orphan Rock",
+    "nexusId": "137996",
+    "installedVersion": "1.3.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Castle Volkihar",
+    "nexusId": "116314",
+    "installedVersion": "1.1.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Castle Volkihar LOD fix",
+    "nexusId": "134979",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Fort Dawnguard",
+    "nexusId": "110645",
+    "installedVersion": "1.0.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's College of Winterhold",
+    "nexusId": "65676",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Sky Haven Temple",
+    "nexusId": "63039",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Jorrvaskr",
+    "nexusId": "60738",
+    "installedVersion": "1.1.4.0",
+    "assetCount": 2
+  },
+  {
+    "name": "JK's The Bards College",
+    "nexusId": "71054",
+    "installedVersion": "1.0.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Nightingale Hall",
+    "nexusId": "128116",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Dark Brotherhood Sanctuaries",
+    "nexusId": "121950",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Thieves Guild HQ",
+    "nexusId": "133787",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's The Ragged Flagon",
+    "nexusId": "50765",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's High Hrothgar",
+    "nexusId": "62219",
+    "installedVersion": "1.0.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Palace of the Kings",
+    "nexusId": "48902",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Alternative Riften - Revived and Optimized",
+    "nexusId": "169108",
+    "installedVersion": "1.4.7.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Grand Solitude - The Walls of High King Erling",
+    "nexusId": "157506",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Riton's Medieval Solitude",
+    "nexusId": "165212",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Grand Solitude Lite",
+    "nexusId": "158028",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Grand Solitude - New NPCs Disabled",
+    "nexusId": "169778",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Whiterun Has Walls Redone",
+    "nexusId": "119229",
+    "installedVersion": "3.0.2.0-hotfix",
+    "assetCount": 0
+  },
+  {
+    "name": "FYX - Windhelm Graveyard",
+    "nexusId": "98260",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Nordic Windhelm",
+    "nexusId": "164803",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "YAR - Yuril's Additional Resources",
+    "nexusId": "89416",
+    "installedVersion": "1.0.5.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Atmoran Legacy - A Windhelm Overhaul",
+    "nexusId": "185312",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Markarth - City of Stone",
+    "nexusId": "92028",
+    "installedVersion": "1.3.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Skyrim Patch Collection",
+    "nexusId": "154077",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Interiors Patch Collection",
+    "nexusId": "35910",
+    "installedVersion": "5.29.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Guild HQ Interiors Patch Collection",
+    "nexusId": "61416",
+    "installedVersion": "1.29.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Grand Solitude Patch Collection",
+    "nexusId": "157450",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "ClefJ's Fort Dawnguard",
+    "nexusId": "33044",
+    "installedVersion": "1.6.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's - ClefJ's Fort Dawnguard",
+    "nexusId": "131123",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "The Great Cities- Resources",
+    "nexusId": "104373",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "The Great City Of Winterhold SSE Edition",
+    "nexusId": "17127",
+    "installedVersion": "4.2.3.0",
+    "assetCount": 10
+  },
+  {
+    "name": "The Great City of Winterhold Patch Collection",
+    "nexusId": "74560",
+    "installedVersion": "2.10.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Skyfall's Fortified Morthal",
+    "nexusId": "126871",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Fortified Morthal - Patch Collection",
+    "nexusId": "126697",
+    "installedVersion": "2.4.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Cities of the North - Falkreath",
+    "nexusId": "56731",
+    "installedVersion": "1.3.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Cities of the North - Falkreath Patch Collection",
+    "nexusId": "56734",
+    "installedVersion": "1.29.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Skyfall's COTN Falkreath Reshaped",
+    "nexusId": "144037",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Unique Farmhouse Architecture - Dawnstar (Base Object Swapper)",
+    "nexusId": "144730",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Meshes Optimization Project",
+    "nexusId": "160495",
+    "installedVersion": "1.5.5.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JK's Skyrim AIO - Reduced Cut",
+    "nexusId": "110807",
+    "installedVersion": "0.9.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "COTN Falkreath Lite",
+    "nexusId": "117844",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Stendarr Rising - The Hall of the Vigilant Rebuild",
+    "nexusId": "49346",
+    "installedVersion": "1.6.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dawnstar Windpeak Inn and White Hall",
+    "nexusId": "145251",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Cities of the North - Morthal",
+    "nexusId": "34168",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Window Shadows - Patches for JK's Interiors",
+    "nexusId": "55309",
+    "installedVersion": "2.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Northkeep",
+    "nexusId": "165638",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Lillemyr",
+    "nexusId": "163760",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Falkhurst",
+    "nexusId": "160213",
+    "installedVersion": "1.0.5.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Cracked Tusk Keep",
+    "nexusId": "114566",
+    "installedVersion": "1.0.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Neugrad",
+    "nexusId": "92376",
+    "installedVersion": "1.0.6.0",
+    "assetCount": 0
+  },
+  {
+    "name": "New Weynon",
+    "nexusId": "90041",
+    "installedVersion": "1.0.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Greymoor",
+    "nexusId": "80824",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vernim Wood",
+    "nexusId": "79036",
+    "installedVersion": "1.10.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Stonehills",
+    "nexusId": "76508",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Laintar Dale",
+    "nexusId": "75768",
+    "installedVersion": "1.10.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Amol Village",
+    "nexusId": "75264",
+    "installedVersion": "1.1.5.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Iggath",
+    "nexusId": "75157",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Oakwood",
+    "nexusId": "61007",
+    "installedVersion": "1.1.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Lainalten",
+    "nexusId": "61422",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dunpar Wall",
+    "nexusId": "60728",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Granite Hill Village",
+    "nexusId": "58335",
+    "installedVersion": "1.21.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Reich Corigate",
+    "nexusId": "58214",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Granitehall",
+    "nexusId": "57180",
+    "installedVersion": "1.0.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Amber Guard",
+    "nexusId": "55564",
+    "installedVersion": "1.10.7.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Sunthgat",
+    "nexusId": "55343",
+    "installedVersion": "1.10.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Hammet's Dungeon Pack 1 SE",
+    "nexusId": "12186",
+    "installedVersion": "f3.03",
+    "assetCount": 0
+  },
+  {
+    "name": "Hammet Dungeon Pack 2 SE",
+    "nexusId": "95339",
+    "installedVersion": "f2.01",
+    "assetCount": 0
+  },
+  {
+    "name": "Schlitzohr Locations - Fixes and Optimization",
+    "nexusId": "104538",
+    "installedVersion": "3.2.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "The Isolated Apothecary",
+    "nexusId": "182912",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Praedy's Night Sky AIO - SE",
+    "nexusId": "47530",
+    "installedVersion": "2.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Iconic's Galaxy and Stars",
+    "nexusId": "111440",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Embers XD",
+    "nexusId": "37085",
+    "installedVersion": "3.2.6.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Lightning VFX Edit",
+    "nexusId": "124520",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Candle Flame VFX Edit",
+    "nexusId": "137381",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Light Magic VFX Edit",
+    "nexusId": "151787",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Healing VFX Edit",
+    "nexusId": "133774",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "EmbersXD Torch Edit",
+    "nexusId": "134219",
+    "installedVersion": "1.21.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Drain Magic VFX Edit",
+    "nexusId": "164598",
+    "installedVersion": "f1.03",
+    "assetCount": 0
+  },
+  {
+    "name": "Summoning Portals VFX Edit",
+    "nexusId": "135614",
+    "installedVersion": "f1.03",
+    "assetCount": 0
+  },
+  {
+    "name": "Frost VFX Edit",
+    "nexusId": "112509",
+    "installedVersion": "1.23.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Simple Edge Glow Remover NG",
+    "nexusId": "151051",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "ISL Helper SKSE",
+    "nexusId": "179132",
+    "installedVersion": "1.0.5.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Horizon Fix",
+    "nexusId": "184607",
+    "installedVersion": "0.4.1.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Dynamic Wind Framework - SKSE Plugin",
+    "nexusId": "177023",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Dynamic Wind - Skyrim",
+    "nexusId": "177024",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 224
+  },
+  {
+    "name": "Dynamic Wind - Happy Little Trees Patch",
+    "nexusId": "187857",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 67
+  },
+  {
+    "name": "Particle Wind - SKSE Plugin",
+    "nexusId": "174812",
+    "installedVersion": "3.5.0.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Particle Wind - Exclude magic",
+    "nexusId": "175895",
+    "installedVersion": "1.5.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Moons and Stars - Sky Overhaul SKSE",
+    "nexusId": "73336",
+    "installedVersion": "2.0.2.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Window Shadows RT",
+    "nexusId": "37831",
+    "installedVersion": "RTbeta5",
+    "assetCount": 0
+  },
+  {
+    "name": "Window Shadows RT Updated",
+    "nexusId": "111091",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "ReLight",
+    "nexusId": "167186",
+    "installedVersion": "7.1.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Emberveil Lighting - A Cinematic ReLight Preset",
+    "nexusId": "179590",
+    "installedVersion": "5.5.0.0",
+    "assetCount": 257
+  },
+  {
+    "name": "Obsidian Weathers and Seasons",
+    "nexusId": "12125",
+    "installedVersion": "f1.07a",
+    "assetCount": 0
+  },
+  {
+    "name": "Spider web brightness fix",
+    "nexusId": "146174",
+    "installedVersion": "1.0.0.0.",
+    "assetCount": 0
+  },
+  {
+    "name": "Racial Body Morphs Redux - Extreme",
+    "nexusId": "65047",
+    "installedVersion": "f1.00",
+    "assetCount": 0
+  },
+  {
+    "name": "Aetherius Patch - Racial Body Morphs",
+    "nexusId": "146737",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Missives",
+    "nexusId": "17576",
+    "installedVersion": "f2.03",
+    "assetCount": 38
+  },
+  {
+    "name": "Missives - Notes Retexture",
+    "nexusId": "46201",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Missives - The Witcher Board HD (4K-2K-ENB Light)",
+    "nexusId": "47097",
+    "installedVersion": "2.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Missives - Bigger Trigger Box",
+    "nexusId": "67772",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Mealtime - Survival mode patches",
+    "nexusId": "30328",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Survival Control Panel",
+    "nexusId": "41891",
+    "installedVersion": "1.1.2.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Simple Leather Backpack",
+    "nexusId": "42455",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Simple Wearable Lanterns - Remastered",
+    "nexusId": "132196",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Inverse Square Lighting for Simple Wearable Lanterns - Remasterd",
+    "nexusId": "183273",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "R.A.S.S. Rain Ash And Snow Shaders - Wet Frost Cold Dust",
+    "nexusId": "22780",
+    "installedVersion": "3.5.1.0",
+    "assetCount": 1
+  },
+  {
+    "name": "ToosTruus Choice for R.A.S.S",
+    "nexusId": "59740",
+    "installedVersion": "3.6.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "R.A.S.S. Rain Ash And Snow Shaders - Wet Frost Cold Dust - Settings Loader",
+    "nexusId": "56710",
+    "installedVersion": "2.2.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Survival Control Panel - Settings Loader",
+    "nexusId": "78593",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Eating Animations and Sounds SE",
+    "nexusId": "42602",
+    "installedVersion": "1.9.4.0",
+    "assetCount": 9
+  },
+  {
+    "name": "Rudy HQ - Miscellaneous SE",
+    "nexusId": "19867",
+    "installedVersion": "f1.02",
+    "assetCount": 0
+  },
+  {
+    "name": "Simple Fishing Overhaul - Animations and Improved Quest Dialogue",
+    "nexusId": "103440",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Fish Anywhere With Water",
+    "nexusId": "60915",
+    "installedVersion": "0.5.0.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Immersive Fishing",
+    "nexusId": "115249",
+    "installedVersion": "1.5.1.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Mac's Empty Bottles for Alchemy Requires Bottles Redux - Awesome Potions Simplified Version",
+    "nexusId": "78552",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "ALCHEMY OVERHAUL",
+    "nexusId": "0",
+    "installedVersion": "d2026.8.14.0",
+    "assetCount": 21
+  },
+  {
+    "name": "Swimming Extensions - Swimming Overhaul (Svimex)",
+    "nexusId": "189821",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Skyrim Water Inertia",
+    "nexusId": "184257",
+    "installedVersion": "1.4.1.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Stronger Swimming Animations SE",
+    "nexusId": "32625",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Animated Interactions SKSE",
+    "nexusId": "143798",
+    "installedVersion": "1.8.1.0",
+    "assetCount": 4
+  },
+  {
+    "name": "First Person Interactions",
+    "nexusId": "123129",
+    "installedVersion": "1.7.6.0",
+    "assetCount": 6
+  },
+  {
+    "name": "Cold Breath NG",
+    "nexusId": "174838",
+    "installedVersion": "3.1.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Ultimate Animated Potions NG",
+    "nexusId": "97674",
+    "installedVersion": "2.8.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "JellyFish Ultimate Animated Potions NG",
+    "nexusId": "168108",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Ultimate Animated Potions NG - Awesome Potions Patch",
+    "nexusId": "103947",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Aetherius - A Race Overhaul",
+    "nexusId": "26686",
+    "installedVersion": "2.15.1.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Mundus - A Standing Stone Overhaul",
+    "nexusId": "33411",
+    "installedVersion": "1.14.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Pilgrim - A Religion Overhaul",
+    "nexusId": "54099",
+    "installedVersion": "1.3.1.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Mysticism - A Magic Overhaul",
+    "nexusId": "27839",
+    "installedVersion": "2.4.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vokrii - Scrambled Bugs Compatibility",
+    "nexusId": "52631",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vokrii - Minimalistic Perks of Skyrim",
+    "nexusId": "26176",
+    "installedVersion": "3.8.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Sorcerer - A Staff and Scroll Overhaul",
+    "nexusId": "95196",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Lost Grimoire SSE",
+    "nexusId": "4455",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vokrii - ADXP And Balance Patch",
+    "nexusId": "128529",
+    "installedVersion": "f1.00",
+    "assetCount": 0
+  },
+  {
+    "name": "Triumvirate - Mage Archetypes",
+    "nexusId": "39170",
+    "installedVersion": "1.8.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Triumvirate (Balanced)",
+    "nexusId": "65427",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Master Spells Runes",
+    "nexusId": "70400",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Master Spells Runes - ESPFE",
+    "nexusId": "187006",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "360 Ward",
+    "nexusId": "156225",
+    "installedVersion": "5.0.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "360 Ward Universal Patch SKSE",
+    "nexusId": "184978",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "360 Ward - Other colors",
+    "nexusId": "156803",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Mysticism - Two Handed Master Spells",
+    "nexusId": "78555",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Shadow Clone on Self - Illusion Spell",
+    "nexusId": "139138",
+    "installedVersion": "2.2.0.0a",
+    "assetCount": 3
+  },
+  {
+    "name": "Shadow Spell Package",
+    "nexusId": "13299",
+    "installedVersion": "f5.02SE",
+    "assetCount": 85
+  },
+  {
+    "name": "Shadow Spell Package - Tweaks and Bug Fixes",
+    "nexusId": "78296",
+    "installedVersion": "2.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Wizarding Traversal Magic",
+    "nexusId": "124125",
+    "installedVersion": "ANY",
+    "assetCount": 1
+  },
+  {
+    "name": "Wizarding Traversal Magic - Recolours",
+    "nexusId": "125023",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Novice Bolt Spells",
+    "nexusId": "95077",
+    "installedVersion": "1.5.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Curse of the Vampire SSE",
+    "nexusId": "10086",
+    "installedVersion": "7.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Manbeast - A Werewolf Overhaul",
+    "nexusId": "44746",
+    "installedVersion": "2.1.1.0",
+    "assetCount": 11
+  },
+  {
+    "name": "Fluffy Apex Werewolf Replacer",
+    "nexusId": "69306",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Hypertrichosis -Werewolf Sounds Rework-",
+    "nexusId": "49445",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Thaumaturgy - An Enchanting Overhaul",
+    "nexusId": "57138",
+    "installedVersion": "1.4.5.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Artificer - An Artifact Overhaul",
+    "nexusId": "99619",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Awesome Potions Simplified by Revoith",
+    "nexusId": "57607",
+    "installedVersion": "2.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Apothecary - An Alchemy Overhaul",
+    "nexusId": "52130",
+    "installedVersion": "1.4.1.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Apothecary and CACO Patches for Potion Remodels",
+    "nexusId": "58655",
+    "installedVersion": "1.21.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Mealtime - A simple ESO inspired Food Overhaul",
+    "nexusId": "30128",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Grimoire - An Enchanting Addon for Sentinel",
+    "nexusId": "142422",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Believable weapons",
+    "nexusId": "37737",
+    "installedVersion": "1.5.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Weapons Armor Clothing and Clutter Fixes",
+    "nexusId": "18994",
+    "installedVersion": "2.11.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Armor and Clothing Extension",
+    "nexusId": "19002",
+    "installedVersion": "1.6.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Ancient Nord Armors and Weapons Retexture SE",
+    "nexusId": "91136",
+    "installedVersion": "2.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Better-Shaped Bows of the Heavens",
+    "nexusId": "15585",
+    "installedVersion": "2.9.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Simple Dual Sheath",
+    "nexusId": "50049",
+    "installedVersion": "1.5.7.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Immersive Equipment Displays",
+    "nexusId": "62001",
+    "installedVersion": "1.7.4.0",
+    "assetCount": 54
+  },
+  {
+    "name": "Ready to Play IED",
+    "nexusId": "158531",
+    "installedVersion": "2.8.4.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Missile's IED Preset - Immersive Equipment Displays",
+    "nexusId": "67770",
+    "installedVersion": "3.2.0.0",
+    "assetCount": 19
+  },
+  {
+    "name": "Northborn Fur Hoods",
+    "nexusId": "1184",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Black Mage Armor SE",
+    "nexusId": "356",
+    "installedVersion": "1.10.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Sentinel - An Equipment Overhaul",
+    "nexusId": "100985",
+    "installedVersion": "3.2.0.0",
+    "assetCount": 192
+  },
+  {
+    "name": "Master Thief Armor 3BA-BHUNP-UNP-CBBE-HIMBO-Vanilla",
+    "nexusId": "141700",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Reshaped Dark Brotherhood Robes",
+    "nexusId": "57583",
+    "installedVersion": "1.5.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Better Shrouded Armor Mesh Fixes and Additions",
+    "nexusId": "87122",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Faction Armors and Weapons Retexture SE",
+    "nexusId": "169281",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Thalmor Ceykynd Armors",
+    "nexusId": "136041",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Steel Plate Armors",
+    "nexusId": "154073",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "NordwarUA Steel Plate Armors - Sentinel Addon",
+    "nexusId": "157417",
+    "installedVersion": "0.5.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Cloaks and Capes",
+    "nexusId": "2019",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Sentinel - Improved Closefaced Helmets (ICH) Patch",
+    "nexusId": "172033",
+    "installedVersion": "f1.00",
+    "assetCount": 0
+  },
+  {
+    "name": "Elemental Vision II",
+    "nexusId": "120246",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Apachii Divine Elegance Store",
+    "nexusId": "9213",
+    "installedVersion": "1.8.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "DESIRE - Divine Elegance Store - Immersive Retail Experience",
+    "nexusId": "146753",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Divine Elegance No Store",
+    "nexusId": "146939",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Styles of Skyrim - Alchemist Outfit Variations",
+    "nexusId": "128147",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Black Dawnguard",
+    "nexusId": "2328",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dawnguard Hoods",
+    "nexusId": "35209",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dawnguard Robes",
+    "nexusId": "169034",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dawnguard Arsenal SSE",
+    "nexusId": "25094",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Ancient Vampire Armorset",
+    "nexusId": "138792",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Forsworn Headdress And Armor Variants",
+    "nexusId": "136342",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "ElSopa - Quivers Redone SE",
+    "nexusId": "65921",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Common Clothing Retexture SE",
+    "nexusId": "142188",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Robes Retexture SE",
+    "nexusId": "110655",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Guards and Stormcloaks Armors Retexture SE",
+    "nexusId": "98115",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Stalhrim Armors and Weapons Retexture SE",
+    "nexusId": "96204",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Chitin Armors and Weapons Retexture SE",
+    "nexusId": "94529",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Silver Armor and Weapons Retexture SE",
+    "nexusId": "89109",
+    "installedVersion": "2.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Rough Leather Armor - Unofficial SE Port",
+    "nexusId": "23725",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Leather Armors Retexture SE",
+    "nexusId": "90153",
+    "installedVersion": "2.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dwemer Armors and Weapons Retexture SE",
+    "nexusId": "93088",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Glass Armors and Weapons Retexture SE",
+    "nexusId": "87580",
+    "installedVersion": "2.2.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Elven Armors and Weapons Retexture SE",
+    "nexusId": "87283",
+    "installedVersion": "2.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Steel Armors and Weapons Retexture SE",
+    "nexusId": "85445",
+    "installedVersion": "2.1.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Iron Armors and Weapons Retexture SE",
+    "nexusId": "84978",
+    "installedVersion": "2.1.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Orcish Armors and Weapons Retexture SE",
+    "nexusId": "84607",
+    "installedVersion": "2.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Daedric Armors and Weapons Retexture SE",
+    "nexusId": "84151",
+    "installedVersion": "2.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Imperial Armors and Weapons Retexture SE",
+    "nexusId": "86097",
+    "installedVersion": "2.0.5.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Improved closefaced helmets",
+    "nexusId": "824",
+    "installedVersion": "1.58.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "New Legion Redux",
+    "nexusId": "78062",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Ebony Armors and Weapons Retexture SE",
+    "nexusId": "83654",
+    "installedVersion": "2.1.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dragon Armors and Weapons Retexture SE",
+    "nexusId": "83222",
+    "installedVersion": "2.2.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Daedric Armor Redone",
+    "nexusId": "190071",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Ebony Replacer Revival SSE",
+    "nexusId": "16182",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Reshaped Ebony Helmet SE",
+    "nexusId": "64915",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Companions Wolf Armor Redone",
+    "nexusId": "186416",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Cheddar's Mashups",
+    "nexusId": "182534",
+    "installedVersion": "1.8.7.0",
+    "assetCount": 0
+  },
+  {
+    "name": "FurArmorSetSE(FrostFall Aware)",
+    "nexusId": "3544",
+    "installedVersion": "1.1.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "FurArmorSetSE Survival Mode Patch",
+    "nexusId": "56552",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "FurArmorSetSE - Muted Color Retexture",
+    "nexusId": "5058",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Black Bear Ancient Nord Armor",
+    "nexusId": "60040",
+    "installedVersion": "1.1.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Man-at-Arms Set",
+    "nexusId": "192061",
+    "installedVersion": "f1.07",
+    "assetCount": 0
+  },
+  {
+    "name": "Fluted Armor SE",
+    "nexusId": "106381",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Ancient Imperial Armor SE",
+    "nexusId": "142655",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Ysmir Armor SE",
+    "nexusId": "112454",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Ancient Argonian Armor SE",
+    "nexusId": "100724",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Infantry Armor SE",
+    "nexusId": "88099",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Mythic Dawn armor SE",
+    "nexusId": "84280",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Silver Armor SE",
+    "nexusId": "79088",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Armors of the Velothi Pt. I",
+    "nexusId": "62752",
+    "installedVersion": "1.3.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Armors of the Velothi PtI - My version by Xtudo SE - 1K",
+    "nexusId": "77825",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Armors of the Velothi Part I - No Physics - Vanilla Bodies",
+    "nexusId": "180639",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Akaviri Katana - Blades Sword Replacer",
+    "nexusId": "70653",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Wizard Hats",
+    "nexusId": "2385",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Witchy Wizard Hats",
+    "nexusId": "91140",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "ApachiiDivineEleganceStore_UNP_meshes_Full_v_3",
+    "nexusId": "81073",
+    "installedVersion": "3.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Tempered Skins for Males - Vanilla and SOS versions",
+    "nexusId": "7902",
+    "installedVersion": "f2.05",
+    "assetCount": 0
+  },
+  {
+    "name": "Legacy UUNP (for SE)",
+    "nexusId": "43773",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Tempered Skins for Females - UNP CBBE and Vanilla",
+    "nexusId": "8505",
+    "installedVersion": "1.31.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "The Eyes of Beauty - Ai Remastered",
+    "nexusId": "70263",
+    "installedVersion": "1.0.0.0.Final",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanilla hair - Salt and Wind",
+    "nexusId": "45147",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "KS Hairdos Lite SE",
+    "nexusId": "1932",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Salt and Wind - Rough Hair for KS Hairdos SE",
+    "nexusId": "16582",
+    "installedVersion": "3.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Beards of Power",
+    "nexusId": "42635",
+    "installedVersion": "0.4.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Kyoe's Bang'n Brows",
+    "nexusId": "13630",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Even More Eyes by Koralina",
+    "nexusId": "80477",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Fangs and Eyes - A Vampire Appearance Mod",
+    "nexusId": "6842",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanilla hair remake",
+    "nexusId": "63979",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanilla hair remake unlocked addon - STATIC",
+    "nexusId": "117861",
+    "installedVersion": "3.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Terre's 4K Fur Textures for CoverKhajiits - Vanilla CBBE UNP BHUNP SoS HIMBO",
+    "nexusId": "76568",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "CoverKhajiits - Face Textures 4K SE",
+    "nexusId": "71067",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "This One Feels Like A Tiger - Khajiit Replacer SE",
+    "nexusId": "62296",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Masculine Argonian Textures (Chameleon and Lizard)",
+    "nexusId": "185",
+    "installedVersion": "2.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Feminine Argonian Textures (Chameleon and Lizard)",
+    "nexusId": "184",
+    "installedVersion": "3.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Argonian Head Specular Fix",
+    "nexusId": "55205",
+    "installedVersion": "f1.00",
+    "assetCount": 0
+  },
+  {
+    "name": "Better Argonian Horns",
+    "nexusId": "80568",
+    "installedVersion": "2.4.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Kabu's Argonian Fins",
+    "nexusId": "65428",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "BeastHHBB",
+    "nexusId": "38480",
+    "installedVersion": "3.8.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Face Masks of Skyrim",
+    "nexusId": "1953",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Face Masks of Skyrim Redux (Orcs - HD - SPID-KEF)",
+    "nexusId": "189120",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Expressive Facegen Morphs SE",
+    "nexusId": "35785",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Kala's Beast Eyes - Improved",
+    "nexusId": "94485",
+    "installedVersion": "3.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Kala's Eyes- Beast Race Edition Khajiit Argonian",
+    "nexusId": "42298",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Khajiit Aesthetics Compilation - Hair Eyes Fangs",
+    "nexusId": "41455",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Khajiit Lion Mane Wigs n Hair",
+    "nexusId": "71876",
+    "installedVersion": "2.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "HammerHair V1.18",
+    "nexusId": "156562",
+    "installedVersion": "1.18.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Apachii Sky Hair SSE",
+    "nexusId": "2014",
+    "installedVersion": "1.6.0.0.Full",
+    "assetCount": 0
+  },
+  {
+    "name": "Lawless - A Bandit Overhaul",
+    "nexusId": "88080",
+    "installedVersion": "2.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Skyrim Revamped - Complete Enemy Overhaul",
+    "nexusId": "14598",
+    "installedVersion": "2.44.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Better Vampire NPCs 2.3",
+    "nexusId": "9510",
+    "installedVersion": "2.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "BVNPC combat styles patch for Simple Spells Pack Bats Powers",
+    "nexusId": "126193",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Simple Spells Pack",
+    "nexusId": "94200",
+    "installedVersion": "1.11.0.0",
+    "assetCount": 25
+  },
+  {
+    "name": "Open World Loot - Encounter Zone and Loot Overhaul",
+    "nexusId": "49681",
+    "installedVersion": "2.8.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Mortal Enemies SE",
+    "nexusId": "4881",
+    "installedVersion": "d2026.8.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "The Restless Dead - Mandragorasprouts' Draugrs Patch",
+    "nexusId": "124166",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Skeleton Replacer HD - SE",
+    "nexusId": "52845",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dragon Priests Retexture SE",
+    "nexusId": "101101",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Armory of the Dragon Cult - Dragon Priest Armor",
+    "nexusId": "94244",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Open Sesame - Dungeons Unlocked",
+    "nexusId": "85956",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Humanoid Dragon Priests",
+    "nexusId": "122320",
+    "installedVersion": "1.13.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Dragons SE",
+    "nexusId": "132218",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Majestic Dragons - Larger and immersive proportions",
+    "nexusId": "120239",
+    "installedVersion": "3.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dragons Change Weather - Cinematic Dragon battles",
+    "nexusId": "180179",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Simply Stronger Dragons",
+    "nexusId": "9917",
+    "installedVersion": "2.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Hand placed enemies - Light (Populated spawns and dungeons)",
+    "nexusId": "91290",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "True Directional Movement - Modernized Third Person Gameplay",
+    "nexusId": "51614",
+    "installedVersion": "2.2.7.0",
+    "assetCount": 5
+  },
+  {
+    "name": "TrueHUD - HUD Additions",
+    "nexusId": "62775",
+    "installedVersion": "1.1.9.0",
+    "assetCount": 3
+  },
+  {
+    "name": "TrueHUD Curated Bosses",
+    "nexusId": "53406",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Animation Motion Revolution",
+    "nexusId": "50258",
+    "installedVersion": "1.5.3.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Precision - Accurate Melee Collisions",
+    "nexusId": "72347",
+    "installedVersion": "2.0.4.0",
+    "assetCount": 5
+  },
+  {
+    "name": "Precision Trail Replacer - Simple",
+    "nexusId": "83544",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Pandora Behaviour Engine Plus",
+    "nexusId": "133232",
+    "installedVersion": "4.3.1.0b-",
+    "assetCount": 0
+  },
+  {
+    "name": "Open Animation Replacer - IED Conditions",
+    "nexusId": "98308",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Behavior Data Injector",
+    "nexusId": "78146",
+    "installedVersion": "0.13.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Behavior Data Injector Universal Support",
+    "nexusId": "78159",
+    "installedVersion": "0.13.0.1",
+    "assetCount": 2
+  },
+  {
+    "name": "Draw Fix - Move Equip Animation Fix",
+    "nexusId": "147478",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Disable Turn Animation NG",
+    "nexusId": "78106",
+    "installedVersion": "3.1.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Dynamic Animation Casting - NG",
+    "nexusId": "73293",
+    "installedVersion": "3.2.4.0",
+    "assetCount": 5
+  },
+  {
+    "name": "Dova Jump",
+    "nexusId": "125550",
+    "installedVersion": "0.6.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Simple Diving System (SDS) - Dive Into Water Animations and Modder Resource",
+    "nexusId": "154534",
+    "installedVersion": "1.0.3.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Dynamic Sprint",
+    "nexusId": "95561",
+    "installedVersion": "2.5.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)",
+    "nexusId": "132292",
+    "installedVersion": "3.5.0.0",
+    "assetCount": 7
+  },
+  {
+    "name": "Next-Gen Decapitations",
+    "nexusId": "135254",
+    "installedVersion": "1.4.3.0",
+    "assetCount": 3
+  },
+  {
+    "name": "DF - Official Creature Asset Pack",
+    "nexusId": "126328",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 16
+  },
+  {
+    "name": "DF - Official Humanoid Asset Pack",
+    "nexusId": "126327",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 6
+  },
+  {
+    "name": "Dismembering Framework",
+    "nexusId": "126203",
+    "installedVersion": "1.2.2.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Dynamic Armor Physics",
+    "nexusId": "186346",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Core Impact Framework (CIF)",
+    "nexusId": "146873",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 8
+  },
+  {
+    "name": "Sanguine Symphony",
+    "nexusId": "148388",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 28
+  },
+  {
+    "name": "Dynamic Impact - Slash Effects X",
+    "nexusId": "86071",
+    "installedVersion": "1.20.0.0b",
+    "assetCount": 0
+  },
+  {
+    "name": "Keyword Compatibility Framework",
+    "nexusId": "79564",
+    "installedVersion": "3.1.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Payload Interpreter",
+    "nexusId": "65089",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Smooth Moveset - OAR",
+    "nexusId": "149713",
+    "installedVersion": "1.5.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Moddern.Stagger.Lock.Framework",
+    "nexusId": "0",
+    "installedVersion": "d2026.7.25",
+    "assetCount": 6
+  },
+  {
+    "name": "SCAR",
+    "nexusId": "0",
+    "installedVersion": "d2026.7.25.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Dual Casting Fix",
+    "nexusId": "92454",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "3rd Person Camera Stagger Remover",
+    "nexusId": "25316",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dual Wield Parrying SKSE",
+    "nexusId": "85505",
+    "installedVersion": "2.0.1.0",
+    "assetCount": 3
+  },
+  {
+    "name": "State Behavior Framework",
+    "nexusId": "164546",
+    "installedVersion": "1.6.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Neutral stance only",
+    "nexusId": "0",
+    "installedVersion": "d2026.7.25.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Unlocked 1st Person Combat",
+    "nexusId": "164095",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "SIGMA - Greatsword animations - 1st person",
+    "nexusId": "164551",
+    "installedVersion": "1.0.5.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Battleaxe animations - 1st person",
+    "nexusId": "162611",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Magic animations - 1st person",
+    "nexusId": "166987",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Waraxe animations - 1st person",
+    "nexusId": "163226",
+    "installedVersion": "1.0.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Mace animations - 1st person",
+    "nexusId": "163952",
+    "installedVersion": "1.0.6.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Shield animations - 1st person",
+    "nexusId": "163954",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Warhammer animations - 1st person",
+    "nexusId": "164549",
+    "installedVersion": "1.0.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Archery animations - 1st person",
+    "nexusId": "174649",
+    "installedVersion": "1.0.2.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Dagger animations - 1st person",
+    "nexusId": "177696",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SIGMA - Fisting animations - 1st person",
+    "nexusId": "179060",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SigmaJelly - Katana animations - 1st person",
+    "nexusId": "179515",
+    "installedVersion": "3.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "BFCO - Attack Behavior Framework (SSE AE VR)",
+    "nexusId": "117052",
+    "installedVersion": "d2026.9.26.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Precision Creatures",
+    "nexusId": "74887",
+    "installedVersion": "2.42.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Directional Movement Keys - DMK",
+    "nexusId": "174499",
+    "installedVersion": "1.5.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Weapon Styles - Draw-Sheathe animations for IED",
+    "nexusId": "85085",
+    "installedVersion": "3.0.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "TK Dodge RE - Script Free",
+    "nexusId": "56956",
+    "installedVersion": "0.55.0.0rc-3",
+    "assetCount": 2
+  },
+  {
+    "name": "TK Dodge NG",
+    "nexusId": "115408",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "War Hammer and Battle Axe Movement Fix",
+    "nexusId": "51615",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Shield Block Direction Fix",
+    "nexusId": "74843",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "For Honor Power Attack",
+    "nexusId": "87228",
+    "installedVersion": "2.0.2.0",
+    "assetCount": 2
+  },
+  {
+    "name": "Diverse NPC Movesets",
+    "nexusId": "141893",
+    "installedVersion": "3.0.0.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Auto Skeleton Patch - Universal Behaviour Runtime",
+    "nexusId": "176724",
+    "installedVersion": "1.0.4.0",
+    "assetCount": 2
+  },
+  {
+    "name": "For Honor in Skyrim",
+    "nexusId": "151478",
+    "installedVersion": "1.8.0.0",
+    "assetCount": 9
+  },
+  {
+    "name": "Sekiro Combat S",
+    "nexusId": "79206",
+    "installedVersion": "3.1.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Sekiro Combat S - Sparks only and sound fixes",
+    "nexusId": "119813",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dynamic Block Hit",
+    "nexusId": "100570",
+    "installedVersion": "1.6.0.0s",
+    "assetCount": 1
+  },
+  {
+    "name": "Dynamic Block Hit Rebalanced",
+    "nexusId": "183368",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Blade and Blunt - Armor Rating Scaling Standalone",
+    "nexusId": "127230",
+    "installedVersion": "f1.02",
+    "assetCount": 3
+  },
+  {
+    "name": "Recoiltimed Skating Fix",
+    "nexusId": "66097",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Variadic Collision Dynamics",
+    "nexusId": "183892",
+    "installedVersion": "1.3.4.0",
+    "assetCount": 5
+  },
+  {
+    "name": "Variadic Collision Dynamics - Resources",
+    "nexusId": "184110",
+    "installedVersion": "1.0.11.0",
+    "assetCount": 17
+  },
+  {
+    "name": "TK Dodge Attack",
+    "nexusId": "166360",
+    "installedVersion": "1.0.1.0",
+    "assetCount": 2
+  },
+  {
+    "name": "For Honor Reforged",
+    "nexusId": "172176",
+    "installedVersion": "2.4.0.0",
+    "assetCount": 24
+  },
+  {
+    "name": "Dynamic Bloodpool Framework",
+    "nexusId": "172080",
+    "installedVersion": "1.1.1.0",
+    "assetCount": 2
+  },
+  {
+    "name": "STB Active Effects",
+    "nexusId": "140002",
+    "installedVersion": "1.9.0.0",
+    "assetCount": 8
+  },
+  {
+    "name": "STB Widgets",
+    "nexusId": "136148",
+    "installedVersion": "2.7.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "SmoothCam",
+    "nexusId": "41252",
+    "installedVersion": "1.7.1.0",
+    "assetCount": 5
+  },
+  {
+    "name": "Vagabond Remastered - Modlist Resources",
+    "nexusId": "156283",
+    "installedVersion": "0.3.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Auto Resolution",
+    "nexusId": "122915",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "SSE Display Tweaks",
+    "nexusId": "34705",
+    "installedVersion": "0.5.16.0",
+    "assetCount": 2
+  },
+  {
+    "name": "DisplayTweaks settings for Frame Generation (CS or ENB)",
+    "nexusId": "144637",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 1
+  },
+  {
+    "name": "Widescreen Scale Removed for 1-6-1130 and higher",
+    "nexusId": "136793",
+    "installedVersion": "1.0.4.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Simple Activate SKSE",
+    "nexusId": "56767",
+    "installedVersion": "1.4.2.0",
+    "assetCount": 3
+  },
+  {
+    "name": "STB System Page",
+    "nexusId": "183497",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Aetherius UI - Untarnished Baseline",
+    "nexusId": "149364",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Flat World Map Framework (FWMF)",
+    "nexusId": "29932",
+    "installedVersion": "1.87.0.0",
+    "assetCount": 4
+  },
+  {
+    "name": "Conditional Armor Type Animations",
+    "nexusId": "51507",
+    "installedVersion": "1.3.0.0c",
+    "assetCount": 0
+  },
+  {
+    "name": "Goetia Animations - Sprint",
+    "nexusId": "69409",
+    "installedVersion": "1.0.0.0c",
+    "assetCount": 0
+  },
+  {
+    "name": "Goetia Animations - Male Idle Walk And Run",
+    "nexusId": "68625",
+    "installedVersion": "1.3.0.0c",
+    "assetCount": 0
+  },
+  {
+    "name": "Goetia Animations - Female Idle Walk And Run",
+    "nexusId": "68005",
+    "installedVersion": "1.2.0.0c",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations II - Unarmed Pugilism Stance",
+    "nexusId": "109684",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations II - Unarmed Non Combat Locomotion",
+    "nexusId": "105376",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations II - Male Idle Walk And Run",
+    "nexusId": "99999",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations II - Female Idle Walk And Run",
+    "nexusId": "100000",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations II - Sprint",
+    "nexusId": "101688",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Leviathan Animations II - Greatsword Sneak Locomotion And Attacks",
+    "nexusId": "99073",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Leviathan Animations II - Greatsword Non Combat Locomotion",
+    "nexusId": "84201",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Leviathan Animations II - Sprint",
+    "nexusId": "82603",
+    "installedVersion": "2.4.0.0c",
+    "assetCount": 0
+  },
+  {
+    "name": "Goetia Animations - Conditional Shouts",
+    "nexusId": "76388",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Leviathan Animations II - Female Idle Walk And Run",
+    "nexusId": "80760",
+    "installedVersion": "2.3.0.0c",
+    "assetCount": 0
+  },
+  {
+    "name": "Goetia Animations - Sneak Magic",
+    "nexusId": "75482",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Goetia Animations - Enchanted Magic Staves",
+    "nexusId": "71110",
+    "installedVersion": "1.51.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Leviathan Animations II - Male Idle Walk And Run",
+    "nexusId": "81463",
+    "installedVersion": "2.3.0.0c",
+    "assetCount": 0
+  },
+  {
+    "name": "Goetia Animations - Magic Spell Casting",
+    "nexusId": "70204",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Sneak Crossbows",
+    "nexusId": "67282",
+    "installedVersion": "1.0.0.0b",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Crossbows",
+    "nexusId": "66286",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Dual Wield Sneak Thrusts",
+    "nexusId": "64577",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Archery",
+    "nexusId": "60323",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Dual Wield Sneak Strikes",
+    "nexusId": "64216",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Sneak Archery",
+    "nexusId": "56788",
+    "installedVersion": "1.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Sneak Strike Attacks",
+    "nexusId": "55420",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Sneak Thrust Attacks",
+    "nexusId": "55031",
+    "installedVersion": "1.1.0.0b",
+    "assetCount": 0
+  },
+  {
+    "name": "Vanargand Animations - Sneak idle walk and run",
+    "nexusId": "54351",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "XP32 Maximum Skeleton Special Extended - XPMSSE",
+    "nexusId": "1988",
+    "installedVersion": "f5.06",
+    "assetCount": 12
+  },
+  {
+    "name": "Flame Atronach SE",
+    "nexusId": "82382",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Frost Atronach SE",
+    "nexusId": "171447",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Storm Atronach SE",
+    "nexusId": "160837",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Vampire Lord Overhaul",
+    "nexusId": "89538",
+    "installedVersion": "1.4.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Dragon Priest Fix - Behaviour Overhaul",
+    "nexusId": "51608",
+    "installedVersion": "1.6.1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "EVG CLAMBER - Slope Animations",
+    "nexusId": "114753",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "UNDERDOG Death Animations OAR - DAR",
+    "nexusId": "108489",
+    "installedVersion": "2.0.4.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Zodd's new getup animation(FAST 50 FRAMES FRONT AND BACK)",
+    "nexusId": "189922",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Zodd's vampire getup animation",
+    "nexusId": "189960",
+    "installedVersion": "1.1.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "JellyFishFP CROSSBOW (1st person animations series)",
+    "nexusId": "158826",
+    "installedVersion": "1.1.0.0a",
+    "assetCount": 0
+  },
+  {
+    "name": "God of War Kratos Dodge Animations for TK Dodge - DMCO - TUDM",
+    "nexusId": "112313",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Kratos Dodge - Longer Dodge",
+    "nexusId": "140593",
+    "installedVersion": "1.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Community Shaders Dynamic Cubemaps - Complete Addon",
+    "nexusId": "168378",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Bottled Shaders",
+    "nexusId": "192816",
+    "installedVersion": "1.0.4.0",
+    "assetCount": 21
+  },
+  {
+    "name": "Smoother Skies",
+    "nexusId": "58250",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Rudy ENB SE for Obsidian Weathers - LUX - ELFX",
+    "nexusId": "4796",
+    "installedVersion": "7.0.0.0",
+    "assetCount": 2
+  },
+  {
+    "name": "ENB Extender and Helper Skyrim",
+    "nexusId": "99406",
+    "installedVersion": "1.4.3.0",
+    "assetCount": 0
+  },
+  {
+    "name": "RUDY ENB OBSIDIAN",
+    "nexusId": "0",
+    "installedVersion": "",
+    "assetCount": 0
+  },
+  {
+    "name": "Deadeye - Bow and Crossbow SFX",
+    "nexusId": "80648",
+    "installedVersion": "1.3.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Bleeding Edge - Bladed Weapons SFX Overhaul",
+    "nexusId": "77384",
+    "installedVersion": "2.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Skullbreaker - Blunt Weapons SFX",
+    "nexusId": "79219",
+    "installedVersion": "0.2.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Bulwark - Shield Audio Overhaul",
+    "nexusId": "76137",
+    "installedVersion": "0.1.0.0a",
+    "assetCount": 0
+  },
+  {
+    "name": "Sonorum Arcana - The Magic Sound Compendium",
+    "nexusId": "119738",
+    "installedVersion": "0.4.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "LORKHAN - Soundtrack Replacer",
+    "nexusId": "115096",
+    "installedVersion": "1.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Rudification - Rudy Candles Expanded",
+    "nexusId": "55852",
+    "installedVersion": "1.14.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Texture Downscaler",
+    "nexusId": "187049",
+    "installedVersion": "2.3.2.0",
+    "assetCount": 3
+  },
+  {
+    "name": "Pandora - Output",
+    "nexusId": null,
+    "installedVersion": null,
+    "assetCount": 1
+  },
+  {
+    "name": "Northern Roads Patch Collection",
+    "nexusId": "77386",
+    "installedVersion": "1.41.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Northern Roads - Patches Compendium",
+    "nexusId": "77893",
+    "installedVersion": "8.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "SupportEgirl's Patch Hub",
+    "nexusId": "46105",
+    "installedVersion": "3.0.0.0",
+    "assetCount": 0
+  },
+  {
+    "name": "Synthesis - Output",
+    "nexusId": "0",
+    "installedVersion": "",
+    "assetCount": 0
+  },
+  {
+    "name": "AETHERIUS - CUSTOM SETTINGS",
+    "nexusId": "0",
+    "installedVersion": "",
+    "assetCount": 4
+  },
+  {
+    "name": "AETHERIUS - OVERWRITE",
+    "nexusId": "0",
+    "installedVersion": "",
+    "assetCount": 66
+  },
+  {
+    "name": "AETHERIUS - MERIDIAN - COMPATIBILIDADE",
+    "nexusId": null,
+    "installedVersion": null,
+    "assetCount": 2
+  },
+  {
+    "name": "AETHERIUS - SOBREVIVENCIA",
+    "nexusId": "0",
+    "installedVersion": "1.0",
+    "assetCount": 0
+  },
+  {
+    "name": "AETHERIUS - SHADERCACHE",
+    "nexusId": "0",
+    "installedVersion": "",
+    "assetCount": 3
+  },
+  {
+    "name": "AETHERIUS - MENU E LOGO",
+    "nexusId": "0",
+    "installedVersion": "d2026.10.1",
+    "assetCount": 0
+  }
+]

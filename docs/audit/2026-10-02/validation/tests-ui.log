@@ -1,0 +1,94 @@
+TAP version 13
+# Subtest: catalog fixes character center plus eleven external slots
+ok 1 - catalog fixes character center plus eleven external slots
+  ---
+  duration_ms: 2.0638
+  type: 'test'
+  ...
+# Subtest: radial layout derives eleven distinct angles and a 1.15 center ratio
+ok 2 - radial layout derives eleven distinct angles and a 1.15 center ratio
+  ---
+  duration_ms: 2.1286
+  type: 'test'
+  ...
+# Subtest: navigation reducer covers radial, workspace, back stack, and safe routes
+ok 3 - navigation reducer covers radial, workspace, back stack, and safe routes
+  ---
+  duration_ms: 0.7681
+  type: 'test'
+  ...
+# Subtest: protocol validates schema, sessions, unsafe keys and the 16 KiB limit
+ok 4 - protocol validates schema, sessions, unsafe keys and the 16 KiB limit
+  ---
+  duration_ms: 1.1733
+  type: 'test'
+  ...
+# Subtest: revision snapshots, patches and duplicate requests remain bounded and ordered
+ok 5 - revision snapshots, patches and duplicate requests remain bounded and ordered
+  ---
+  duration_ms: 0.676
+  type: 'test'
+  ...
+# Subtest: module registry isolates missing, unavailable, incompatible and failing adapters
+ok 6 - module registry isolates missing, unavailable, incompatible and failing adapters
+  ---
+  duration_ms: 2.8733
+  type: 'test'
+  ...
+# Subtest: module registry aborts an in-flight mount and runs adapter cleanup once
+ok 7 - module registry aborts an in-flight mount and runs adapter cleanup once
+  ---
+  duration_ms: 6.92
+  type: 'test'
+  ...
+# Subtest: module registry waits for cleanup before allowing a remount
+ok 8 - module registry waits for cleanup before allowing a remount
+  ---
+  duration_ms: 1.2699
+  type: 'test'
+  ...
+# Subtest: server router binds identity to server context and deduplicates request replay
+ok 9 - server router binds identity to server context and deduplicates request replay
+  ---
+  duration_ms: 3.7123
+  type: 'test'
+  ...
+# Subtest: server SDK builds validated event, snapshot and patch envelopes
+ok 10 - server SDK builds validated event, snapshot and patch envelopes
+  ---
+  duration_ms: 0.6613
+  type: 'test'
+  ...
+# Subtest: frontend SDK correlates a request and discards messages from an old session
+ok 11 - frontend SDK correlates a request and discards messages from an old session
+  ---
+  duration_ms: 1.1408
+  type: 'test'
+  ...
+# Subtest: local bridge preserves UTF-8 and rejects malformed base64
+ok 12 - local bridge preserves UTF-8 and rejects malformed base64
+  ---
+  duration_ms: 0.5119
+  type: 'test'
+  ...
+# Subtest: HUD remains passive and shop test adapter contains no commercial actions
+ok 13 - HUD remains passive and shop test adapter contains no commercial actions
+  ---
+  duration_ms: 0.8352
+  type: 'test'
+  ...
+# Subtest: Meridian shell exposes the fixture registry, lifecycle and shared component factories
+ok 14 - Meridian shell exposes the fixture registry, lifecycle and shared component factories
+  ---
+  duration_ms: 0.7044
+  type: 'test'
+  ...
+1..14
+# tests 14
+# suites 0
+# pass 14
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 127.3704
