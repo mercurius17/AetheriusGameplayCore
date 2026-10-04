@@ -14,6 +14,8 @@ Build do ClassSystem aprovado; testes atuais: 49/55, com seis falhas preexistent
 
 ## Módulos
 
+O [guia completo de compilação das DLLs e integração UI](docs/ui-integration/BUILD_AND_DLLS.md) documenta o bridge CommonLibSSE-NG, Meridian/CEF, addon nativo do servidor, ClassSystem, empacotamento e validação. A mesma referência está preservada no UI Core; os caches locais e a reprodução em máquina limpa estão explicitamente diferenciados.
+
 - `modules/class-system/` — progressão de classes, skills, perks, grupos/raids e projeções associadas.
 - `modules/damage-system/` — combate autoritativo, dano físico/mágico, perks, efeitos e estado de combate.
 - `modules/actor-state-system/` — módulo reservado para o futuro estado autoritativo agregado do ator.
