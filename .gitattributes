@@ -1,0 +1,3 @@
+# Preserve the mirrored integration snapshot and vendor provenance bytes.
+integrations/ui-runtime-changes/** -text
+modules/class-system/vendor/ui-core/** -text

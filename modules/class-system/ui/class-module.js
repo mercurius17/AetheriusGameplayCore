@@ -31,12 +31,14 @@
       let player = null, selected = null, inspecting = false, stageIndex = null, tab = 'progression', busy = false, message = '';
       let allocation = { health: 0, magicka: 0, stamina: 0 };
       let disposed = false;
+      let readOnlyReason = '';
       const sum = () => Object.values(allocation).reduce((a, b) => a + b, 0);
       function apply(data) {
         if (!data || !data.player) throw new Error('Estado de classe indisponível.');
         const previousClass = player?.classId;
         const initial = !player;
         player = data.player;
+        readOnlyReason = data.readOnlyReason || '';
         if (initial || previousClass !== player.classId) {
           selected = player.classId; inspecting = !!player.classId; stageIndex = null; tab = 'progression';
         }
@@ -60,6 +62,10 @@
           ${!choosing ? `<footer class="class-management">${button('REDEFINIR CLASSE', 'reset')}<span>${player.level <= 15 ? 'Redefinição gratuita até o nível 15.' : 'Requer Ticket de Troca de Classe.'}</span>${player.level > 15 ? '<a href="https://aetherius.net.br/" target="_blank" rel="noopener noreferrer">OBTER TICKET ↗</a>' : ''}</footer>` : ''}` : ''}</main>`;
         container.insertAdjacentHTML('beforeend', `<p class="class-feedback" role="status" aria-live="polite">${esc(message)}</p>`);
         if (busy) container.querySelectorAll('button, input, select').forEach(el => { el.disabled = true; });
+        if (readOnlyReason) {
+          container.querySelectorAll('[data-action="select"], [data-action="allocate"], [data-action="reset"], [data-action="step"]').forEach(el => { el.disabled = true; });
+          container.querySelector('.class-feedback').textContent = message || readOnlyReason;
+        }
       }
       function catalog() {
         const archetypes = [['CONJURADORES','conjuradores','I','Mestres do arcano'],['GUERREIROS','guerreiros','II','Força, aço e determinação'],['ESPECIALISTAS','especialistas','III','Precisão, sombras e astúcia']];

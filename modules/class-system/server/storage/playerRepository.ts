@@ -38,11 +38,12 @@ export class PlayerRepository {
         const raw = mp.get(playerId, 'playerClassData');
         if (raw) {
           const parsed: PlayerClassState = typeof raw === 'string' ? JSON.parse(raw) : raw;
+          this.validatePersistedState(parsed, playerId);
           this.refreshDailyCycle(parsed);
           loadedState = parsed;
         }
       } catch (err) {
-        console.error(`[PlayerRepository] Erro ao carregar dados do jogador ${playerId}:`, err);
+        throw new Error(`Class persistence read failed for actor ${playerId}`, { cause: err });
       }
     }
 
@@ -103,18 +104,24 @@ export class PlayerRepository {
     }
   }
 
+  private validatePersistedState(state: PlayerClassState, actorId: number): void {
+    if (!state || typeof state !== 'object' || Array.isArray(state) || state.playerId !== actorId || typeof state.playerName !== 'string' || state.playerName.length > 256)
+      throw new Error('Invalid persisted class owner or shape');
+    for (const field of ['level', 'currentXp', 'nextLevelXp', 'totalXpAccumulated', 'unspentAttributePoints', 'allocatedHealth', 'allocatedMagicka', 'allocatedStamina'] as const) {
+      if (!Number.isSafeInteger(state[field]) || state[field] < 0 || (field === 'level' && state[field] < 1)) throw new Error('Invalid persisted class numbers');
+    }
+    if (state.classId !== null && (typeof state.classId !== 'string' || !getClassById(state.classId))) throw new Error('Unknown persisted class');
+    if (!Array.isArray(state.unlockedPerks) || state.unlockedPerks.length > 1024 || state.unlockedPerks.some(value => typeof value !== 'string')) throw new Error('Invalid persisted perks');
+    if (typeof state.hasWinterholdKeyword !== 'boolean' || typeof state.hasResetTicket !== 'boolean' || typeof state.isRaid !== 'boolean' || (state.partyId !== null && typeof state.partyId !== 'string')) throw new Error('Invalid persisted class flags');
+  }
+
   public savePlayerState(state: PlayerClassState): void {
     const mp = getClassRuntime();
     this.publishCombat(state);
-    this.memoryStore.set(state.playerId, cloneState(state));
-
     if (typeof mp !== 'undefined' && mp.set) {
-      try {
-        mp.set(state.playerId, 'playerClassData', JSON.stringify(state));
-      } catch (err) {
-        console.error(`[PlayerRepository] Erro ao salvar dados do jogador ${state.playerId}:`, err);
-      }
+      mp.set(state.playerId, 'playerClassData', JSON.stringify(state));
     }
+    this.memoryStore.set(state.playerId, cloneState(state));
   }
 
   public clearMemory(): void {

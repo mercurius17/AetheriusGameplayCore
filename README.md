@@ -2,7 +2,15 @@
 
 Monorepo dos sistemas de gameplay do **Aetherius Roleplay**.
 
-Este repositório consolida, sem alterar o conteúdo das baselines de origem, os sistemas que precisam evoluir de forma coordenada para o ambiente SkyMP/Aetherius.
+Este repositório consolida os sistemas que precisam evoluir de forma coordenada para o ambiente SkyMP/Aetherius. A migração inicial preservou as baselines; a integração UI descrita abaixo acrescenta alterações ao ClassSystem.
+
+## Estado atual da integração UI
+
+O ClassSystem integra CLASSE/GRUPO ao AetheriusUI_Core em modo de consulta, com persistência protegida e SDK compartilhado. Ações dependentes de CombatProfile, grants e transações de grupo permanecem bloqueadas.
+
+Consulte [estado atual](docs/ui-integration/CURRENT_STATE.md) e [implementação restante](docs/ui-integration/REMAINING_IMPLEMENTATION.md). As alterações pertinentes de aetherius-server, aetherius-client e MeridianUI estão preservadas neste repositório em [integrations/ui-runtime-changes](integrations/ui-runtime-changes/README.md), com uma cópia idêntica no UI Core. São patches/fontes sobre baselines exatas, não repositórios externos aninhados.
+
+Build do ClassSystem aprovado; testes atuais: 49/55, com seis falhas preexistentes explicitadas nos documentos. A integração não habilita autoridade de gameplay no cliente.
 
 ## Módulos
 

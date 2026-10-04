@@ -12,7 +12,11 @@ const partyActions = {
   assignRaidSubgroup: ['targetMemberId', 'subgroupId']
 } as const;
 
-export function registerClassUi(router: Pick<UiServerRouter, 'register'>, server = SkyMPClassServer.getInstance()): () => void {
+export interface ClassUiPolicy {
+  readonly readOnlyReason?: string;
+}
+
+export function registerClassUi(router: Pick<UiServerRouter, 'register'>, server = SkyMPClassServer.getInstance(), policy: ClassUiPolicy = {}): () => void {
   const disposers: Array<() => void> = [];
   try {
     for (const [moduleId, actions] of [['class', classActions], ['party', partyActions]] as const) {
@@ -27,16 +31,20 @@ export function registerClassUi(router: Pick<UiServerRouter, 'register'>, server
               if (typeof value !== 'string' || !value || value.length > (key === 'classId' ? 64 : 160)) throw new Error('Invalid identifier');
             } else if (!Number.isSafeInteger(value) || (value as number) < (key.endsWith('Id') ? 1 : 0)) throw new Error('Invalid numeric field');
           }
-          const result = server.handleClientPacket(context.actorId, action === 'snapshot' ? 'requestInitialData' : action, data);
+          const result = action !== 'snapshot' && policy.readOnlyReason
+            ? { data: { success: false, message: policy.readOnlyReason } }
+            : server.handleClientPacket(context.actorId, action === 'snapshot' ? 'requestInitialData' : action, data);
           const snapshot = server.handleClientPacket(context.actorId, 'requestInitialData', {}).data;
           // Do not duplicate progression or large perk descriptions in the envelope.
           const { unlockedPerksData: _descriptions, partyId: _partyId, isRaid: _isRaid, ...player } = snapshot.player;
           const outcome = result.data as { success?: boolean; message?: string; inviteId?: string } | undefined;
-          return { ...(moduleId === 'party' ? {
+          return JSON.parse(JSON.stringify({ readOnlyReason: policy.readOnlyReason, ...(moduleId === 'party' ? {
             player: { playerId: player.playerId, playerName: player.playerName },
-            party: snapshot.party, invites: server.partySystem.getPendingInvites(context.actorId)
+            // Health placeholders from the old PartySystem are not engine data.
+            party: snapshot.party ? { ...snapshot.party, members: snapshot.party.members.map(({ health: _health, maxHealth: _maxHealth, ...member }: { health?: number; maxHealth?: number; [key: string]: unknown }) => member) } : null,
+            invites: server.partySystem.getPendingInvites(context.actorId)
           } : { player }),
-            result: action === 'snapshot' ? undefined : { success: outcome?.success, message: outcome?.message, inviteId: outcome?.inviteId } };
+            result: action === 'snapshot' ? undefined : { success: outcome?.success, message: outcome?.message, inviteId: outcome?.inviteId } }));
         }));
       }
     }
