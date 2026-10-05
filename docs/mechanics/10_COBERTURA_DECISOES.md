@@ -57,7 +57,7 @@ Esses itens são achados/plano; nenhum foi corrigido funcionalmente neste commit
 
 Usar [IMPLEMENTATION_PHASES](../audit/2026-10-02/IMPLEMENTATION_PHASES.md) como plano de execução, sem renumerar seus 18 campos por fase. Em F0, incorporar mappings e evidência complementar de B07. Antes de grants/classes, fechar D01/D03/D04. Antes de effects/persistência, fechar D05–D08. Antes de XP, fechar D09 e B04. Antes de UI ativa, fechar D12. Antes de combate/magia, fechar D02/D10/D11, B02 e os oráculos de conditions.
 
-B01 produção não comprovada, B02 ports de combate, B03 remoção global de spells no Client, B04 death proof, B05 inventário atômico, B06 overlay divergente e B08 runtime/banco/scripts continuam vigentes. Este complemento não autoriza patches obrigatórios nas bases Server/Client como solução final.
+B01 produção não comprovada, B02 ports de combate, B03 remoção global de spells no Client, B04 death proof, B05 inventário atômico, B06 overlay divergente e B08 runtime/banco/scripts continuam vigentes. Política atual: ausências de capability podem ser resolvidas por mudanças controladas em Server/Client que exponham Host APIs públicas, mínimas, versionadas e testadas. O GameplayCore continua sendo o local da lógica de gameplay; monkey patches e internals privados não são solução final. Consulte [a arquitetura canônica](../architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md).
 
 ## 10.6 O que significa “não deixar faltar” nesta etapa
 
