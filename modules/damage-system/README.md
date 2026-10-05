@@ -1,5 +1,8 @@
 # AetheriusDamageSystem
 
+> [!IMPORTANT]
+> O código e os patches deste módulo registram a implementação experimental anterior à arquitetura canônica. Para integração futura, use [AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md](../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md): Damage continua owner do cálculo, mas Host Combat/Effects/Resource APIs devem ser públicas, mínimas e versionadas. Patches históricos não são o contrato final.
+
 Motor de combate nativo experimental e patches de integração para a Base Aetherius e ClassSystem. **Legacy permanece padrão; ainda não é release de produção.**
 
 O núcleo implementa profiles exatos/revisionados, identidade estável, curva de armadura, dano físico, seis Masteries verificadas por Housecarl, providers, cache, trace, componentes mágicos e efeitos por instância. A integração nativa e os limites estão detalhados em [IMPLEMENTATION_STATUS](docs/aetherius-combat/IMPLEMENTATION_STATUS.md).
