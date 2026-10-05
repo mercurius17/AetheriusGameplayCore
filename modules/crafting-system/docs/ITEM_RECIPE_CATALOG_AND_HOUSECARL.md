@@ -263,17 +263,98 @@ Material profile pode ser derivado por:
 
 Se não puder ser determinado com segurança, a recipe fica unresolved.
 
-## 18. Mods e patches
+## 18. Camada de balanceamento das receitas
+
+Housecarl/COBJ é a fonte de descoberta estrutural da receita, mas **as quantidades vanilla/mod não são obrigatoriamente o balanceamento final do Aetherius**.
+
+O catálogo normalizado deve suportar uma camada explícita de override econômico.
+
+Exemplo conceitual:
+
+~~~ts
+interface MaterialConversionProfile {
+  id: string;
+  input: StableFormKey;
+  output: StableFormKey;
+  inputCount: number;
+  outputCount: number;
+}
+
+interface SetCostProfile {
+  id: string;
+  materialProfileId: string;
+  totalPrimaryMaterial: number;
+  secondaryMaterials?: Array<{
+    materialProfileId: string;
+    total: number;
+  }>;
+}
+
+interface RecipeBalanceOverride {
+  recipeDefinitionId: string;
+  inputs?: CraftInputDefinition[];
+  outputCount?: number;
+}
+~~~
+
+Baseline atual:
+
+~~~text
+ore-to-ingot:
+  3 ore -> 1 ingot
+
+animal-hide-to-leather:
+  3 hides -> 1 leather
+
+metal full set:
+  30 ingots
+
+leather full set:
+  30 leather
+
+pure-hide full set:
+  15 leather + 5 hides
+~~~
+
+A composição econômica do set completo é armadura, peito, bota, luva e escudo.
+
+O orçamento total é distribuído entre as recipes individuais por configuração.
+
+### 18.1. Regra de prioridade
+
+Para custos econômicos:
+
+1. override explícito de recipe/set da release;
+2. profile de balanceamento Aetherius;
+3. COBJ descoberto via Housecarl como baseline estrutural;
+4. unresolved se a receita não puder ser normalizada com segurança.
+
+O sistema não deve voltar silenciosamente a custos vanilla quando existir um profile Aetherius aplicável.
+
+### 18.2. Ajustes sem recompilação
+
+Deve ser possível alterar posteriormente:
+
+- taxa de conversão;
+- custo total de set;
+- custo por peça;
+- ingrediente secundário;
+- output count;
+- recipe enable/disable;
+
+sem alterar código do domínio.
+
+## 19. Mods e patches
 
 Usar winning record.
 
 Se patch altera ingredients, bench, keyword ou output facts, o catálogo precisa refletir o vencedor da release.
 
-## 19. Overrides
+## 20. Overrides
 
 Overrides usam StableFormKey/EditorID, nunca posição de plugin.
 
-## 20. Unresolved report
+## 21. Unresolved report
 
 Toda geração deve listar:
 
@@ -288,7 +369,7 @@ Toda geração deve listar:
 
 Unresolved não entra silenciosamente na UI.
 
-## 21. Assinatura
+## 22. Assinatura
 
 ~~~text
 CraftingCatalogSignature =
@@ -301,7 +382,7 @@ CraftingCatalogSignature =
  )
 ~~~
 
-## 22. Golden tests
+## 23. Golden tests
 
 Manter fixtures para provar:
 
@@ -312,8 +393,13 @@ Manter fixtures para provar:
 - Blacksmith recipe não vaza para Artífice;
 - guild recipe mantém membership;
 - Master gate desabilita execução;
-- missing plugin remove recipe com reason.
+- missing plugin remove recipe com reason;
+- 3 Iron Ore resolvem para 1 Iron Ingot no profile padrão;
+- set metálico completo soma 30 ingots;
+- set de Couro completo soma 30 leather;
+- set de pele pura soma 15 leather + 5 hides;
+- alteração de balanceamento muda custos sem alterar código.
 
-## 23. Resultado
+## 24. Resultado
 
 O catálogo deve permitir atualizar a load order sem espalhar IDs e categorias manuais pelo código, mantendo revisão explícita sobre ambiguidades.
