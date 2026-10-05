@@ -291,7 +291,24 @@ Smithing perks vanilla não serão a authority de:
 
 O acesso e a lógica do refino serão controlados pelos sistemas próprios do Aetherius.
 
-## 15. Estado atual
+## 15. Configurabilidade de balanceamento
+
+Embora este documento seja apenas conceitual, os valores numéricos aqui descritos também deverão ser externalizados quando o sistema for implementado.
+
+Isso inclui:
+
+- +25/+50/+75% por tier;
+- 1/2/3 couros de molde;
+- 5 segundos por sequência;
+- 5/10/15 ciclos;
+- 3/2/0 falhas toleradas;
+- custos e materiais adicionais.
+
+Esses números representam o baseline conceitual atual e devem ser fáceis de rebalancear sem reescrever a lógica do RefinementSystem.
+
+Ver `docs/architecture/AETHERIUS_BALANCE_CONFIGURATION_POLICY.md`.
+
+## 16. Estado atual
 
 Esta documentação define somente **o conceito do sistema desejado**.
 
