@@ -7,7 +7,7 @@ Motor de combate nativo experimental e patches de integração para a Base Aethe
 
 O núcleo implementa profiles exatos/revisionados, identidade estável, curva de armadura, dano físico, seis Masteries verificadas por Housecarl, providers, cache, trace, componentes mágicos e efeitos por instância. A integração nativa e os limites estão detalhados em [IMPLEMENTATION_STATUS](docs/aetherius-combat/IMPLEMENTATION_STATUS.md).
 
-As alterações ficam inteiramente nesta pasta. Integrações externas são entregues em `integration/`; [INTEGRATION](docs/aetherius-combat/INTEGRATION.md) descreve como revisar/aplicar os overlays. [HOUSECARL_RECORD_AUDIT](docs/aetherius-combat/HOUSECARL_RECORD_AUDIT.md) registra origem, winner, conditions e tradução; [VALIDATION](docs/aetherius-combat/VALIDATION.md) separa testes executados de verificações bloqueadas.
+Na entrega experimental original, as alterações foram mantidas inteiramente nesta pasta e integrações externas foram registradas em `integration/`. [INTEGRATION](docs/aetherius-combat/INTEGRATION.md) preserva esse caminho apenas como referência histórica; novas integrações devem seguir a Host API canônica. [HOUSECARL_RECORD_AUDIT](docs/aetherius-combat/HOUSECARL_RECORD_AUDIT.md) registra origem, winner, conditions e tradução; [VALIDATION](docs/aetherius-combat/VALIDATION.md) separa testes executados de verificações bloqueadas.
 
 Teste local TypeScript: `npm ci` e `npm test`.
 
