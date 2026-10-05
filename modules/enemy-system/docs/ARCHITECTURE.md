@@ -1,5 +1,8 @@
 # Architecture
 
+> [!NOTE]
+> Arquitetura interna do módulo. Para fronteiras entre domínios, Host API, persistência e death authority, prevalece [a arquitetura canônica](../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md).
+
 The project is a dependency-free Node ESM boundary layer. The host supplies record snapshots and runtime callbacks; the project does not import private SkyMP symbols or guess event names.
 
 ## Stable identity
