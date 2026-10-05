@@ -11,6 +11,26 @@
 >
 > As regras operacionais adicionadas aqui complementam os documentos anteriores e **não substituem progressão, yields ou gates já definidos**.
 
+## Regra transversal de balanceamento
+
+**Todos os valores numéricos do GatheringSystem devem ser facilmente customizáveis por configuração/definitions versionadas.**
+
+Isso inclui explicitamente:
+
+- estoque de minas;
+- cooldown de minas;
+- duração de ciclo;
+- limite de trabalhadores;
+- yields;
+- chances de gema/duplicação;
+- capacidade/cooldown de Herbalismo;
+- pools, pesos, ciclos, estoque e cooldown de Fazendas;
+- TTL/leases e demais valores operacionais que possam exigir tuning.
+
+Os números documentados são defaults de balanceamento atuais, não constantes obrigatórias de código.
+
+A regra transversal está em `docs/architecture/AETHERIUS_BALANCE_CONFIGURATION_POLICY.md`.
+
 ## Objetivo
 
 O módulo deve implementar a interação física e econômica de coleta no mundo:
