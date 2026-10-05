@@ -1,5 +1,8 @@
 # Contrato de integração verificado
 
+> [!IMPORTANT]
+> Este documento registra o contrato observado na baseline antiga (incluindo MySQL/custom packets). Para produção, prevalece [a arquitetura canônica](../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md): PostgreSQL/UnitOfWork para estado durável, `InventoryTransactionPort` para débito/recovery e `NativeCombatPort` para atividade eficaz.
+
 ## Servidor local analisado
 
 Snapshot examinado: `Test de VOIP/aetherius-server-main/server`.
