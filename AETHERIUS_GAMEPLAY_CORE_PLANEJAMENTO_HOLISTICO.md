@@ -583,23 +583,23 @@ Transporte identifica sessão/actor; ignorar actorId/characterId vindos no paylo
 
 Negar XP por deathStart/nome/nível client, stats finais client, grant list client, material por displayName, timestamp arbitrário e multiplicador de dano em pacote. Replay entre personagens/epochs e requestId com payload diferente são casos explícitos de teste. Logs não incluem tokens/credenciais e usam chaves pseudonimizadas quando possível.
 
-Client eventsource permite intenções de UI, não evidência forte de combate. Server JS verification pode estar configurada sem keys e então aceitar código conforme baseline; implantação alvo deve pin public keys e assinar snippets pelo mecanismo existente. Não alterar Client para isso: usar configuração operacional admitida e readiness gate.
+Client eventsource permite intenções de UI, não evidência forte de combate. Server JS verification pode estar configurada sem keys e então aceitar código conforme baseline; implantação alvo deve pin public keys e assinar snippets pelo mecanismo existente. Quando configuração pública existente não for suficiente, a arquitetura atual permite criar uma extensão Client/Server pública e versionada para a capability necessária; não usar internals privados como atalho.
 
-## 56. Aetherius-Server adapter strategy sem alterar base
+## 56. Aetherius-Server Host API strategy
 
-Criar entrypoint externo `runtime/server-entry.cjs`, selecionado por configuração de lançamento fora dos arquivos rastreados da base. Resolve path do gamemode base e dependências de forma explícita; inicializa GameplayCore apenas após host ready. Registrar propriedades/event sources com prefixo `_aetheriusGameplay...` e owners de propriedade bem definidos. Não invocar `mp.clear()` global no dispose de um módulo.
+O bootstrap externo `runtime/server-entry.cjs` continua útil para inicialização, lifecycle e feature gates. Quando o host já expõe uma capability pública adequada, o adapter deve consumi-la diretamente.
 
-Capabilities comprováveis sem patch: catálogo/diagnóstico, commands que usam get/set autorizados, projeções de UI e external gamemode boot. Validar integração real em F1: boot, reload, reconnect, assinatura, propriedade owner-only e dispose. Se load path relativo quebrar na cópia temporária, corrigir apenas entrypoint externo.
+Quando uma capability fundamental não existir — combat, death, inventory transaction, resources, equipment ou effects — a solução atual é adicionar ao `aetherius-server` uma **Host API pública, mínima, versionada e testada**. A API expõe fatos do runtime e aplica resultados autorizados; a regra de gameplay permanece no GameplayCore.
 
-Damage/active effects/death/inventory transaction dependem dos ports da seção26. Capability adapter retorna indisponível com B02/B04/B05 quando o host não oferece semântica; não criar bridge nativo que modifica memória privada para fingir extension point. O documento preserva o blocker em vez de tornar patch de Server pré-requisito escondido.
+Não criar bridge que acesse memória privada, singleton interno ou emitter não suportado para fingir extension point. Cada nova API precisa de baseline/commit, contract test, capability report, lifecycle e rollback compatíveis com a versão do adapter.
 
-## 57. Aetherius-Client adapter strategy sem alterar base
+## 57. Aetherius-Client Host API strategy
 
-Candidato concreto: snippet `makeEventSource` assinado registra `ctx.sp` listener de `AetheriusUI.FromView`, valida envelope e chama `ctx.sendEvent`; handler server recebe actor do transporte. Property owner-only entrega packet para `AetheriusUI.ToView` pelo mecanismo público apropriado do Skyrim Platform. F1 deve provar assinatura/API disponível e lifecycle; nenhum nome de chamada Papyrus não verificado é prescrito como implementação pronta.
+O transporte já provado por `makeEventSource`/Skyrim Platform pode continuar sendo usado onde sua semântica for suficiente. Read models são revisionados e ACK continua não sendo prova de authority.
 
-Não importar emitter privado, nem usar `mp.events.callRemote` legado. Módulo Skyrim Platform separado pode aplicar projeções por API pública, mas só com disposers/session binding e sem reivindicar impedir o remove-all da base. Read models são revisionados, ACK não prova autoridade sobre efeito. B03 bloqueia modo strict; UI/read-only pode prosseguir com indication de readiness.
+Quando o Client atual não consegue preservar provenance — como no fluxo que remove globalmente learned spells — deve-se criar uma extensão pública e versionada, por exemplo `SpellProjectionPort`, que reconcilie apenas a projeção autorizada e preserve outras origens. Mudanças de Client são permitidas para essa finalidade, mas não podem mover decisão de gameplay para o cliente.
 
-Não requer editar índice de services do Client. Os patches históricos de UI/Durability que fazem isso são referências de intenção, não a estratégia final.
+Não importar emitter privado nem tratar services internos como API. Qualquer nova integração deve possuir lifecycle/dispose, session binding, testes e capability report compatíveis com a versão do Server/GameplayCore.
 
 ## 58. AetheriusUI_Core adapter architecture
 
@@ -662,7 +662,7 @@ FormKey/actorKey/requestId vão em traces amostrados, não labels ilimitados. Tr
 
 ## 64. Rollout
 
-Estados por feature: `off → audit → shadow → canary → active`; readiness habilita transição, flag sozinha não. Começar por catalog/read-only UI, depois persistência/import, grants composition shadow, Enemy classification shadow, XP apenas após B04, manutenção apenas após B05, combate físico subset apenas após B02 e contexto, magia em grupos certificados. B03 impede strict spell projection em todos os estágios de ativação.
+Estados por feature: `off → audit → shadow → canary → active`; readiness habilita transição, flag sozinha não. Começar por catalog/read-only UI, depois persistência/import, grants composition shadow e Enemy classification shadow. XP só avança com NativeDeathPort comprovado; manutenção/consumo com InventoryTransactionPort; combate físico com NativeCombatPort/contexto autorizado; strict spell projection com SpellProjectionPort source-aware; magia por grupos certificados.
 
 Shadow recebe mesmos inputs mas não escreve recursos, inventário ou XP concorrentes. Compara resultados com traces, sem tratar legado como oráculo absoluto. Canary em mundo/personagens de teste explicitamente selecionados, assinatura fixa e métricas sem violações. A promoção exige checklist da seção71 e evidências anexadas ao release. Não ativar seis módulos juntos para “ver se funciona”.
 
@@ -712,7 +712,7 @@ A especificação de cada fase, incluindo **todos os 18 campos exigidos** (objet
 |Fase|Entrega verificável|Gate principal|
 |---|---|---|
 |F0|Manifest reconciliado, lacunas de records e baseline de testes|B01/B07|
-|F1|Bootstrap externo e ping UI in-game sem tocar bases|Capacidades públicas comprovadas|
+|F1|Host Integration API, bootstrap e capability probes|APIs públicas/versionadas comprovadas|
 |F2|Stable forms/catálogo único/coverage|Hash e winners corretos|
 |F3|PostgreSQL UoW/ledger/outbox|Crash/concurrency contract tests|
 |F4|Facts/grants/compose ActorState e Class|Single ownership; sem terceiro store|
@@ -725,7 +725,7 @@ A especificação de cada fase, incluindo **todos os 18 campos exigidos** (objet
 |F11|UI read models/actions/resync|Protocolo/epoch/idempotência|
 |F12|Homologação/carga/cutover/rollback|Checklist71 e sem blockers da feature|
 
-## 69. Arquivos/módulos a criar ou alterar somente no GameplayCore
+## 69. Arquivos/módulos a criar no GameplayCore e Host APIs relacionadas
 
 Entrega presente: este Markdown e `docs/audit/2026-10-02/**`. Nenhum arquivo funcional dos seis módulos é alterado. Proposta futura:
 
@@ -734,7 +734,7 @@ Entrega presente: este Markdown e `docs/audit/2026-10-02/**`. Nenhum arquivo fun
 |Contratos|`shared/contracts/src`, schemas|Contratos Enemy/Leveling via codecs de transição|Seis modelos StableForm independentes|
 |Catálogo|`shared/record-catalog/src`, `tools/catalog`|Housecarl importer/scanner como authoring adapters|Scan em cada hit, nomes como authority|
 |Persistência|`shared/persistence/src`, `database/migrations`|Repos Class/Leveling/Durability|MySQL SQL fingindo PG, inventário duplicado|
-|Runtime|`runtime/server-entry.cjs`, bootstrap/capabilities/lifecycle|Runtime injection Class e bridges existentes|Patches Server/Client e emitter privado|
+|Runtime|`runtime/server-entry.cjs`, bootstrap/capabilities/lifecycle e `adapters/host`|Host APIs públicas/versionadas + bridges existentes|Monkey patch, emitter privado e dependência de internals|
 |ActorState|`modules/actor-state-system/src`|Damage state/effect stores por port|Novo combat store/terceiro active effects store|
 |Class|Providers/milestone command wrappers|Class choice, skill resolver, party/raid, client projection|Writer de XP embutido habilitado junto|
 |Enemy|Template resolver/classification evidence|Registry, safety, spawning, bridge|Regex/classificação repetida em Leveling|
@@ -751,15 +751,15 @@ Os caminhos novos são design proposto; verificar `source-index.json` antes de m
 |ID|Bloqueio e evidência|Impacto|Como resolver sem violar escopo|
 |---|---|---|---|
 |B01|Load order de produção não comprovada; fontes locais5 vs MO2/Client424 e uma diferença de plugin|Não declarar compatibilidade/server readiness|Colher dump do processo e arquivos realmente abertos; gerar deployment manifest externo idêntico; se não houver acesso manter bloqueio|
-|B02|`BASE_REPO_CHANGE_REQUIRED`: métodos combat/effects exigidos pelo código importado ausentes na API pública Server|Sem Damage/effects autoritativo integrado na baseline atual|Provar port público equivalente numa baseline autorizada já disponível; até lá manter off/shadow. Não aplicar patch obrigatório|
-|B03|`BASE_REPO_CHANGE_REQUIRED`: Client remove todas as spells em fluxo learnedSpells|Sem garantia strict source-aware/no-remove-all|Encontrar opt-out/extension point já existente e demonstrá-lo; não foi encontrado. Reaplicar depois não satisfaz o requisito|
-|B04|Nenhuma morte/credit/generation nativa autenticada demonstrada; eventsource é client evidence|Sem XP kill econômica segura|DeathPort de host com proof; não substituir por trust flag ou TTL. Sem port, permanece bloqueado|
-|B05|Inventory instance/debit/recovery atômico não demonstrado|Kits, custom enchant/charge, crafting e alchemy com consumo bloqueados|Port público prepare/commit/recover idempotente; se exigir editar base, classificar também BASE_REPO_CHANGE_REQUIRED|
+|B02|Combat/effects necessários não estão expostos por API pública suficiente|Sem Damage/effects autoritativo integrado|Implementar/validar NativeCombatPort e ActiveEffectsPort públicos e versionados no Host; manter feature off/shadow até contract/E2E tests passarem|
+|B03|Client remove todas as spells em fluxo learnedSpells|Sem garantia strict source-aware/no-remove-all|Implementar SpellProjectionPort source-aware e substituir o fluxo global para a projeção gerenciada; preservar grants externos e learned acquisitions|
+|B04|Nenhuma morte/credit/generation nativa autenticada demonstrada; eventsource é client evidence|Sem XP kill econômica segura|Implementar NativeDeathPort no Host com actor/killer/spawn generation/death sequence e prova de origem; não substituir por trust flag ou TTL|
+|B05|Inventory instance/debit/recovery atômico não demonstrado|Kits, custom enchant/charge, crafting e alchemy com consumo bloqueados|Implementar InventoryTransactionPort público com item instance e prepare/commit/recover/cancel idempotentes; manter consumo off até prova de recovery|
 |B06|Overlay SkyPatcher/DLL/client difere conceitualmente do loader Server;140 SET conflicts observados|Potencial divergência de stats/keywords/equipment|Escolher política por camada e verificar post-overlay/servidor; nenhuma igualdade presumida|
 |B07|67 notas de truncamento de expansão em63 records; scripts/aliases/conditions e campos fora do recorte não certificados|Não garantir catálogo semântico completo de records dependentes|Expandir por campos/subpaths no Housecarl; lista exata publicada. Record dependente fica unsupported até completar|
 |B08|Sem runtime in-game, banco de produção/versionamento, logs de SKSE/Papyrus ou cobertura de todas as semânticas DLL/PEX/OAR|Sem certificação end-to-end nem viabilidade econômica operacional definitiva|Homologação por fases, banco descartável/testes; completar manifesto de assets e auditar scripts específicos quando habilitados|
 
-As tentativas de acesso GitHub Server/Client falharam; foram usadas as baselines ZIP disponibilizadas, conforme pedido. A falta de SHA git desses ZIPs é limite de rastreabilidade, não impedimento à leitura. Ausência de runtime não é escondida atrás de testes unitários verdes. Os blockers fazem parte do planejamento entregue; não são autorização para modificar bases.
+As tentativas de acesso GitHub Server/Client falharam; foram usadas as baselines ZIP disponibilizadas, conforme pedido. A falta de SHA git desses ZIPs é limite de rastreabilidade, não impedimento à leitura. Ausência de runtime não é escondida atrás de testes unitários verdes. Os blockers fazem parte do planejamento entregue. Pela política atual, B02–B05 podem exigir mudanças controladas nas bases para expor Host APIs; isso não autoriza lógica de gameplay no host nem acesso a internals privados.
 
 ## 71. Acceptance criteria
 
@@ -775,7 +775,7 @@ A implementação pode ser fonte de verdade de uma feature apenas quando **todos
 8. Manutenção consome uma vez/material/ciclo com inventory authority e recovery; provider sem IO e sem cálculo duplicado.
 9. UI apenas envia intenção e converge por epoch/revision/resync; duplicata em voo não duplica comando.
 10. Host integration, PostgreSQL, dois ou mais clientes e rollback end-to-end passam; budgets medidos sob carga definida.
-11. Hashes/diffs de Server e Client continuam intactos; nenhum patch obrigatório/monkey patch privado oculto.
+11. Baselines e alterações de Host API de Server/Client são explicitamente versionadas, reproduzíveis e testadas; nenhum monkey patch privado ou modificação não rastreada é aceita.
 12. Feature flag depende de readiness verificável; blockers aplicáveis resolvidos com evidências, nunca só removidos da lista.
 
 Acceptance do **planejamento presente** é diferente: inventários/records/pesquisa/código/testes referenciados, decisões e fases executáveis, limitações explícitas e publicação somente de documentação/evidências. Não significa aceite de produção dos seis módulos.
@@ -826,6 +826,6 @@ Evidências locais: Housecarl snapshots e epoch; inventário de todos os plugins
 
 ## 76. Decisões que o implementador não deve reabrir implicitamente
 
-Single ownership da seção30, identity codec da32, grants por origem da33, reuse dos stores da34, XP única da47, ledger/outbox da48/53 e bases read-only são invariantes desta especificação. Alterar esses pontos exige revisão de arquitetura com evidência; não fazer “ajuste local” no adapter que recrie um writer concorrente.
+Single ownership da seção30, identity codec da32, grants por origem da33, reuse dos stores da34, XP única da47 e ledger/outbox da48/53 permanecem invariantes. A regra histórica de bases read-only foi superada pela arquitetura canônica: Host APIs públicas/versionadas podem ser implementadas quando necessárias. Alterar esses pontos exige revisão de arquitetura com evidência; não fazer “ajuste local” no adapter que recrie um writer concorrente.
 
 Valores novos propostos (freshness500ms, budgets de performance, escolha de global level preservando curva) estão marcados como decisões de design, não fatos já validados. Podem ser refinados por medição/balanceVersion antes de ativação, sem violar os invariantes. Regras históricas rotuladas “user-approved” nos repos são proveniência histórica; não significam aprovação antecipada de uma implementação nova nesta conversa.
