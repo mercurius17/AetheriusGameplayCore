@@ -1,6 +1,9 @@
 # Fases executáveis de implementação
 
-Todos os caminhos são relativos ao **AetheriusGameplayCore**. São propostas, não arquivos implementados nesta entrega. Nenhuma fase autoriza editar Server/Client. Fases com blocker podem concluir artefatos offline/shadow, mas não ativar funcionalidade. Um port escrito não satisfaz acceptance até ser conectado a uma capacidade real comprovada.
+> [!IMPORTANT]
+> Atualizado em 05/10/2026 para seguir a [arquitetura canônica](../../architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). Este arquivo continua sendo o detalhamento de execução; em caso de conflito arquitetural, prevalece o documento canônico.
+
+Todos os caminhos de domínio permanecem relativos ao **AetheriusGameplayCore**. Server/Client podem ser alterados quando a fase exigir uma Host API pública, mínima, versionada e testada. A lógica de gameplay continua no GameplayCore e internals privados não podem virar contrato. Fases com blocker podem concluir artefatos offline/shadow, mas não ativar funcionalidade. Um port escrito não satisfaz acceptance até estar conectado a uma capacidade real comprovada.
 
 ## F0 — Congelar baseline, cobertura e expectativas
 
@@ -25,28 +28,28 @@ Todos os caminhos são relativos ao **AetheriusGameplayCore**. São propostas, n
 |Acceptance criteria|Servidor efetivo identificado por getEspmLoadOrder + settings pós-merge + hashes; nenhuma lacuna em record da primeira feature; expectativas Class justificadas em revisão|
 |Blockers|B01 produção não comprovada; B07 cobertura limitada; B08 acesso/versão de persistência e scripts runtime|
 
-## F1 — Bootstrap externo e capability probe
+## F1 — Host Integration API, bootstrap e capability probe
 
 |Campo|Especificação|
 |---|---|
-|Objetivo|Carregar GameplayCore via entrypoint externo e provar transporte público sem editar bases|
-|Por que existe|Imports/patches históricos assumem APIs inexistentes e private emitters|
-|Pré-requisitos|F0 manifesto para homologação; baseline Server/Client intacta|
+|Objetivo|Estabelecer a fronteira pública entre GameplayCore e runtime e provar transporte/capabilities reais|
+|Por que existe|Combat, death, inventory/effects e spell projection não devem depender de internals privados nem permanecer blockers permanentes|
+|Pré-requisitos|F0 manifesto para homologação; baselines exatas dos repositórios host|
 |Dependências|F0; UI Core pinado|
-|Módulos afetados|Runtime e adapters, Class/UI legado como consumidores de teste|
-|Arquivos atuais envolvidos|`modules/class-system/server/runtime.ts`, `modules/class-system/server/uiModule.ts`, `modules/durability-system/server/sky-mp-bridge.js`, `modules/enemy-system/src/adapters/skymp-adapter.mjs`|
-|Novos arquivos propostos|`runtime/server-entry.cjs`, `runtime/bootstrap.ts`, `runtime/capabilities.ts`, `runtime/lifecycle.ts`, `adapters/skymp/public-api.ts`, `adapters/skyrim-platform/ui-event-source.ts`|
-|Contratos criados/alterados|CapabilityReport, IdentityPort, UiTransportPort, ClockPort; tipos de APIs reais separados de ports desejados|
-|State ownership afetado|Session bindings/epoch no Runtime; domínio ainda off|
-|DB/migration|Nenhuma|
-|Events|HostReady, SessionBound/Unbound; nenhum fake NativeDeathConfirmed|
-|UI adapters|Ping/readiness via FromView→eventsource→server→owner property→ToView|
-|Feature flag|`runtime.bootstrap=true`, `ui.transport=probe`, demais off|
-|Testes|Boot/reload2x/dispose/reconnect; listener único; snippets assinados; bloqueio de event source; owner-only; sem acesso emitter privado|
-|Observabilidade|Capacidades available/unavailable com build/proof; listener count; protocol latency|
-|Rollback|Voltar seleção externa ao entrypoint anterior, remover listeners próprios; não mp.clear global|
-|Acceptance criteria|Handshake bidirecional in-game com base hashes idênticos; nenhum arquivo base alterado; capabilities ausentes continuam false|
-|Blockers|B02/B03/B04/B05 para features específicas; falta de API de ModEvent verificável bloqueia UI transport e exige revisão do adapter, não patch da base|
+|Módulos afetados|Runtime/adapters no GameplayCore e, quando necessário, APIs públicas mínimas em aetherius-server/aetherius-client|
+|Arquivos atuais envolvidos|`modules/class-system/server/runtime.ts`, integração UI atual, bridges Enemy/Durability e snapshots em `integrations/ui-runtime-changes`|
+|Novos arquivos propostos|`runtime/server-entry.cjs`, `runtime/bootstrap.ts`, `runtime/capabilities.ts`, `runtime/lifecycle.ts`, `adapters/host/*`; interfaces públicas correspondentes nos repositórios host quando inexistentes|
+|Contratos criados/alterados|CapabilityReport; IdentityPort; UiTransportPort; NativeCombatPort; NativeDeathPort; InventoryTransactionPort; EquipmentPort; ResourcePort; SpellProjectionPort; ActiveEffectsPort; Clock/Rng|
+|State ownership afetado|Host continua owner de runtime/inventory/resources; GameplayCore continua owner das regras de domínio|
+|DB/migration|Nenhuma obrigatória nesta fase|
+|Events|HostReady, SessionBound/Unbound e eventos nativos versionados; nunca fabricar `NativeDeathConfirmed` a partir de string client|
+|UI adapters|Handshake bidirecional e readiness; transporte atual é evidência útil, não authority de gameplay|
+|Feature flag|`runtime.bootstrap=true`; capabilities individualmente off/probe até prova|
+|Testes|Boot/reload/dispose/reconnect; listener único; ABI/API; idempotência do ResourcePort; death generation; inventory prepare/commit/recover; spell reconcile por origem; sem acesso a internals privados|
+|Observabilidade|CapabilityReport com build/baseline/proof; listener count; port health; protocol latency|
+|Rollback|Reverter a versão da Host API e adapter conjuntamente; manter feature dependente off; nenhum fallback silencioso para internals|
+|Acceptance criteria|GameplayCore só importa APIs públicas; baselines/commits host explícitos; capabilities ausentes continuam false; API necessária é reproduzível em build limpo|
+|Blockers|Capability ainda não implementada/testada mantém somente a feature dependente em shadow/off; não bloqueia a criação correta da API|
 
 ## F2 — Contratos únicos, forms e catálogo normalizado
 
@@ -257,6 +260,8 @@ Todos os caminhos são relativos ao **AetheriusGameplayCore**. São propostas, n
 
 ## F11 — UI integrada, resync e publicação controlada
 
+> A UI é uma trilha paralela, não uma dependência linear final. Read-only/readiness pode avançar desde F1; commands só são liberados quando o owner e as capabilities da feature estiverem prontos.
+
 |Campo|Especificação|
 |---|---|
 |Objetivo|Entregar read models/actions dos seis domínios no UI Core e readiness legível|
@@ -275,7 +280,7 @@ Todos os caminhos são relativos ao **AetheriusGameplayCore**. São propostas, n
 |Testes|Duplicate in-flight, stale patch/full snapshot, logout troca personagem, oversized/proto payload, keyboard/controller/focus in-game; G16/G17|
 |Observabilidade|Resync rate, command reject reason, pending duration, protocol compatibility|
 |Rollback|Desregistrar módulo/voltar read-only; não revogar grants nem desfazer domínio por falha visual|
-|Acceptance criteria|UI não calcula authority; reconnect converge; nenhum edit Server/Client/UI Core requerido pelo adapter|
+|Acceptance criteria|UI não calcula authority; reconnect converge; qualquer mudança host necessária ocorre via API pública/versionada e não por internals privados|
 |Blockers|F1 transporte; feature blockers herdados; DLL Meridian não testada in-game nesta auditoria|
 
 ## F12 — Homologação, carga, cutover e rollback ensaiado
@@ -298,9 +303,9 @@ Todos os caminhos são relativos ao **AetheriusGameplayCore**. São propostas, n
 |Testes|Carga e budgets seção60,2+clientes, NPCs, reconnect/restart/crash, DB outage, adversarial payload, rollback com XP/kit já commitados|
 |Observabilidade|Dashboard completo, alertas de invariantes, memória/filas sob duração suficiente|
 |Rollback|Executar runbook da seção65 em homologação e guardar evidência; falha bloqueia promoção|
-|Acceptance criteria|Checklist71 completo; zero owner duplicates/unsupported aplicado/XP sem ledger; budgets medidos; bases com hashes inalterados|
+|Acceptance criteria|Checklist71 completo; zero owner duplicates/unsupported aplicado/XP sem ledger; budgets medidos; baselines e mudanças de Host API reproduzíveis e rastreadas, sem modificação privada/não versionada|
 |Blockers|Qualquer B01–B08 aplicável e qualquer regression gate; “planejamento concluído” não equivale a release pronta|
 
 ## Dependências e entrega incremental
 
-F0→F1/F2→F3→F4. F5 deriva de catálogo/identidade/persistência; F6 pode ser desenvolvido offline após F2. F7 depende de morte autorizada, F8 de inventário, F9 de host combat. F10 depende de seus subsets/contextos. F11 pode começar read-only após F1/F4. F12 promove somente capacidades comprovadas. Esta ordem permite avanço útil mesmo quando native ports permanecem impossíveis sob a restrição de bases intactas.
+F0→F1→F2→F3→F4. F5 deriva de catálogo/identidade/persistência; F6 pode ser desenvolvido offline após F2. F7 depende do NativeDeathPort, F8 do InventoryTransactionPort e F9 do NativeCombatPort; quando esses ports não existirem, F1 inclui a criação da Host API mínima correspondente. F10 depende de seus subsets/contextos. F11 é paralela e pode começar read-only após F1. F12 promove somente capacidades comprovadas.
