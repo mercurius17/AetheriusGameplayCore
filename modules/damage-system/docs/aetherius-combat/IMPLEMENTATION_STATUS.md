@@ -1,5 +1,8 @@
 # Estado da implementação
 
+> [!NOTE]
+> Este status descreve a entrega experimental original. A restrição histórica de manter mudanças dentro da pasta DamageSystem não é uma regra arquitetural atual. Consulte [a arquitetura canônica](../../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md) para Host APIs, ownership e ordem de implementação.
+
 **Entrega de infraestrutura e integração física experimental. Não é release completo nem produção validada.**
 
 A restrição de pasta impede aplicar alterações nos projetos externos. O código novo vive em `server/server/cpp/server_guest_lib/aetherius_combat`; as alterações em arquivos existentes da Base e do ClassSystem são patches em `integration/`, exercitados somente em cópias internas ignoradas. A fórmula `TES5DamageFormula` e os decorators originais não foram alterados.
