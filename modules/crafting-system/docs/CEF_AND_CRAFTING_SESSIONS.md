@@ -175,3 +175,16 @@ Registrar eventos econômicos/estágios, não mouse-move frame a frame.
 ## 14. Responsividade
 
 CEF pode interpolar barras e animações localmente para fluidez, mas resolução final permanece server-side.
+
+
+## 15. Direção visual obrigatória
+
+A implementação visual de Ferreiro e Curtidor deve seguir `CRAFTING_UI_VISUAL_GUIDELINES.md` e as referências anexadas em `docs/assets/`.
+
+Regras obrigatórias:
+
+- não existem Guilda dos Ferreiros ou Guilda dos Curtidores;
+- nenhum indicativo de guilda dessas profissões deve aparecer na UI;
+- os elementos gráficos específicos devem ser desenhados à mão;
+- cores, estados, destaques e tokens visuais devem vir do AetheriusUI_Core;
+- as imagens anexadas são referência de layout/UX, não paleta ou asset final.
