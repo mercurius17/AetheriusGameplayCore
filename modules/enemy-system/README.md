@@ -1,5 +1,8 @@
 # AetheriusEnemySystem
 
+> [!IMPORTANT]
+> O domínio e as regras de Enemy permanecem válidos, mas ownership, persistência, Host Ports e integração com Leveling devem seguir [a arquitetura canônica](../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). Eventos de morte só se tornam econômicos quando originados do `NativeDeathPort` autorizado.
+
 Sistema server-authoritative de inimigos, encontros e dungeons para servidores Skyrim baseados em SkyMP.
 
 O projeto descobre conteúdo vanilla, DLC, Creation Club e mods diretamente da load order ativa do Mod Organizer 2. Ele não depende de índices fixos: cada registro é persistido como `plugin de origem + FormID local`, e o FormID de runtime é resolvido pelo host somente no momento de uso. Assim, alterar a posição de um plugin não invalida as identidades salvas.
