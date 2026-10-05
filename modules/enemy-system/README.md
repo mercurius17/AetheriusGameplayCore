@@ -14,7 +14,7 @@ O projeto descobre conteúdo vanilla, DLC, Creation Club e mods diretamente da l
 1. O houseCARL lê a instância ativa do MO2 e fornece os registros vencedores da load order.
 2. O catálogo global identifica dungeons por `LCTN`, `CELL`, keywords, encounter zones e evidências adicionais configuráveis para mods que omitem metadados padrão.
 3. NPCs são classificados por raça, facção, arquétipo, listas `LVLN` e evidências dos registros vencedores.
-4. Cada dungeon recebe uma faixa de dificuldade, níveis de inimigos e contexto recomendado de Class Level.
+4. Cada dungeon recebe uma faixa de dificuldade, níveis de inimigos e contexto recomendado de Character Level.
 5. O servidor escolhe spawns de forma determinística por identidade, geração e pesos derivados das listas originais.
 6. Reconexões reutilizam a decisão persistida. Um novo sorteio ocorre somente em uma nova geração/reset.
 7. Eventos de morte são idempotentes e entregam contexto ao AetheriusLevelingSystem, sem calcular XP dentro deste projeto.
@@ -44,7 +44,7 @@ A descoberta não contém uma lista fixa de plugins. Ela inclui:
 - interiores clearable com encounter zones;
 - exceções verificadas em `config/dungeon-discovery-overrides.json` para mods sem metadados padrão.
 
-| Tier | Enemy Combat Level | Alvo | Class Level recomendado |
+| Tier | Enemy Combat Level | Alvo | Character Level recomendado |
 | --- | ---: | ---: | ---: |
 | `EASY` | 1–15 | 8 | 1–10 |
 | `MEDIUM` | 15–30 | 22 | 10–20 |
