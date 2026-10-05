@@ -476,6 +476,23 @@ Especialmente para Ferreiro/Curtidor, o sistema não deve depender das perks van
 
 Valores de balanceamento devem ficar fora do código rígido.
 
+Essa é uma regra **transversal a todos os sistemas profissionais**, não apenas a XP/Vigor.
+
+O documento canônico complementar é `docs/architecture/AETHERIUS_BALANCE_CONFIGURATION_POLICY.md`.
+
+Portanto, sistemas externos também devem externalizar parâmetros como:
+
+- estoque/cooldown de recursos;
+- duração de atividades;
+- concorrência;
+- yields e probabilidades;
+- conversões de materiais;
+- custos de receitas;
+- budgets de sets;
+- parâmetros de minigames/refino.
+
+Valores presentes nos documentos são defaults atuais de balanceamento, salvo quando explicitamente marcados como invariantes estruturais.
+
 Exemplo conceitual:
 
 ```json
@@ -628,7 +645,7 @@ Antes de chamar o módulo de implementado:
 1. existe um único writer de XP/rank/Vigor;
 2. coleta Novato universal funciona sem gerar XP indevido;
 3. uma única profissão especializada persiste por personagem;
-4. thresholds e Vigor são configuráveis;
+4. thresholds, Vigor e demais valores de balanceamento dos módulos externos são configuráveis;
 5. ledger impede replay;
 6. UI é read model + commands, não authority;
 7. módulos externos só usam contratos públicos;
