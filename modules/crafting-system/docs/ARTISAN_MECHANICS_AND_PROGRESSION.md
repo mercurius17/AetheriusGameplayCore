@@ -33,6 +33,36 @@ Teto econômico regular: Steel Plate.
 
 Smithing perks vanilla não liberam recipes.
 
+### 2.1. Economia-base de metal
+
+A conversão econômica padrão de minério para lingote é:
+
+~~~text
+3 minérios -> 1 ingot
+~~~
+
+Exemplo:
+
+~~~text
+3 Iron Ore -> 1 Iron Ingot
+~~~
+
+A mesma proporção deve ser utilizada para materiais equivalentes que possuam cadeia minério -> ingot, salvo override explícito de balanceamento.
+
+Um **set completo de determinado material metálico** deve exigir, somadas as receitas das peças do conjunto, **30 ingots** daquele material.
+
+A composição econômica de set completo adotada pelo projeto é:
+
+- armadura;
+- peito;
+- bota;
+- luva;
+- escudo.
+
+O custo de 30 ingots é o orçamento total do set; a distribuição entre as peças individuais deve ser configurável.
+
+Como referência econômica derivada, 30 ingots equivalem a 90 unidades de minério quando toda a matéria-prima é obtida pela conversão 3:1.
+
 ## 3. Curtidor
 
 | Rank | Conteúdo |
@@ -46,6 +76,30 @@ Smithing perks vanilla não liberam recipes.
 Crafting-base segue o plano específico do Curtidor.
 
 Smithing/Light Armor perks vanilla não liberam recipes.
+
+### 3.1. Economia-base de couro
+
+A conversão econômica padrão é:
+
+~~~text
+3 peles de animal -> 1 couro
+~~~
+
+Um **set completo de Couro** deve consumir, somadas todas as receitas das peças do conjunto, **30 couros**.
+
+Como referência econômica derivada, 30 couros equivalem a 90 peles de animal quando todo o couro é produzido pela conversão 3:1.
+
+### 3.2. Sets de pele pura
+
+Sets classificados especificamente como **pele pura** utilizam um orçamento diferente:
+
+~~~text
+15 couros + 5 peles de animal
+~~~
+
+Ou seja, usam metade do orçamento normal de couro de um set completo, acrescido de 5 peles brutas.
+
+A distribuição de couro/peles entre as peças individuais permanece configurável.
 
 ## 4. Cozinheiro
 
@@ -169,3 +223,23 @@ Para Ferreiro, Curtidor, Cozinheiro, Artífice, Alfaiate e Cervejeiro:
 - recipe COBJ vanilla não basta para autorizar craft.
 
 A autorização profissional é do Aetherius.
+
+
+## 16. Balanceamento configurável de receitas
+
+Todos os custos descritos neste documento são **valores-base de balanceamento**, não constantes hardcoded.
+
+Toda receita deve permitir ajuste posterior, sem recompilar código, de pelo menos:
+
+- quantidade de cada ingrediente;
+- proporção de conversão de matéria-prima;
+- orçamento total de material por set;
+- distribuição do orçamento entre peças;
+- output count;
+- rank exigido;
+- workstation;
+- membership/gates;
+- flags de habilitação;
+- bônus profissionais aplicáveis.
+
+O catálogo gerado via Housecarl fornece os records e receitas da release, enquanto uma camada de configuração do Aetherius aplica os valores econômicos desejados.
