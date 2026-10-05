@@ -232,8 +232,8 @@ Todos os caminhos de domínio permanecem relativos ao **AetheriusGameplayCore**.
 |Testes|Player↔NPC/NPC↔NPC, weapon instance/AMMO/block/critical, enchanted armor rejection, packet power spoof, cap; carga warm cache|
 |Observabilidade|p99damage, cache invalidation, rejected context, dual-owner assertion|
 |Rollback|Fencer de combat mode em maintenance window, drain de hits, reidratar epoch; não fallback por hit|
-|Acceptance criteria|Nenhum write em bases; addon host integration test verde; perfil ambos atores; nenhuma dupla aplicação; budget medido|
-|Blockers|B02 na baseline atual é bloqueio duro; não contorná-lo aplicando base-aetherius.patch|
+|Acceptance criteria|NativeCombatPort/ResourcePort públicos e versionados passam contract/host tests; perfil de ambos atores; nenhuma dupla aplicação; budget medido|
+|Blockers|B02 mantém o combate off/shadow até a Host API necessária ser implementada e validada; patches históricos não substituem uma API pública/versionada|
 
 ## F10 — Magia, enchantments e alchemy por subset
 
