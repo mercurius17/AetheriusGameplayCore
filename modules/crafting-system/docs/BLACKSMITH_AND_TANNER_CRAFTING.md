@@ -64,6 +64,36 @@ O workflow pode precisar de material profile para fusão/moldagem.
 
 O profile deve vir do catálogo Housecarl/mapping, não de Runtime FormID hardcoded.
 
+### 2.4.1. Conversão minério -> ingot
+
+A taxa econômica padrão é:
+
+~~~text
+3 ore -> 1 ingot
+~~~
+
+Exemplo:
+
+~~~text
+3 Iron Ore -> 1 Iron Ingot
+~~~
+
+Essa conversão é uma receita de **processamento de matéria-prima** e não deve ser confundida com a etapa visual "Derreter Metal" de uma sessão de fabricação de equipamento.
+
+A proporção 3:1 deve ser data-driven e poderá ser rebalanceada posteriormente.
+
+### 2.4.2. Orçamento de set metálico
+
+Um set completo de determinado material utiliza **30 ingots no total**, somados entre as receitas de:
+
+- armadura;
+- peito;
+- bota;
+- luva;
+- escudo.
+
+Não é necessário hardcodar um custo fixo por peça. A configuração deve garantir que o orçamento do conjunto completo some 30, permitindo redistribuir custos entre slots em ajustes futuros.
+
 ## 2.5. Falhas
 
 Falhas intermediárias podem produzir penalidades locais configuráveis.
@@ -87,6 +117,14 @@ Somente depois de Resfriamento bem-sucedido o item pode existir no inventário.
 Couro é produzido sem minigame, conforme plano específico.
 
 A operação ainda é server-authoritative e transacional.
+
+A taxa econômica padrão é:
+
+~~~text
+3 peles de animal -> 1 couro
+~~~
+
+Essa proporção deve ser configurável e não hardcoded.
 
 ## 3.2. Workflow de equipamento
 
@@ -157,6 +195,31 @@ Na falha completa:
 
 Item nasce somente após sucesso em Retoques.
 
+## 3.8. Orçamento de sets de Couro
+
+Um set completo de Couro utiliza **30 couros no total**, distribuídos entre as receitas das peças do conjunto.
+
+A soma é normativa para o baseline de balanceamento; a distribuição individual é configurável.
+
+## 3.9. Sets de pele pura
+
+Sets classificados especificamente como **pele pura** usam:
+
+~~~text
+15 couros + 5 peles de animal
+~~~
+
+Isso corresponde a metade do orçamento normal de couro de um set completo, acrescida de 5 peles brutas.
+
+O catálogo deve distinguir claramente:
+
+~~~text
+materialProfile = leather
+materialProfile = pure-hide
+~~~
+
+para que as duas economias não sejam confundidas.
+
 # 4. Bônus Aprendiz
 
 Ferreiro e Curtidor possuem 10% de chance de preservar um material no crafting em seu rank Aprendiz conforme progressão oficial.
@@ -226,3 +289,19 @@ Não usar Smithing perks como authority.
 - catalog revision;
 - workstation authorization;
 - no vanilla bypass.
+
+
+# 9. Configurabilidade obrigatória
+
+Nenhum dos seguintes valores deve existir como constante espalhada no código:
+
+- 3 ore -> 1 ingot;
+- 3 hides -> 1 leather;
+- 30 ingots por set metálico;
+- 30 leather por set de Couro;
+- 15 leather + 5 hides por set de pele pura;
+- distribuição de custos por peça.
+
+Esses valores pertencem a profiles/definitions versionados de balanceamento.
+
+A lógica do código deve consumir as definitions e validar as receitas; mudanças econômicas futuras devem ser possíveis por configuração e regeneração/auditoria de catálogo.
