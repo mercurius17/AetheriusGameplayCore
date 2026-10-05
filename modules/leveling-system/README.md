@@ -1,9 +1,7 @@
 # AetheriusLevelingSystem
 
-Sistema server-side, orientado a dados, para progressão de nível de classe e concessão de XP no
-Aetherius SkyMP. O módulo foi projetado para se tornar a autoridade exclusiva de experiência,
-funcionar com inimigos do jogo base e de mods e permanecer independente da posição dos plugins na
-load order do Mod Organizer 2.
+Sistema server-side, orientado a dados, para XP e progressão global do personagem no Aetherius SkyMP.
+Pela [arquitetura canônica](../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md), o Leveling é o único writer de `totalXp/characterLevel/fatigue`; o Class consome o nível para milestones e alocação. Nomes legados como `PlayerClassLevel` no código/config atual descrevem a baseline migrada e devem ser reconciliados durante F3/F7, não tratados como um segundo saldo de XP.
 
 > **Estado atual: `PARTIAL`.** O núcleo, as regras aprovadas e os mecanismos de integração estão
 > implementados e testados, mas a ativação em produção permanece bloqueada até a definição de
@@ -13,7 +11,7 @@ load order do Mod Organizer 2.
 
 ## Recursos principais
 
-- progressão de `PlayerClassLevel` do nível 1 ao 40, com 15 pontos de atributo por nível;
+- curva legada 1–40 atualmente representada por `PlayerClassLevel`; no target canônico ela alimenta `characterLevel`, com Class consumindo milestones sem possuir XP próprio;
 - XP base e XP fixa de chefes editáveis exclusivamente por JSON;
 - escala de inimigos do nível 1 ao 100, incluindo o segundo softcap de 2% após o nível 40;
 - relevância de conteúdo com redução de 5% por nível acima da faixa e piso de 10% do XP;
@@ -137,9 +135,7 @@ forma explícita. Não existe resolução por nome, categoria aproximada nem XP 
 
 ## Autoridade exclusiva de XP
 
-`ExperienceAuthorityCoordinator` localiza e desativa autoridades de XP legadas ou concorrentes. Em
-produção, o processamento permanece bloqueado até que `AetheriusLevelingSystem` seja a única
-autoridade habilitada.
+`AetheriusLevelingSystem` é o único writer de XP/nível do personagem. O writer legado do Class deve ser desligado antes do cutover. A concessão econômica só pode iniciar a partir de `NativeDeathPort` autenticado e commit PostgreSQL com ledger/outbox; descobrir/desligar writers concorrentes continua sendo um gate, mas não substitui a prova da morte.
 
 ## Configuração
 
@@ -206,7 +202,7 @@ atributo devem ser gravados na mesma transação.
 
 A suíte possui 44 testes automatizados. O estado de produção permanece `PARTIAL` pelo seguinte ponto:
 
-- persistência transacional/CAS durável ainda não ligada ao host.
+- kernel PostgreSQL/ledger/outbox e NativeDeathPort ainda precisam ser ligados ao fluxo de produção.
 
 Nenhum fallback é aplicado para esconder essas diferenças.
 
