@@ -1,5 +1,8 @@
 # AetheriusGameplayCore — planejamento holístico
 
+> [!IMPORTANT]
+> **Status histórico.** Este documento registra a auditoria e as decisões propostas em 02/10/2026. A partir de 05/10/2026, decisões arquiteturais normativas devem seguir [docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md](docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). Permanecem válidos aqui os fatos, catálogos, medições, blockers e evidências que não tenham sido substituídos. Foram superadas como regra permanente as proibições de alterar `aetherius-server`/`aetherius-client`: mudanças controladas são permitidas para criar Host APIs públicas, mínimas, versionadas e testadas, mantendo a lógica de gameplay no GameplayCore.
+
 Data: 02/10/2026. Produto: pesquisa, auditoria e especificação; **nenhuma implementação de gameplay nesta entrega**.
 
 Estado: planejamento publicável; ativação autoritativa integral **bloqueada** pelos extension points das bases e pelas verificações de runtime indicadas na seção 70. Instância examinada: `D:\modOrganizer`, perfil `AETHERIUS - GRAFICO - QUALIDADE`.
@@ -16,7 +19,7 @@ O monorepo contém componentes úteis, mas não contém ainda um núcleo integra
 
 A solução proposta é consolidar contratos e catálogo no GameplayCore, preservar `ActorCombatState`, reutilizar `ActiveEffectStore` quando houver capacidade real de execução, e tornar ActorState um compositor com proveniência. Enemy determina identidade, spawn e classificação; Leveling determina XP; Class determina escolha, milestones e grants; Durability fornece modificadores; Damage calcula/aplica combate por uma única autoridade. UI recebe projeções.
 
-Há três incompatibilidades que impedem declarar o conjunto pronto: (a) MO2/cliente/servidor não têm a mesma lista comprovada; (b) APIs nativas exigidas por Damage não estão exportadas na base Server; (c) Client contém remoção global de spells. A especificação **não prescreve patches obrigatórios nas bases**. Recursos dependentes ficam desligados e identificados como `BASE_REPO_CHANGE_REQUIRED` enquanto não existir extension point público suficiente na baseline autorizada.
+Há três incompatibilidades que impedem declarar o conjunto pronto: (a) MO2/cliente/servidor não têm a mesma lista comprovada; (b) APIs nativas exigidas por Damage não estão exportadas na base Server; (c) Client contém remoção global de spells. Na auditoria de 02/10 a especificação não prescrevia patches obrigatórios nas bases. Essa restrição foi posteriormente superada pela arquitetura canônica: quando um extension point público não existir, ele pode ser implementado de forma controlada no Server/Client como Host API versionada. Recursos continuam desligados até que a nova capability esteja implementada, testada e reportada como disponível.
 
 A auditoria percorreu headers de todos os 424 plugins, extraiu 165.372 winners de 24 assinaturas centrais e 10.235 registros adicionais de dez assinaturas, além de campos complementares de quests/factions. Extraiu 33.415 árvores de overrides no conjunto central, 41.665 ocorrências de conditions em 178 funções e 39 archetypes em 5.496 MGEFs. O catálogo é abrangente; a revisão humana aprofundada é priorizada e identificada, não uma alegação de inspeção manual de cada record. Testes de componentes passaram em sua maioria; seis testes Class permanecem falhando. Não houve sessão de gameplay ao vivo.
 
@@ -42,11 +45,13 @@ O requisito adicional de baixo impacto no PC foi incorporado: coleta final seque
 
 `README.md`, `MIGRATION_MANIFEST.md` e `docs/MONOREPO_MIGRATION_POLICY.md` confirmam importação lossless. Origens: Class `2406c3d680c4ceddcea70f7b202deba010af3360` (108 arquivos); Damage `f21faf5c4a1264f787545e20a1e4dbadc6362e80` (52); Enemy `c61031b9d12a6619c0848606901e5b4fabb1c9d5` (66); Leveling `c339797c24345810c478cd1618777d55ff755852` (76); Durability `4146fc89d0c9112bd63c019f0c5fcabe036c4502` (23). O [índice de fontes](docs/audit/2026-10-02/source-index.json) registra hash, tamanho, linhas e símbolos dos 329 arquivos rastreados Gameplay e 44 UI; indexação não equivale a teste de todos os caminhos.
 
-## 4. Restrições absolutas
+## 4. Restrições da auditoria e política atual
 
-Server e Client foram lidos em cópias extraídas e não receberam edições. Não aplicar `integration/base-aetherius.patch`, não copiar arquivos por cima da base, não reescrever bundles dela e não fazer monkey patch de internals como “adapter”. As pastas com `server/server/cpp` no Damage são material importado dentro do GameplayCore, não prova de capacidade da base.
+Durante a auditoria de 02/10, Server e Client foram tratados como read-only para separar evidência de implementação. Não aplicar patches históricos ou monkey patches privados apenas para fazer uma feature parecer suportada; as pastas `server/server/cpp` importadas no Damage continuam não sendo prova de capacidade da base.
 
-Todos os novos adapters, schemas, migrations, geradores, testes e módulos propostos pertencem ao GameplayCore. Configuração operacional externa pode selecionar entrypoint e diretórios; isso não autoriza alterar arquivos rastreados Server/Client. Não instalar plugins ou patches MO2 nesta etapa. Não regenerar/copy-forward conteúdo produzido por DynDOLOD, Occlusion, Synthesis, ParallaxGen ou outputs de animação como fonte autoral.
+**Política atual:** Server e Client permanecem repositórios externos ao GameplayCore, porém podem receber mudanças controladas para expor Host APIs públicas, mínimas e versionadas. Essas mudanças precisam de baseline/commit explícito, testes e capability report. Regras de gameplay, ownership, persistência econômica e composição continuam no GameplayCore. Internals privados não são contrato.
+
+Não instalar plugins ou patches MO2 apenas para contornar ausência de capability. Não regenerar/copy-forward conteúdo produzido por DynDOLOD, Occlusion, Synthesis, ParallaxGen ou outputs de animação como fonte autoral.
 
 ## 5. Fonte efetiva da load order
 
