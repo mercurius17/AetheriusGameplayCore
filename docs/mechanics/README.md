@@ -1,5 +1,8 @@
 # Manual de mecânicas e impacto multiplayer
 
+> [!IMPORTANT]
+> Este manual continua sendo referência para mecânicas, records e cobertura. Para decisões de arquitetura e implementação atuais, prevalece [a arquitetura canônica](../architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md).
+
 Complemento minucioso do [planejamento holístico](../../AETHERIUS_GAMEPLAY_CORE_PLANEJAMENTO_HOLISTICO.md), produzido em 02/10/2026. A primeira versão tinha inventários e arquitetura, mas não bastava para implementar cada perk: faltavam fichas navegáveis, ligação das classes aos records, decomposição de effects/conditions e casos multiplayer concretos. Este pacote preenche essas lacunas documentais e expõe as lacunas de implementação que continuam abertas.
 
 **Não há ativação de gameplay nesta entrega.** Os fatos são da instância `D:\modOrganizer`, perfil `AETHERIUS - GRAFICO - QUALIDADE`, epoch `e2-ad3c01c2aa184e91`, das baselines de código identificadas na auditoria e das extrações complementares. Uma regra proposta não deve ser confundida com comportamento já executado pelo servidor.
