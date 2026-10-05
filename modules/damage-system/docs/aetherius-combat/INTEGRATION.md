@@ -1,5 +1,8 @@
 # Integração histórica preparada
 
+> [!WARNING]
+> **Caminho histórico de integração.** Os passos abaixo documentam o overlay experimental original e não são a estratégia canônica atual. Novas integrações devem expor Host APIs públicas/versionadas conforme [a arquitetura canônica](../../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). Não aplicar este patch como substituto de uma Host API formal.
+
 > [!IMPORTANT]
 > Este arquivo descreve o caminho de integração preparado antes da arquitetura canônica de 05/10/2026. **Não use `integration/base-aetherius.patch` como plano atual de produção.** O caminho normativo é expor/consumir uma Host API pública, mínima e versionada conforme [a arquitetura canônica](../../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). Os passos abaixo permanecem somente como referência/reprodução da baseline histórica.
 
