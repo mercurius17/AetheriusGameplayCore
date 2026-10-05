@@ -10,6 +10,8 @@ Elas não devem ser implementadas como constantes rígidas espalhadas pelo códi
 
 Toda taxa de conversão e todo custo de recipe/set deve existir em definitions/configuração versionada para permitir rebalanceamento posterior.
 
+Esta regra segue a política transversal `docs/architecture/AETHERIUS_BALANCE_CONFIGURATION_POLICY.md`.
+
 ## 2. Minério -> ingot
 
 Taxa padrão:
