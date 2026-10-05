@@ -4,6 +4,12 @@ Monorepo dos sistemas de gameplay do **Aetherius Roleplay**.
 
 Este repositório consolida os sistemas que precisam evoluir de forma coordenada para o ambiente SkyMP/Aetherius. A migração inicial preservou as baselines; a integração UI descrita abaixo acrescenta alterações ao ClassSystem.
 
+## Arquitetura canônica
+
+A fonte normativa atual para decisões de arquitetura e implementação é [docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md](docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md).
+
+O planejamento holístico de 02/10/2026 permanece como auditoria histórica e pacote de evidências. Quando houver conflito de regra arquitetural, prevalece a arquitetura canônica. Em particular, `aetherius-server` e `aetherius-client` podem receber alterações controladas para expor Host APIs públicas, mínimas e versionadas; a lógica de gameplay permanece no GameplayCore.
+
 ## Estado atual da integração UI
 
 O ClassSystem integra CLASSE/GRUPO ao AetheriusUI_Core em modo de consulta, com persistência protegida e SDK compartilhado. Ações dependentes de CombatProfile, grants e transações de grupo permanecem bloqueadas.
@@ -18,7 +24,7 @@ O [guia completo de compilação das DLLs e integração UI](docs/ui-integration
 
 - `modules/class-system/` — progressão de classes, skills, perks, grupos/raids e projeções associadas.
 - `modules/damage-system/` — combate autoritativo, dano físico/mágico, perks, efeitos e estado de combate.
-- `modules/actor-state-system/` — módulo reservado para o futuro estado autoritativo agregado do ator.
+- `modules/actor-state-system/` — compositor autoritativo de facts/grants/projeções do ator; ainda em implementação, sem criar um segundo combat/effects store.
 - `modules/enemy-system/` — descoberta/classificação de inimigos, dungeons, encounter data e integrações.
 - `modules/leveling-system/` — XP, progressão global, fadiga, party XP e integração com inimigos.
 - `modules/durability-system/` — manutenção/durabilidade, materiais, persistência e integração SkyMP.
@@ -33,7 +39,7 @@ Consulte `MIGRATION_MANIFEST.md` para os commits de origem e a prova de integrid
 
 ## Planejamento integrado
 
-O [planejamento holístico de 02/10/2026](AETHERIUS_GAMEPLAY_CORE_PLANEJAMENTO_HOLISTICO.md) audita os seis módulos, a instância MO2 `D:\modOrganizer`, os 424 plugins e as baselines Server/Client. Inclui ownership, contratos, PostgreSQL, adapters externos, testes e fases de implementação.
+O [planejamento holístico de 02/10/2026](AETHERIUS_GAMEPLAY_CORE_PLANEJAMENTO_HOLISTICO.md) audita os seis módulos, a instância MO2 `D:\modOrganizer`, os 424 plugins e as baselines Server/Client. Ele permanece como evidência histórica. O plano normativo corrente é a [arquitetura canônica](docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md).
 
 O [pacote de evidências](docs/audit/2026-10-02/README.md) contém inventários, winning records, overrides, pesquisa documental e resultados de testes. É uma entrega de planejamento: os blockers de runtime estão explícitos e nenhuma funcionalidade nova foi ativada.
 
