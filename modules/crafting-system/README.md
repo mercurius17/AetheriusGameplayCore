@@ -96,6 +96,7 @@ Este módulo não possui:
 - Ferreiro e Curtidor: docs/BLACKSMITH_AND_TANNER_CRAFTING.md
 - Profession adapter, transações e benefícios: docs/PROFESSION_ADAPTER_AND_TRANSACTIONS.md
 - CEF e sessões: docs/CEF_AND_CRAFTING_SESSIONS.md
+- Referências visuais e diretrizes de design: docs/CRAFTING_UI_VISUAL_GUIDELINES.md
 - Plano de implementação e testes: docs/IMPLEMENTATION_PLAN_AND_TESTS.md
 
 ## Estado
