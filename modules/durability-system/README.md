@@ -1,6 +1,9 @@
 # AetheriusDurabilitySystem
 
-Módulo autoritativo de manutenção por cargas de combate para Aetherius/SkyMP.
+Módulo de domínio responsável por manutenção/cobertura por cargas de combate para Aetherius/SkyMP.
+
+> [!IMPORTANT]
+> A integração de produção segue [a arquitetura canônica](../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). O módulo é owner de saldo/ciclo/cobertura; inventário continua no Host e a aplicação final do modificador pertence ao Damage. Campos como `authority: "server"` são metadados legados e **não autenticam um evento**.
 
 ## Estado da entrega
 
@@ -9,7 +12,7 @@ Implementado no pacote:
 - configuração única e validada em `config/maintenance-config.json`;
 - reservas por personagem, categoria e material;
 - ativação transacional de kits com limite, remoção do item e idempotência;
-- persistência SQL compatível com as tabelas de inventário existentes;
+- persistência SQL legada do módulo; a produção deve migrar para o kernel PostgreSQL/UnitOfWork do GameplayCore sem criar segundo inventário;
 - ciclos de combate sem consumo por equipamento equipado, tempo conectado ou exploração;
 - última carga válida até o fim do ciclo;
 - multiplicadores autoritativos de armas e contribuição de Armor Rating;
@@ -19,10 +22,12 @@ Implementado no pacote:
 
 Pendente para ativação de produção:
 
-- inserir o módulo no `phase0-basic.js` real;
-- ligar `recordEffectiveEvent()` ao pipeline autoritativo de dano físico do AetheriusDamageSystem;
-- criar os 30 registros MISC com Housecarl e preencher os FormIDs qualificados no catálogo;
-- adicionar o serviço TypeScript à lista de listeners do cliente e incluir os dois assets da UI no CEF existente.
+- integrar o provider de manutenção ao Damage por snapshots em RAM;
+- implementar/validar `InventoryTransactionPort` com item instance e prepare/commit/recover/cancel;
+- receber atividade eficaz apenas de `NativeCombatPort`/contexto autorizado, nunca de indicação client;
+- migrar saldo/reservas para o kernel PostgreSQL do GameplayCore;
+- criar os registros MISC necessários e incluí-los no RecordCatalog;
+- manter UI como projection/command route do AetheriusUI_Core.
 
 Esses pontos permanecem explícitos porque o pedido restringe edições a esta pasta e os três repositórios remotos não puderam ser verificados integralmente. O cliente local disponível identifica hits, mas o servidor local os trata como evidência de cliente, não como autoridade de dano.
 
@@ -38,11 +43,11 @@ O benchmark é uma medição de domínio em memória, não um teste de produçã
 
 ## Contrato autoritativo
 
-O servidor deve chamar:
+O adapter de produção só pode registrar um evento depois de recebê-lo de uma capability nativa autorizada. O formato legado abaixo é apenas DTO interno; `authority` não é prova de origem:
 
 ```js
 await bridge.recordEffectiveEvent({
-  authority: 'server',
+  authority: 'server', // metadata legacy; nunca usado como autenticação
   characterId,
   actorId,
   eventId,
@@ -58,7 +63,7 @@ Tipos aceitos:
 - `physical_damage_received`: só materiais das peças cuja contribuição defensiva foi realmente usada;
 - `shield_block`: somente o material do escudo quando o bloqueio foi efetivo.
 
-Eventos sem `authority: "server"`, sem `eventId`, mágicos, rejeitados ou sem material classificado não consomem cargas.
+Em produção, o consumo exige evento proveniente do NativeCombatPort, `eventId` idempotente e material classificado. O valor textual de `authority` sozinho nunca autoriza consumo. Eventos mágicos ou rejeitados não consomem cargas.
 
 ## Configuração
 
