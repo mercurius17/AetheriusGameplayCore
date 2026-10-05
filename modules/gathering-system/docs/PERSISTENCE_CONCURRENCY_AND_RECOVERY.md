@@ -53,8 +53,10 @@ A regra de limite deve ser validada transacionalmente.
 Para mineração:
 
 ```text
-count(active leases for mine) < 2
+count(active leases for mine) < activeDefinition.maxConcurrentWorkers
 ```
+
+O default atual é 2, mas o limite deve ser configurável.
 
 ### 2.3. Sessions
 
@@ -122,13 +124,15 @@ gathering_farm_cycle_state
 
 ## 3. Mining stock
 
-Uma mina nova/restaurada:
+Uma mina nova/restaurada usa a **definition ativa**:
 
 ```text
-capacity = 500
-stock_remaining = 500
+capacity = activeDefinition.capacity       // default atual: 500
+stock_remaining = activeDefinition.capacity
 status = available
 ```
+
+O valor 500 não deve existir como constante no repository/service.
 
 No commit de um cycle:
 
@@ -139,7 +143,7 @@ stock_remaining = stock_remaining - 1
 if stock_remaining == 0:
   status = depleted
   depleted_at = now
-  available_at = now + 72h
+  available_at = now + activeDefinition.cooldownSeconds  // default atual: 72h
 commit
 ```
 
@@ -406,3 +410,26 @@ Mudança administrativa de:
 deve gerar audit event e revision.
 
 Não editar tabelas manualmente como fluxo normal de operação.
+
+## 20. Configuração e estado persistido
+
+Parâmetros de balanceamento pertencem às definitions; estado econômico pertence à persistência.
+
+Exemplo:
+
+~~~text
+Definition revision 42:
+  capacity = 500
+  cooldownSeconds = 259200
+  maxConcurrentWorkers = 2
+
+Persisted state:
+  stockRemaining = 173
+  availableAt = null
+  definitionRevision = 42
+~~~
+
+Ao restaurar um site após cooldown, a capacidade deve ser obtida da revision de configuration aplicável, e não de literal compilado.
+
+Mudanças administrativas/configuráveis de capacidade, cooldown, worker cap, cycle time ou yield devem possuir revision e auditabilidade.
+
