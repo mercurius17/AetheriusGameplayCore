@@ -1,0 +1,312 @@
+# Aetherius Refinement System
+
+> [!IMPORTANT]
+> Este módulo registra, nesta etapa, **apenas a definição conceitual** do sistema de refino pretendido para o Aetherius. Não constitui ainda um plano técnico de implementação, contrato de API, schema de banco ou especificação de código.
+
+## 1. Papel do sistema
+
+O `refinement-system` será responsável pelo **aprimoramento de equipamentos já existentes**, separadamente do processo de fabricação realizado pelo `crafting-system`.
+
+A filosofia geral é:
+
+- crafting cria o item-base;
+- refinement aprimora uma instância específica desse item;
+- a fabricação-base deve ser relativamente tolerante;
+- o refino concentra a maior parte do risco, dificuldade mecânica e sensação de mastery artesanal.
+
+O sistema será compartilhado, inicialmente, principalmente por **Ferreiro** e **Curtidor**, evitando duas implementações diferentes de refino.
+
+## 2. Refino por instância
+
+O refino não criará Forms separadas para cada tier.
+
+Não haverá:
+
+~~~text
+SteelSword
+SteelSword_Tier1
+SteelSword_Tier2
+SteelSword_Tier3
+~~~
+
+Uma única Form continuará representando o item-base. O nível de refino será um estado da **instância individual do item**.
+
+Isso significa que duas Steel Swords idênticas em base poderão coexistir com tiers diferentes.
+
+Esse estado deverá acompanhar o item quando ele:
+
+- for equipado ou desequipado;
+- for negociado;
+- for colocado em container;
+- for derrubado e coletado;
+- permanecer após relog;
+- mudar de proprietário.
+
+## 3. Tiers
+
+O sistema possui três níveis de aprimoramento além do estado original:
+
+| Estado | Bônus sobre o valor-base |
+|---|---:|
+| Sem refino | 0% |
+| Tier I | +25% |
+| Tier II | +50% |
+| Tier III | +75% |
+
+Os bônus são calculados sobre o **valor-base autorizado do equipamento** e não são cumulativos entre tiers.
+
+Exemplo:
+
+~~~text
+Armor Rating base = 40
+
+Tier 0   = 40
+Tier I   = 50
+Tier II  = 60
+Tier III = 70
+~~~
+
+A progressão é estritamente sequencial:
+
+~~~text
+Tier 0 -> Tier I -> Tier II -> Tier III
+~~~
+
+Não é permitido pular tiers.
+
+## 4. Atributos afetados
+
+O refino deve atuar apenas sobre atributos estruturais definidos pelo sistema.
+
+Conceitualmente:
+
+- armas corpo a corpo: dano físico base;
+- arcos/bestas: dano físico base;
+- armaduras: Armor Rating;
+- escudos: Armor Rating.
+
+O refino não deve, por padrão, alterar automaticamente:
+
+- peso;
+- valor monetário;
+- velocidade;
+- encantamentos;
+- magnitude de magia;
+- outras propriedades não previstas.
+
+## 5. Relação com o AetheriusDamageSystem
+
+O `damage-system` deverá consumir o tier de refino ao calcular os valores efetivos do equipamento.
+
+O bônus deve ser aplicado uma única vez sobre o valor-base autorizado.
+
+A integração precisa evitar **double-dip**, especialmente se o cliente Skyrim possuir qualquer representação local de tempering ou valor modificado.
+
+O `damage-system` não conhecerá os minigames, materiais ou regras econômicas do refino; ele apenas receberá o valor/tier efetivo por um contrato apropriado.
+
+## 6. Filosofia de dificuldade
+
+A dificuldade mecânica do equipamento artesanal ficará concentrada principalmente no refino.
+
+Enquanto o crafting-base prioriza:
+
+- acesso por rank;
+- custo de materiais;
+- disponibilidade;
+- economia;
+- recipes;
+- conteúdo desbloqueado;
+
+o refino deve representar:
+
+- precisão;
+- risco;
+- investimento;
+- possibilidade de regressão;
+- domínio mecânico do jogador.
+
+Assim, possuir rank profissional maior não significa que fabricar o item-base se torna frustrantemente mais difícil. A exigência mecânica cresce principalmente quando o jogador decide aprimorar um equipamento.
+
+## 7. Molde de refino
+
+Antes de uma tentativa, o jogador deverá preparar um molde correspondente ao target tier.
+
+Conceitualmente:
+
+| Target Tier | Custo-base do molde |
+|---|---:|
+| Tier I | 1 unidade de couro |
+| Tier II | 2 unidades de couro |
+| Tier III | 3 unidades de couro |
+
+O molde:
+
+- não possui minigame próprio;
+- é comprometido na tentativa;
+- pode existir apenas como estado econômico/server-side;
+- não deve ser confundido com moldes utilizados durante crafting-base.
+
+Os materiais adicionais da tentativa dependem do equipamento, material e target tier.
+
+## 8. Minigame de refino
+
+Cada tentativa será dividida em ciclos compostos por duas etapas:
+
+~~~text
+Ajustar a peça ao molde
+        |
+        v
+Executar sequência aleatória de teclas
+        |
+        v
+Novo ciclo
+~~~
+
+### Ajuste da peça
+
+O jogador deverá posicionar e rotacionar visualmente a peça até se aproximar do molde-alvo.
+
+O servidor define:
+
+- posição-alvo;
+- rotação-alvo;
+- tolerâncias;
+- desafio vigente.
+
+### Sequência de teclas
+
+Após um ajuste válido, o jogador recebe uma sequência aleatória de teclas.
+
+Cada sequência terá **5 segundos** para ser concluída.
+
+Os desafios deverão ser gerados **just-in-time**, evitando que toda a tentativa seja conhecida antecipadamente.
+
+## 9. Ciclos e tolerância a falhas
+
+A estrutura conceitual é:
+
+| Target Tier | Ciclos | Falhas toleradas |
+|---|---:|---:|
+| Tier I | 5 | 3 |
+| Tier II | 10 | 2 |
+| Tier III | 15 | 0 |
+
+Interpretação:
+
+- Tier I: a tentativa termina na 4ª falha;
+- Tier II: termina na 3ª falha;
+- Tier III: a primeira falha encerra a tentativa.
+
+O target tier aumenta o risco.
+
+A complexidade tecnológica do equipamento também pode influenciar tolerâncias e tamanho das sequências, conforme seu rank profissional de origem.
+
+## 10. Falha total
+
+Quando a tentativa exceder o limite permitido:
+
+- o molde permanece consumido;
+- os materiais da tentativa permanecem consumidos;
+- não existe reembolso;
+- o item não é destruído;
+- o item regride um tier em relação ao estado anterior.
+
+Exemplos:
+
+~~~text
+Tier 0 tentando Tier I
+falha -> permanece Tier 0
+
+Tier I tentando Tier II
+falha -> regride para Tier 0
+
+Tier II tentando Tier III
+falha -> regride para Tier I
+~~~
+
+A regressão é a principal camada de risco econômico do sistema.
+
+## 11. Sucesso
+
+Quando todos os ciclos forem concluídos sem exceder o limite de falhas:
+
+~~~text
+newTier = targetTier
+~~~
+
+O novo estado deverá ser persistido na instância específica do equipamento.
+
+## 12. Autoridade
+
+Todo resultado econômico é server-authoritative.
+
+O cliente/CEF nunca decide:
+
+- tier atual;
+- target tier;
+- sucesso final;
+- regressão;
+- materiais consumidos;
+- valor efetivo;
+- tolerância real;
+- RNG;
+- resultado de sequência.
+
+A interface apenas apresenta o desafio e envia inputs.
+
+## 13. Relação com profissões
+
+Ferreiro e Curtidor utilizam o mesmo core de refino.
+
+O `profession-system` continua responsável por:
+
+- profissão;
+- rank;
+- Vigor;
+- XP;
+- gates.
+
+O `refinement-system` será responsável por:
+
+- elegibilidade do item;
+- tier atual;
+- target tier;
+- materiais/moldes;
+- sessão de refino;
+- desafio;
+- sucesso/falha;
+- regressão;
+- persistência do tier por instância.
+
+Não deve existir duplicação de regras de refino dentro dos módulos específicos de Ferreiro ou Curtidor.
+
+## 14. Perks vanilla
+
+Smithing perks vanilla não serão a authority de:
+
+- autorização de refino;
+- target tier;
+- resultado;
+- progressão do sistema.
+
+O acesso e a lógica do refino serão controlados pelos sistemas próprios do Aetherius.
+
+## 15. Estado atual
+
+Esta documentação define somente **o conceito do sistema desejado**.
+
+Ainda precisarão ser especificados posteriormente:
+
+- contratos;
+- Host Ports;
+- modelo final de persistência;
+- locks de item;
+- integração de inventário;
+- detalhes de CEF;
+- recovery/reconnect;
+- antifraude;
+- schemas;
+- testes;
+- rollout.
+
+Esses pontos não devem ser considerados definidos por este documento.
