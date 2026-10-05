@@ -1,5 +1,8 @@
 # AetheriusClassSystem — Meridian / Aetherius UI Core
 
+> [!IMPORTANT]
+> Este módulo é uma baseline funcional dentro do monorepo. Ownership, Host Ports, persistência e integração futura devem seguir [a arquitetura canônica](../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). Em especial, Leveling é o único owner de XP/character level e ActorState compõe grants/skills efetivos; Party/Raid permanece fisicamente aqui apenas como owner transitório exposto por contrato.
+
 Sistema de 18 classes, progressão, atributos, grupos e raids para SkyMP. A interface usa os módulos `class` e `party` da **Aetherius UI Core 1.x**, renderizado pela view Meridian do Core. O plugin e a ponte Prisma foram removidos.
 
 O módulo segue o painel **Servidor**: fundo preto translúcido sobre o jogo, marca e navegação do Core, títulos claros, textos brancos/cinza e verde apenas nos destaques e seleções. A escolha mantém o formato de três colunas de arquétipos, com seis classes em cada coluna. As 18 ilustrações em SVG usam contornos finos e detalhes orgânicos; podem ser regeneradas com `npm run draw-icons`. Cada classe tem uma apresentação própria com emblema, especialidades, requisitos, trilha de progressão interativa e grimório. O catálogo, descrições e regras de Roleplay permanecem nos JSONs de `config/`.
