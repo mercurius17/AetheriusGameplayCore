@@ -111,7 +111,46 @@ interface AnimationProjectionPort {
 
 A animação é apresentação. O servidor não considera "a animação está tocando" como prova suficiente de coleta.
 
-## 4. Abstrações centrais
+## 4. Configurabilidade obrigatória
+
+O GatheringSystem deve obedecer à política `docs/architecture/AETHERIUS_BALANCE_CONFIGURATION_POLICY.md`.
+
+A lógica estrutural define que um site possui capacidade, cooldown, concorrência, duração de ciclo e yield. **Os números concretos desses parâmetros vêm das definitions.**
+
+Exemplo conceitual:
+
+~~~ts
+interface GatheringBalanceProfile {
+  capacity: number;
+  cooldownSeconds: number;
+  maxConcurrentWorkers: number;
+  cycleSeconds: number;
+  baseYield: number;
+  leaseTtlSeconds?: number;
+}
+~~~
+
+Defaults atuais de mineração:
+
+~~~text
+capacity = 500
+cooldown = 72h
+maxConcurrentWorkers = 2
+cycle = 60s
+~~~
+
+Esses valores devem poder ser alterados sem modificar o código do domínio.
+
+O runtime deve suportar:
+
+- default global por tipo de recurso;
+- override por site;
+- revision de configuration;
+- validação de valores;
+- snapshot consistente durante sessão;
+- read model refletindo o valor efetivo.
+
+## 5. Abstrações centrais
 
 ### 4.1. Resource Site
 
@@ -195,7 +234,7 @@ interface GatheringCycle {
 
 Isso permite sessão contínua, mas mantém cada recompensa idempotente.
 
-## 5. Máquina de estados genérica
+## 6. Máquina de estados genérica
 
 ```text
 DISCOVER_TARGET
@@ -240,9 +279,11 @@ ACTIVE_CYCLE (60 s)
                     NEXT_CYCLE or STOP
 ```
 
-## 6. Regra de um minuto
+## 7. Regra de um minuto
 
-Mineração, Herbalismo e Fazenda usam ciclo-base de **60 segundos**.
+Mineração, Herbalismo e Fazenda usam, no balanceamento atual, ciclo-base de **60 segundos**.
+
+Os 60 segundos são um default configurável, não uma constante estrutural.
 
 A duração é controlada por `ClockPort`.
 
@@ -263,7 +304,7 @@ Ao terminar 60 segundos, o sistema revalida:
 
 Somente após essas validações o ciclo pode gerar resultado.
 
-## 7. Sessão contínua
+## 8. Sessão contínua
 
 Mineração pode continuar em ciclos sucessivos de 60 s enquanto:
 
@@ -278,7 +319,7 @@ Mineração pode continuar em ciclos sucessivos de 60 s enquanto:
 
 Herbalismo e Fazenda podem utilizar a mesma engine de sessão. O profile de cada site decide se a sessão é contínua ou single-cycle.
 
-## 8. Ordem de validação
+## 9. Ordem de validação
 
 A ordem deve respeitar o documento consolidado de profissões:
 
@@ -297,7 +338,7 @@ A ordem deve respeitar o documento consolidado de profissões:
 
 Na implementação transacional, passos 9–12 devem ser orquestrados de modo idempotente para não haver "recurso sem XP/Vigor" ou "Vigor sem recurso".
 
-## 9. Coleta Novato universal
+## 10. Coleta Novato universal
 
 `ProfessionSystem` deve responder um effective rank de Novato para os quatro Coletores quando o personagem não escolheu aquela profissão.
 
@@ -312,7 +353,7 @@ xpEligible = false
 
 O `gathering-system` não inventa essa regra localmente; ela vem do adapter do governador.
 
-## 10. Yield
+## 11. Yield
 
 O yield é calculado server-side a partir de:
 
@@ -328,7 +369,7 @@ GatheringSiteDefinition
 
 O cliente não envia quantidade final nem item IDs para concessão.
 
-## 11. Interface com inventário
+## 12. Interface com inventário
 
 O yield deve ser concedido via `InventoryTransactionPort`.
 
@@ -345,7 +386,7 @@ recover deterministically on partial failure
 
 A solução final deve seguir o protocolo de prepare/commit/recover do Host Inventory.
 
-## 12. Interrupções
+## 13. Interrupções
 
 A sessão termina sem reward do ciclo incompleto em:
 
@@ -363,7 +404,7 @@ A sessão termina sem reward do ciclo incompleto em:
 
 Ciclos já committed não são revertidos por cancelamento posterior.
 
-## 13. Anti-cheat
+## 14. Anti-cheat
 
 Regras obrigatórias:
 
@@ -380,7 +421,7 @@ Regras obrigatórias:
 - grants usam transaction port;
 - world distance é revalidada server-side.
 
-## 14. Compatibilidade
+## 15. Compatibilidade
 
 A feature deve possuir assinatura baseada em:
 
@@ -392,7 +433,7 @@ A feature deve possuir assinatura baseada em:
 
 Mudança em plugin index sem mudança de StableFormKey não pode invalidar o domínio por si só.
 
-## 15. Readiness
+## 16. Readiness
 
 Estados esperados por subfeature:
 
@@ -405,7 +446,7 @@ farming: off/audit/shadow/canary/active
 
 Cada coletor pode ser ativado independentemente.
 
-## 16. Resultado arquitetural
+## 17. Resultado arquitetural
 
 O módulo deve permitir que novas minas, plantas, animais e fazendas sejam incorporados por scan/mapping/configuração sem reescrever a regra central.
 
