@@ -73,13 +73,13 @@ Implementar primeiro por ser a especificação de resource site mais fechada:
 - mapear minas;
 - agrupar veins;
 - classificar ore types;
-- 500 stock;
-- 72 h cooldown;
-- max 2;
+- stock via configuration (default atual: 500);
+- cooldown via configuration (default atual: 72 h);
+- worker cap via configuration (default atual: 2);
 - Pickaxe;
 - CEF;
 - animation;
-- 60 s cycles;
+- cycle duration via configuration (default atual: 60 s);
 - rank gates;
 - coal;
 - gem rolls;
@@ -222,11 +222,11 @@ Cobrir:
 - Master duplication 20%;
 - gem/duplication do not decrement extra mine stock;
 - each cycle decrements 1;
-- capacity starts/restores 500;
+- capacity starts/restores from definition (default atual: 500);
 - stock 1 cannot become -1;
-- depletion sets +72 h;
-- 2 workers allowed;
-- 3rd denied;
+- depletion uses configured cooldown (default atual: 72 h);
+- configured worker cap is respected (default atual: 2);
+- worker cap override changes behavior without code change;
 - disconnect releases lease;
 - mine mixed nodes resolve correct ore.
 
@@ -373,8 +373,9 @@ Pronto apenas quando:
 
 - todas as minas alvo estão mapeadas/auditadas;
 - tipo é resolvido server-side;
-- 500/72 h/2 workers são globais;
-- 60 s é server-side;
+- stock/cooldown/worker cap são globais conforme a definition;
+- defaults atuais 500/72 h/2 podem ser alterados por configuration;
+- duração do ciclo é server-side e configurável (default atual: 60 s);
 - progressão oficial é respeitada;
 - Picareta é validada;
 - CEF não é authority;
@@ -432,3 +433,19 @@ O GatheringSystem está apto para produção apenas quando:
 - world interaction é validada server-side;
 - capability report prova as dependências;
 - rollback por subfeature existe.
+
+
+# 27. Configuration/balance tests
+
+Obrigatório provar que:
+
+- alterar mine capacity de 500 para outro valor não exige mudança de código;
+- alterar cooldown de 72h não exige mudança de código;
+- alterar max workers de 2 não exige mudança de código;
+- alterar cycle duration de 60s não exige mudança de código;
+- alterar chances/yields não exige mudança de código;
+- site override pode divergir do default global;
+- config inválida é rejeitada;
+- session usa uma revision consistente;
+- UI mostra os valores efetivos quando aplicável;
+- restart preserva state e reaplica definitions corretamente.
