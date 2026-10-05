@@ -1,5 +1,8 @@
 # Architecture
 
+> [!IMPORTANT]
+> Esta pipeline documenta a baseline interna do módulo. Para ownership integrado, prevalece [a arquitetura canônica](../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md): Leveling escreve `totalXp/characterLevel/fatigue`; Class consome milestones e não possui segundo saldo de XP.
+
 ```text
 AetheriusEnemySystem
   -> MO2 winning-enemy snapshot / load-order epoch
@@ -22,8 +25,7 @@ AetheriusEnemySystem
   -> ClassProgressionPort / output events / audit ledger
 ```
 
-`AetheriusLevelingSystem` owns XP, Class Level, party modifier, relevance, fatigue and
-progression. `AetheriusEnemySystem` owns enemy identity, combat level, eligibility, category,
+`AetheriusLevelingSystem` owns global XP, `characterLevel`, party reward policy, relevance, fatigue and progression. `AetheriusEnemySystem` owns enemy identity, combat level, eligibility, category,
 spawn and progression context. `ClassSystemAetherius` remains responsible for perks, skills,
 effects and class-specific unlocks.
 
