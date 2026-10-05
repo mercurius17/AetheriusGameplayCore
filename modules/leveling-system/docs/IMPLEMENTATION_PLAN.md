@@ -1,5 +1,8 @@
 # Implementation plan and status
 
+> [!NOTE]
+> **Plano histórico do módulo standalone.** A execução integrada atual segue [a arquitetura canônica](../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md) e [as fases do GameplayCore](../../../docs/audit/2026-10-02/IMPLEMENTATION_PHASES.md). Itens marcados “concluídos” aqui significam conclusão no módulo isolado, não ativação da feature no runtime integrado.
+
 1. Workspace audit - concluído; estado inicial registrado.
 2. Source lock - concluído; fontes locais, snapshots externos e contexto houseCARL registrados.
 3. Legacy audit - concluído para leveling, bestiary, party, raid, persistence e hooks.
