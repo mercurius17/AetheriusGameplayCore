@@ -1,5 +1,8 @@
 # Integração UI — estado em 04/10/2026
 
+> [!NOTE]
+> Este documento descreve estado observado, não limita a arquitetura futura. A integração deve evoluir segundo [a arquitetura canônica](../architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md), inclusive por Host APIs versionadas em Server/Client quando necessárias.
+
 O ClassSystem foi integrado ao AetheriusUI_Core no servidor/cliente locais e no Skyrim AE 1.6.1170. CLASSE e GRUPO abrem com projeções reais do domínio; o usuário confirmou ambos no jogo. A integração local opera em **consulta**, com mutações bloqueadas por capabilities ausentes.
 
 ## Conteúdo desta entrega
