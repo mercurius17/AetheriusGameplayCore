@@ -152,7 +152,7 @@ O runtime deve suportar:
 
 ## 5. Abstrações centrais
 
-### 4.1. Resource Site
+### 5.1. Resource Site
 
 Um site representa o recurso econômico compartilhado.
 
@@ -181,7 +181,7 @@ Para herbalismo, um site pode representar uma planta individual ou um patch/agru
 
 Para fazendas, o site representa a fazenda e seus interaction markers.
 
-### 4.2. Resource Node / Entry Reference
+### 5.2. Resource Node / Entry Reference
 
 É a referência concreta no mundo usada para iniciar a interação.
 
@@ -198,7 +198,7 @@ interface GatheringEntryDefinition {
 
 O jogador pode fornecer apenas uma intenção/hint de alvo. O servidor resolve e valida a referência real.
 
-### 4.3. Session
+### 5.3. Session
 
 ```ts
 interface GatheringSession {
@@ -217,7 +217,7 @@ interface GatheringSession {
 }
 ```
 
-### 4.4. Cycle
+### 5.4. Cycle
 
 Cada minuto de trabalho concluído é uma operação econômica separada.
 
