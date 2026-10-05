@@ -137,6 +137,20 @@ O documento geral atribui smelting ao Minerador.
 
 Entretanto, smelting é transformação de material, não coleta de world resource. Portanto a extração fica neste módulo e o smelting deve ser implementado por um domínio de processamento/crafting apropriado, consultando o mesmo rank do Minerador.
 
+A taxa econômica padrão definida para o processamento é:
+
+~~~text
+3 minérios -> 1 ingot
+~~~
+
+Exemplo:
+
+~~~text
+3 Iron Ore -> 1 Iron Ingot
+~~~
+
+Essa proporção deve ser consumida de uma definition configurável pelo sistema de processamento/crafting. O GatheringSystem não deve hardcodar a conversão nem produzir ingots diretamente ao minerar.
+
 ---
 
 # 2. Herbalista
