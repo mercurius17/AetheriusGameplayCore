@@ -48,7 +48,11 @@ Implementar/validar:
 - assign station;
 - apply overrides;
 - validate conditions;
-- golden tests.
+- golden tests;
+- material conversion profiles;
+- set cost profiles;
+- recipe balance overrides;
+- validação de orçamento total por set.
 
 ## 4. Fase 3 — Workstation authorization
 
@@ -197,6 +201,10 @@ Integrar por módulos externos.
 
 ## 16. Ferreiro tests
 
+- 3 ore -> 1 ingot;
+- 3 Iron Ore -> 1 Iron Ingot;
+- full metal set recipe budget sums 30 ingots;
+- per-piece distribution can change by config without code change;
 - workflow order;
 - Forge heat session-scoped;
 - material profile resolved;
@@ -207,6 +215,10 @@ Integrar por módulos externos.
 
 ## 17. Curtidor tests
 
+- 3 animal hides -> 1 leather;
+- full leather set recipe budget sums 30 leather;
+- pure-hide set sums 15 leather + 5 hides;
+- per-piece distribution can change by config without code change;
 - leather no minigame;
 - table session-scoped;
 - mold 2 strips;
@@ -288,4 +300,6 @@ Produção só quando:
 12. Ferreiro/Curtidor obedecem planos consolidados;
 13. vanilla bypass é bloqueado;
 14. golden/integration/security tests passam;
-15. rollout/rollback existe por profissão.
+15. rollout/rollback existe por profissão;
+16. conversões e budgets de set são data-driven;
+17. receitas podem ser rebalanceadas sem recompilar o domínio.
