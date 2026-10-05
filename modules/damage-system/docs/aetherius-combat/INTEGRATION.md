@@ -1,12 +1,15 @@
-# Integração preparada
+# Integração histórica preparada
+
+> [!IMPORTANT]
+> Este arquivo descreve o caminho de integração preparado antes da arquitetura canônica de 05/10/2026. **Não use `integration/base-aetherius.patch` como plano atual de produção.** O caminho normativo é expor/consumir uma Host API pública, mínima e versionada conforme [a arquitetura canônica](../../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). Os passos abaixo permanecem somente como referência/reprodução da baseline histórica.
 
 Todos os arquivos desta entrega permanecem no DamageSystem. Os patches não foram aplicados a uma Base externa. Só habilitar em ambiente de teste depois da build nativa e dos itens de IMPLEMENTATION_STATUS.md.
 
 Base alvo: `e1c483346447c29972cabf28b17eb5febc91bd04`. ClassSystem alvo: `c9d811f10524c27648db552f6185433df917f67d`. Para HEADs posteriores, revisar/adaptar os patches, preservando alterações existentes.
 
-Em um checkout de integração autorizado:
+Em um checkout dedicado **apenas para reproduzir a integração histórica**:
 
-1. Aplicar `integration/base-aetherius.patch` na raiz da Base, após `git apply --check`.
+1. Aplicar `integration/base-aetherius.patch` na raiz da Base, após `git apply --check`. Para a implementação corrente, substituir este acoplamento por NativeCombatPort/ResourcePort/ActiveEffectsPort públicos e versionados.
 2. Copiar a árvore `server/server/cpp/server_guest_lib/aetherius_combat/` para o mesmo caminho na Base. O GLOB_RECURSE já integra os arquivos C++; não acrescentar um target paralelo.
 3. Copiar `server/server/gamemode/modules/aetherius-combat.js` e `integration-tests/LegacyDamageGoldenTest.cpp` para `server/server/gamemode/modules/` e `server/unit/` na Base.
 4. Aplicar `integration/class-system.patch` na raiz do ClassSystem, após `git apply --check`.
