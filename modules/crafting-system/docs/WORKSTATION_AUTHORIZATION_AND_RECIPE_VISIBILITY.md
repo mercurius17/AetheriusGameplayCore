@@ -233,3 +233,26 @@ Se catalog revision mudar enquanto sessão está aberta:
 ## 16. Aceite
 
 O sistema está correto quando duas profissões podem compartilhar a mesma Forge e cada uma recebe somente seu próprio catálogo, sem hardcode de plugin e sem bypass por menu vanilla.
+
+
+## 17. Invariante de isolamento por profissão
+
+**Receitas de outra profissão nunca entram no read model enviado ao cliente.**
+
+Esse isolamento ocorre no servidor antes da projeção CEF.
+
+Compartilhar uma workstation significa compartilhar o ponto físico de interação, não compartilhar catálogo, autorização, recipes ou progressão.
+
+Exemplo obrigatório:
+
+~~~text
+Forge:
+  Blacksmith session -> somente Blacksmith recipes
+  Artificer session  -> somente Artificer recipes
+
+Tanning Rack:
+  Tanner session     -> somente Tanner recipes
+  Artificer session  -> somente Artificer recipes
+~~~
+
+Mesmo um cliente modificado que tente enviar um recipeDefinitionId de outro slice deve ser rejeitado pelo servidor.
