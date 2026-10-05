@@ -1,5 +1,8 @@
 # AetheriusLevelingSystem
 
+> [!IMPORTANT]
+> Esta documentação preserva a baseline original do módulo. Na arquitetura canônica, Leveling é o único owner de **`characterLevel` + `totalXp` globais**, não de um saldo reiniciado por classe. `classMilestoneLevel` é projeção consumida pelo ClassSystem. Consulte [a arquitetura canônica](../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md).
+
 Sistema server-side, orientado a dados, para XP e progressão global do personagem no Aetherius SkyMP.
 Pela [arquitetura canônica](../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md), o Leveling é o único writer de `totalXp/characterLevel/fatigue`; o Class consome o nível para milestones e alocação. Nomes legados como `PlayerClassLevel` no código/config atual descrevem a baseline migrada e devem ser reconciliados durante F3/F7, não tratados como um segundo saldo de XP.
 
