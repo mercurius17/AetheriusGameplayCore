@@ -1,6 +1,6 @@
 # Evidências da auditoria — 02/10/2026
 
-Leia primeiro o [planejamento holístico](../../../AETHERIUS_GAMEPLAY_CORE_PLANEJAMENTO_HOLISTICO.md). Este pacote é documentação e fatos extraídos; não instala mods, não altera records e não implementa gameplay.
+Para decisões arquiteturais atuais, leia primeiro [a arquitetura canônica](../../architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). O [planejamento holístico](../../../AETHERIUS_GAMEPLAY_CORE_PLANEJAMENTO_HOLISTICO.md) e este pacote preservam a auditoria/evidências de 02/10/2026; não prevalecem sobre decisões arquiteturais posteriores.
 
 |Arquivo|Uso|
 |---|---|
