@@ -92,6 +92,7 @@ Este módulo não possui:
 - Arquitetura técnica: docs/CRAFTING_SYSTEM_TECHNICAL_DESIGN.md
 - Workstations e autorização profissional: docs/WORKSTATION_AUTHORIZATION_AND_RECIPE_VISIBILITY.md
 - Catálogo Housecarl de itens e receitas: docs/ITEM_RECIPE_CATALOG_AND_HOUSECARL.md
+- Conversão de materiais e balanceamento de receitas: docs/MATERIAL_CONVERSION_AND_RECIPE_BALANCE.md
 - Mecânicas e progressão dos artesãos: docs/ARTISAN_MECHANICS_AND_PROGRESSION.md
 - Ferreiro e Curtidor: docs/BLACKSMITH_AND_TANNER_CRAFTING.md
 - Profession adapter, transações e benefícios: docs/PROFESSION_ADAPTER_AND_TRANSACTIONS.md
