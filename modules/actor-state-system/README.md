@@ -1,12 +1,15 @@
 # AetheriusActorStateSystem
 
+> [!IMPORTANT]
+> A arquitetura final deste módulo já está definida em [docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md](../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md). Este README descreve o scaffold/origem do módulo; em caso de conflito, prevalece a arquitetura canônica.
+
 Este diretório reserva o domínio de **estado autoritativo agregado do ator** dentro do AetheriusGameplayCore.
 
 ## Estado atual
 
 Scaffold apenas. Não existe implementação migrada porque não havia um repositório `AetheriusActorStateSystem`/ `ActorStateSystem` de origem no momento da consolidação.
 
-A implementação será definida pelo planejamento específico do ActorStateSystem e deverá respeitar as baselines já presentes neste monorepo.
+A implementação deve seguir a arquitetura canônica: ActorState é compositor de facts/grants/projeções e não cria um segundo `ActorCombatState` ou `ActiveEffectStore`.
 
 ## Papel pretendido
 
@@ -29,4 +32,4 @@ Fronteiras esperadas:
 3. Grants de perk/spell/ability/power devem preservar proveniência.
 4. Estado persistido, derivado, runtime e definição de record devem ser tratados separadamente.
 5. O cliente é projeção; consequências autoritativas permanecem no servidor.
-6. A arquitetura final será definida somente após a auditoria da load order, records vencedores, patches e contratos existentes.
+6. A arquitetura final está definida no documento canônico; auditorias de load order/records continuam sendo evidência para compor e validar as projections.
