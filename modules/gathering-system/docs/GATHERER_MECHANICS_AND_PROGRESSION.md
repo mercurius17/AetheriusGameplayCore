@@ -24,7 +24,7 @@ O sistema deve detectar:
 
 ## 1.2. Estoque e cooldown
 
-Baseline obrigatório:
+Baseline atual de balanceamento:
 
 | Regra | Valor |
 |---|---:|
@@ -32,6 +32,8 @@ Baseline obrigatório:
 | cooldown após esgotamento | 72 horas |
 | trabalhadores simultâneos | máximo 2 por mina |
 | ciclo-base | 60 segundos |
+
+**500, 72 horas, 2 trabalhadores e 60 segundos são defaults configuráveis.** A mecânica de estoque global/cooldown/concorrência é obrigatória, mas esses números devem vir de definitions de balanceamento e poderão ser ajustados posteriormente sem alteração de código.
 
 O estoque é **global**, compartilhado por todos os jogadores.
 
@@ -497,3 +499,28 @@ O reward Novato continua existindo.
 Nenhuma das quatro progressões usa perks vanilla como authority.
 
 Rank, yield, gates e bônus vêm do `profession-system` + definitions de gathering.
+
+
+# 7. Política de valores configuráveis
+
+Todos os valores numéricos deste documento devem ser tratados como **baseline de balanceamento**, salvo indicação explícita de invariável estrutural.
+
+Devem ser facilmente ajustáveis:
+
+- estoque de mina;
+- cooldown;
+- número máximo de trabalhadores;
+- tempo de coleta;
+- quantidade de yield;
+- chances de gema;
+- chances de duplicação;
+- quantidade por rank;
+- capacidade de Herbalismo;
+- cooldown de Herbalismo;
+- pesos e tamanhos de pools;
+- ciclo/rotação de Fazenda;
+- estoque/cooldown de Fazenda.
+
+A implementação deve consumir configuration/definitions versionadas. Não espalhar literais como `500`, `72h`, `2`, `60s`, `1%`, `20%` pelo código.
+
+Ver `docs/architecture/AETHERIUS_BALANCE_CONFIGURATION_POLICY.md`.
