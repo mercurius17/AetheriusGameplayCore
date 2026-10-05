@@ -1,5 +1,8 @@
 # Integração de runtime com o SkyMP
 
+> [!WARNING]
+> Este documento contém uma proposta de integração direta com callbacks do fork e deve ser lido como referência histórica. A implementação atual deve passar pelos Host Ports canônicos, especialmente `WorldSnapshotPort`, spawn capability e `NativeDeathPort`; não registrar um segundo owner global de `mp.onDeath` como solução final.
+
 Este documento descreve como conectar o AetheriusEnemySystem ao fork do SkyMP para administrar spawn, morte e ciclo de geração das dungeons. O núcleo deste repositório permanece independente do host: o projeto definitivo de integração fornece os callbacks, a persistência e as operações concretas do servidor.
 
 ## Visão geral
