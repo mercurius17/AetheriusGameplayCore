@@ -1,23 +1,30 @@
 # Exclusive experience authority
 
-`AetheriusLevelingSystem` is the maximum and sole authority for Class XP.
+Current architecture: [AetheriusGameplayCore canonical architecture](../../../docs/architecture/AETHERIUS_GAMEPLAY_CORE_ARCHITECTURE.md).
 
-`ExperienceAuthorityCoordinator` defines the host integration seam:
+`AetheriusLevelingSystem` is the sole writer of character `totalXp`, `characterLevel` and fatigue. Class consumes `CharacterLevelChanged`/the committed progression state for milestones; it must not maintain a second XP balance.
 
-1. enumerate every enabled XP authority;
-2. disable each authority other than `AetheriusLevelingSystem`;
-3. read the state again;
-4. activate XP processing only when the LevelingSystem is the sole remaining authority.
+Production award flow:
 
-The XP consumer checks exclusivity before validating or awarding an event. Missing discovery,
-failure to disable a conflict, or more than one active authority produces
-`EXPERIENCE_AUTHORITY_NOT_EXCLUSIVE` and awards no XP.
+```text
+NativeDeathPort
+  -> Enemy validates spawn/generation/classification
+  -> EnemyDefeated
+  -> Leveling computes RewardPlan
+  -> PostgreSQL transaction
+       xp_ledger
+       progression
+       fatigue
+       outbox
+  -> commit
+  -> CharacterLevelChanged / XpAwarded
+```
 
-After authority validation, the consumer also requires a complete, non-empty enemy coverage audit
-for the current load-order epoch. Missing, incomplete or stale coverage produces
-`ENEMY_COVERAGE_INCOMPLETE` and awards no XP.
+`ExperienceAuthorityCoordinator` remains a migration/fencing mechanism: it must prove that legacy or competing XP writers are disabled before `xp.mode=active`. It does **not** authenticate a kill and must not convert client kill reports into authoritative deaths.
 
-The coordinator is implemented but not connected to the host yet, as requested. The definitive
-integration must bind the real legacy `reportCombatKill`/LevelingSystem switch and any additional
-XP providers to `listAuthorities` and `disableAuthority`. The offline simulator binds a declared
-simulation-only authority snapshot.
+Activation therefore requires both:
+
+1. exclusive Leveling write ownership; and
+2. a real `NativeDeathPort` plus durable PostgreSQL ledger/transaction semantics.
+
+Missing death proof, duplicate writers, incomplete enemy coverage, stale catalog epoch or persistence failure keeps awards off/shadow with an explicit reason.
