@@ -255,7 +255,6 @@ interface ProfessionCraftMapping {
     | "cook"
     | "tanner"
     | "tailor"
-    | "brewer"
     | "artificer"
     | "alchemist"
     | "enchanter";
