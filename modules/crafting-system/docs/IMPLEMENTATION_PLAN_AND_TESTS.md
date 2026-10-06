@@ -129,7 +129,7 @@ Prioridade arquitetural:
 - profession progression items;
 - material-save benefit at Master.
 
-## 9. Fase 8 — Cozinheiro e Alfaiate
+## 9. Fase 8 — Cozinheiro integrado e Alfaiate
 
 Implementar catalog/workflows próprios:
 
@@ -138,21 +138,19 @@ Implementar catalog/workflows próprios:
 - station policy;
 - UI profile.
 
+O workflow do **Cozinheiro** deve incluir, na mesma carreira, tanto culinária quanto o antigo escopo do Cervejeiro: fermentados, hidromel, vinho, álcool, bebidas premium/raras e Skooma ilegal de Mestre.
+
+A progressão de bebidas deve usar os mesmos ranks, XP e Vigor do Cozinheiro. A Skooma não recebe preservação de ingrediente nem duplicação de output.
+
 Não inventar minigames não aprovados; podem iniciar com workflow simples server-authoritative.
 
-## 10. Fase 9 — Cervejeiro
-
-Somente após progressão específica ser definida.
-
-Infraestrutura pode existir em audit sem recipes active.
-
-## 11. Alquimia e Encantamento
+## 10. Alquimia e Encantamento
 
 Não implementar aqui.
 
 Integrar por módulos externos.
 
-## 12. Unit tests — workstation
+## 11. Unit tests — workstation
 
 - selected profession authorizes correct stations;
 - unauthorized station denied;
@@ -164,7 +162,7 @@ Integrar por módulos externos.
 - forged recipeId rejected;
 - catalog revision invalidates session.
 
-## 13. Unit tests — catalog
+## 12. Unit tests — catalog
 
 - COBJ normalize;
 - winning record;
@@ -179,7 +177,7 @@ Integrar por módulos externos.
 - explicit override;
 - unresolved denied.
 
-## 14. Unit tests — ProfessionAdapter
+## 13. Unit tests — ProfessionAdapter
 
 - rank gate;
 - Master gate;
@@ -193,7 +191,7 @@ Integrar por módulos externos.
 - perk vanilla does not authorize;
 - benefit profile correct.
 
-## 15. Unit tests — transactions
+## 14. Unit tests — transactions
 
 - materials reserved once;
 - stage failure follows policy;
@@ -203,7 +201,7 @@ Integrar por módulos externos.
 - inventory failure recoverable;
 - profession settlement retry.
 
-## 16. Ferreiro tests
+## 15. Ferreiro tests
 
 - 3 ore -> 1 ingot;
 - 3 Iron Ore -> 1 Iron Ingot;
@@ -217,7 +215,7 @@ Integrar por módulos externos.
 - Master blocked;
 - guild membership.
 
-## 17. Curtidor tests
+## 16. Curtidor tests
 
 - 3 animal hides -> 1 leather;
 - full leather set recipe budget sums 30 leather;
@@ -232,7 +230,7 @@ Integrar por módulos externos.
 - finishing no economic penalty;
 - rank/material do not harden minigame.
 
-## 18. Artífice tests
+## 17. Artífice tests
 
 - each category assigned;
 - Forge recipes only at Forge;
@@ -242,7 +240,7 @@ Integrar por módulos externos.
 - Master material-save;
 - no Blacksmith/Tanner recipes leak.
 
-## 19. Integration tests
+## 18. Integration tests
 
 1. open Forge as Blacksmith;
 2. open same Forge as Artificer;
@@ -260,7 +258,7 @@ Integrar por módulos externos.
 14. stale recipe snapshot;
 15. Mestre produzindo receita Novato recebe custo de Vigor 4x e não consegue iniciar sem saldo suficiente.
 
-## 20. Security tests
+## 19. Security tests
 
 - forged workstation;
 - forged recipe;
@@ -275,7 +273,7 @@ Integrar por módulos externos.
 - out-of-range station;
 - modified CEF.
 
-## 21. Metrics
+## 20. Metrics
 
 - opens by workstation/profession;
 - recipes visible;
@@ -287,7 +285,7 @@ Integrar por módulos externos.
 - vanilla bypass rejects;
 - catalog unresolved count.
 
-## 22. Acceptance
+## 21. Acceptance
 
 Produção só quando:
 
