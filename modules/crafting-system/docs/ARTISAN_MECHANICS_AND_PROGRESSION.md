@@ -103,15 +103,19 @@ A distribuição de couro/peles entre as peças individuais permanece configurá
 
 ## 4. Cozinheiro
 
+O Cozinheiro cobre tanto a culinária quanto todo o antigo escopo do Cervejeiro. Refeições, fermentados, hidromel, vinho, álcool, bebidas especiais, receitas raras e Skooma usam a mesma profissão, progressão, XP e Vigor.
+
 | Rank | Conteúdo |
 |---|---|
-| Novato | refeições simples/carnes grelhadas |
-| Aprendiz | ensopados de vegetais |
-| Adepto | ensopados de carne |
-| Especialista | demais recipes; 20% chance de não consumir um ingrediente |
-| Mestre | 20% chance de receber duas porções |
+| Novato | refeições simples/carnes grelhadas; bebidas fermentadas simples |
+| Aprendiz | ensopados de vegetais; vinhos e hidroméis elaborados |
+| Adepto | ensopados de carne; bebidas fortes, destilados e bebidas especiais |
+| Especialista | demais recipes culinários; bebidas premium/envelhecidas; 20% de chance de não consumir um ingrediente comum elegível |
+| Mestre | receitas raras e Skooma ilegal; 20% de chance de receber duas unidades/porções em recipes elegíveis |
 
 Benefícios são server-side e idempotentes.
+
+A Skooma é uma exceção econômica: embora seja conteúdo ilegal de Mestre, não recebe preservação de ingrediente nem duplicação de output.
 
 ## 5. Artífice
 
@@ -139,20 +143,7 @@ Receita define a workstation apropriada. A profissão pode ser autorizada em mai
 
 Workstation específica precisa ser definida no catálogo/implementation profile; não inferir uma bancada vanilla incorreta.
 
-## 7. Cervejeiro
-
-Escopo:
-
-- hidromel;
-- vinho;
-- álcool;
-- Skooma ilegal.
-
-O framework de ranks existe, mas os desbloqueios específicos continuam pendentes.
-
-CraftingSystem deve suportar o ofício por data/configuração sem inventar uma progressão.
-
-## 8. Alquimista
+## 7. Alquimista
 
 Não é implementado pelo CraftingSystem genérico nesta fase.
 
@@ -160,7 +151,7 @@ Carreira pertence ao ProfessionSystem; execução pertence ao sistema externo de
 
 Perks vanilla: decisão pendente.
 
-## 9. Encantador
+## 8. Encantador
 
 Não é implementado pelo CraftingSystem genérico.
 
@@ -168,13 +159,13 @@ Execução pertence ao enchantment-system.
 
 Perks vanilla: decisão pendente.
 
-## 10. Workstation authorization
+## 9. Workstation authorization
 
 Selecionar uma profissão artesanal habilita apenas workstations listadas na policy daquela profissão.
 
 Não existe "qualquer artesão pode usar qualquer bancada".
 
-## 11. XP/Vigor e proteção econômica entre ranks
+## 10. XP/Vigor e proteção econômica entre ranks
 
 Craft concluído reporta:
 
@@ -202,7 +193,7 @@ Baseline inicial de Vigor:
 
 Exemplo: se uma receita custa 5% de Vigor, um Ferreiro Mestre paga 20% ao fabricar uma receita Novato. Isso limita a 5 crafts desse tier com a barra cheia e abre espaço econômico para ferreiros de ranks menores.
 
-A regra é transversal a Cozinheiro, Artífice, Ferreiro, Curtidor, Alfaiate, Encantador, Alquimista e Cervejeiro sempre que exista uma atividade de produção com `activityRank` definido.
+A regra é transversal a Cozinheiro, Artífice, Ferreiro, Curtidor, Alfaiate, Encantador e Alquimista sempre que exista uma atividade de produção com `activityRank` definido.
 
 Importante:
 
@@ -212,7 +203,7 @@ Importante:
 - os multiplicadores devem ser configuráveis globalmente e por override;
 - a penalidade é econômica e **não** aumenta a dificuldade mecânica do minigame-base.
 
-## 12. Bônus
+## 11. Bônus
 
 Bônus como:
 
@@ -223,7 +214,7 @@ são resolvidos server-side.
 
 RNG precisa ser gravado no operation ledger para retry não rerrolar.
 
-## 13. Membership
+## 12. Membership
 
 Recipes de guilda exigem:
 
@@ -232,15 +223,15 @@ Recipes de guilda exigem:
 - workstation;
 - membership.
 
-## 14. Master gates
+## 13. Master gates
 
 Conteúdo Mestre pode estar catalogado mas indisponível.
 
 A UI deve receber reason.
 
-## 15. Sem perks vanilla
+## 14. Sem perks vanilla
 
-Para Ferreiro, Curtidor, Cozinheiro, Artífice, Alfaiate e Cervejeiro:
+Para Ferreiro, Curtidor, Cozinheiro, Artífice e Alfaiate:
 
 - perks vanilla não são gate;
 - skill vanilla não é rank;
@@ -249,7 +240,7 @@ Para Ferreiro, Curtidor, Cozinheiro, Artífice, Alfaiate e Cervejeiro:
 A autorização profissional é do Aetherius.
 
 
-## 16. Balanceamento configurável de receitas
+## 15. Balanceamento configurável de receitas
 
 Todos os custos descritos neste documento são **valores-base de balanceamento**, não constantes hardcoded.
 
