@@ -199,6 +199,33 @@ A pool final continua configurável e sujeita a enable/disable pela staff.
 
 # 3. Artesãos
 
+## 3.0. Regra econômica comum — Vigor por defasagem de rank
+
+As profissões artesanais compartilham uma proteção econômica transversal: produzir conteúdo abaixo do próprio rank deve consumir **mais Vigor Profissional** quanto maior for a diferença entre o rank do artesão e o rank da receita/atividade.
+
+Baseline inicial:
+
+| Diferença | Multiplicador de Vigor |
+|---|---:|
+| mesmo rank | 1,00x |
+| 1 rank abaixo | 1,50x |
+| 2 ranks abaixo | 2,00x |
+| 3 ranks abaixo | 3,00x |
+| 4 ranks abaixo | 4,00x |
+
+Essa regra complementa a penalidade de XP já existente. Ela é especialmente importante em Especialista/Mestre: mesmo que XP de conteúdo antigo deixe de ser relevante para a progressão, o custo maior de Vigor limita o volume de produção de itens básicos.
+
+Exemplo: um Ferreiro Mestre criando uma receita Novato paga 4x o custo-base de Vigor daquela atividade. Com custo-base de 5%, isso representa 20% por craft.
+
+Objetivo econômico:
+
+- impedir saturação de mercados de baixo tier por profissionais veteranos;
+- preservar demanda e espaço comercial para artesãos Novato/Aprendiz/Adepto;
+- incentivar profissionais de rank alto a concentrar produção no conteúdo compatível com sua especialização;
+- criar especialização econômica sem proibir que um veterano produza itens antigos quando necessário.
+
+A regra é server-authoritative, configurável e não altera a dificuldade do minigame-base. O `profession-system` calcula o custo efetivo usando `activityRank`; o sistema executor apenas solicita autorização e reporta a conclusão.
+
 ## 3.1. Cozinheiro
 
 ### Conceito

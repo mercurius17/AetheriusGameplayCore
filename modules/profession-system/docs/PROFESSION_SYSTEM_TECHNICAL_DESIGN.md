@@ -152,7 +152,7 @@ Defaults iniciais:
 | regeneração | 1% por minuto |
 | regeneração durante atividade | bloqueada |
 
-O custo real é definido por `activityType` e deve ser configurável.
+O custo-base é definido por `activityType`/definition e deve ser configurável. Antes de autorizar uma atividade, o governador calcula o **custo efetivo** aplicando os modificadores econômicos pertinentes. Para atividades artesanais de produção, isso inclui a penalidade por fabricar conteúdo abaixo do próprio rank.
 
 ### 5.2. Regra de consumo
 
@@ -166,7 +166,53 @@ Baseline:
 
 Se uma profissão futura precisar de uma política de falha diferente, essa exceção deve ser configurada no governador. O módulo externo não pode criar uma segunda política de Vigor.
 
-### 5.3. Regeneração
+### 5.3. Penalidade de Vigor para produção artesanal abaixo do rank
+
+A redução de XP de conteúdo antigo, isoladamente, não protege o mercado quando o profissional já atingiu ranks altos — especialmente Mestre, para quem XP adicional deixa de ser um incentivo relevante.
+
+Por isso, toda **atividade artesanal de produção** cujo `activityRank` seja inferior ao rank atual da profissão deve custar progressivamente mais Vigor Profissional.
+
+Baseline inicial:
+
+| Diferença entre rank do artesão e rank da atividade | Multiplicador de Vigor |
+|---|---:|
+| mesmo rank | 1,00x |
+| 1 rank abaixo | 1,50x |
+| 2 ranks abaixo | 2,00x |
+| 3 ranks abaixo | 3,00x |
+| 4 ranks abaixo | 4,00x |
+
+Cálculo conceitual:
+
+~~~text
+rankDistance = artisanRank - activityRank
+effectiveVigorCost =
+  baseVigorCost(activityType, definitionId)
+  * lowerRankArtisanVigorMultiplier(rankDistance)
+~~~
+
+Exemplo com custo-base de 5%:
+
+- Mestre produzindo receita Mestre: 5% de Vigor;
+- Mestre produzindo receita Especialista: 7,5%;
+- Mestre produzindo receita Adepto: 10%;
+- Mestre produzindo receita Aprendiz: 15%;
+- Mestre produzindo receita Novato: 20%.
+
+Assim, com a barra cheia, um Mestre conseguiria executar apenas 5 crafts Novato de custo-base 5% antes de esgotar o Vigor, em vez de 20. O objetivo é impedir que profissionais veteranos usem sua escala para saturar o mercado de itens básicos e preservar espaço econômico para Novatos, Aprendizes e demais ranks intermediários.
+
+Regras obrigatórias:
+
+- a penalidade de Vigor é **independente da penalidade de XP** e continua valendo mesmo quando XP adicional não possui utilidade para promoção;
+- aplica-se por padrão às atividades de criação/produção das profissões da categoria `artisan`, inclusive quando executadas por sistemas externos como Alchemy/Enchantment;
+- coleta universal, coleta especializada e serviços não recebem essa penalidade automaticamente;
+- refinement mantém sua própria política de Vigor, salvo definition explícita que opte por esta regra;
+- o multiplicador é calculado server-side pelo ProfessionSystem; cliente/CEF nunca envia custo final confiável;
+- Vigor insuficiente recusa a autorização **antes** de iniciar o workflow e antes de reservar/consumir materiais;
+- os multiplicadores são parâmetros de balanceamento data-driven e podem possuir override por profissão, `activityType` ou definition;
+- elevar o custo de Vigor não torna hitboxes, timings ou minigames de crafting mais difíceis.
+
+### 5.4. Regeneração
 
 Após qualquer atividade profissional liquidada:
 
@@ -521,6 +567,13 @@ Exemplo conceitual:
       "same": 1.0,
       "oneBelow": 0.5,
       "twoOrMoreBelow": 0.1
+    },
+    "lowerRankArtisanVigorMultiplier": {
+      "same": 1.0,
+      "oneBelow": 1.5,
+      "twoBelow": 2.0,
+      "threeBelow": 3.0,
+      "fourBelow": 4.0
     }
   }
 }
@@ -655,7 +708,8 @@ Antes de chamar o módulo de implementado:
 11. perks vanilla não viram gate das profissões não excepcionadas;
 12. Alquimia/Encantamento permanecem sem decisão inventada sobre perks;
 13. PostgreSQL/UnitOfWork suportam restart/retry;
-14. rollout/rollback existem por feature.
+14. rollout/rollback existem por feature;
+15. artesãos pagam Vigor progressivamente maior ao produzir conteúdo abaixo do próprio rank, com custo calculado server-side e configurável.
 
 ## 20. Fontes conceituais usadas
 

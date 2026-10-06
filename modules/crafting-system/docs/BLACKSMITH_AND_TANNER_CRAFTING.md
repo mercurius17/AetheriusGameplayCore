@@ -220,7 +220,33 @@ materialProfile = pure-hide
 
 para que as duas economias não sejam confundidas.
 
-# 4. Bônus Aprendiz
+# 4. Proteção de mercado por Vigor
+
+Ferreiro e Curtidor seguem a regra global dos artesãos: fabricar conteúdo abaixo do próprio rank aumenta o custo de Vigor, sem aumentar a dificuldade do minigame.
+
+Baseline:
+
+| Diferença de rank | Multiplicador de Vigor |
+|---|---:|
+| mesmo rank | 1,00x |
+| 1 abaixo | 1,50x |
+| 2 abaixo | 2,00x |
+| 3 abaixo | 3,00x |
+| 4 abaixo | 4,00x |
+
+Exemplos:
+
+- Ferreiro Especialista criando equipamento de Aço (Adepto): 1,50x o custo-base;
+- Ferreiro Mestre criando equipamento de Ferro (Novato): 4,00x;
+- Curtidor Mestre criando equipamento de Couro (Adepto): 2,00x.
+
+A penalidade permanece ativa mesmo quando a redução de XP já não exerce pressão de progressão. Sua função principal é limitar throughput e impedir que artesãos veteranos ocupem de forma eficiente todos os tiers do mercado.
+
+O ProfessionSystem calcula o custo final antes da sessão. Se não houver Vigor suficiente, a sessão não começa e nenhum material é reservado/consumido.
+
+Todos os multiplicadores são configuráveis e podem receber overrides de balanceamento. Esta regra econômica **não contradiz a política de crafting tolerante**: timings, hitboxes e dificuldade-base continuam sem escalada automática por rank/material.
+
+# 5. Bônus Aprendiz
 
 Ferreiro e Curtidor possuem 10% de chance de preservar um material no crafting em seu rank Aprendiz conforme progressão oficial.
 
@@ -232,7 +258,7 @@ O roll:
 - não pode ser rerrolado por retry;
 - não pode ressuscitar materiais já perdidos em tentativas intermediárias, salvo policy explícita.
 
-# 5. Refinamento
+# 6. Refinamento
 
 Nenhum dos dois implementa refino dentro do CraftingSystem.
 
@@ -248,17 +274,17 @@ O refino mantém:
 - regressão;
 - persistência própria.
 
-# 6. Workstations
+# 7. Workstations
 
 Ferreiro e Curtidor recebem autorização de suas workstations conforme policy.
 
 A workstation ativa também participa do filtro de recipes.
 
-# 7. Vanilla perks
+# 8. Vanilla perks
 
 Não usar Smithing perks como authority.
 
-# 8. Testes obrigatórios
+# 9. Testes obrigatórios
 
 ### Ferreiro
 
@@ -283,6 +309,9 @@ Não usar Smithing perks como authority.
 ### Ambos
 
 - ProfessionAdapter;
+- custo de Vigor 1,00x/1,50x/2,00x/3,00x/4,00x conforme distância de rank;
+- Mestre não consegue contornar a proteção econômica apenas porque XP deixou de ser relevante;
+- Vigor insuficiente impede início e reserva/consumo de materiais;
 - InventoryTransactionPort;
 - replay;
 - disconnect;
@@ -291,7 +320,7 @@ Não usar Smithing perks como authority.
 - no vanilla bypass.
 
 
-# 9. Configurabilidade obrigatória
+# 10. Configurabilidade obrigatória
 
 Nenhum dos seguintes valores deve existir como constante espalhada no código:
 
@@ -300,7 +329,8 @@ Nenhum dos seguintes valores deve existir como constante espalhada no código:
 - 30 ingots por set metálico;
 - 30 leather por set de Couro;
 - 15 leather + 5 hides por set de pele pura;
-- distribuição de custos por peça.
+- distribuição de custos por peça;
+- multiplicadores de Vigor por diferença entre rank do artesão e rank da receita.
 
 Esses valores pertencem a profiles/definitions versionados de balanceamento.
 

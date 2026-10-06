@@ -184,6 +184,10 @@ Integrar por módulos externos.
 - rank gate;
 - Master gate;
 - Vigor;
+- same-rank artisan production uses 1,00x Vigor;
+- 1/2/3/4 ranks abaixo usam 1,50x/2,00x/3,00x/4,00x;
+- Master + Novato não perde a penalidade de Vigor mesmo quando XP deixa de ser relevante;
+- Vigor insuficiente rejeita autorização antes de reservar/consumir materiais;
 - XP settlement only after final output;
 - retry no duplicate XP;
 - perk vanilla does not authorize;
@@ -253,7 +257,8 @@ Integrar por módulos externos.
 11. operation replay;
 12. Master gate toggled;
 13. vanilla crafting bypass attempt;
-14. stale recipe snapshot.
+14. stale recipe snapshot;
+15. Mestre produzindo receita Novato recebe custo de Vigor 4x e não consegue iniciar sem saldo suficiente.
 
 ## 20. Security tests
 
@@ -302,4 +307,5 @@ Produção só quando:
 14. golden/integration/security tests passam;
 15. rollout/rollback existe por profissão;
 16. conversões e budgets de set são data-driven;
-17. receitas podem ser rebalanceadas sem recompilar o domínio.
+17. receitas podem ser rebalanceadas sem recompilar o domínio;
+18. multiplicadores de Vigor por defasagem de rank são aplicados server-side e configuráveis sem recompilar.

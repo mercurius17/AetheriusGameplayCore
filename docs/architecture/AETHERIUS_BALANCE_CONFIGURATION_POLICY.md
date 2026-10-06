@@ -73,8 +73,9 @@ A regra se aplica, entre outros, a:
 - thresholds de XP;
 - XP por atividade;
 - fatores anti-powerlevel;
+- multiplicadores de Vigor por diferença de rank em atividades artesanais;
 - Vigor máximo;
-- custo de Vigor;
+- custo-base de Vigor por atividade/definition;
 - atraso de regeneração;
 - taxa de regeneração;
 - gates globais;

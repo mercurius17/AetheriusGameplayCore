@@ -174,7 +174,7 @@ Selecionar uma profissão artesanal habilita apenas workstations listadas na pol
 
 Não existe "qualquer artesão pode usar qualquer bancada".
 
-## 11. XP/Vigor
+## 11. XP/Vigor e proteção econômica entre ranks
 
 Craft concluído reporta:
 
@@ -187,6 +187,30 @@ authoritative result ref
 ~~~
 
 ProfessionSystem decide XP, anti-powerlevel, Vigor e promoção.
+
+Além da redução de XP para conteúdo abaixo do rank atual, **todos os artesãos devem pagar mais Vigor ao produzir itens de ranks inferiores ao seu**. A finalidade é evitar que Especialistas e Mestres dominem também o mercado de itens básicos apenas porque já não precisam do XP dessas receitas.
+
+Baseline inicial de Vigor:
+
+| Diferença de rank | Vigor efetivo |
+|---|---:|
+| mesmo rank | 1,00x o custo-base |
+| 1 rank abaixo | 1,50x |
+| 2 ranks abaixo | 2,00x |
+| 3 ranks abaixo | 3,00x |
+| 4 ranks abaixo | 4,00x |
+
+Exemplo: se uma receita custa 5% de Vigor, um Ferreiro Mestre paga 20% ao fabricar uma receita Novato. Isso limita a 5 crafts desse tier com a barra cheia e abre espaço econômico para ferreiros de ranks menores.
+
+A regra é transversal a Cozinheiro, Artífice, Ferreiro, Curtidor, Alfaiate, Encantador, Alquimista e Cervejeiro sempre que exista uma atividade de produção com `activityRank` definido.
+
+Importante:
+
+- XP reduzido e Vigor aumentado são mecanismos complementares e independentes;
+- o custo final é calculado pelo ProfessionSystem, nunca pelo CEF;
+- Vigor insuficiente bloqueia o início antes do consumo/reserva de materiais;
+- os multiplicadores devem ser configuráveis globalmente e por override;
+- a penalidade é econômica e **não** aumenta a dificuldade mecânica do minigame-base.
 
 ## 12. Bônus
 
