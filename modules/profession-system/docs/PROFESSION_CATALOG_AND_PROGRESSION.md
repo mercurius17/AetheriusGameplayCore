@@ -230,23 +230,27 @@ A regra é server-authoritative, configurável e não altera a dificuldade do mi
 
 ### Conceito
 
-Transforma ingredientes culinários em refeições com efeitos/buffs definidos pelos sistemas externos.
+Transforma ingredientes culinários em refeições e bebidas. O Cozinheiro absorve integralmente o antigo escopo do Cervejeiro, portanto também produz fermentados, hidromel, vinho, bebidas alcoólicas, receitas raras e, no rank Mestre, Skooma como produção ilegal.
+
+Existe apenas **uma carreira profissional** para todo esse conteúdo: o personagem usa o mesmo rank, XP e Vigor de Cozinheiro para cozinha e produção de bebidas.
 
 ### Progressão
 
 | Rank | Desbloqueios / efeitos |
 |---|---|
-| Novato | refeições simples, como carnes grelhadas |
-| Aprendiz | ensopados de vegetais |
-| Adepto | ensopados de carne |
-| Especialista | libera as demais receitas; 20% de chance de não consumir um dos ingredientes |
-| Mestre | 20% de chance de receber duas porções |
+| Novato | refeições simples/carnes grelhadas; bebidas fermentadas simples |
+| Aprendiz | ensopados de vegetais; vinhos e hidroméis elaborados |
+| Adepto | ensopados de carne; bebidas fortes, destilados e bebidas especiais |
+| Especialista | demais receitas culinárias; bebidas premium/envelhecidas; 20% de chance de não consumir um ingrediente comum elegível |
+| Mestre | receitas raras e Skooma ilegal; 20% de chance de receber duas unidades/porções em receitas elegíveis |
 
-### Regra técnica
+### Regras técnicas
 
 Receitas reais devem ser montadas dinamicamente pelo `crafting-system` a partir do catálogo da load order, não por FormIDs absolutos.
 
-O bônus de economia de material é calculado server-side.
+Os benefícios de economia de ingrediente e duplicação de output são calculados server-side e compartilham o mesmo ledger idempotente das demais atividades do Cozinheiro.
+
+**Skooma é exceção econômica:** pode ser desbloqueada como conteúdo ilegal de Mestre, mas não recebe preservação de ingrediente nem duplicação de output. Sua produção continua sujeita aos custos normais de materiais, Vigor, gates e às regras de ilegalidade definidas pelo sistema competente.
 
 ---
 
@@ -473,40 +477,14 @@ Não assumir inclusão nem exclusão.
 
 ---
 
-## 3.8. Cervejeiro
-
-### Conceito
-
-Produz:
-
-- hidromel;
-- vinho;
-- outras bebidas alcoólicas;
-- Skooma, tratada como produção ilegal.
-
-### Progressão
-
-O framework de ranks já está definido globalmente, mas **os desbloqueios específicos por rank do Cervejeiro ainda não estão consolidados no material-fonte atual**.
-
-O `profession-system` deve registrar a profissão e permitir definição posterior sem recompilar o domínio central.
-
-Até a definição:
-
-- não inventar receitas por rank;
-- não inventar bônus;
-- não inferir progressão a partir de perks vanilla;
-- deixar recipe catalog/capability como incompleto.
-
----
-
 # 4. Matriz de dependência econômica
 
 | Coletor | Profissões alimentadas |
 |---|---|
-| Fazendeiro | Cozinheiro, Cervejeiro, Alfaiate |
+| Fazendeiro | Cozinheiro, Alfaiate |
 | Caçador | Cozinheiro, Alfaiate, Curtidor, Alquimista |
-| Herbalista | Alquimista, Cozinheiro, Cervejeiro |
-| Minerador | Ferreiro, Curtidor, Artífice, Cervejeiro |
+| Herbalista | Alquimista, Cozinheiro |
+| Minerador | Ferreiro, Curtidor, Artífice, Cozinheiro |
 
 Essa matriz representa design econômico. Não implica transferência automática de item.
 
@@ -562,13 +540,12 @@ A promoção e a execução dependem dos gates relevantes.
 | Minerador | definida | não usados |
 | Caçador | definida | não usados |
 | Herbalista | definida | não usados |
-| Cozinheiro | definida | não usados |
+| Cozinheiro | definida — culinária e bebidas integradas | não usados |
 | Artífice | definida | não usados |
 | Ferreiro | definida | não usados |
 | Curtidor | definida | não usados |
 | Alfaiate | definida | não usados |
 | Encantador | definida conceitualmente | **política pendente** |
 | Alquimista | desbloqueios por rank pendentes | **política pendente** |
-| Cervejeiro | desbloqueios por rank pendentes | não usados |
 
 Guarda e Mensageiro permanecem fora do escopo desta rodada e deverão receber definição própria antes de serem tratados como profissões funcionais.
