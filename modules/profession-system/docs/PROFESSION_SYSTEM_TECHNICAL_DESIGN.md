@@ -121,8 +121,9 @@ Não deve escrever:
 - Encantador
 - Curtidor
 - Alfaiate
-- Cervejeiro
 - Artífice
+
+O escopo do **Cozinheiro** inclui integralmente a antiga atividade de Cervejeiro: refeições, fermentados, hidromel, vinho, bebidas alcoólicas, receitas raras e Skooma ilegal compartilham a mesma profissão, progressão, XP e Vigor.
 
 ### 4.2. Coletores
 
@@ -653,10 +654,10 @@ Matriz conceitual de dependência:
 
 | Coletor | Alimenta |
 |---|---|
-| Fazendeiro | Cozinheiro, Cervejeiro, Alfaiate |
+| Fazendeiro | Cozinheiro, Alfaiate |
 | Caçador | Cozinheiro, Alfaiate, Curtidor, Alquimista |
-| Herbalista | Alquimista, Cozinheiro, Cervejeiro |
-| Minerador | Ferreiro, Curtidor, Artífice, Cervejeiro |
+| Herbalista | Alquimista, Cozinheiro |
+| Minerador | Ferreiro, Curtidor, Artífice, Cozinheiro |
 
 Essa matriz expressa design econômico, não autoriza o `profession-system` a mover itens. Transferência, crafting e consumo pertencem aos respectivos owners.
 
