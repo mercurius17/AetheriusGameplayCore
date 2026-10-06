@@ -510,9 +510,8 @@ Quando identidade de record for necessária no servidor, usar StableFormKey no c
 
 - Ferreiro;
 - Curtidor;
-- Cozinheiro;
+- Cozinheiro, incluindo todo o escopo de bebidas/fermentação antes atribuído ao Cervejeiro;
 - Alfaiate;
-- Cervejeiro;
 - Artífice;
 - Minerador;
 - Herbalista;
