@@ -164,14 +164,25 @@ O plano específico do Curtidor é autoridade sobre workflow.
 
 ## 10. Cozinheiro
 
-Classificar apenas recipes destinadas ao ofício de cozinha:
+Classificar apenas recipes destinadas ao ofício integrado de cozinha e bebidas:
 
 - simple/grilled;
 - vegetable stews;
 - meat stews;
-- demais foods autorizados.
+- demais foods autorizados;
+- bebidas fermentadas simples;
+- mead/hidromel;
+- wine;
+- alcohol/destilados/bebidas fortes;
+- bebidas premium/envelhecidas;
+- receitas raras aprovadas;
+- Skooma quando definida e marcada como conteúdo ilegal de Mestre.
 
-Não assumir que todo record de comida pertence ao Cozinheiro sem recipe/mapping.
+A classificação precisa carregar `activityRank` coerente com a progressão do Cozinheiro para que autorização, XP, Vigor e visibilidade de recipe usem a mesma carreira.
+
+Skooma deve possuir flag/policy própria que desabilite benefícios de preservação de ingrediente e duplicação de output.
+
+Não assumir que todo record de comida ou bebida pertence ao Cozinheiro sem recipe/mapping.
 
 ## 11. Alfaiate
 
@@ -185,19 +196,7 @@ Candidates:
 - noble clothing;
 - explicitly mapped mod clothing.
 
-## 12. Cervejeiro
-
-Candidates:
-
-- mead;
-- wine;
-- alcohol;
-- Skooma quando definida;
-- outros recipes explicitamente aprovados.
-
-A progressão específica por rank ainda deve ser preenchida quando definida.
-
-## 13. Artífice
+## 12. Artífice
 
 O Artífice exige classificação transversal.
 
@@ -220,7 +219,7 @@ Candidates podem incluir:
 
 Como essas categorias podem usar workstations diferentes, cada recipe declara stationTypes.
 
-## 14. Workstation não define profissão sozinha
+## 13. Workstation não define profissão sozinha
 
 Uma recipe em Forge não é automaticamente Blacksmith.
 
@@ -235,7 +234,7 @@ profession mapping = Artificer
 
 Esse princípio é essencial para o Artífice.
 
-## 15. Conditions
+## 14. Conditions
 
 Conditions vanilla/mods devem ser normalizadas.
 
@@ -248,11 +247,11 @@ Algumas podem ser:
 
 Não ignorar silenciosamente conditions desconhecidas.
 
-## 16. Membership
+## 15. Membership
 
 Mappings de guilda preservam a intenção, mas o catálogo não persiste boolean stale do personagem.
 
-## 17. Material profiles
+## 16. Material profiles
 
 Material profile pode ser derivado por:
 
@@ -263,7 +262,7 @@ Material profile pode ser derivado por:
 
 Se não puder ser determinado com segurança, a recipe fica unresolved.
 
-## 18. Camada de balanceamento das receitas
+## 17. Camada de balanceamento das receitas
 
 Housecarl/COBJ é a fonte de descoberta estrutural da receita, mas **as quantidades vanilla/mod não são obrigatoriamente o balanceamento final do Aetherius**.
 
@@ -320,7 +319,7 @@ A composição econômica do set completo é armadura, peito, bota, luva e escud
 
 O orçamento total é distribuído entre as recipes individuais por configuração.
 
-### 18.1. Regra de prioridade
+### 17.1. Regra de prioridade
 
 Para custos econômicos:
 
@@ -331,7 +330,7 @@ Para custos econômicos:
 
 O sistema não deve voltar silenciosamente a custos vanilla quando existir um profile Aetherius aplicável.
 
-### 18.2. Ajustes sem recompilação
+### 17.2. Ajustes sem recompilação
 
 Deve ser possível alterar posteriormente:
 
@@ -344,17 +343,17 @@ Deve ser possível alterar posteriormente:
 
 sem alterar código do domínio.
 
-## 19. Mods e patches
+## 18. Mods e patches
 
 Usar winning record.
 
 Se patch altera ingredients, bench, keyword ou output facts, o catálogo precisa refletir o vencedor da release.
 
-## 20. Overrides
+## 19. Overrides
 
 Overrides usam StableFormKey/EditorID, nunca posição de plugin.
 
-## 21. Unresolved report
+## 20. Unresolved report
 
 Toda geração deve listar:
 
@@ -369,7 +368,7 @@ Toda geração deve listar:
 
 Unresolved não entra silenciosamente na UI.
 
-## 22. Assinatura
+## 21. Assinatura
 
 ~~~text
 CraftingCatalogSignature =
@@ -382,7 +381,7 @@ CraftingCatalogSignature =
  )
 ~~~
 
-## 23. Golden tests
+## 22. Golden tests
 
 Manter fixtures para provar:
 
@@ -400,6 +399,6 @@ Manter fixtures para provar:
 - set de pele pura soma 15 leather + 5 hides;
 - alteração de balanceamento muda custos sem alterar código.
 
-## 24. Resultado
+## 23. Resultado
 
 O catálogo deve permitir atualizar a load order sem espalhar IDs e categorias manuais pelo código, mantendo revisão explícita sobre ambiguidades.
