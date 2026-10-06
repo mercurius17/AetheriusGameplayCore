@@ -121,7 +121,7 @@ Exemplos:
 
 - Ferreiro Aprendiz: 10%;
 - Curtidor Aprendiz: 10%;
-- Cozinheiro Especialista: 20%;
+- Cozinheiro Especialista: 20% em recipes elegíveis de comida/bebida; Skooma é excluída;
 - Artífice Mestre: 20%;
 - Alfaiate Mestre: 20%.
 
@@ -136,15 +136,16 @@ preserved item
 operationId
 ~~~
 
-## 9. Cook Master duplicate portion
+## 9. Cook Master duplicate output
 
-A duplicação de output do Cozinheiro Mestre:
+A duplicação de output do Cozinheiro Mestre aplica-se a recipes elegíveis de comida e bebida integradas à profissão:
 
 - é server-side;
 - não cria segundo XP;
 - não consome segundo Vigor;
 - é parte do mesmo operationId;
-- outputCount final é persistido.
+- outputCount final é persistido;
+- **não se aplica à Skooma**, mesmo quando a recipe ilegal de Mestre estiver habilitada.
 
 ## 10. Membership
 
