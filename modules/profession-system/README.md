@@ -69,13 +69,15 @@ Veja [Integração externa e Housecarl](docs/EXTERNAL_SYSTEMS_AND_HOUSECARL.md).
 
 Com exceção de **Alquimia** e **Encantamento**, cuja política ainda será definida, as profissões **não usam perks vanilla das árvores de skill para autorizar crafting, aprimoramento/refino ou progressão profissional**.
 
-Logo, Ferreiro, Curtidor, Alfaiate, Cozinheiro, Cervejeiro, Artífice e os Coletores dependem de:
+Logo, Ferreiro, Curtidor, Alfaiate, Cozinheiro, Artífice e os Coletores dependem de:
 
 1. profissão selecionada;
 2. rank profissional;
 3. unlocks/configuração;
 4. catálogo dinâmico;
 5. regras do módulo externo correspondente.
+
+**Cozinheiro** também absorve integralmente o antigo escopo do Cervejeiro: fermentação, hidromel, vinho, bebidas alcoólicas, receitas raras e Skooma ilegal passam a ser conteúdo da mesma carreira profissional e usam o mesmo rank, XP e Vigor do Cozinheiro.
 
 Perks vanilla de Smithing ou equivalentes não substituem esses gates e não concedem acesso automático a receitas/tier/refino.
 
