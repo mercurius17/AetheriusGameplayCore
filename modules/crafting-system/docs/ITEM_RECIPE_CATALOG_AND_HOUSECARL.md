@@ -91,7 +91,6 @@ interface CraftRecipeDefinition {
     | "cook"
     | "tanner"
     | "tailor"
-    | "brewer"
     | "artificer";
 
   requiredRank:
