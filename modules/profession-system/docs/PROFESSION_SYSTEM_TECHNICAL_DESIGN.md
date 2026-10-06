@@ -291,7 +291,6 @@ type ProfessionId =
   | "enchanter"
   | "tanner"
   | "tailor"
-  | "brewer"
   | "artificer"
   | "miner"
   | "herbalist"
