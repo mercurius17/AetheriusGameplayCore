@@ -90,9 +90,8 @@ O mapping final é data-driven e auditado.
 |---|---|
 | Ferreiro | Forja e bancadas diretamente necessárias ao workflow de ferraria |
 | Curtidor | Curtume e bancadas diretamente necessárias ao workflow de couro |
-| Cozinheiro | estação de cozinha aplicável |
+| Cozinheiro | estação de cozinha aplicável e workstations de fermentação/bebidas definidas pelas recipes; todo o antigo escopo do Cervejeiro usa a profissão Cozinheiro |
 | Alfaiate | workstation definida para o workflow de alfaiataria; não presumir vanilla se não houver correspondência |
-| Cervejeiro | workstation definida pelo sistema/receitas |
 | Artífice | múltiplas, incluindo Forja e Curtume |
 | Encantador | routed ao enchantment-system |
 | Alquimista | routed ao sistema externo de alquimia |
